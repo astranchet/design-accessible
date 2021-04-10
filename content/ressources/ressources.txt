@@ -1,0 +1,14 @@
+Title: Ressources
+
+----
+
+Ressources:
+- 
+  title: What is your favorite one sentence definition of digital accessibility? 
+  url: >
+    https://twitter.com/LFLegal/status/1348777835670896640
+  description: "Diverses définitions de l'accessibilité."
+  lang: Anglais 
+  type: Thread Twitter
+  phase: Idéation
+  thematique: Sensibilisation
