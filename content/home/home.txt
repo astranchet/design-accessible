@@ -1,1 +1,53 @@
-Title: Home
+Title: Designer un web **accessible et inclusif**
+
+----
+
+Baseline: Des ressources pour les designers qui veulent concevoir des services 
+utiles et utilisables pour toutes et tous.
+
+----
+
+Quotes:
+- 
+  citation: "« L’accessibilité est une facette de l’expérience utilisateur plutôt qu’une liste de cases à cocher. »"
+  source: "Accessibility for teams"
+  url: >
+    https://accessibility-for-teams.com/accessibility-for-ux-designers
+- 
+  citation: "« L’accessibilité, c’est l’affaire de toutes et tous »"
+  source:
+  url: 
+- 
+  citation: "« Une personne sur 5 est en situation de handicap, au sens large. »"
+  source:
+  url:
+- 
+  citation: "« 80 % des handicaps sont invisibles. »"
+  source:
+  url:
+- 
+  citation: "« 90 % des erreurs d’accessibilité les plus fréquentes peuvent se résoudre dès les wireframes. »"
+  source: "The HTTP Archive 2020"
+  url: 
+
+----
+
+Getting Started: 
+	Par où commencer ?
+	L’accessibilité comment dès la phase de conception.
+
+----
+
+Getting Started:
+- 
+  title: L’accessibilité, c’est quoi ? 🤔
+  desc: "Se sensibiliser à l’accessibilité pour comprendre les usages et les points bloquants des internautes."
+  url:
+- 
+  title: La checkliste du designer ✅
+  desc: "Outiller sa pratique pour ne rien oublier : de la conception à la réalisation, en passant par la transmission à l’équipe de dev."
+  url:
+- 
+  title: Se former 🎓
+  desc: "Améliorer son argumentaire et initier une démarche accessibilité dans son équipé."
+  url:
