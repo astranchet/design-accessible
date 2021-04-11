@@ -18,17 +18,21 @@ Quotes:
   source:
   url: 
 - 
-  citation: "« Une personne sur 5 est en situation de handicap, au sens large. »"
-  source:
-  url:
+  citation: "« 24 % de la population active est en situation de handicap. »"
+  source: Ministère du travail, de l’emploi et de la santé
+  url: https://www.education.gouv.fr/handicap-tous-concernes-99935
 - 
   citation: "« 80 % des handicaps sont invisibles. »"
-  source:
-  url:
+  source: Ministère du travail, de l’emploi et de la santé
+  url: https://www.education.gouv.fr/handicap-tous-concernes-99935
 - 
-  citation: "« 90 % des erreurs d’accessibilité les plus fréquentes peuvent se résoudre dès les wireframes. »"
-  source: "The HTTP Archive 2020"
-  url: 
+  citation: "« Le travail sur l'accessibilité doit être intégré dans les étapes de recherche, d'idéation et de conception avant le développement.»"
+  source: "The Web Almanac 2020"
+  url: https://almanac.httparchive.org/en/2020/accessibility#conclusion
+- 
+  citation: "« 86 % des sites ont des erreurs d'accessibilité résolvables dès la phase de design. »"
+  source: "The WebAIM Million"
+  url: https://webaim.org/projects/million/
 
 ----
 
