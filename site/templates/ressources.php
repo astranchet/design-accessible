@@ -1,6 +1,4 @@
-<?php // snippet('header') ?>
-
-<h1><?= $page->title() ?></h1>
+<?php snippet('header') ?>
 
 <div class="posts">
 	<?php foreach ($page->ressources()->toStructure() as $ressource): ?>
@@ -10,6 +8,4 @@
 	<?php endforeach ?>
 </div>
 
-<?php // snippet('sidebar') ?>
-
-<?php // snippet('footer') ?>
+<?php snippet('footer') ?>

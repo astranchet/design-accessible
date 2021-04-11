@@ -1,5 +1,19 @@
 <?php snippet('header') ?>
 
+<h2><?= $page->baseline()->kt() ?></h2>
+
+<?php $quote = $page->quotes()->toStructure()->shuffle()->first(); ?>
+
+<h3><?= $quote->citation()->kt() ?></h3>
+
+<?php if ($quote->source()->isNotEmpty()) : ?>
+	<?php if ($quote->url()->isNotEmpty()) : ?>
+		<p>Source : <a href="<?= $quote->url() ?>"><?= $quote->source() ?></a></p>
+	<?php else : ?>
+		<p>Source : <?= $quote->source() ?></p>
+	<?php endif ?>
+<?php endif ?>
+
 <h4>Par où commencer ?</h4>
 <p>L’accessibilité commence dès la phase de conception.</p>
 
