@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-<h2><?= $page->baseline()->kt() ?></h2>
+<h2><?= $site->baseline()->kt() ?></h2>
 
 <?php $quote = $page->quotes()->toStructure()->shuffle()->first(); ?>
 

@@ -1,1 +1,5 @@
-Title: Site Title
+Title: Design Accessible
+----
+
+Baseline: Des ressources pour les designers qui veulent concevoir des services 
+utiles et utilisables pour toutes et tous.

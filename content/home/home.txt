@@ -2,11 +2,6 @@ Title: Designer un web **accessible et inclusif**
 
 ----
 
-Baseline: Des ressources pour les designers qui veulent concevoir des services 
-utiles et utilisables pour toutes et tous.
-
-----
-
 Quotes:
 - 
   citation: "« L’accessibilité est une facette de l’expérience utilisateur plutôt qu’une liste de cases à cocher. »"
