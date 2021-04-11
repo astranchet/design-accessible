@@ -32,22 +32,16 @@ Quotes:
 
 ----
 
-Getting Started: 
-	Par où commencer ?
-	L’accessibilité comment dès la phase de conception.
-
-----
-
 Getting Started:
 - 
   title: L’accessibilité, c’est quoi ? 🤔
   desc: "Se sensibiliser à l’accessibilité pour comprendre les usages et les points bloquants des internautes."
-  url:
+  url: w3c
 - 
   title: La checkliste du designer ✅
   desc: "Outiller sa pratique pour ne rien oublier : de la conception à la réalisation, en passant par la transmission à l’équipe de dev."
-  url:
+  url: accede
 - 
   title: Se former 🎓
   desc: "Améliorer son argumentaire et initier une démarche accessibilité dans son équipé."
-  url:
+  url: access42
