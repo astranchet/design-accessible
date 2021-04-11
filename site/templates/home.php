@@ -10,8 +10,7 @@
 	<?php endforeach ?>
 </div>
 
-<!-- TODO : mettre en place le bon lien -->
-<a href="">👉 Voir toutes les ressources</a>
+<a href="<?= page('ressources')->url() ?>">👉 Voir toutes les ressources</a>
 
 <!-- TODO : mettre en place un footer -->
 <?php // snippet('footer') ?>

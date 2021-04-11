@@ -2,7 +2,7 @@
 	<!-- TODO : link to homepage -->
 	<li><a href="">Découvrir</a></li>
 	<!-- TODO : link to ressources -->
-	<li><a href="">Toutes les ressources</a></li>
+	<li><a href="<?= page('ressources')->url() ?>">Toutes les ressources</a></li>
 	<!-- TODO : link to contribute page -->
 	<li><a href="">Contribuer</a></li>
 </ul>
