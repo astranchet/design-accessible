@@ -1,22 +1,4 @@
-<!-- TODO faire le header avec le menu -->
-<?php // snippet('header') ?>
-
-<h1><?= $page->title()->kt() ?></h1>
-
-<h2><?= $page->baseline()->kt() ?></h2>
-
-<?php $quote = $page->quotes()->toStructure()->shuffle()->first(); ?>
-
-<h3><?= $quote->citation()->kt() ?></h3>
-<!-- TODO : seulement si URL -->
-
-<?php if ($quote->source()->isNotEmpty()) : ?>
-	<?php if ($quote->url()->isNotEmpty()) : ?>
-		<p>Source : <a href="<?= $quote->url() ?>"><?= $quote->source() ?></a></p>
-	<?php else : ?>
-		<p>Source : <?= $quote->source() ?></p>
-	<?php endif ?>
-<?php endif ?>
+<?php snippet('header') ?>
 
 <div class="posts">
 	<?php foreach (page('ressources')->ressources()->toStructure()->limit(4) as $ressource): ?>
