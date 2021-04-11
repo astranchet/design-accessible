@@ -1,0 +1,41 @@
+title: Ressources
+icon: 📂
+
+fields:
+  text:
+    label: Introduction
+    type: textarea
+    size: small
+  ressources:
+    label: Ressources
+    type: structure
+    fields:
+      title:
+        label: Titre
+        type: text
+      description:
+        label: Description
+        type: textarea
+      url:
+        label: URL
+        type: url
+      lang:
+        label: Langue
+        type: select
+        options:
+          anglais: Anglais
+          français: Français
+      type:
+        label: Type de ressource
+        type: text
+      phase:
+        label: Phase
+        type: multiselect
+        options:
+          Idéation: Idéation
+          Recherche: Recherche
+          Conception: Conception
+          Tests: Tests
+      thematique:
+        label: Thématique
+        type: text
