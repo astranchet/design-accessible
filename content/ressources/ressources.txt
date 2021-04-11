@@ -11,17 +11,17 @@ Ressources:
   source: LFLegal
   lang: Anglais 
   type: Thread Twitter
-  phase: Idéation
+  phase: Idéation, Recherche
   thematique: Sensibilisation
 - 
-  title: What is your favorite one sentence definition of digital accessibility? 
+  title: Les dernières ressources sélectionnées avec amour
   url: >
-    https://twitter.com/LFLegal/status/1348777835670896640
-  description: "Diverses définitions de l'accessibilité."
+    https://thoughtbot.com/blog/an-introduction-to-macos-head-pointer
+  description: ""
   lang: Anglais 
-  type: Thread Twitter
-  phase: Idéation
-  thematique: Sensibilisation
+  type: Article
+  phase: 
+  thematique: Sensibilisation, Technologie d'assistance
 - 
   title: What is your favorite one sentence definition of digital accessibility? 
   url: >

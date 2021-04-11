@@ -8,15 +8,15 @@
 	<?php endif ?>
 
 <ul class="tags">
-	<!-- TODO : il peut y avoir plusieurs phases -->
-	<?php if ($ressource->phase()->isNotEmpty()) : ?>
-  		<li><?= $ressource->phase() ?></li>
-  	<?php endif ?>
+	<?php foreach ($ressource->phase()->split() as $phase): ?>
+  		<li><?= $phase ?></li>
+  	<?php endforeach ?>
+
 	<?php if ($ressource->lang()->isNotEmpty()) : ?>
   		<li><?= $ressource->lang() ?></li>
   	<?php endif ?>
-	<!-- TODO : il peut y avoir plusieurs thematiques -->
-	<?php if ($ressource->thematique()->isNotEmpty()) : ?>
-  		<li><?= $ressource->thematique() ?></li>
-  	<?php endif ?>
+
+	<?php foreach ($ressource->thematique()->split() as $thematique): ?>
+  		<li><?= $thematique ?></li>
+  	<?php endforeach ?>
 </ul>
