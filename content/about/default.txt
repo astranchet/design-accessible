@@ -1,0 +1,20 @@
+Title: À propos
+
+----
+
+Text: 
+
+## À propos de ce site
+
+Ce site regroupe les meilleures ressources sur l'accessibilité pour les designers. 
+
+Ces ressources étaient initialiement publiées sur le blog UX Notes. Design Accessible a pour objectif de facilité la recherche : chaque ressource est anotée et catégorisée.
+
+Que vous soyez UX Designer, UI Designer, UX Researcher, UX Writer, ou même dev ou chef de projet curieux, Design Accessible vous permettra de trouver des ressources utiles à votre projet.
+
+Si vous souhaitez ajouter une ressource, veuillez remplir le formulaire ci-dessous.
+
+## À propos de la créatrice
+
+**Design Accessible** est un site conçu et maintenu par Anne-Sophie Tranchet. UX/UI Designer indépendante et engagée, elle est spécialisée dans le design de service public. Elle conçoit des produits inclusifs et accessibles à toutes et tous.
+
