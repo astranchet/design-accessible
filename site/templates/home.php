@@ -14,18 +14,20 @@
 	<?php endif ?>
 <?php endif ?>
 
-<h4>Par où commencer ?</h4>
+<h2>Par où commencer ?</h2>
 <p>L’accessibilité commence dès la phase de conception.</p>
 
 <ul>
 	<?php foreach ($page->getting_started()->toStructure()->limit(3) as $ressource): ?>
 		<li><a href="<?= $ressource->url() ?>">
-			<b><?= $ressource->title() ?></b><br />
-			<?= $ressource->desc() ?>
+			<h3><?= $ressource->title() ?></h3>
+			<p><?= $ressource->desc() ?></p>
 			</a>
 		</li>
 	<?php endforeach ?>
 </ul>
+
+<h2><b>Les dernières ressources</b> sélectionnées avec amour</h2>
 
 <div class="posts">
 	<?php foreach (page('ressources')->ressources()->toStructure()->limit(4) as $ressource): ?>
