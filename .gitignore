@@ -30,6 +30,7 @@ Icon
 
 /site/cache/*
 !/site/cache/index.html
+.sass-cache/*
 
 # Accounts
 # ---------------

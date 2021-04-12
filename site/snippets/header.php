@@ -9,6 +9,9 @@
                 <?= $page->title() . ' - ' . $site->title() ?>
         <?php endif ?>
         </title>
+
+        <?= css(['assets/css/main.css', '@auto']) ?>
+        <meta name="theme-color" content="#01A58E">
     </head>
     
     <body>
