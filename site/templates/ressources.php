@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-<div class="posts">
+<div id="content" class="posts">
 	<?php foreach ($page->ressources()->toStructure() as $ressource): ?>
 	  	<article>
 			<?php snippet('ressource', ['ressource' => $ressource]) ?>
