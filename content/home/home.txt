@@ -1,7 +1,3 @@
-Title: Designer un web **accessible et inclusif**
-
-----
-
 Quotes:
 - 
   citation: "« L’accessibilité est une facette de l’expérience utilisateur plutôt qu’une liste de cases à cocher. »"

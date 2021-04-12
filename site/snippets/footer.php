@@ -6,4 +6,7 @@
 	<!-- TODO lien vers la license -->
 	<li>Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International</li>
 	<li>Conçu avec amour 💜</li>
-</ul>		
+</ul>
+
+</body>
+</html>

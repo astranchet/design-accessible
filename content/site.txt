@@ -1,4 +1,9 @@
 Title: Design Accessible
+
+----
+
+Heading: Designer un web **accessible et inclusif**
+
 ----
 
 Baseline: Des ressources pour les designers qui veulent concevoir des services 
