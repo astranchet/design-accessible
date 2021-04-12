@@ -17,6 +17,10 @@ Quotes:
   source: Ministère du travail, de l’emploi et de la santé
   url: https://www.education.gouv.fr/handicap-tous-concernes-99935
 - 
+  citation: "« 50% des personnes actives seront touchés par une situation de handicap au cours de leur vie. »"
+  source: Ministère du travail, de l’emploi et de la santé
+  url: https://www.education.gouv.fr/handicap-tous-concernes-99935
+- 
   citation: "« 80 % des handicaps sont invisibles. »"
   source: Ministère du travail, de l’emploi et de la santé
   url: https://www.education.gouv.fr/handicap-tous-concernes-99935
