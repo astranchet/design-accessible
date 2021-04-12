@@ -1,0 +1,21 @@
+Title: Accessibilité
+
+----
+
+Text: 
+
+## Démarche d'accessibilité
+
+Le site **Design Accessible** est non conforme avec le RGAA 4.0 : le site n'a pas été audité.
+
+Il a cependant été conçu pour être accessible au plus grand nombre. Vous devriez donc pouvoir :
+- changer les couleurs, les niveaux de contraste et les polices de caractères,
+- zoomer jusqu'à 300% sans que le texte ne déborde de l'écran,
+- naviguer sur toutes les pages du site en utilisant un clavier,
+- écouter la plus grande partie du site web à l'aide d'un lecteur d'écran.
+
+Le texte du site a été rédigé pour être aussi simple que possible à comprendre.
+
+## Défauts d'accessibilité
+
+Nous ne pouvons garantir l'accessibilité des ressources listées sur ce site.
