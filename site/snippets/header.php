@@ -30,7 +30,7 @@
             <li><a href="<?= $site->url() ?>">Design Accessible</a></li>
         	<!-- <li><a href="">Découvrir</a></li> -->
         	<li><a href="<?= page('ressources')->url() ?>">Toutes les ressources</a></li>
-        	<li><a href="">Contribuer</a></li>
+        	<li><a href="<?= page('contribute')->url() ?>">Contribuer</a></li>
         </ul>
 
         <h1><?= $site->heading()->kt() ?></h1>
