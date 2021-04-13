@@ -1,11 +1,11 @@
-<span><?= $ressource->type() ?></span>
-
 <h3><a href="<?= $ressource->url() ?>" class="button"><?= $ressource->title() ?></a></h3>
 <?= $ressource->description()->kt() ?>
 
 <?php if ($ressource->source()->isNotEmpty()) : ?>
 <p>Par <span><?= $ressource->source() ?></span></p>
-	<?php endif ?>
+<?php endif ?>
+
+<span><?= $ressource->type() ?></span>
 
 <ul class="tags">
 	<?php foreach ($ressource->phase()->split() as $phase): ?>
