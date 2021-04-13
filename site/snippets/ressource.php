@@ -13,7 +13,7 @@
   	<?php endforeach ?>
 
 	<?php if ($ressource->lang()->isNotEmpty()) : ?>
-  		<li><?= $ressource->lang() ?></li>
+  		<li><?= $langs[$ressource->lang()->value()] ?></li>
   	<?php endif ?>
 
 	<?php foreach ($ressource->thematique()->split() as $thematique): ?>

@@ -33,8 +33,8 @@ fields:
         type: select
         width: 1/4
         options:
-          anglais: Anglais
-          français: Français
+          en: Anglais
+          fr: Français
       phase:
         label: Phase
         type: multiselect

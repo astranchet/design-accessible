@@ -3,7 +3,7 @@
 return function ($page, $pages, $site, $kirby) {
 
 	$phases = $page->ressources()->toStructure()->pluck('phase', ',', true);
-	$langs = $page->ressources()->toStructure()->pluck('lang', ',', true);
+	$langs = page('ressources')->blueprint()->field('ressources')['fields']['lang']['options'];
 	$thematiques = $page->ressources()->toStructure()->pluck('thematique', ',', true);
 
 	// get counts for all tags as a measure of popularity

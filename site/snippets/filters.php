@@ -9,9 +9,9 @@
     <?php endforeach ?>
   </ul>
   <ul>
-    <?php foreach($langs as $lang): ?>
+    <?php foreach($langs as $id => $lang): ?>
     <li>
-      <a href="<?= url($page->url(), ['params' => ['lang' => $lang]]) ?>">
+      <a href="<?= url($page->url(), ['params' => ['lang' => $id]]) ?>">
         <?= html($lang) ?>
       </a>
     </li>
