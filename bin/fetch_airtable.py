@@ -57,7 +57,7 @@ def print_ressources(ressources):
 			print("	lang: " + ressource['fields']['Langue'])
 
 		if 'Phase' in ressource['fields']:
-			print("	phase: " + ressource['fields']['Phase'])
+			print("	phase: " + ",".join(ressource['fields']['Phase']))
 
 		if 'Type de ressource' in ressource['fields']:
 			print("	type: " + ",".join(ressource['fields']['Type de ressource']))
