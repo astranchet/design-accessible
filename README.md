@@ -3,6 +3,9 @@
 php -S localhost:8000
 sass --watch assets/sass/main.scss:assets/css/main.css
 
+### Fetch last ressources from airtable
+
+python3 bin/fetch_airtable.py > content/ressources/ressources.txt
 
 ## What's Kirby?
 - **[getkirby.com](https://getkirby.com)** – Get to know the CMS.
