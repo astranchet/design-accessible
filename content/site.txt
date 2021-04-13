@@ -2,9 +2,38 @@ Title: Design Accessible
 
 ----
 
+Ressource-type:
+
+- 
+  name: Article
+- 
+  name: Citation
+- 
+  name: Design System
+- 
+  name: Étude
+- 
+  name: Figma
+- 
+  name: Formation
+- 
+  name: Livre
+- 
+  name: PDF
+- 
+  name: Site web
+- 
+  name: Thread Twitter
+- 
+  name: Vidéo
+
+----
+
 Heading: Designer un web **accessible et inclusif**
 
 ----
 
-Baseline: Des ressources pour les designers qui veulent concevoir des services 
+Baseline:
+
+Des ressources pour les designers qui veulent concevoir des services 
 utiles et utilisables pour toutes et tous.

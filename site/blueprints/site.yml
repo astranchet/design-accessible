@@ -1,3 +1,15 @@
 title: Site
 preset: pages
 unlisted: true
+
+fields:
+  ressource_type:
+    label: Type de ressources
+    type: structure
+    fields:
+      name:
+        label: Type
+        type: text
+      # icon:
+      #   label: Icône
+      #   type: text  

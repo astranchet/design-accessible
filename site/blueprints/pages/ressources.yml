@@ -17,25 +17,34 @@ fields:
         label: Description
         type: textarea
       url:
-        label: URL
+        label: Lien
         type: url
+      type:
+        label: Type de ressource
+        type: select
+        width: 1/4
+        options: query
+        query: 
+          fetch: site.ressource_type.toStructure
+          text: "{{ structureItem.name }}"
+          value: "{{ structureItem.name }}"
       lang:
         label: Langue
         type: select
+        width: 1/4
         options:
           anglais: Anglais
           français: Français
-      type:
-        label: Type de ressource
-        type: text
       phase:
         label: Phase
         type: multiselect
+        width: 1/4
         options:
           Idéation: Idéation
           Recherche: Recherche
           Conception: Conception
           Tests: Tests
       thematique:
-        label: Thématique
+        label: Thématiques
         type: tags
+        width: 1/4
