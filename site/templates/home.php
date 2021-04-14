@@ -31,7 +31,7 @@
 	<h2><b>Les dernières ressources</b> sélectionnées avec amour</h2>
 
 	<div class="posts">
-		<?php foreach (page('ressources')->ressources()->toStructure()->sortBy('date', 'desc')->limit(10) as $ressource): ?>
+		<?php foreach ($ressources->limit(10) as $ressource): ?>
 		  	<article>
 				<?php snippet('ressource', ['ressource' => $ressource]) ?>
 			</article>
