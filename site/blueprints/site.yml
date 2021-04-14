@@ -3,13 +3,23 @@ preset: pages
 unlisted: true
 
 fields:
+  pages:
+    type: pages
+    width: 1/2
   ressource_type:
     label: Type de ressources
     type: structure
+    width: 1/2
+    limit: 3
     fields:
       name:
         label: Type
         type: text
-      # icon:
-      #   label: Icône
-      #   type: text  
+      icon:
+        label: Icône
+        type: text  
+  heading:
+    label: Entête
+    type: textarea
+  baseline:
+    type: textarea

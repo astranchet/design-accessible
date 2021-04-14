@@ -2,30 +2,12 @@ Title: Design Accessible
 
 ----
 
-Ressource-type:
+Pages:
 
-- 
-  name: Article
-- 
-  name: Citation
-- 
-  name: Design System
-- 
-  name: Étude
-- 
-  name: Figma
-- 
-  name: Formation
-- 
-  name: Livre
-- 
-  name: PDF
-- 
-  name: Site web
-- 
-  name: Thread Twitter
-- 
-  name: Vidéo
+- home
+- ressources
+- about
+- accessibility
 
 ----
 
@@ -37,3 +19,41 @@ Baseline:
 
 Des ressources pour les designers qui veulent concevoir des services 
 utiles et utilisables pour toutes et tous.
+
+----
+
+Ressource-type:
+
+- 
+  name: Article
+  icon: ""
+- 
+  name: Citation
+  icon: ""
+- 
+  name: Design System
+  icon: ""
+- 
+  name: Étude
+  icon: ""
+- 
+  name: Figma
+  icon: ""
+- 
+  name: Formation
+  icon: ""
+- 
+  name: Livre
+  icon: ""
+- 
+  name: PDF
+  icon: ""
+- 
+  name: Site web
+  icon: ""
+- 
+  name: Thread Twitter
+  icon: ""
+- 
+  name: Vidéo
+  icon: ""
