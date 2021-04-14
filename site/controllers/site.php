@@ -20,13 +20,13 @@ return function ($page, $pages, $site, $kirby) {
 	// Ressources filtered
 	$ressources = page('ressources')->ressources()->toStructure()->sortBy('date', 'desc');
 	if($tag = param('phase')) {
-    	$ressources = $ressources->filterBy('phase', $tag, ',');
+    	$ressources = $ressources->filterBy('phase', urldecode($tag), ',');
   	}
 	if($tag = param('lang')) {
-    	$ressources = $ressources->filterBy('lang', $tag, ',');
+    	$ressources = $ressources->filterBy('lang', urldecode($tag), ',');
   	}
 	if($tag = param('thematique')) {
-    	$ressources = $ressources->filterBy('thematique', $tag, ',');
+    	$ressources = $ressources->filterBy('thematique', urldecode($tag), ',');
   	}
 
 	return compact('phases', 'langs', 'thematiques', 'ressources');
