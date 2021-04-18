@@ -9,14 +9,14 @@
 
 <ul class="tags">
 	<?php foreach ($ressource->phase()->split() as $phase): ?>
-  		<li><?= $phase ?></li>
+  		<li><a href="<?= url($page->url(), ['params' => ['phase' => $phase]]) ?>"><?= $phase ?></a></li>
   	<?php endforeach ?>
 
 	<?php if ($ressource->lang()->isNotEmpty()) : ?>
-  		<li><?= $langs[$ressource->lang()->value()] ?></li>
+  		<li><a href="<?= url($page->url(), ['params' => ['lang' => $ressource->lang()]]) ?>"><?= $langs[$ressource->lang()->value()] ?></a></li>
   	<?php endif ?>
 
 	<?php foreach ($ressource->thematique()->split() as $thematique): ?>
-  		<li><?= $thematique ?></li>
+  		<li><a href="<?= url($page->url(), ['params' => ['thematique' => $thematique]]) ?>"><?= $thematique ?></a></li>
   	<?php endforeach ?>
 </ul>
