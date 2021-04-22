@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <meta charset="UTF-8">
         <title>
@@ -26,11 +26,17 @@
             </nav>
         </div>
 
-        <ul id="menu">
-            <li><a href="<?= $site->url() ?>">Design Accessible</a></li>
-        	<!-- <li><a href="">Découvrir</a></li> -->
-        	<li><a href="<?= page('ressources')->url() ?>">Toutes les ressources</a></li>
-        	<li><a href="<?= page('contribute')->url() ?>">Contribuer</a></li>
-        </ul>
+        <header role="banner">
+            <nav role="navigation" aria-label="Navigation principale">
+                <ul id="menu">
+                    <li><a href="<?= $site->url() ?>">Design Accessible</a></li>
+                    <!-- <li><a href="">Découvrir</a></li> -->
+                    <li><a href="<?= page('ressources')->url() ?>">Toutes les ressources</a></li>
+                    <li><a href="<?= page('contribute')->url() ?>">Contribuer</a></li>
+                </ul>
+            </nav>
+        </header>
 
-        <h1><?= $site->heading()->kt() ?></h1>
+
+        <main role="main">
+            <h1><?= $site->heading()->kirbytextinline() ?></h1>
