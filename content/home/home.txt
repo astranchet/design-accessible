@@ -4,32 +4,37 @@ Title: Accueil
 
 Quotes:
 - 
-  citation: "« L’accessibilité est une facette de l’expérience utilisateur plutôt qu’une liste de cases à cocher. »"
+  citation: "Nous sommes tous temporairement valides."
+  source: "Cindy Li"
+  url: >
+    https://en.wikipedia.org/wiki/Cindy_Li
+- 
+  citation: "L’accessibilité est une facette de l’expérience utilisateur plutôt qu’une liste de cases à cocher."
   source: "Accessibility for teams"
   url: >
     https://accessibility-for-teams.com/accessibility-for-ux-designers
 - 
-  citation: "« L’accessibilité, c’est l’affaire de toutes et tous »"
+  citation: "L’accessibilité, c’est l’affaire de toutes et tous"
   source:
   url: 
 - 
-  citation: "« 24 % de la population active est en situation de handicap. »"
+  citation: "24 % de la population active est en situation de handicap."
   source: Ministère du travail, de l’emploi et de la santé
   url: https://www.education.gouv.fr/handicap-tous-concernes-99935
 - 
-  citation: "« 50% des personnes actives seront touchés par une situation de handicap au cours de leur vie. »"
+  citation: "50% des personnes actives seront touchés par une situation de handicap au cours de leur vie."
   source: Ministère du travail, de l’emploi et de la santé
   url: https://www.education.gouv.fr/handicap-tous-concernes-99935
 - 
-  citation: "« 80 % des handicaps sont invisibles. »"
+  citation: "80 % des handicaps sont invisibles."
   source: Ministère du travail, de l’emploi et de la santé
   url: https://www.education.gouv.fr/handicap-tous-concernes-99935
 - 
-  citation: "« Le travail sur l'accessibilité doit être intégré dans les étapes de recherche, d'idéation et de conception avant le développement.»"
+  citation: "Le travail sur l'accessibilité doit être intégré dans les étapes de recherche, d'idéation et de conception avant le développement."
   source: "The Web Almanac 2020"
   url: https://almanac.httparchive.org/en/2020/accessibility#conclusion
 - 
-  citation: "« 86 % des sites ont des erreurs d'accessibilité résolvables dès la phase de design. »"
+  citation: "86 % des sites ont des erreurs d'accessibilité résolvables dès la phase de design."
   source: "The WebAIM Million"
   url: https://webaim.org/projects/million/
 
