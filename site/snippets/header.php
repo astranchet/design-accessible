@@ -40,5 +40,22 @@
             <h2><?= $site->baseline()->kirbytextinline() ?></h2>
         </header>
 
+        <?php if ($page->isHomePage()): ?>
+        <?php $quote = $page->quotes()->toStructure()->shuffle()->first(); ?>
+        <section id="citation" class="layout-hero"> 
+            <blockquote>
+                <p><?= $quote->citation()->kt() ?></p>
+                <?php if ($quote->source()->isNotEmpty()) : ?>
+                    <footer>
+                    <?php if ($quote->url()->isNotEmpty()) : ?>
+                        <p>Source : <a href="<?= $quote->url() ?>"><?= $quote->source() ?></a></p>
+                    <?php else : ?>
+                        <p>Source : <?= $quote->source() ?></p>
+                    <?php endif ?>
+                    </footer>
+                <?php endif ?>
+            </blockquote>
+        </section>
+        <?php endif ?>
 
         <main role="main">

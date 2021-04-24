@@ -4931,6 +4931,18 @@ header {
     header h1 strong, header h2 strong {
       font-weight: bold; }
 
+#citation {
+  background: var(--green-light); }
+  #citation p {
+    color: var(--green-dark);
+    font-size: 2.4rem;
+    font-weight: bold; }
+  #citation footer {
+    font-size: 1.4rem;
+    font-weight: normal;
+    color: var(--neutral-3);
+    background: inherit; }
+
 footer {
   background: var(--purple-bright); }
 
