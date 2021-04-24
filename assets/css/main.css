@@ -4915,11 +4915,14 @@ body {
   font-family: 'silkaregular';
   color: var(--neutral-1); }
 
-header {
-  background: var(--green-dark);
-  color: var(--white); }
-  header a {
+nav#entete {
+  background: var(--green-dark); }
+  nav#entete a {
     color: var(--white); }
+
+header {
+  background: var(--green-medium);
+  color: var(--white); }
 
 footer {
   background: var(--purple-bright); }

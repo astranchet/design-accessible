@@ -1,9 +1,6 @@
 <?php snippet('header') ?>
 
-<h2><?= $site->baseline()->kt() ?></h2>
-
 <?php $quote = $page->quotes()->toStructure()->shuffle()->first(); ?>
-
 <blockquote>
 	<p><?= $quote->citation()->kt() ?></p>
 	<?php if ($quote->source()->isNotEmpty()) : ?>

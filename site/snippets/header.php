@@ -26,17 +26,19 @@
             </nav>
         </div>
 
+        <nav role="navigation" aria-label="Navigation principale" id="entete" class="layout-hero">
+            <ul id="menu">
+                <li><a href="<?= $site->url() ?>">Design Accessible</a></li>
+                <!-- <li><a href="">Découvrir</a></li> -->
+                <li><a href="<?= page('ressources')->url() ?>">Toutes les ressources</a></li>
+                <li><a href="<?= page('contribute')->url() ?>">Contribuer</a></li>
+            </ul>
+        </nav>
+
         <header role="banner" class="layout-hero">
-            <nav role="navigation" aria-label="Navigation principale">
-                <ul id="menu">
-                    <li><a href="<?= $site->url() ?>">Design Accessible</a></li>
-                    <!-- <li><a href="">Découvrir</a></li> -->
-                    <li><a href="<?= page('ressources')->url() ?>">Toutes les ressources</a></li>
-                    <li><a href="<?= page('contribute')->url() ?>">Contribuer</a></li>
-                </ul>
-            </nav>
+            <h1><?= $site->heading()->kirbytextinline() ?></h1>
+            <h2><?= $site->baseline()->kt() ?></h2>
         </header>
 
 
         <main role="main">
-            <h1><?= $site->heading()->kirbytextinline() ?></h1>
