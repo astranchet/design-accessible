@@ -60,7 +60,9 @@ nav#entete {
 
 header {
 	background: var(--green-medium);
-	color: var(--white);
+	h1, h2 { 
+		color: var(--white);
+	}
 }
 
 footer {
