@@ -11,7 +11,8 @@ Pages:
 
 ----
 
-Heading: Designer un web **accessible et inclusif**
+Heading: Designer un web
+**accessible et inclusif**
 
 ----
 

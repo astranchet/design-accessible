@@ -52,16 +52,21 @@ body {
 
 
 nav#entete {
-	background: var(--green-dark);		
+	background: var(--green-dark);	
 	a { 
 		color: var(--white);
+		text-decoration: none;
+
+		&.title { font-weight: bold;}
 	}
 }
 
 header {
 	background: var(--green-medium);
 	h1, h2 { 
+		font-weight: normal;
 		color: var(--white);
+		strong { font-weight: bold; }
 	}
 }
 

@@ -4918,12 +4918,18 @@ body {
 nav#entete {
   background: var(--green-dark); }
   nav#entete a {
-    color: var(--white); }
+    color: var(--white);
+    text-decoration: none; }
+    nav#entete a.title {
+      font-weight: bold; }
 
 header {
   background: var(--green-medium); }
   header h1, header h2 {
+    font-weight: normal;
     color: var(--white); }
+    header h1 strong, header h2 strong {
+      font-weight: bold; }
 
 footer {
   background: var(--purple-bright); }

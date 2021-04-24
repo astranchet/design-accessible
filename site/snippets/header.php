@@ -37,7 +37,7 @@
 
         <header role="banner" class="layout-hero">
             <h1><?= $site->heading()->kirbytextinline() ?></h1>
-            <h2><?= $site->baseline()->kt() ?></h2>
+            <h2><?= $site->baseline()->kirbytextinline() ?></h2>
         </header>
 
 
