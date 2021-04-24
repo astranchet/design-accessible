@@ -14,7 +14,7 @@
         <meta name="theme-color" content="#01A58E">
     </head>
     
-    <body>
+    <body class="layout-maxed">
 
         <div class="skiplinks">
             <nav role="navigation" aria-label="Accès rapide">
@@ -26,7 +26,7 @@
             </nav>
         </div>
 
-        <header role="banner">
+        <header role="banner" class="layout-hero">
             <nav role="navigation" aria-label="Navigation principale">
                 <ul id="menu">
                     <li><a href="<?= $site->url() ?>">Design Accessible</a></li>

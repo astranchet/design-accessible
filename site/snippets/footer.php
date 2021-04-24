@@ -1,6 +1,6 @@
 </main>
 
-<footer role="contentinfo" id="footer">
+<footer role="contentinfo" id="footer" class="layout-hero">
 	<nav role="navigation" aria-label="Navigation de pied de page">
 		<ul>
 			<li><a href="<?= page('accessibility')->url() ?>">Accessibilité</a></li>
