@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
 * KNACSS Reborn: Just keep it simple!
 * @author: Alsacreations
@@ -4834,6 +4835,54 @@ template {
 
   .xl\:row-span-6 {
     grid-row: span 6 / span 6; } }
+/*
+ * component quote
+ */
+/*
+ * HTML template example:
+ * <blockquote>
+ *   <p>Lorem Elsass Ipsum mitt picon bière</p>
+ * </blockquote>
+ */
+/*
+ * quotes variables (you can change them)
+ */
+/*
+ * quotes styles
+ */
+blockquote {
+  position: relative;
+  padding-left: 3em;
+  min-height: 2em; }
+
+blockquote::before {
+  content: "\201C";
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-family: georgia, serif;
+  font-size: 5em;
+  height: .4em;
+  line-height: .9;
+  color: #454d5d; }
+
+blockquote > footer {
+  margin-top: .75em;
+  font-size: 0.9em;
+  color: rgba(0, 0, 0, 0.7); }
+  blockquote > footer::before {
+    content: "\2014 \0020"; }
+
+q {
+  font-style: normal; }
+
+q,
+.q {
+  quotes: "“" "”" "‘" "’"; }
+  q:lang(fr),
+  .q:lang(fr) {
+    quotes: "«\00a0" "\00a0»" "“" "”"; }
+
 @font-face {
   font-family: 'silkaregular';
   src: url("../fonts/silka-regular-webfont.eot");

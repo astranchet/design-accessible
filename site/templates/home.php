@@ -4,15 +4,18 @@
 
 <?php $quote = $page->quotes()->toStructure()->shuffle()->first(); ?>
 
-<h3><?= $quote->citation()->kt() ?></h3>
-
-<?php if ($quote->source()->isNotEmpty()) : ?>
-	<?php if ($quote->url()->isNotEmpty()) : ?>
-		<p>Source : <a href="<?= $quote->url() ?>"><?= $quote->source() ?></a></p>
-	<?php else : ?>
-		<p>Source : <?= $quote->source() ?></p>
+<blockquote>
+	<p><?= $quote->citation()->kt() ?></p>
+	<?php if ($quote->source()->isNotEmpty()) : ?>
+		<footer>
+		<?php if ($quote->url()->isNotEmpty()) : ?>
+			<p>Source : <a href="<?= $quote->url() ?>"><?= $quote->source() ?></a></p>
+		<?php else : ?>
+			<p>Source : <?= $quote->source() ?></p>
+		<?php endif ?>
+		</footer>
 	<?php endif ?>
-<?php endif ?>
+</blockquote>
 
 <div id="content">
 	<h2>Par où commencer ?</h2>
