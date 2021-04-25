@@ -3,7 +3,7 @@
 <footer role="contentinfo" id="footer" class="layout-hero">
 	<nav role="navigation" aria-label="Navigation de pied de page">
 		<ul>
-			<li><a href="<?= page('accessibility')->url() ?>">Accessibilité</a></li>
+			<li><a href="<?= page('accessibility-statement')->url() ?>">Accessibilité</a></li>
 			<li><a href="<?= page('about')->url() ?>">À propos</a></li>
 		</ul>
 		<ul>
