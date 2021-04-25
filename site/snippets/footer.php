@@ -5,6 +5,7 @@
 		<ul>
 			<li><a href="<?= page('accessibility-statement')->url() ?>">Accessibilité</a></li>
 			<li><a href="<?= page('about')->url() ?>">À propos</a></li>
+			<li><a href="<?= page('contribute')->url() ?>">Contribuer</a></li>
 		</ul>
 		<ul>
 			<!-- TODO lien vers la license -->
