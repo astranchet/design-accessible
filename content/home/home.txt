@@ -44,12 +44,8 @@ Getting Started:
 - 
   title: L’accessibilité, c’est quoi ? 🤔
   desc: "Se sensibiliser à l’accessibilité pour comprendre les usages et les points bloquants des internautes."
-  url: https://www.w3.org/WAI/fundamentals/accessibility-intro/fr
+  url: #
 - 
   title: La checkliste du designer ✅
   desc: "Outiller sa pratique pour prendre en compte les règles d'accessibilité dès la phase des maquettes."
-  url: https://www.accede-web.com/notices/fonctionnelle-graphique/
-- 
-  title: Se former 🎓
-  desc: "Améliorer son argumentaire et initier une démarche accessibilité dans son équipé."
-  url: https://formations.access42.net/formations/design-dinterfaces-accessibles-ux-ui-multimedia/
+  url: #
