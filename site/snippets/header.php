@@ -29,7 +29,7 @@
         <nav role="navigation" aria-label="Navigation principale" id="entete" class="layout-hero">
             <ul id="menu">
                 <li><a href="<?= $site->url() ?>">Design Accessible</a></li>
-                <li><a href="#">Découvrir</a></li>
+                <li><a href="<?= page('decouvrir')->url() ?>">Découvrir</a></li>
                 <li><a href="#">Checkliste</a></li>
                 <li><a href="<?= page('ressources')->url() ?>">Ressources</a></li>
             </ul>

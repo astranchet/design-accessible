@@ -20,4 +20,9 @@ return [
 	    LC_MESSAGES => 'fr_FR.UTF-8',
 	    LC_CTYPE => 'fr_FRs.UTF-8',
 	  ],
+
+	'markdown' => [
+	    'extra' => true
+	  ]
+  
 ];
