@@ -5,38 +5,27 @@ Title: Accueil
 Quotes:
 - 
   citation: "Nous sommes tous temporairement valides."
-  source: "Cindy Li"
-  url: >
-    https://en.wikipedia.org/wiki/Cindy_Li
+  source: "(link: https://en.wikipedia.org/wiki/Cindy_Li text: Cindy Li)"    
 - 
   citation: "L’accessibilité est une facette de l’expérience utilisateur plutôt qu’une liste de cases à cocher."
-  source: "Accessibility for teams"
-  url: >
-    https://accessibility-for-teams.com/accessibility-for-ux-designers
+  source: "(link: https://accessibility-for-teams.com/accessibility-for-ux-designers text: Accessibility for teams)"    
 - 
   citation: "L’accessibilité, c’est l’affaire de toutes et tous"
-  source:
-  url: 
 - 
   citation: "24 % de la population active est en situation de handicap."
-  source: Ministère du travail, de l’emploi et de la santé
-  url: https://www.education.gouv.fr/handicap-tous-concernes-99935
+  source: "(link: https://www.education.gouv.fr/handicap-tous-concernes-99935 text: Ministère du travail, de l’emploi et de la santé)"    
 - 
   citation: "50% des personnes actives seront touchés par une situation de handicap au cours de leur vie."
-  source: Ministère du travail, de l’emploi et de la santé
-  url: https://www.education.gouv.fr/handicap-tous-concernes-99935
+  source: "(link: https://www.education.gouv.fr/handicap-tous-concernes-99935 text: Ministère du travail, de l’emploi et de la santé)"    
 - 
   citation: "80 % des handicaps sont invisibles."
-  source: Ministère du travail, de l’emploi et de la santé
-  url: https://www.education.gouv.fr/handicap-tous-concernes-99935
+  source: "(link: https://www.education.gouv.fr/handicap-tous-concernes-99935 text: Ministère du travail, de l’emploi et de la santé)"    
 - 
   citation: "Le travail sur l'accessibilité doit être intégré dans les étapes de recherche, d'idéation et de conception avant le développement."
-  source: "The Web Almanac 2020"
-  url: https://almanac.httparchive.org/en/2020/accessibility#conclusion
+  source: "(link: https://almanac.httparchive.org/en/2020/accessibility#conclusion text: The Web Almanac 2020)"    
 - 
   citation: "86 % des sites ont des erreurs d'accessibilité résolvables dès la phase de design."
-  source: "The WebAIM Million"
-  url: https://webaim.org/projects/million/
+  source: "(link: https://webaim.org/projects/million/ text: The WebAIM Million)"    
 
 ----
 

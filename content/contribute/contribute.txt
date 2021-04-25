@@ -9,4 +9,4 @@ Vous connaissez (ou avez produit) une ressource :
 - en rapport avec l'accessibilité
 - de qualité
 
-Envoyez un email à <a href="mailto:contributions@design-accessible.fr">contributions@design-accessible.fr</a> pour la partager.
+Envoyez un email à (email: contributions@design-accessible.fr) pour la partager.

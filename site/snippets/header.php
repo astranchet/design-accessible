@@ -46,13 +46,7 @@
             <blockquote>
                 <p><?= $quote->citation()->kt() ?></p>
                 <?php if ($quote->source()->isNotEmpty()) : ?>
-                    <footer>
-                    <?php if ($quote->url()->isNotEmpty()) : ?>
-                        <p>Source : <a href="<?= $quote->url() ?>"><?= $quote->source() ?></a></p>
-                    <?php else : ?>
-                        <p>Source : <?= $quote->source() ?></p>
-                    <?php endif ?>
-                    </footer>
+                    <p>Source : <?= $quote->source()->kirbytextinline() ?></p>
                 <?php endif ?>
             </blockquote>
         </section>
