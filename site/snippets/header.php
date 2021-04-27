@@ -16,13 +16,13 @@
     <body>
 
       <div class="skiplinks">
-          <nav role="navigation" aria-label="Accès rapide">
-              <ul>
-                  <li><a href="#content">Aller au contenu</a></li>
-                  <li><a href="#menu">Aller au menu</a></li>
-                  <li><a href="#footer">Aller au pied de page</a></li>
-              </ul>
-          </nav>
+        <nav role="navigation" aria-label="Accès rapide">
+          <ul>
+            <li><a href="#content">Aller au contenu</a></li>
+            <li><a href="#menu">Aller au menu</a></li>
+            <li><a href="#footer">Aller au pied de page</a></li>
+          </ul>
+        </nav>
       </div>
 
       <header role="banner" class="header">
@@ -43,20 +43,18 @@
             </nav>
           </div>
         </div>
-        <h1><?= $site->heading()->kirbytextinline() ?></h1>
-        <h2><?= $site->baseline()->kirbytextinline() ?></h2>
+        <div class="header__main">
+          <div class="container">
+            <h1 class="header__title">
+              <?= $site->heading()->kirbytextinline() ?>
+            </h1>
+            <h2 class="header__subtitle">
+              <?= $site->baseline()->kirbytextinline() ?>
+            </h2>
+          </div>
+        </div>
       </header>
 
-      <?php if ($page->isHomePage()): ?>
-        <?php $quote = $page->quotes()->toStructure()->shuffle()->first(); ?>
-        <section id="citation" class="layout-hero">
-          <blockquote>
-              <p><?= $quote->citation()->kt() ?></p>
-            <?php if ($quote->source()->isNotEmpty()) : ?>
-              <p>Source : <?= $quote->source()->kirbytextinline() ?></p>
-            <?php endif ?>
-          </blockquote>
-      </section>
-      <?php endif ?>
-
       <main role="main">
+        <div class="container">
+
