@@ -1,6 +1,20 @@
 <?php snippet('header') ?>
 
-<div id="content">
+<div class="homepage" id="content">
+  <?php if ($page->isHomePage()): ?>
+    <?php $quote = $page->quotes()->toStructure()->shuffle()->first(); ?>
+    <blockquote class="blockquote">
+      <div class="blockquote__citation">
+        <?= $quote->citation()->kt() ?>
+      </div>
+      <?php if ($quote->source()->isNotEmpty()): ?>
+        <p class="blockquote__author">
+          – Source&nbsp;: <?= $quote->source()->kirbytextinline() ?>
+        </p>
+      <?php endif ?>
+    </blockquote>
+  <?php endif ?>
+
 	<h2>Par où commencer ?</h2>
 	<p>L’accessibilité commence dès la phase de conception.</p>
 

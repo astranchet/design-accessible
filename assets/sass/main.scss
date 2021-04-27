@@ -1,91 +1,16 @@
-//@import "knacss";
+@import "05_plugin/knacss/knacss.scss";
 
-:root {
-	--white: #fff;
+@import "00_var/_color";
+@import "00_var/_height";
 
-	// Green
-    --green-dark: #257172;
-    --green-medium: #01A58E;
-    --green-bright: #58C9B9;
-    --green-light: #BCE9E3;
-    --green-pale: #EBF9F7;
+@import "01_base/_font";
+@import "01_base/_grid";
+@import "01_base/_root";
 
-	// Purple
-    --purple-dark: #8446BC;
-    --purple-bright: #D1B6E1;
-    --purple-light: #FBF8FC;
+@import "02_component/_blockquote";
+@import "02_component/_skiplinks";
 
-    // Neutrals
-    --neutral-1: #333333;
-    --neutral-2: #4F4F4F;
-    --neutral-3: #828282;
-    --neutral-4: #BDBDBD;
-    --neutral-5: #E0E0E0;
-}
+@import "03_layout/_footer";
+@import "03_layout/_header";
 
-@font-face {
-    font-family: 'silkaregular';
-    src: url('../fonts/silka-regular-webfont.eot');
-    src: url('../fonts/silka-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/silka-regular-webfont.woff2') format('woff2'),
-         url('../fonts/silka-regular-webfont.woff') format('woff'),
-         url('../fonts/silka-regular-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'silkaitalic';
-    src: url('../fonts/silka-regularitalic-webfont.eot');
-    src: url('../fonts/silka-regularitalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/silka-regularitalic-webfont.woff2') format('woff2'),
-         url('../fonts/silka-regularitalic-webfont.woff') format('woff'),
-         url('../fonts/silka-regularitalic-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-body {
-	font-family: 'silkaregular';
-	color: var(--neutral-1);
-}
-
-
-nav#entete {
-	background: var(--green-dark);	
-	a { 
-		color: var(--white);
-		text-decoration: none;
-
-		&.title { font-weight: bold;}
-	}
-}
-
-header {
-	background: var(--green-medium);
-	h1, h2 { 
-		font-weight: normal;
-		color: var(--white);
-		strong { font-weight: bold; }
-	}
-}
-
-#citation {
-	background: var(--green-light);
-
-	p {
-		color: var(--green-dark);
-		font-size: 2.4rem;
-		font-weight: bold;
-	}
-	footer {
-		font-size: 1.4rem;
-		font-weight: normal;
-		color: var(--neutral-3);
-		background: inherit;
-	}
-}
-
-footer {
-	background: var(--purple-bright);
-}
+@import "04_page/_homepage";

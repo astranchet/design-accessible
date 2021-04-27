@@ -16,7 +16,7 @@
 }
 
 /*
- * 1. Remove the grey highlight on links in iOS 
+ * 1. Remove the grey highlight on links in iOS
  * 2. Prevent orientation font changes in iOS
  * 3. Breaks words to prevent overflow in all browsers
  */
@@ -30,11 +30,9 @@ html {
 
 body {
   margin: 0;
-  font-family: $font-family-base;
   font-size: $font-size-base;
   line-height: $line-height-base;
   background-color: $white;
-  color: $color-gamma;
 }
 
 /*

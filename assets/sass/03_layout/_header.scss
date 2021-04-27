@@ -1,0 +1,95 @@
+header {
+  background: var(--green-medium);
+}
+
+.header__top {
+  background: var(--green-dark);
+  font-size: 1.8rem;
+}
+
+.header__top > .container {
+  display: flex;
+  justify-content: space-between;
+  min-height: $header-height;
+}
+
+.header__top a {
+  color: var(--white);
+
+  &:hover,
+  &:focus {
+    color: var(--white);
+  }
+}
+
+.header__logo {
+  align-items: center;
+  display: flex;
+  font-weight: bold;
+}
+
+.header__logo a {
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+}
+
+.header__logo svg {
+  margin-right: 1.2rem;
+}
+
+.header__menu {
+  display: flex;
+  min-height: 100%;
+}
+
+.header__menu li {
+  align-items: center;
+  display: flex;
+  margin-right: 4.8rem;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.header__menu a {
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: var(--white);
+  }
+}
+
+.header__main {
+  min-height: 44.5rem;
+}
+
+.header__main > .container {
+  display: flex;
+  flex-direction: column;
+  min-height: inherit;
+  padding-top: 9rem;
+  padding-bottom: 15rem;
+}
+
+.header__title,
+.header__subtitle {
+  font-weight: normal;
+  color: var(--white);
+
+  strong {
+    font-weight: bold;
+  }
+}
+
+.header__title {
+  font-size: 4.8rem;
+  line-height: 1.2;
+}
+
+.header__subtitle {
+  font-size: 2.4rem;
+  line-height: 1.5;
+}
