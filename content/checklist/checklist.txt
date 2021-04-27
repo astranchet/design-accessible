@@ -1,0 +1,59 @@
+Title: Bonnes pratiques du Designer
+
+----
+
+Text:
+
+## 🚧 Bonnes pratiques pour les designers (WIP)
+
+L’accessibilité (comme l’expérience utilisateur) n’est pas seulement une checkliste de cases à cocher. 
+Mais une sélection de bonnes pratiques est un bon point de départ pour s’assurer de la qualité d’un site. 
+
+### Contenu
+
+(card: Donner un titre pertinent à chaque page. 
+desc: Chaque page doit avoir un titre unique et utile qui indique le but de la page. 
+Ceci est une très longue description qui me permet de me donner une idée de comment le texte réagit. Par exemple, on pourra dire ceci et cela.
+Et même pourquoi pas un (link: # text: lien vers quelque chose).)
+
+(card: Faciliter la compréhension rapide d'une page.)
+(card: Nommer les liens explicitement.)
+
+(link: # text: 👉 Voir tout)
+
+### Couleurs
+
+(card: Constraster les textes.)
+(card: S'assurer que l’information n'est pas véhiculée uniquement par la couleur.)
+(card: Designer l'état de focus clavier.)
+
+(link: # text: 👉 Voir tout)
+
+### Formulaires
+
+(card: Nommer chaque champ de formulaire.)
+(card: Permettre à l'utilisateur de corriger ses erreurs.)
+(card: Aider à la correction des erreurs.)
+
+(link: # text: 👉 Voir tout)
+
+### Navigation
+
+(card: Proposer une version responsive du service.)
+(card: Proposer des liens d'évitements)
+(card: Proposer plusieurs moyens de navigations.)
+
+(link: # text: 👉 Voir tout)
+
+### Conception
+
+(card: Proposer des alternatives aux médias.)
+(card: Proposer des zones de touchs assez large.)
+(card: Éviter les distractions visuelles.)
+
+## Pour aller plus loin
+
+TODO : ressources
+
+
+
