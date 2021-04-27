@@ -1,0 +1,19 @@
+.skiplinks a {
+  background: var(--green-dark);
+  color: var(--white);
+  font-weight: 700;
+  left: -999rem;
+  padding: 1rem;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+
+  &:focus {
+    left: 0
+  }
+
+  &:hover,
+  &:focus {
+    color: var(--white);
+  }
+}
