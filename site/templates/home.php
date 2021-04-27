@@ -39,6 +39,12 @@
 	</div>
 
 	<a href="<?= page('ressources')->url() ?>">👉 Voir toutes les ressources</a>
+
+
+	<section id="suscribe">
+		<p><?= $page->suscribe()->kt() ?></p>
+	</section>
+
 </div>
 
 <?php snippet('footer') ?>
