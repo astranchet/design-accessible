@@ -37,7 +37,7 @@
             <nav role="navigation" aria-label="Navigation principale">
               <ul class="header__menu" id="menu">
                 <li><a href="<?= page('decouvrir')->url() ?>">Découvrir</a></li>
-                <li><a href="#">Checkliste</a></li>
+                <li><a href="<?= page('checklist')->url() ?>">Checkliste</a></li>
                 <li><a href="<?= page('ressources')->url() ?>">Ressources</a></li>
               </ul>
             </nav>

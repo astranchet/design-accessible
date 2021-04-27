@@ -37,7 +37,7 @@ Getting Started:
 - 
   title: La checkliste du designer ✅
   desc: "Outiller sa pratique pour prendre en compte les règles d'accessibilité dès la phase des maquettes."
-  url: #
+  url: /checklist
 
 
 ----
