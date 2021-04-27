@@ -1,6 +1,8 @@
 # System files
 # ------------
 bin/.env
+vendor/
+kirby/*
 
 Icon
 .DS_Store

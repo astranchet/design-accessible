@@ -15,30 +15,37 @@
     </blockquote>
   <?php endif ?>
 
-	<h2>Par où commencer ?</h2>
-	<p>L’accessibilité commence dès la phase de conception.</p>
+  <div class="intro">
+    <h2 class="intro__title">Par où commencer ?</h2>
+    <p>L’accessibilité commence dès la phase de conception.</p>
 
-	<ul>
-		<?php foreach ($page->getting_started()->toStructure()->limit(3) as $ressource): ?>
-			<li><a href="<?= $ressource->url() ?>">
-				<h3><?= $ressource->title() ?></h3>
-				<p><?= $ressource->desc() ?></p>
-				</a>
-			</li>
-		<?php endforeach ?>
-	</ul>
+    <ul class="list__link">
+      <?php foreach ($page->getting_started()->toStructure()->limit(3) as $ressource): ?>
+        <li>
+          <a href="<?= $ressource->url() ?>" class="link__big">
+            <h3 class="list__link-title">
+              <?= $ressource->title() ?>
+            </h3>
+            <p><?= $ressource->desc() ?></p>
+          </a>
+        </li>
+      <?php endforeach ?>
+    </ul>
+  </div>
 
-	<h2><b>Les dernières ressources</b> sélectionnées avec amour</h2>
+  <div class="last__article">
+    <h2><b>Les dernières ressources</b> sélectionnées avec amour</h2>
 
-	<div class="posts">
-		<?php foreach ($ressources->limit(10) as $ressource): ?>
-		  	<article>
-				<?php snippet('ressource', ['ressource' => $ressource]) ?>
-			</article>
-		<?php endforeach ?>
-	</div>
+    <div class="posts">
+      <?php foreach ($ressources->limit(10) as $ressource): ?>
+          <article>
+          <?php snippet('ressource', ['ressource' => $ressource]) ?>
+        </article>
+      <?php endforeach ?>
+    </div>
 
-	<a href="<?= page('ressources')->url() ?>">👉 Voir toutes les ressources</a>
+    <a href="<?= page('ressources')->url() ?>">👉 Voir toutes les ressources</a>
+  </div>
 </div>
 
 <?php snippet('footer') ?>
