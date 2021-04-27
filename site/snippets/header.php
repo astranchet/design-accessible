@@ -3,11 +3,7 @@
     <head>
       <meta charset="UTF-8">
       <title>
-          <?php if ($page->isHomePage()): ?>
-            <?= $site->title() ?>
-          <?php else: ?>
-            <?= $page->title() . ' - ' . $site->title() ?>
-          <?php endif ?>
+        <?= $title ?>
       </title>
       <?= css(['assets/css/main.css', '@auto']) ?>
       <meta name="theme-color" content="#01A58E">

@@ -1,4 +1,8 @@
-Title: À quoi sert l’accessibilité numérique ?
+Title: Découvrir l'accessibilité
+
+----
+
+Baseline: Comprendre le rôle de l’accessibilité pour l’expérience utilisateur.
 
 ----
 
