@@ -1,7 +1,8 @@
-$grid-container: 106rem;
+$grid-container: 110rem;
 
 .container {
-    max-width: $grid-container;
-    margin: 0 auto;
-    position: relative;
+  max-width: $grid-container;
+  margin: 0 auto;
+  padding: 0 2rem;
+  position: relative;
 }

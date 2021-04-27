@@ -1,0 +1,38 @@
+.blockquote {
+  background: var(--green-light);
+  border-radius: 1.2rem;
+  margin: 0;
+  padding: 4.8rem;
+}
+
+.blockquote__citation {
+  color: var(--green-dark);
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.blockquote__citation p {
+  quotes: "«" "»" '"' '"';
+
+  &::before {
+    content: open-quote;
+    margin-right: 1rem;
+  }
+
+  &::after {
+    content: close-quote;
+    margin-left: 1rem;
+  }
+}
+
+.blockquote__author {
+  color: var(--neutral-3);
+  font-size: 1.8rem;
+  font-weight: normal;
+  margin-bottom: 0;
+  text-align: right;
+}
+
+.blockquote__author a {
+  color: var(--neutral-3);
+}
