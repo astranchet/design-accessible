@@ -11,7 +11,7 @@ Rendre un site ou une application mobile accessible signifie s’assurer qu’il
 Les sites web accessibles fonctionnent généralement mieux pour tout le monde.
 
 <div>
-(card-personas: Solène est aveugle. desc: Elle utilise un lecteur d’écran pour naviguer sur Internet.)
+(card: Solène est aveugle. desc: Elle utilise un lecteur d’écran pour naviguer sur Internet.)
 (card: Philippe est atteint d’arthrose. desc: Ses mouvements sont limités, il...)
 (card: Brigitte est mal voyante. desc: Elle utilise une loupe d’écran...)
 (card: Adrien est autiste. desc: Il...)
@@ -34,37 +34,37 @@ Les déficiences prennent de nombreuses formes :
 La manière dont une personne utilise le web dépend de ses capacités et ses compétences. Il existe plusieurs catégories de déficiences :
 
 <div>
-(card-handicap: Troubles auditifs)
-(card-handicap: Troubles moteurs)
-(card-handicap: Troubles visuels)
-(card-handicap: Troubles cognitifs)
+(card: Troubles auditifs)
+(card: Troubles moteurs)
+(card: Troubles visuels)
+(card: Troubles cognitifs)
 </div>
 
 Ces déficiences ont un impact sur la manière dont les personnes naviguent sur le Web.
 
 👉 Les gens **perçoivent** le contenu par différents sens, en fonction de leurs besoins et de leurs préférences. Par exemple, certaines personnes ne voient pas l'écran ou n'entendent pas le son.
 
-(card-aide: **L’écran** est le moyen le plus utilisé pour percevoir de l’information.)
-(card-aide: Pour certaines personnes, il est plus facile d’**écouter une synthèse vocale** plutôt que de lire du texte.)
-(card-aide: Les personnes sourdes et aveugles peuvent utiliser une **plage braille** leur permet percevoir le texte.)
+(card: **L’écran** est le moyen le plus utilisé pour percevoir de l’information.)
+(card: Pour certaines personnes, il est plus facile d’**écouter une synthèse vocale** plutôt que de lire du texte.)
+(card: Les personnes sourdes et aveugles peuvent utiliser une **plage braille** leur permet percevoir le texte.)
 
 👉 Certaines personnes adaptent la **présentation de l’information**, pour la rendre plus facile à distinguer et à comprendre.
 
-(card-aide: Le **mode lecture** enlève les distractions autour du contenu. Il est plus facile de se concentrer sur le texte.)
-(card-aide: Certaines personnes **modifient** le type de police, les couleurs, de l'espacement et de la largeur des lignes pour mieux lire le texte.)
-(card-aide: Les **contrastes élevés** sont particulièrement utile pour les personnes agées dont la vue baisse avec le temps.)
+(card: Le **mode lecture** enlève les distractions autour du contenu. Il est plus facile de se concentrer sur le texte.)
+(card: Certaines personnes **modifient** le type de police, les couleurs, de l'espacement et de la largeur des lignes pour mieux lire le texte.)
+(card: Les **contrastes élevés** sont particulièrement utile pour les personnes agées dont la vue baisse avec le temps.)
 
 👉 Les gens **naviguent et trouvent du contenu** en utilisant différentes stratégies. Cela dépend de leurs capacités, de leurs préférences, mais aussi de leurs compétences. 
 
-(card-aide: Une personne qui ne voit pas l’écran en aura une vue d’ensemble en « scannant » les **titres de la page**.)
-(card-aide: Certaines personnes ne voient qu’une portion de l’interface à la fois avec la **loupe d’écran**. Elles ont besoins de **repères visuels**.)
-(card-aide: Certaines personnes naviguent en utilisant **uniquement le clavier**.)
+(card: Une personne qui ne voit pas l’écran en aura une vue d’ensemble en « scannant » les **titres de la page**.)
+(card: Certaines personnes ne voient qu’une portion de l’interface à la fois avec la **loupe d’écran**. Elles ont besoins de **repères visuels**.)
+(card: Certaines personnes naviguent en utilisant **uniquement le clavier**.)
 
 👉 Il existe plusieurs manières de **saisir du texte** ou de **déclencher des actions**. Certaines personnes n”utilisent ni clavier, ni souris. D’autres utilisent du matériel adapté à leur situation.
 
-(card-aide: Des logiciels permettent de prédire ou compléter les mots pour **faciliter la saisie**.)
-(card-aide: Des claviers et souris **compensent les tremblements**.)
-(card-aide: La reconnaissance vocale ou faciale permet de cliquer **sans utiliser les mains**.)
+(card: Des logiciels permettent de prédire ou compléter les mots pour **faciliter la saisie**.)
+(card: Des claviers et souris **compensent les tremblements**.)
+(card: La reconnaissance vocale ou faciale permet de cliquer **sans utiliser les mains**.)
 
 ## Les obstacles du numérique
 
