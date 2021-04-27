@@ -2,6 +2,10 @@ Title: Bonnes pratiques
 
 ----
 
+Baseline: Concevoir un service accessible à toutes et tous.
+
+----
+
 Text:
 
 ## 🚧 Bonnes pratiques pour les designers (WIP)

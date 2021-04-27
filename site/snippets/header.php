@@ -45,7 +45,7 @@
               <?= $site->heading()->kirbytextinline() ?>
             </h1>
             <h2 class="header__subtitle">
-              <?= $site->baseline()->kirbytextinline() ?>
+              <?= $baseline->kirbytextinline() ?>
             </h2>
           </div>
         </div>

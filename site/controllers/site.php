@@ -6,6 +6,7 @@ return function ($page, $pages, $site, $kirby) {
 	$title = $page->isHomePage() ? $site->title() : $page->title() . ' - ' . $site->title();
 
 	// Header baseline
+	$baseline = $page->baseline()->exists() ? $page->baseline() : $site->baseline();
 
 
 	$phases = $page->ressources()->toStructure()->pluck('phase', ',', true);
@@ -35,7 +36,7 @@ return function ($page, $pages, $site, $kirby) {
     	$ressources = $ressources->filterBy('thematique', urldecode($tag), ',');
   	}
 
-	return compact('title', 'phases', 'langs', 'thematiques', 'ressources');
+	return compact('title', 'baseline', 'phases', 'langs', 'thematiques', 'ressources');
 };
 
 ?>
