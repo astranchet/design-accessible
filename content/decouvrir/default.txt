@@ -15,10 +15,18 @@ Rendre un site ou une application mobile accessible signifie s’assurer qu’il
 Les sites web accessibles fonctionnent généralement mieux pour tout le monde.
 
 <div>
-(card: Solène est aveugle. desc: Elle utilise un lecteur d’écran pour naviguer sur Internet.)
-(card: Philippe est atteint d’arthrose. desc: Ses mouvements sont limités, il...)
-(card: Brigitte est mal voyante. desc: Elle utilise une loupe d’écran...)
-(card: Adrien est autiste. desc: Il...)
+(card: Solène est aveugle de naissance. desc: Elle est habituée des technologies et maîtrise les lecteurs d'écrans de son ordinateur et de son smartphone.)
+(card: Philippe est atteint d’arthrose. desc: Il utilise beaucoup les commandes vocales pour naviguer ; et parfois le clavier, qui lui est moins douloureux que la souris.)
+(card: Brigitte est mal voyante. desc: Grâce à la loupe d'écran, elle peut naviguer sur Internet, à condition que l'interface ne soit pas trop complexe.)
+(card: Adrien est autiste. desc: Internet peut être source de grande distraction pour lui. Il lui faut parfois des heures pour réaliser une tâche : il lit chaque mot et clique sur chaque lien.)
+(card: Marcel a 78 ans. desc: Il a une mauvaise vue. Les gros blocs de textes sont difficiles à lire pour lui. Il ne sait pas comment régler les paramètres de son navigateur alors souvent, il abandonne.)
+(card: Loïc est dysphrasique. desc: Sa mémoire procédurale fonctionne mal. Il a du mal à retenir certains concepts comme la gauche et la droite.)
+(card: Alexandre est jeune papa. desc: Il a beaucoup d’heures de sommeil en retard et du mal à se concentrer. Il utilise souvent son téléphone de nuit, sans son.)
+(card: Florian est daltonien. desc: Comme 10 % des hommes, il a du mal à percevoir les différences de couleurs, notamment entre le rouge et le vert.)
+(card: Samia est sourde profonde. desc: Sa langue maternelle est la lange des signes. Certains contenus en français sont difficile à comprendre pour elle.)
+(card: Marianne est dyslexique. desc: Remplir des formulaires est fastidieux pour elle. Heureusement, son logiciel de saisie l'aide beaucoup dans son travail. )
+(card: Inès a une leucémie. desc: Elle suit une chimiothérapie. Elle a du mal à lire, avoir une conversation ou se souvenir de certaines choses.)
+(card: Thierry a fait un AVC. desc: Il est en pleine rééducation : utiliser ses bras, lire...)
 </div>
 
 * En France, on estime qu’une personne sur 5 est en situation de handicap. 
