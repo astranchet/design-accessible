@@ -1,0 +1,47 @@
+.card--horizontal {
+  border: 0.1rem solid var(--neutral-5);
+  border-radius: 0.6rem;
+  padding: $space-6;
+
+  .card__title {
+    color: var(--neutral-2);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 2.4rem;
+    font-weight: bold;
+
+    @include tablet-xs {
+      flex-direction: column;
+    }
+
+    a {
+      flex-basis: 75%;
+      text-decoration: none;
+
+      @include tablet-xs {
+        margin-bottom: $space-4;
+        flex-basis: auto;
+      }
+
+      &:hover,
+      &:focus {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .card__type {
+    color: var(--green-medium);
+    font-size: 1.8rem;
+  }
+
+  .card__author {
+    color: var(--neutral-3);
+    margin-bottom: $space-4;
+
+    span {
+      font-weight: bold;
+    }
+  }
+}

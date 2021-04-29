@@ -35,17 +35,23 @@
 
   <div class="last__article">
 
-    <h2><b>Les dernières ressources</b> sélectionnées avec amour</h2>
+    <h2 class="last__article-title">
+      <b>Les dernières ressources</b> sélectionnées avec amour
+    </h2>
 
-    <div class="posts">
+    <ul class="last__article-list">
       <?php foreach ($ressources->limit(10) as $ressource): ?>
-          <article>
-          <?php snippet('ressource', ['ressource' => $ressource]) ?>
-        </article>
+        <li class="last__article-item">
+          <article class="card card--horizontal">
+            <?php snippet('ressource', ['ressource' => $ressource]) ?>
+          </article>
+        </li>
       <?php endforeach ?>
-    </div>
+    </ul>
 
-    <a href="<?= page('ressources')->url() ?>">👉 Voir toutes les ressources</a>
+    <a href="<?= page('ressources')->url() ?>" class="button button--primary">
+      Voir toutes les ressources <span role="img" aria-label="xxx">👉</span>
+    </a>
   </div>
 
 	<section id="suscribe">
