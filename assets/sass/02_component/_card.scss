@@ -36,6 +36,12 @@
     font-size: 1.8rem;
   }
 
+  .card__description {
+    color: var(--neutral-2);
+    font-size: 1.8rem;
+    margin-bottom: $space-4;
+  }
+
   .card__author {
     color: var(--neutral-3);
     margin-bottom: $space-4;

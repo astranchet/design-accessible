@@ -7,7 +7,9 @@
   </span>
 </h3>
 
-<?= $ressource->description()->kt() ?>
+<div class="card__description">
+  <?= $ressource->description()->kt() ?>
+</div>
 
 <?php if ($ressource->source()->isNotEmpty()) : ?>
   <p class="card__author">
