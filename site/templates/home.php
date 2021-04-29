@@ -21,9 +21,6 @@
 
   <div class="intro">
     <div class="container">
-      <h2 class="intro__title">Par où commencer ?</h2>
-      <p>L’accessibilité commence dès la phase de conception.</p>
-
       <ul class="list__link">
         <?php foreach ($page->getting_started()->toStructure()->limit(3) as $ressource): ?>
           <li>
@@ -56,7 +53,7 @@
       </ul>
 
       <a href="<?= page('ressources')->url() ?>" class="button button--primary">
-        Voir toutes les ressources <span role="img" aria-label="xxx">👉</span>
+        Explorer les ressources
       </a>
     </div>
   </div>
