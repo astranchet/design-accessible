@@ -56,27 +56,27 @@ Ces déficiences ont un impact sur la manière dont les personnes naviguent sur 
 
 👉 Les gens **perçoivent** le contenu par différents sens, en fonction de leurs besoins et de leurs préférences. Par exemple, certaines personnes ne voient pas l'écran ou n'entendent pas le son.
 
-(card: **L’écran** est le moyen le plus utilisé pour percevoir de l’information.)
-(card: Pour certaines personnes, il est plus facile d’**écouter une synthèse vocale** plutôt que de lire du texte.)
-(card: Les personnes sourdes et aveugles peuvent utiliser une **plage braille** leur permet percevoir le texte.)
+(card: **L’écran** est le moyen le plus utilisé pour percevoir de l’information. img: screen.png)
+(card: Pour certaines personnes, il est plus facile d’**écouter une synthèse vocale** plutôt que de lire du texte. img: synthese-vocale.png)
+(card: Les personnes sourdes et aveugles peuvent utiliser une **plage braille** leur permet percevoir le texte. img: plage-braille.jpg)
 
 👉 Certaines personnes adaptent la **présentation de l’information**, pour la rendre plus facile à distinguer et à comprendre.
 
-(card: Le **mode lecture** enlève les distractions autour du contenu. Il est plus facile de se concentrer sur le texte.)
-(card: Certaines personnes **modifient** le type de police, les couleurs, de l'espacement et de la largeur des lignes pour mieux lire le texte.)
-(card: Les **contrastes élevés** sont particulièrement utile pour les personnes agées dont la vue baisse avec le temps.)
+(card: Le **mode lecture** enlève les distractions autour du contenu. Il est plus facile de se concentrer sur le texte. img: mode-lecture.png)
+(card: Certaines personnes **modifient** le type de police, les couleurs, de l'espacement et de la largeur des lignes pour mieux lire le texte. img: dyslexia.png)
+(card: Les **contrastes élevés** sont particulièrement utile pour les personnes agées dont la vue baisse avec le temps. img: high-contrast.png)
 
 👉 Les gens **naviguent et trouvent du contenu** en utilisant différentes stratégies. Cela dépend de leurs capacités, de leurs préférences, mais aussi de leurs compétences. 
 
-(card: Une personne qui ne voit pas l’écran en aura une vue d’ensemble en « scannant » les **titres de la page**.)
-(card: Certaines personnes ne voient qu’une portion de l’interface à la fois avec la **loupe d’écran**. Elles ont besoins de **repères visuels**.)
-(card: Certaines personnes naviguent en utilisant **uniquement le clavier**.)
+(card: Une personne qui ne voit pas l’écran en aura une vue d’ensemble en « scannant » les **titres de la page**. img: screen-reader-headings.jpg)
+(card: Certaines personnes ne voient qu’une portion de l’interface à la fois avec la **loupe d’écran**. Elles ont besoins de **repères visuels**. img: loupe.jpeg)
+(card: Certaines personnes naviguent en utilisant **uniquement le clavier**. img: navigation.png)
 
 👉 Il existe plusieurs manières de **saisir du texte** ou de **déclencher des actions**. Certaines personnes n”utilisent ni clavier, ni souris. D’autres utilisent du matériel adapté à leur situation.
 
-(card: Des logiciels permettent de prédire ou compléter les mots pour **faciliter la saisie**.)
-(card: Des claviers et souris **compensent les tremblements**.)
-(card: La reconnaissance vocale ou faciale permet de cliquer **sans utiliser les mains**.)
+(card: Des logiciels permettent de prédire ou compléter les mots pour **faciliter la saisie**. img: )
+(card: Des claviers et souris **compensent les tremblements**. img: )
+(card: La reconnaissance vocale ou faciale permet de cliquer **sans utiliser les mains**. img: )
 
 ## Les obstacles du numérique
 

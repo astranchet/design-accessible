@@ -4,6 +4,7 @@ return [
 	'attr' => [
 		'desc',
 		'img',
+        'alt',
       ],
     'html' => function($tag) {
     	$html = '<div class="card">';
@@ -14,9 +15,12 @@ return [
 	    	$html .= kirbytextinline($tag->desc);
     	}
 
-    	if(isset($tag->img)) {
-    		// TODO insert image
-	    	$html .= kirbytextinline($tag->img);
+    	if(isset($tag->img) && $tag->file = $tag->file($tag->img)) {
+            // TODO : fix this publish thing
+            $html .= Html::img($tag->file->publish()->url(), [
+                'class'  => '',
+                'alt'    => $tag->alt ?? ' '
+            ]);
     	}
 
     	$html .= '</div>';
