@@ -24,7 +24,7 @@ Rendre un site accessible signifie s’assurer qu’il peut être utilisé par l
 (card: Samia est sourde profonde. desc: Sa langue maternelle est la lange des signes. Certains contenus en français sont difficile à comprendre pour elle.)
 (card: Marianne est dyslexique. desc: Remplir des formulaires est fastidieux pour elle. Heureusement, son logiciel de saisie l'aide beaucoup dans son travail. )
 (card: Inès a une leucémie. desc: Elle suit une chimiothérapie. Elle a du mal à lire, avoir une conversation ou se souvenir de certaines choses.)
-(card: Thierry a fait un AVC. desc: Il est en pleine rééducation : utiliser ses bras, lire...)
+(card: Thierry a fait un AVC. desc: Il est encore en pleine rééducation. Il réapprend à utiliser son bras dominant, à lire, etc. Se concentrer est très fatiguant pour lui.)
 </div>
 
 👉 **L’accessibilité concerne potentiellement tout de monde :**
