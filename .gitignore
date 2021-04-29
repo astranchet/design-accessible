@@ -1,6 +1,7 @@
 # System files
 # ------------
 bin/.env
+vendor/
 
 Icon
 .DS_Store

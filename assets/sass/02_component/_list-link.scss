@@ -1,0 +1,27 @@
+.list__link {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list__link li {
+  margin-bottom: 2.4rem;
+}
+
+.list__link a {
+  background: linear-gradient(90deg, var(--purple-dark) 0%, rgba(132, 70, 188, 0.85) 100%);
+  border-radius: 0.6rem;
+  color: var(--white);
+  display: block;
+  padding: 2.4rem;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: var(--white);
+  }
+}
+
+.list__link-title {
+  color: var(--white);
+  font-size: 2.4rem;
+}
