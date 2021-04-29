@@ -49,4 +49,4 @@ Suscribe:
 Recevez des nouvelles ressources par email. La newsletter est envoyée tous les 1 ou 2 mois (selon les confinements et les enfants à la maison 🤐).
 
 
- (link: https://tinyletter.com/annso text: S'abonner à la newsletter class: button button--primary)
+ (link: https://tinyletter.com/annso text: S'abonner à la newsletter class: button button--primary-alt)
