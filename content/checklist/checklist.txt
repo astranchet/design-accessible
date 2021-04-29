@@ -2,7 +2,7 @@ Title: Bonnes pratiques
 
 ----
 
-Baseline: Concevoir un service accessible à toutes et tous.
+Baseline: Concevoir un service ou un produit accessible à toutes et tous. 
 
 ----
 
