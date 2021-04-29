@@ -1,0 +1,87 @@
+Title: Découvrir l'accessibilité
+
+----
+
+Baseline: Comprendre le rôle de l’accessibilité pour l’expérience utilisateur.
+
+----
+
+Text:
+
+## À quoi sert l’accessibilité numérique ?
+
+Rendre un site accessible signifie s’assurer qu’il peut être utilisé par le plus grand nombre ; en particulier les personnes en situation de handicap.
+
+<div>
+(card: Solène est aveugle de naissance. desc: Elle est habituée des technologies et maîtrise les lecteurs d'écrans de son ordinateur et de son smartphone.)
+(card: Philippe est atteint d’arthrose. desc: Il utilise beaucoup les commandes vocales pour naviguer ; et parfois le clavier, qui lui est moins douloureux que la souris.)
+(card: Brigitte est mal voyante. desc: Grâce à la loupe d'écran, elle peut naviguer sur Internet, à condition que l'interface ne soit pas trop complexe.)
+(card: Adrien est autiste. desc: Internet peut être source de grande distraction pour lui. Il lui faut parfois des heures pour réaliser une tâche : il lit chaque mot et clique sur chaque lien.)
+(card: Marcel a 78 ans. desc: Il a une mauvaise vue. Les gros blocs de textes sont difficiles à lire pour lui. Il ne sait pas comment régler les paramètres de son navigateur alors souvent, il abandonne.)
+(card: Loïc est dysphrasique. desc: Sa mémoire procédurale fonctionne mal. Il a du mal à retenir certains concepts comme la gauche et la droite.)
+(card: Alexandre est jeune papa. desc: Il a beaucoup d’heures de sommeil en retard et du mal à se concentrer. Il utilise souvent son téléphone de nuit, sans son.)
+(card: Florian est daltonien. desc: Comme 10 % des hommes, il a du mal à percevoir les différences de couleurs, notamment entre le rouge et le vert.)
+(card: Samia est sourde profonde. desc: Sa langue maternelle est la lange des signes. Certains contenus en français sont difficile à comprendre pour elle.)
+(card: Marianne est dyslexique. desc: Remplir des formulaires est fastidieux pour elle. Heureusement, son logiciel de saisie l'aide beaucoup dans son travail. )
+(card: Inès a une leucémie. desc: Elle suit une chimiothérapie. Elle a du mal à lire, avoir une conversation ou se souvenir de certaines choses.)
+(card: Thierry a fait un AVC. desc: Il est en pleine rééducation : utiliser ses bras, lire...)
+</div>
+
+👉 **L’accessibilité concerne potentiellement tout de monde :**
+* En France, on estime qu’une personne sur 5 est en situation de handicap. 
+* 80 % de ces handicaps sont invisibles. 
+* 85% des personnes handicapées le deviennent au cours de leur vie.
+
+
+👉 **Les déficiences peuvent prendre de nombreuses formes :**
+- physique ou cognitive ;
+- à des degrés divers de gravité.
+- permanentes, situationnelles ou temporaires. 
+
+## Chaque personne est unique
+
+L’accessibilité concerne une variété de personnes avec des capacités et besoins différents. Il existe plusieurs catégories de déficiences :
+
+<div>
+(card: Troubles auditifs)
+(card: Troubles moteurs)
+(card: Troubles visuels)
+(card: Troubles cognitifs)
+</div>
+
+Ces déficiences ont un impact sur la manière dont les personnes naviguent sur le Web.
+
+👉 Les gens **perçoivent** le contenu par différents sens, en fonction de leurs besoins et de leurs préférences. Par exemple, certaines personnes ne voient pas l'écran ou n'entendent pas le son.
+
+(card: **L’écran** est le moyen le plus utilisé pour percevoir de l’information. img: screen.png)
+(card: Pour certaines personnes, il est plus facile d’**écouter une synthèse vocale** plutôt que de lire du texte. img: synthese-vocale.png)
+(card: Les personnes aveugles et sourdes peuvent utiliser une **plage braille** qui leur permet percevoir le texte. img: plage-braille.jpg)
+
+👉 Certaines personnes adaptent la **présentation de l’information**, pour la rendre plus facile à distinguer et à comprendre.
+
+(card: Le **mode lecture** enlève les distractions autour du contenu. Il est plus facile de se concentrer sur le texte. img: mode-lecture.png)
+(card: Certaines personnes **modifient** le type de police, les couleurs, de l'espacement et de la largeur des lignes pour mieux lire le texte. img: dyslexia.png)
+(card: Les **contrastes élevés** sont particulièrement utile pour les personnes agées dont la vue baisse avec le temps. img: high-contrast.png)
+
+👉 Les gens **naviguent et trouvent du contenu** en utilisant différentes stratégies. Cela dépend de leurs capacités, de leurs préférences, mais aussi de leurs compétences. 
+
+(card: Une personne qui ne voit pas l’écran en aura une vue d’ensemble en « scannant » les **titres de la page**. img: screen-reader-headings.jpg)
+(card: Certaines personnes ne voient qu’une portion de l’interface à la fois avec la **loupe d’écran**. Elles ont besoins de **repères visuels**. img: loupe.jpeg)
+(card: Certaines personnes naviguent en utilisant **uniquement le clavier**. img: navigation.png)
+
+👉 Il existe plusieurs manières de **saisir du texte** ou de **déclencher des actions**. Certaines personnes n”utilisent ni clavier, ni souris. D’autres utilisent du matériel adapté à leur situation.
+
+(card: Des logiciels permettent de prédire ou compléter les mots pour **faciliter la saisie**. img: )
+(card: Des claviers et souris **compensent les tremblements**. img: )
+(card: La reconnaissance vocale ou faciale permet de cliquer **sans utiliser les mains**. img: )
+
+## Les obstacles du numérique
+
+Le numérique est une formidable opportunité de permettre à tout le monde d’accéder à l’information ; sans barrières géographiques ou physiques. Pourtant, c’est encore loin d’être le cas. Une étude récente a révélé que (link: https://webaim.org/projects/million/ text: 98 % des sites ne sont pas accessibles).
+
+De nombreux problèmes pourraient être corrigés dès l’étape de la conception : 
+✅ Proposer une interface responsive
+✅ Choisir une palette de couleurs contrastées
+✅ Nommer chaque champ de formulaire.
+
+(link: /checklist text: 👉 Voir la checkliste du designer)

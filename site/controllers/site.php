@@ -2,6 +2,13 @@
 
 return function ($page, $pages, $site, $kirby) {
 
+	// Page title
+	$title = $page->isHomePage() ? $site->title() : $page->title() . ' - ' . $site->title();
+
+	// Header baseline
+	$baseline = $page->baseline()->exists() ? $page->baseline() : $site->baseline();
+
+
 	$phases = $page->ressources()->toStructure()->pluck('phase', ',', true);
 	$langs = page('ressources')->blueprint()->field('ressources')['fields']['lang']['options'];
 
@@ -29,7 +36,7 @@ return function ($page, $pages, $site, $kirby) {
     	$ressources = $ressources->filterBy('thematique', urldecode($tag), ',');
   	}
 
-	return compact('phases', 'langs', 'thematiques', 'ressources');
+	return compact('title', 'baseline', 'phases', 'langs', 'thematiques', 'ressources');
 };
 
 ?>

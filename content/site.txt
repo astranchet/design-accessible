@@ -18,8 +18,7 @@ Heading: Designer un web
 
 Baseline:
 
-Des ressources pour les designers qui veulent concevoir des services 
-utiles et utilisables pour toutes et tous.
+Ressources pour designer des services utiles et utilisables pour toutes et tous.
 
 ----
 

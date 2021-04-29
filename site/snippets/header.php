@@ -3,11 +3,7 @@
     <head>
       <meta charset="UTF-8">
       <title>
-          <?php if ($page->isHomePage()): ?>
-            <?= $site->title() ?>
-          <?php else: ?>
-            <?= $page->title() . ' - ' . $site->title() ?>
-          <?php endif ?>
+        <?= $title ?>
       </title>
       <?= css(['assets/css/main.css', '@auto']) ?>
       <meta name="theme-color" content="#01A58E">
@@ -37,7 +33,7 @@
             <nav role="navigation" aria-label="Navigation principale">
               <ul class="header__menu" id="menu">
                 <li><a href="<?= page('decouvrir')->url() ?>">Découvrir</a></li>
-                <li><a href="#">Checkliste</a></li>
+                <li><a href="<?= page('checklist')->url() ?>">Checkliste</a></li>
                 <li><a href="<?= page('ressources')->url() ?>">Ressources</a></li>
               </ul>
             </nav>
@@ -49,7 +45,7 @@
               <?= $site->heading()->kirbytextinline() ?>
             </h1>
             <h2 class="header__subtitle">
-              <?= $site->baseline()->kirbytextinline() ?>
+              <?= $baseline->kirbytextinline() ?>
             </h2>
           </div>
         </div>
