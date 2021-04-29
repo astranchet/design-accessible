@@ -52,5 +52,3 @@
       </header>
 
       <main role="main">
-        <div class="container">
-

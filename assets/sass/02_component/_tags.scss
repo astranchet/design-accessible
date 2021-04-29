@@ -1,0 +1,18 @@
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+}
+
+.tags__item {
+  margin-right: 1rem;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.tags__link {
+  text-decoration: none;
+}
