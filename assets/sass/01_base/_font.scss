@@ -15,3 +15,14 @@
   font-style: italic;
   font-display: swap;
 }
+
+@font-face {
+  font-family: 'silka';
+  src: url('../fonts/silka-bold-webfont.woff2') format('woff2'),
+  url('../fonts/silka-bold-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+
