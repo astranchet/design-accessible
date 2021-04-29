@@ -605,9 +605,9 @@ body {
 
 .blockquote {
   background: var(--green-light);
-  border-radius: 1.2rem;
+  border-radius: 1.6rem;
   margin: 0;
-  padding: 4.8rem; }
+  padding: 2.4rem; }
 
 .blockquote__citation {
   color: var(--green-dark);
@@ -635,28 +635,31 @@ body {
 
 .button {
   align-items: center;
-  border-radius: 0.6rem;
+  border-radius: 2.4rem;
   border: 0;
   display: inline-flex;
   font-size: 1.8rem;
   font-weight: 600;
   justify-content: center;
-  padding: 1.2rem 2.4rem;
+  padding: 1.2rem 3.2rem;
   position: relative;
   text-align: center;
   text-decoration: none; }
 
-.button--primary {
+.button--primary, .button--primary-alt {
   background-color: var(--green-dark);
   color: var(--white); }
-  .button--primary span {
+  .button--primary span, .button--primary-alt span {
     margin-left: 1.2rem; }
-  .button--primary:hover, .button--primary:focus {
+  .button--primary:hover, .button--primary:focus, .button--primary-alt:hover, .button--primary-alt:focus {
     color: var(--white); }
+
+.button--primary-alt {
+  background-color: var(--purple-dark); }
 
 .card--horizontal {
   border: 0.1rem solid var(--neutral-5);
-  border-radius: 0.6rem;
+  border-radius: 2.4rem;
   padding: 2.4rem; }
   .card--horizontal .card__title {
     color: var(--neutral-2);
@@ -714,7 +717,7 @@ body {
 
 .list__link a {
   background: linear-gradient(90deg, var(--purple-dark) 0%, rgba(132, 70, 188, 0.85) 100%);
-  border-radius: 0.6rem;
+  border-radius: 2.4rem;
   color: var(--white);
   display: block;
   padding: 2.4rem;
