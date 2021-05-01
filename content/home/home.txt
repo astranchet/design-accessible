@@ -32,11 +32,11 @@ Quotes:
 Getting Started:
 - 
   title: L’accessibilité, c’est quoi ? 🤔
-  desc: "Se sensibiliser à l’accessibilité pour comprendre les usages et les points bloquants des internautes."
+  desc: "Comprendre les usages et les points bloquants des personnes en situation de handicap."
   url: /decouvrir
 - 
   title: La checkliste du designer ✅
-  desc: "Outiller sa pratique pour prendre en compte les règles d'accessibilité dès la phase des maquettes."
+  desc: "Concevoir des produits accessibles dès la phase des maquettes."
   url: /checklist
 
 

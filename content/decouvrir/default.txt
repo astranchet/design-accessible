@@ -84,4 +84,4 @@ De nombreux problèmes pourraient être corrigés dès l’étape de la concepti
 ✅ Choisir une palette de couleurs contrastées
 ✅ Nommer chaque champ de formulaire.
 
-(link: /checklist text: 👉 Voir la checkliste du designer)
+(link: /checklist text: Voir la checkliste du designer 👉 class: button button--primary)
