@@ -21,9 +21,6 @@
 
   <div class="intro">
     <div class="container">
-      <h2 class="intro__title">Par où commencer ?</h2>
-      <p>L’accessibilité commence dès la phase de conception.</p>
-
       <ul class="list__link">
         <?php foreach ($page->getting_started()->toStructure()->limit(3) as $ressource): ?>
           <li>
@@ -42,11 +39,11 @@
   <div class="last__article">
     <div class="container">
       <h2 class="last__article-title">
-        <b>Les dernières ressources</b> sélectionnées avec amour
+        ✨ <b>Les dernières ressources</b> sélectionnées avec amour
       </h2>
 
       <ul class="last__article-list">
-        <?php foreach ($ressources->limit(10) as $ressource): ?>
+        <?php foreach ($ressources->limit(4) as $ressource): ?>
           <li class="last__article-item">
             <article class="card card--horizontal">
               <?php snippet('ressource', ['ressource' => $ressource]) ?>
@@ -56,7 +53,7 @@
       </ul>
 
       <a href="<?= page('ressources')->url() ?>" class="button button--primary">
-        Voir toutes les ressources <span role="img" aria-label="xxx">👉</span>
+        Explorer les ressources
       </a>
     </div>
   </div>

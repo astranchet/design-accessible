@@ -1,18 +1,18 @@
 .button {
   align-items: center;
-  border-radius: 0.6rem;
+  border-radius: 2.4rem;
   border: 0;
   display: inline-flex;
   font-size: 1.8rem;
   font-weight: 600;
   justify-content: center;
-  padding: $space-4 $space-6;
+  padding: $space-4 $space-7;
   position: relative;
   text-align: center;
   text-decoration: none;
 }
 
-.button--primary {
+.button--primary, .button--primary-alt {
   background-color: var(--green-dark);
   color: var(--white);
 
@@ -24,4 +24,8 @@
   &:focus {
     color: var(--white);
   }
+}
+
+.button--primary-alt {
+  background-color: var(--purple-dark);
 }
