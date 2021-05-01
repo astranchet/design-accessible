@@ -59,5 +59,6 @@ Et même pourquoi pas un (link: # text: lien vers quelque chose).)
 
 TODO : ressources
 
+(link: /ressources text: Explorer les ressources 👉 class: button button--primary)
 
 

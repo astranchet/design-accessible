@@ -5,10 +5,16 @@
   <div class="last__article">
     <div class="container">
       <h2 class="last__article-title">
-        ✨ <b><?= $ressources->count() ?> ressources</b> sélectionnées avec amour.
+        ✨ <?= $ressources_title ?>
       </h2>
 
-      <?php snippet('filters') ?>
+      <?php if ($ressources_is_filtered) { ?>
+        <p><a href="<?= page('ressources')->url() ?>" class="button button--primary">
+          ← Voir toutes les ressources
+        </a></p>
+      <?php } ?>
+
+      <?php // snippet('filters') ?>
 
       <ul class="last__article-list">
         <?php foreach ($ressources as $ressource): ?>
