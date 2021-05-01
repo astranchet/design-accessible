@@ -39,11 +39,11 @@
   <div class="last__article">
     <div class="container">
       <h2 class="last__article-title">
-        <b>Les dernières ressources</b> sélectionnées avec amour
+        ✨ <b>Les dernières ressources</b> sélectionnées avec amour
       </h2>
 
       <ul class="last__article-list">
-        <?php foreach ($ressources->limit(10) as $ressource): ?>
+        <?php foreach ($ressources->limit(4) as $ressource): ?>
           <li class="last__article-item">
             <article class="card card--horizontal">
               <?php snippet('ressource', ['ressource' => $ressource]) ?>
