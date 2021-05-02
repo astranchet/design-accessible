@@ -11,6 +11,13 @@ return function ($page, $pages, $site, $kirby) {
 	$phases = $page->ressources()->toStructure()->pluck('phase', ',', true);
 	$langs = page('ressources')->blueprint()->field('ressources')['fields']['lang']['options'];
 
+	// SEO headers
+	$seo = [
+		'description' => $baseline,
+		'og:title' => $title,
+		'og:image' => $page->file('og.png') ? $page->file('og.png')->publish()->url() : $site->file('og.png')->publish()->url(),
+	];
+
 	// get counts for all tags
 	$thematiques = $page->ressources()->toStructure()->pluck('thematique', ',', true);
 	$thematiques = array_map(function($thematique) { 
@@ -21,7 +28,6 @@ return function ($page, $pages, $site, $kirby) {
 	usort($thematiques, function($a, $b) {
 	    return $b['count'] - $a['count'];
 	});
-
 
 	// Ressources filtered
 	$ressources = page('ressources')->ressources()->toStructure()->sortBy('date', 'desc');
@@ -50,7 +56,7 @@ return function ($page, $pages, $site, $kirby) {
 	  	'desc' => $desc
   	]);
 
-	return compact('title', 'baseline', 'phases', 'langs', 'thematiques', 'ressources', 'ressources_title', 'ressources_is_filtered');
+	return compact('title', 'baseline', 'phases', 'langs', 'thematiques', 'ressources', 'ressources_title', 'ressources_is_filtered', 'seo');
 };
 
 ?>

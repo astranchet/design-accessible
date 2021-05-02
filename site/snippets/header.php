@@ -9,6 +9,9 @@
       </title>
       <?= css(['assets/css/main.css', '@auto']) ?>
       <meta name="theme-color" content="#01A58E">
+
+      <?php snippet('seo') ?>
+
     </head>
 
     <body>
