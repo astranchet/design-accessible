@@ -1,3 +1,5 @@
+<?php snippet('php-headers') ?>
+
 <!DOCTYPE html>
 <html lang="fr">
     <head>

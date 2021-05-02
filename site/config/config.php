@@ -23,6 +23,55 @@ return [
 
 	'markdown' => [
 	    'extra' => true
-	  ]
-  
+	],
+
+	'php-headers' => [
+		'Strict-Transport-Security' => "max-age=31536000; includeSubDomains",
+		'X-Frame-Options' => "SAMEORIGIN",
+		'X-Content-Type-Options' => "nosniff",
+		'X-Powered-By' => "",
+		// 'Referrer-Policy' => "",
+		// 'Permissions-Policy' => "",
+	],
+
+	'cspcontent' => [
+		'default-src' => ["'none'"],
+		'script-src' => [
+			"'self'",
+			// "https://www.googletagmanager.com",
+			// "https://ajax.googleapis.com",
+			// "https://www.google-analytics.com",
+			// "https://cdn.jsdelivr.net",
+			// "https://scripts.withcabin.com",
+			"'unsafe-inline'",
+			"'unsafe-eval'"
+		],
+		'style-src' => [
+			"'self'",
+			"'unsafe-inline'",
+		],
+		'img-src' => [
+			"* data:"
+		],
+		'media-src' => [
+			"*"
+		],
+		'font-src' => [
+			"'self'",
+		],
+		'manifest-src' => [
+			"'self'"
+		],
+		'base-uri' => [
+			"'self'"
+		],
+		'connect-src' => [
+			"'self'",
+			"localhost",
+		],
+		'frame-src' => [
+			"*"
+		],  
+  	],	
+
 ];
