@@ -1,3 +1,5 @@
+<?php snippet('php-headers') ?>
+
 <!DOCTYPE html>
 <html lang="fr">
     <head>
@@ -7,6 +9,10 @@
       </title>
       <?= css(['assets/css/main.css', '@auto']) ?>
       <meta name="theme-color" content="#01A58E">
+
+      <?php snippet('seo') ?>
+
+      <link href="<?= $site->page('feed')->url() ?>" rel="alternate" type="application/atom+xml" title="<?php $site->page('feed')->title() ?>" />
     </head>
 
     <body>
