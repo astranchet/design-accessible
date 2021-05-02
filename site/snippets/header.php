@@ -12,6 +12,7 @@
 
       <?php snippet('seo') ?>
 
+      <link href="<?= $site->page('feed')->url() ?>" rel="alternate" type="application/atom+xml" title="<?php $site->page('feed')->title() ?>" />
     </head>
 
     <body>
