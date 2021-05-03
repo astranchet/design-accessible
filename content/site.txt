@@ -2,23 +2,19 @@ Title: Design Accessible
 
 ----
 
-Pages:
+headerNav:
 
-- home
+- decouvrir
+- checklist
 - ressources
+
+----
+
+footerNav:
+
+- accessibility-statement
 - about
-- accessibility
-
-----
-
-Heading: Designer un web
-**accessible et inclusif**
-
-----
-
-Baseline:
-
-Ressources pour concevoir des services utiles et utilisables pour toutes et tous.
+- contribute
 
 ----
 
@@ -57,3 +53,14 @@ Ressource-type:
 - 
   name: Vidéo
   icon: ""
+
+----
+
+Heading:
+
+Designer un web
+**accessible et inclusif**
+
+----
+
+Baseline: Ressources pour concevoir des services utiles et utilisables pour toutes et tous.

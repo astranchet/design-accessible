@@ -2,6 +2,10 @@ Title: Découvrir l'accessibilité
 
 ----
 
+Menu: Découvrir
+
+----
+
 Baseline: Comprendre le rôle de l’accessibilité pour l’expérience utilisateur.
 
 ----
