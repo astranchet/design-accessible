@@ -74,4 +74,8 @@ return [
 		],  
   	],	
 
+	'panel' => [
+	    'css' => 'assets/css/panel.css'
+	]
+
 ];
