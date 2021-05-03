@@ -1,28 +1,26 @@
 <?php snippet('header') ?>
 
 <div class="homepage" id="content">
-  <?php if ($page->isHomePage()): ?>
-    <?php $quote = $page->quotes()->toStructure()->shuffle()->first(); ?>
-    <div class="quote">
-      <div class="container">
-        <blockquote class="blockquote">
-          <div class="blockquote__citation">
-            <?= $quote->citation()->kt() ?>
-          </div>
-          <?php if ($quote->source()->isNotEmpty()): ?>
-            <p class="blockquote__author">
-              – Source&nbsp;: <?= $quote->source()->kirbytextinline() ?>
-            </p>
-          <?php endif ?>
-        </blockquote>
-      </div>
+  <?php $quote = $site->quotes()->toStructure()->shuffle()->first(); ?>
+  <div class="quote">
+    <div class="container">
+      <blockquote class="blockquote">
+        <div class="blockquote__citation">
+          <?= $quote->citation()->kt() ?>
+        </div>
+        <?php if ($quote->source()->isNotEmpty()): ?>
+          <p class="blockquote__author">
+            – Source&nbsp;: <?= $quote->source()->kirbytextinline() ?>
+          </p>
+        <?php endif ?>
+      </blockquote>
     </div>
-  <?php endif ?>
+  </div>
 
   <div class="intro">
     <div class="container">
       <ul class="list__link">
-        <?php foreach ($page->getting_started()->toStructure()->limit(3) as $ressource): ?>
+        <?php foreach ($site->gettingStarted()->toStructure() as $ressource): ?>
           <li>
             <a href="<?= $ressource->url() ?>" class="link__big">
               <h3 class="list__link-title">
@@ -58,11 +56,8 @@
     </div>
   </div>
 
-  <div class="suscribe" id="suscribe">
-    <div class="container">
-      <p><?= $page->suscribe()->kt() ?></p>
-    </div>
-  </div>
+  <?php snippet('suscribe') ?>
+
 </div>
 
 <?php snippet('footer') ?>
