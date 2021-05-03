@@ -2,63 +2,160 @@ Title: Checklist
 
 ----
 
-Baseline: Concevoir un service ou un produit accessible à toutes et tous. 
+Categories:
+
+- 
+  title: Contenu
+- 
+  title: Couleurs
+- 
+  title: Formulaires
+- 
+  title: Navigation
+- 
+  title: Conception
+
+----
+
+Checklist:
+
+- 
+  title: 'Donner un titre unique à chaque page. '
+  desc: |
+    Chaque page doit avoir un titre unique et utile qui indique le but de la page.
+    Ceci est une très longue description qui me permet de me donner une idée de comment le texte réagit. Par exemple, on pourra dire ceci et cela.
+    Et même pourquoi pas un (link: # text: lien vers quelque chose).
+  category: Contenu
+- 
+  title: "Faciliter la compréhension rapide d'une page."
+  desc: ""
+  category: Contenu
+- 
+  title: "Nommer les liens explicitement."
+  desc: ""
+  category: Contenu
+- 
+  title: "Construire une hiérarchie des titres pertinente."
+  desc: ""
+  category: Contenu
+- 
+  title: "Nommer les fonctionalités de manière cohérente."
+  desc: ""
+  category: Contenu
+- 
+  title: "Donner une alternative textuelle aux images."
+  desc: ""
+  category: Contenu
+- 
+  title: "Constraster les textes."
+  desc: ""
+  category: Couleurs
+- 
+  title: "S'assurer que l’information n'est pas véhiculée uniquement par la couleur."
+  desc: ""
+  category: Couleurs
+- 
+  title: "Designer l'état de focus clavier."
+  desc: ""
+  category: Couleurs
+- 
+  title: "Constraster les éléments d'interfaces."
+  desc: ""
+  category: Couleurs
+- 
+  title: "Nommer chaque champ de formulaire."
+  desc: ""
+  category: Formulaires
+- 
+  title: "Permettre à l'utilisateur de corriger ses erreurs."
+  desc: ""
+  category: Formulaires
+- 
+  title: "Aider à la correction des erreurs."
+  desc: ""
+  category: Formulaires
+- 
+  title: "Proposer une version responsive du service."
+  desc: ""
+  category: Navigation
+- 
+  title: "Proposer des liens d'évitements."
+  desc: ""
+  category: Navigation
+- 
+  title: "Proposer plusieurs moyens de navigations."
+  desc: ""
+  category: Navigation
+- 
+  title: "Rendre les contenus cachés faciles d'accès."
+  desc: ""
+  category: Navigation
+- 
+  title: "S'assurer que la navigation est cohérente."
+  desc: ""
+  category: Navigation
+- 
+  title: "Proposer plusieurs moyens de navigations."
+  desc: ""
+  category: Navigation
+- 
+  title: "Ne pas bloquer l'orientation de l'affichage."
+  desc: ""
+  category: Navigation
+- 
+  title: "Proposer des alternatives aux médias."
+  desc: ""
+  category: Conception
+- 
+  title: "Proposer des zones de touchs assez large."
+  desc: ""
+  category: Conception
+- 
+  title: "Éviter les distractions visuelles."
+  desc: ""
+  category: Conception
+- 
+  title: "Proposer une alternative aux gestes complexes."
+  desc: ""
+  category: Conception
+- 
+  title: "Faciliter les gestes à l'écran."
+  desc: ""
+  category: Conception
+
+
+----
+
+Ressources:
+
+- 
+  title: Notices d’accessibilité
+  source: AccedeWeb
+  url: https://www.accede-web.com/
+  description: ""
+- 
+  title: Accessibility for UX and UI Designers
+  source: Accessibility for teams
+  url: >
+    https://accessibility-for-teams.com/accessibility-for-ux-designers
+  description: ""
+- 
+  title: Accessibility Heuristiques for Designers
+  source: Deque
+  url: ""
+- 
+  title: Accessibility Guidelines Sumarry
+  source: The App Business
+  url: ""
 
 ----
 
 Text:
 
-## 🚧 Bonnes pratiques pour les designers (WIP)
+## ✨ La checkliste du designer
 
-L’accessibilité (comme l’expérience utilisateur) n’est pas seulement une checkliste de cases à cocher. 
-Mais une sélection de bonnes pratiques est un bon point de départ pour s’assurer de la qualité d’un site. 
+Ces bonnes pratiques sont un point de départ pour concevoir un site ou une application accessible. Cette liste vous aidera à améliorer l’expérience utilisateur des personnes en situation de handicap.
 
-### Contenu
+----
 
-(card: Donner un titre pertinent à chaque page. 
-desc: Chaque page doit avoir un titre unique et utile qui indique le but de la page. 
-Ceci est une très longue description qui me permet de me donner une idée de comment le texte réagit. Par exemple, on pourra dire ceci et cela.
-Et même pourquoi pas un (link: # text: lien vers quelque chose).)
-
-(card: Faciliter la compréhension rapide d'une page.)
-(card: Nommer les liens explicitement.)
-
-(link: # text: 👉 Voir tout)
-
-### Couleurs
-
-(card: Constraster les textes.)
-(card: S'assurer que l’information n'est pas véhiculée uniquement par la couleur.)
-(card: Designer l'état de focus clavier.)
-
-(link: # text: 👉 Voir tout)
-
-### Formulaires
-
-(card: Nommer chaque champ de formulaire.)
-(card: Permettre à l'utilisateur de corriger ses erreurs.)
-(card: Aider à la correction des erreurs.)
-
-(link: # text: 👉 Voir tout)
-
-### Navigation
-
-(card: Proposer une version responsive du service.)
-(card: Proposer des liens d'évitements)
-(card: Proposer plusieurs moyens de navigations.)
-
-(link: # text: 👉 Voir tout)
-
-### Conception
-
-(card: Proposer des alternatives aux médias.)
-(card: Proposer des zones de touchs assez large.)
-(card: Éviter les distractions visuelles.)
-
-## Pour aller plus loin
-
-TODO : ressources
-
-(link: /ressources text: Explorer les ressources 👉 class: button button--primary)
-
-
+Baseline: Concevoir un service ou un produit accessible à toutes et tous.

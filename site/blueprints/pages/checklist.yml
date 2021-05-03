@@ -1,0 +1,63 @@
+title: Checklist
+preset: pages
+
+fields:
+  headerHeading:
+    label: Entête
+    type: headline
+
+  text:
+    label: Introduction
+    type: textarea
+
+  checklisteHeading:
+    label: Checklist
+    type: headline
+
+  categories:
+    label: Catégories
+    type: structure
+    width: 1/4
+    fields:
+      title: 
+        label: Titre
+        type: text
+  checklist:
+    label: Checklist
+    type: structure
+    width: 3/4
+    fields:
+      title:
+        label: Titre
+        type: text
+      desc:
+        label: Description
+        type: textarea
+      category:
+        label: Catégorie
+        type: select
+        # TODO : query
+        options:
+          content: Contenu
+          colors: Couleurs
+          form: Formulaires
+          nav: Navigation
+          conception: Conception
+
+  ressourcesHeading:
+    label: Ressources
+    type: headline
+
+  ressources:
+    label: Ressources
+    type: structure
+    fields:
+      title:
+        label: Titre
+        type: text
+      source:
+        label: Source
+        type: text
+      url:
+        label: Lien
+        type: url
