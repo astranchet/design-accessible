@@ -1,7 +1,9 @@
 <?php snippet('header') ?>
 
 <div id="content">
-	<?= $page->text()->kt() ?>
+    <div class="container">
+		<?= $page->text()->kt() ?>
+	</div>
 </div>
 
 <?php snippet('footer') ?>
