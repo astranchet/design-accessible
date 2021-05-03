@@ -2,6 +2,10 @@ Title: Démarche d'accessibilité
 
 ----
 
+Menu: Accessibilité
+
+----
+
 Text: 
 
 ## Démarche d'accessibilité

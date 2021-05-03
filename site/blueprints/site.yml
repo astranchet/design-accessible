@@ -3,14 +3,73 @@ preset: pages
 unlisted: true
 
 fields:
-  pages:
+  headerHeading:
+    label: Entête
+    type: headline
+  headerNav:
+    label: Navigation
     type: pages
+    text: "{{ page.menu.or(page.title) }}"
+    width: 1/3
+  heading:
+    label: Entête
+    type: textarea
+    width: 1/3
+  baseline:
+    type: textarea
+    width: 1/3
+
+  contentHeading:
+    label: Landing
+    type: headline
+  quotes:
+    label: Citations
+    type: structure
+    fields:
+      citation:
+        label: Citation
+        type: textarea
+      source:
+        label: Source
+        type: text
+  gettingStarted:
+    label: Pour commencer
+    type: structure
+    fields:
+      title:
+        label: Titre
+        type: text
+      desc:
+        label: Description
+        type: textarea
+      url:
+        label: Lien
+        type: url
+
+  newsletterHeading:
+    label: Newsletter
+    type: headline
+  suscribe:
+    label: Newsletter
+    type: textarea
+
+  footerHeading:
+    label: Pied de page
+    type: headline
+  footerNav:
+    label: Navigation
+    type: pages
+    text: "{{ page.menu.or(page.title) }}"
     width: 1/2
+
+  globalHeading:
+    label: Général
+    type: headline
+
   ressource_type:
     label: Type de ressources
     type: structure
     width: 1/2
-    limit: 3
     fields:
       name:
         label: Type
@@ -18,8 +77,3 @@ fields:
       icon:
         label: Icône
         type: text  
-  heading:
-    label: Entête
-    type: textarea
-  baseline:
-    type: textarea

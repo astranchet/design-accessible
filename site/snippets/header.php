@@ -38,9 +38,11 @@
             </div>
             <nav role="navigation" aria-label="Navigation principale">
               <ul class="header__menu" id="menu">
-                <li><a href="<?= page('decouvrir')->url() ?>">Découvrir</a></li>
-                <li><a href="<?= page('checklist')->url() ?>">Checkliste</a></li>
-                <li><a href="<?= page('ressources')->url() ?>">Ressources</a></li>
+                <?php foreach ($site->headerNav()->toPages() as $item) { ?>
+                  <li><a href="<?= $item->url() ?>" <?php e($item->isActive(), 'aria-current="page"') ?>>
+                    <?= $item->menu()->or($item->title()) ?>
+                  </a></li>
+                <?php } ?>
               </ul>
             </nav>
           </div>
