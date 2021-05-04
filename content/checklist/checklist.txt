@@ -2,6 +2,233 @@ Title: Checklist
 
 ----
 
+Text:
+
+## ✨ La checkliste du designer
+
+Ces bonnes pratiques sont un point de départ pour concevoir un site ou une application accessible. Cette liste vous aidera à améliorer l’expérience utilisateur des personnes en situation de handicap.
+
+----
+
+Checklist:
+
+- 
+  title: 'Donner un titre unique à chaque page. '
+  desc: >
+    Chaque page doit avoir un titre unique
+    et utile qui indique le but de la page.
+  further: |
+    * (link: https://www.accede-web.com/notices/html-et-css/titre-de-la-page/renseigner-un-title-precis-sur-chaque-page/ text: Renseigner un title précis sur chaque page)
+    * (link: https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-title.html text: Mécanisme de navigation au clavier lang: en)
+  category: Contenu
+- 
+  title: "Faciliter la compréhension rapide d'une page."
+  desc: "Une page accessible peut être parcourue rapidement et facilement. Les gros blocs de textes peuvent sembler intimidant et être long à lire. Les utilisateurs préfèrent des textes courts, organisez à l'aide de sous-titres et de listes."
+  further: ""
+  category: Contenu
+- 
+  title: Nommer les liens explicitement.
+  desc: "L'objectif du lien doit être clair, même sans contexte."
+  further: |
+    * (link: https://www.accede-web.com/notices/fonctionnelle-graphique/formulaires/prevoir-un-intitule-explicite-pour-chaque-bouton-de-formulaire/ text: Prévoir un intitulé explicite pour chaque bouton de formulaire)
+    * (link: https://www.accede-web.com/notices/editoriale-modele/ecrire-des-liens-de-maniere-accessible/rediger-des-intitules-de-liens-explicites/ text: Rédiger des intitulés de liens explicites)
+    * (link: https://www.accede-web.com/notices/editoriale-modele/ecrire-des-liens-de-maniere-accessible/savoir-utiliser-les-titres-de-liens-en-dernier-recours/ text: Savoir utiliser les titres de liens en dernier recours)
+    * (link: https://www.smashingmagazine.com/2012/06/links-should-never-say-click-here/ text: Links should never say click here lang: en)
+    * (link: https://www.nngroup.com/articles/writing-links/ text: Writing links lang: en)
+  category: Contenu
+- 
+  title: >
+    Construire une hiérarchie des titres
+    pertinente.
+  desc: ""
+  further: '* (link: https://www.accede-web.com/notices/editoriale-modele/utiliser-correctement-la-hierarchie-des-titres/ text: Utiliser correctement la hiérarchie des titres)'
+  category: Contenu
+- 
+  title: >
+    Nommer les fonctionalités de manière
+    cohérente.
+  desc: "Les noms des composants et fonctionnalités doivent être cohérents sur tout le parcours utilisateur. Cela rend le service familier et prévisible pour les utilisateurs,  en particulier ceux qui ont des limitations cognitives, des utilisateurs malvoyants, des utilisateurs souffrant de déficiences intellectuelles et des utilisateurs aveugles. Lorsqu'ils apprennent une fonctionnalité sur une page, ils peuvent plus facilement la retrouver sur d'autres pages."
+  further: '* (link: https://www.accede-web.com/notices/fonctionnelle-graphique/regles-supplementaires-pour-la-conformite/prevoir-des-intitules-identiques-pour-les-champs-dont-la-fonction-est-identique/ text: Prévoir des intitulés identiques pour les champs font la fonction est identique)'
+  category: Contenu
+- 
+  title: >
+    Donner une alternative textuelle aux
+    images et aux médias.
+  desc: |
+    Les contenus visuels et audio ont besoin d'alternatives textuelles pour que chacun sache ce qui se passe :
+    - Les vidéos ont besoin de sous-titres et de descriptions audio.
+    - Les contenus audio et vidéo ont besoin d'une alternative textuelle comme une transcription.
+  further: |
+    * (link: https://www.accede-web.com/notices/editoriale-modele/utiliser-les-images-de-maniere-accessible text: Utiliser les images de manière accessible)
+    * (link: https://www.accede-web.com/notices/fonctionnelle-graphique/contenus-riches-et-multimedias/prevoir-un-titre-et-ou-un-resume-pour-chaque-video-et-contenu-audio text: Prévoir un titre ou un résumé pour chaque vidéo et contenu audio)
+    * (link: https://www.a11yproject.com/posts/2013-01-14-alt-text text: Alt text lang: en)
+  category: Contenu
+- 
+  title: Constraster les textes.
+  desc: "Les contrastes entre un texte et son arrière-plan doit être d'au moins 4,5:1. C'est particulièrement utilise pour les personnes malvoyantes. Pour les textes de grandes tailles (plus de 24 px) ou en gras, le contraste peut être de 3:1."
+  further: |
+    * (link: # text: Voir les outils de contrastes)
+    * (link: https://www.accede-web.com/notices/fonctionnelle-graphique/couleurs/assurer-un-contraste-suffisant-entre-les-textes-et-larriere-plan/ text: Assurer un contraste suffisant entre les textes et l'arrière plan)
+    * (link: https://24ways.org/2015/designing-with-contrast/ text: Designing with contrast lang: en)
+    * (link: https://www.a11yproject.com/posts/2013-01-22-check-contrast-with-mobile-device/ text: Check constrast with mobile device lang: en)
+  category: Couleurs
+- 
+  title: "Constraster les éléments d'interfaces."
+  desc: "Les éléments d'interfaces interactifs comme les boutons, champs de formulaires ou icônes doivent être facilement repérable par un contraste suffisant."
+  further: '* (link: https://www.accede-web.com/notices/fonctionnelle-graphique/couleurs/assurer-un-contraste-suffisant-entre-les-elements-graphiques-informatifs-et-interactifs-avec-leur-arriere-plan/ text: Assurer un constraste suffisant entre les éléments graphiques informatifs et interactifs avec leur arrière plan)'
+  category: Couleurs
+- 
+  title: "S'assurer que l’information n'est pas véhiculée uniquement par la couleur."
+  desc: |
+    Utiliser la couleur pour communiquer une information à l'utilisateur est une bonne chose : par exemple, le rouge pour une erreur. Mais la couleur ne doit pas être l'unique moyen de communiquer cette information. Par exemple, pour un champ de formulaire en erreur, on peut coupler l'information avec une icône d'erreur.
+    Ainsi, les personnes dont la vision des couleurs est limitée peuvent utiliser l'interface.
+  further: "* (link: https://www.accede-web.com/notices/fonctionnelle-graphique/couleurs/assurer-la-comprehension-de-linformation-meme-en-labsence-de-couleurs/ text: Assurer la compréhension de l'information même en absence de couleurs)"
+  category: Couleurs
+- 
+  title: "Designer les différents états d'un composant"
+  desc: "Les utilisateurs ont besoin naviguant au clavier (ou avec un autre système qu'une souris) doivent voir clairement quel élément de l'interface dispose du focus.  De la même manière que vous concevez les états de passage de la souris, concevez les états de hover."
+  further: "* (link: https://www.24joursdeweb.fr/2017/le-focus-nest-pas-juste-une-astuce/ text: Le focus n'est pas juste une astuce)"
+  category: Couleurs
+- 
+  title: Nommer chaque champ de formulaire.
+  desc: >
+    Les libellés indiquent clairement
+    comment une personne doit remplir le
+    formulaire. Des conseils
+    supplémentaires peuvent être utile
+    pour éviter les erreurs et guider les
+    utilisateurs.
+  further: |
+    * (link: https://www.accede-web.com/notices/fonctionnelle-graphique/formulaires/prevoir-un-intitule-explicite-pour-chaque-champ-de-formulaire/ text: Prévoir un intitulé explicite pour chaque champ de formulaire)
+    * (link: https://www.accede-web.com/notices/fonctionnelle-graphique/formulaires/positionner-chaque-intitule-a-proximite-de-son-champ/ text: Positionner chaque intitulé à proximité de son champ)
+    * (link: https://adamsilver.io/blog/always-use-a-label/ text: Always use a label)
+  category: Formulaires
+- 
+  title: "Permettre à l'utilisateur de vérifier ses informations"
+  desc: "L'utilisateur doit avoir un moyen de vérifier et corriger les informations saisies avant de les soumettre, en particulier dans le cas de paiement, données personnelles."
+  further: '* (link: https://design-system.service.gov.uk/patterns/check-answers/ text: Check answers lang: en)'
+  category: Formulaires
+- 
+  title: Aider à la correction des erreurs.
+  desc: |
+    Lorsque quelqu'une personne fait une erreur en remplissant un formulaire :
+    - Décrivez l'erreur
+    - Identifiez clairement où se trouve l'erreur.
+    - Donnez des suggestions sur la manière de la corriger.
+    
+    Les erreurs doivent être détectées uniquement à la validation et pas pendant que la personne est en train de saisir.
+  further: |
+    * (link: https://www.accede-web.com/notices/fonctionnelle-graphique/formulaires/prevoir-des-messages-derreur-explicites-et-des-suggestions-de-correction/ text: Prévoir des messages d'erreurs explicites et des suggestions de correction)
+    * (link: https://adamsilver.io/blog/live-validation-is-problematic/ text: Live validation is problematic)
+  category: Formulaires
+- 
+  title: Être prédictible.
+  desc: "Modifier l'état d'une entrée de formulaire (comme un bouton radio) ne doit pas provoquer d'événement surprenant, comme l'envoi d'un formulaire, la modification significative du contenu de la page ou le déplacement du focus du clavier."
+  further: ""
+  category: Formulaires
+- 
+  title: Indiquer les champs obligatoires
+  desc: ""
+  further: '* (link: https://www.accede-web.com/notices/fonctionnelle-graphique/formulaires/indiquer-clairement-les-champs-obligatoires/ text: Indiquer clairement les champs obligatoires)'
+  category: Formulaires
+- 
+  title: >
+    Proposer une version responsive du
+    service.
+  desc: "Les contenus et fonctionnalités du produit doivent être accessible sur un écran d’une largeur de 320px (l'équivalent d'un iPhone 5), sans barre de défilement horizontale."
+  further: '* (link: https://www.accede-web.com/notices/fonctionnelle-graphique/orientation-et-taille-decran/ne-pas-supprimer-de-fonctionnalites-ou-de-contenus-en-vues-responsive/ text: Ne pas supprimer de fonctionnalités ou de contenus en vue responsive)'
+  category: Navigation
+- 
+  title: "Proposer des liens d'évitements."
+  desc: ""
+  further: ""
+  category: Navigation
+- 
+  title: >
+    Proposer plusieurs moyens de
+    navigations.
+  desc: ""
+  further: ""
+  category: Navigation
+- 
+  title: "Faciliter l'accès aux contenus cachés ."
+  desc: |
+    Les contenus cachés (comme une info-bulle) doivent être facile à accéder :
+    - la zone d'activation doit être suffisament large (pour les personnes ayant des troubles moteurs) ;
+    - elle doit être accessible au clavier ;
+    - elle doit rester visible.
+    
+    Le plus souvent, les textes d'info-bulles mériteraient d'être toujours présents 😇.
+  further: ""
+  category: Navigation
+- 
+  title: >
+    Proposer plusieurs moyens de
+    navigations.
+  desc: >
+    Donnez aux gens différents moyens de
+    trouver chaque page (comme des liens de
+    recherche ou de navigation), à moins
+    que la page ne soit une étape dans un
+    processus.
+  further: '* (link: https://www.accede-web.com/notices/fonctionnelle-graphique/navigation/prevoir-au-moins-deux-moyens-de-navigation-parmi-un-menu-principal-un-plan-du-site-et-un-moteur-de-recherche/ text: Prévoir au moins deux moyens de navigation parmi un menu principal, un plan du site et un moteur de recherche)'
+  category: Navigation
+- 
+  title: "Ne pas bloquer l'orientation de l'affichage."
+  desc: "Certaines personnes ne peuvent pas changer l'orientation de leur support (s'il est fixé à un fauteuil)."
+  further: "* (link: https://www.accede-web.com/notices/fonctionnelle-graphique/orientation-et-taille-decran/ne-pas-brider-la-possibilite-de-changer-lorientation-de-laffichage/ text: Ne pas brider la possibilité de changer l'orientation de l'affichage)"
+  category: Navigation
+- 
+  title: "Proposer des liens d'évitements"
+  desc: |
+    Donnez aux utilisateurs de claviers et de lecteurs d'écran un moyen d'accéder directement au contenu principal de la page.
+    
+    Les personnes qui utilisent la navigation au clavier (ou d'autres moyens de navigation séquentielle) pour parcourir une page rencontrent souvent des listes d'éléments interactifs qu'elles doivent parcourir avant d'arriver au contenu qu'elles souhaitent lire. Le menu de navigation en haut de la page en est un exemple courant.
+    
+    Vous pouvez permettre aux utilisateurs de sauter ces blocs en incluant un "lien de saut" en haut de la page qui renvoie directement au contenu principal. Ce lien peut être masqué par défaut mais doit devenir visible lorsqu'il reçoit le focus du clavier.
+    
+    Cette technique peut également être utilisée pour d'autres composants qui contiennent beaucoup d'éléments interactifs, comme les carrousels.
+  further: |
+    * (link: https://www.accede-web.com/notices/fonctionnelle-graphique/bonnes-pratiques/prevoir-lapparence-des-liens-devitement/ text: Prévoir l'apparence des liens d'évitements)
+    * (link: https://webaim.org/techniques/skipnav/ text: Skipnav )
+  category: Navigation
+- 
+  title: >
+    Proposer des zones de touchs assez
+    large.
+  desc: |
+    Les zones tactiles doivent être suffisament grandes (au moins 44 × 44 pixels) et éloignées les unes des autres.
+    
+    Cela sera utile :
+    - aux personnes ayant des troubles moteurs
+    - utilisant leur support dans un environnement peu stable (transport en commun)
+    - faible vision
+  further: |
+    * (link: https://www.24joursdeweb.fr/2019/et-tu-cliques-a-cote-du-bouton/ text: Et tu cliques à côté du bouton !)
+    * (link: https://www.smashingmagazine.com/2012/02/finger-friendly-design-ideal-mobile-touchscreen-target-sizes/ text: Finger-Friendly Design: Ideal Mobile Touchscreen Target Sizes lang: en)
+    * (link: https://www.a11yproject.com/posts/2018-11-21-large-touch-targets/ text: Large touch targets lang: en)
+  category: Conception
+- 
+  title: Éviter les distractions visuelles.
+  desc: "Ne montrez rien qui clignote, défile, s'anime ou se met à jour automatiquement et fréquemment si cela dure plus de 5 secondes. Ou donnez aux gens un moyen de l'arrêter."
+  further: |
+    * (link: https://www.accede-web.com/notices/editoriale-modele/utiliser-correctement-les-contenus-riches-et-multimedias/verifier-la-possibilite-de-mettre-en-pause-les-contenus-en-mouvement/ text: Vérifier la possibilité de mettre en pause les contenus en mouvement)
+    * (link: https://www.accede-web.com/notices/fonctionnelle-graphique/contenus-riches-et-multimedias/prevoir-un-moyen-pour-controler-chaque-contenu-anime/ text: Prévoir un moyen pour contrôler chaque contenu animé)
+    * (link: https://www.w3.org/WAI/tutorials/carousels/ text: Carousels lang: en)
+    * (link: https://www.a11yproject.com/posts/2020-12-22-design-accessible-animation/ text: Design accessible animations lang: en)
+  category: Conception
+- 
+  title: >
+    Proposer une alternative aux gestes
+    complexes.
+  desc: |
+    Ne pas exiger des gestes complexes ou l'utilisation de plus d'un doigt pour faire des choses.
+    Les gestes effectués sur un écran tactile doivent être rendus aussi faciles que possible, sans obliger les utilisateurs à s'engager dans une action.
+  further: ""
+  category: Conception
+
+----
+
 Categories:
 
 - 
@@ -14,115 +241,6 @@ Categories:
   title: Navigation
 - 
   title: Conception
-
-----
-
-Checklist:
-
-- 
-  title: 'Donner un titre unique à chaque page. '
-  desc: |
-    Chaque page doit avoir un titre unique et utile qui indique le but de la page.
-    Ceci est une très longue description qui me permet de me donner une idée de comment le texte réagit. Par exemple, on pourra dire ceci et cela.
-    Et même pourquoi pas un (link: # text: lien vers quelque chose).
-  category: Contenu
-- 
-  title: "Faciliter la compréhension rapide d'une page."
-  desc: ""
-  category: Contenu
-- 
-  title: "Nommer les liens explicitement."
-  desc: ""
-  category: Contenu
-- 
-  title: "Construire une hiérarchie des titres pertinente."
-  desc: ""
-  category: Contenu
-- 
-  title: "Nommer les fonctionalités de manière cohérente."
-  desc: ""
-  category: Contenu
-- 
-  title: "Donner une alternative textuelle aux images."
-  desc: ""
-  category: Contenu
-- 
-  title: "Constraster les textes."
-  desc: ""
-  category: Couleurs
-- 
-  title: "S'assurer que l’information n'est pas véhiculée uniquement par la couleur."
-  desc: ""
-  category: Couleurs
-- 
-  title: "Designer l'état de focus clavier."
-  desc: ""
-  category: Couleurs
-- 
-  title: "Constraster les éléments d'interfaces."
-  desc: ""
-  category: Couleurs
-- 
-  title: "Nommer chaque champ de formulaire."
-  desc: ""
-  category: Formulaires
-- 
-  title: "Permettre à l'utilisateur de corriger ses erreurs."
-  desc: ""
-  category: Formulaires
-- 
-  title: "Aider à la correction des erreurs."
-  desc: ""
-  category: Formulaires
-- 
-  title: "Proposer une version responsive du service."
-  desc: ""
-  category: Navigation
-- 
-  title: "Proposer des liens d'évitements."
-  desc: ""
-  category: Navigation
-- 
-  title: "Proposer plusieurs moyens de navigations."
-  desc: ""
-  category: Navigation
-- 
-  title: "Rendre les contenus cachés faciles d'accès."
-  desc: ""
-  category: Navigation
-- 
-  title: "S'assurer que la navigation est cohérente."
-  desc: ""
-  category: Navigation
-- 
-  title: "Proposer plusieurs moyens de navigations."
-  desc: ""
-  category: Navigation
-- 
-  title: "Ne pas bloquer l'orientation de l'affichage."
-  desc: ""
-  category: Navigation
-- 
-  title: "Proposer des alternatives aux médias."
-  desc: ""
-  category: Conception
-- 
-  title: "Proposer des zones de touchs assez large."
-  desc: ""
-  category: Conception
-- 
-  title: "Éviter les distractions visuelles."
-  desc: ""
-  category: Conception
-- 
-  title: "Proposer une alternative aux gestes complexes."
-  desc: ""
-  category: Conception
-- 
-  title: "Faciliter les gestes à l'écran."
-  desc: ""
-  category: Conception
-
 
 ----
 
@@ -147,14 +265,6 @@ Ressources:
   title: Accessibility Guidelines Sumarry
   source: The App Business
   url: ""
-
-----
-
-Text:
-
-## ✨ La checkliste du designer
-
-Ces bonnes pratiques sont un point de départ pour concevoir un site ou une application accessible. Cette liste vous aidera à améliorer l’expérience utilisateur des personnes en situation de handicap.
 
 ----
 

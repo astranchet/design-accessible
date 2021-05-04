@@ -12,6 +12,11 @@
 				<li>
 					<h4><?= $item->title() ?></h4>
 					<p><?= $item->desc()->kirbytext() ?></p>
+
+					<?php if ($item->further()->isNotEmpty()): ?>
+						<h5>Pour aller plus loin</h5>
+						<p><?= $item->further()->kirbytext() ?></p>
+					<?php endif ?>
 				</li>
 			<?php endforeach ?>
 			</ul>
