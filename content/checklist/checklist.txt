@@ -6,7 +6,7 @@ Text:
 
 ## ✨ La checkliste du designer
 
-Ces bonnes pratiques sont un point de départ pour concevoir un site ou une application accessible. Cette liste vous aidera à améliorer l’expérience utilisateur des personnes en situation de handicap.
+Cette checkliste est un point de départ pour concevoir un produit accessible. Elle vous aidera à améliorer l’expérience utilisateur des personnes en situation de handicap.
 
 ----
 
@@ -23,7 +23,7 @@ Checklist:
   category: Contenu
 - 
   title: "Faciliter la compréhension rapide d'une page."
-  desc: "Une page accessible peut être parcourue rapidement et facilement. Les gros blocs de textes peuvent sembler intimidant et être long à lire. Les utilisateurs préfèrent des textes courts, organisez à l'aide de sous-titres et de listes."
+  desc: "Une page accessible peut être lue rapidement et facilement. Les gros blocs de textes sont intimidant et long à lire. Les textes courts, organisez à l'aide de titres et de listes sont plus facile à lire."
   further: ""
   category: Contenu
 - 
@@ -40,24 +40,33 @@ Checklist:
   title: >
     Construire une hiérarchie des titres
     pertinente.
-  desc: ""
+  desc: |
+    La hiérarchie des titres permet aux utilisateurs de :
+    - se situer rapidement dans une page
+    - s'assurer d'être au bon endroit.
+    
+    Une bonne hiérarchie de titre est complète (pas de trous entre les titres de niveaux 1, 2, 3...).
   further: '* (link: https://www.accede-web.com/notices/editoriale-modele/utiliser-correctement-la-hierarchie-des-titres/ text: Utiliser correctement la hiérarchie des titres)'
   category: Contenu
 - 
-  title: >
-    Nommer les fonctionalités de manière
-    cohérente.
-  desc: "Les noms des composants et fonctionnalités doivent être cohérents sur tout le parcours utilisateur. Cela rend le service familier et prévisible pour les utilisateurs,  en particulier ceux qui ont des limitations cognitives, des utilisateurs malvoyants, des utilisateurs souffrant de déficiences intellectuelles et des utilisateurs aveugles. Lorsqu'ils apprennent une fonctionnalité sur une page, ils peuvent plus facilement la retrouver sur d'autres pages."
+  title: Rester cohérent sur tout le parcours
+  desc: |
+    Les noms des composants et fonctionnalités doivent être cohérents. Cela rend le service familier et prévisible pour les utilisateurs. Après avoir appris une fonctionnalité, l'utilisateur la retrouve plus facilement ensuite.
+    
+    C'est particulièrement utile pour :
+    * les personnes avec des limitations cognitives
+    * les utilisateurs malvoyants
+    * les utilisateurs aveugles.
   further: '* (link: https://www.accede-web.com/notices/fonctionnelle-graphique/regles-supplementaires-pour-la-conformite/prevoir-des-intitules-identiques-pour-les-champs-dont-la-fonction-est-identique/ text: Prévoir des intitulés identiques pour les champs font la fonction est identique)'
   category: Contenu
 - 
   title: >
-    Donner une alternative textuelle aux
-    images et aux médias.
+    Donner une alternative aux images et aux
+    médias.
   desc: |
-    Les contenus visuels et audio ont besoin d'alternatives textuelles pour que chacun sache ce qui se passe :
-    - Les vidéos ont besoin de sous-titres et de descriptions audio.
-    - Les contenus audio et vidéo ont besoin d'une alternative textuelle comme une transcription.
+    Les contenus visuels et audio ont besoin d'alternatives textuelles. Cela permet à tout le monde d'avoir le même niveau d'information.
+    * Description audio pour les vidéos ;
+    * Sous-titres et/ou transcription pour les contenus audios et vidéos.
   further: |
     * (link: https://www.accede-web.com/notices/editoriale-modele/utiliser-les-images-de-maniere-accessible text: Utiliser les images de manière accessible)
     * (link: https://www.accede-web.com/notices/fonctionnelle-graphique/contenus-riches-et-multimedias/prevoir-un-titre-et-ou-un-resume-pour-chaque-video-et-contenu-audio text: Prévoir un titre ou un résumé pour chaque vidéo et contenu audio)
@@ -65,7 +74,10 @@ Checklist:
   category: Contenu
 - 
   title: Constraster les textes.
-  desc: "Les contrastes entre un texte et son arrière-plan doit être d'au moins 4,5:1. C'est particulièrement utilise pour les personnes malvoyantes. Pour les textes de grandes tailles (plus de 24 px) ou en gras, le contraste peut être de 3:1."
+  desc: |
+    Les contrastes entre un texte et son arrière-plan doit être d'au moins 4,5:1. Pour les textes de grandes tailles (plus de 24 px) ou en gras, le contraste peut être de 3:1.
+    
+    C'est particulièrement utile pour les personnes malvoyantes.
   further: |
     * (link: # text: Voir les outils de contrastes)
     * (link: https://www.accede-web.com/notices/fonctionnelle-graphique/couleurs/assurer-un-contraste-suffisant-entre-les-textes-et-larriere-plan/ text: Assurer un contraste suffisant entre les textes et l'arrière plan)
@@ -74,30 +86,36 @@ Checklist:
   category: Couleurs
 - 
   title: "Constraster les éléments d'interfaces."
-  desc: "Les éléments d'interfaces interactifs comme les boutons, champs de formulaires ou icônes doivent être facilement repérable par un contraste suffisant."
+  desc: |
+    Les éléments d'interfaces interactifs doivent être suffisamment contrastés :
+    * boutons
+    * champs de formulaires
+    * icônes
+    
+    Cela leur permet d'être identifiable plus facilement.
   further: '* (link: https://www.accede-web.com/notices/fonctionnelle-graphique/couleurs/assurer-un-contraste-suffisant-entre-les-elements-graphiques-informatifs-et-interactifs-avec-leur-arriere-plan/ text: Assurer un constraste suffisant entre les éléments graphiques informatifs et interactifs avec leur arrière plan)'
   category: Couleurs
 - 
   title: "S'assurer que l’information n'est pas véhiculée uniquement par la couleur."
   desc: |
-    Utiliser la couleur pour communiquer une information à l'utilisateur est une bonne chose : par exemple, le rouge pour une erreur. Mais la couleur ne doit pas être l'unique moyen de communiquer cette information. Par exemple, pour un champ de formulaire en erreur, on peut coupler l'information avec une icône d'erreur.
+    Utiliser la couleur pour communiquer  une information à l'utilisateur est une bonne chose. Le rouge est souvent utilisé pour indiquer des erreurs par exemple.
+    
+    Mais la couleur ne doit pas être l'unique moyen de communiquer cette information. Par exemple, pour un champ de formulaire en erreur, on peut coupler l'information avec une icône.
+    
     Ainsi, les personnes dont la vision des couleurs est limitée peuvent utiliser l'interface.
   further: "* (link: https://www.accede-web.com/notices/fonctionnelle-graphique/couleurs/assurer-la-comprehension-de-linformation-meme-en-labsence-de-couleurs/ text: Assurer la compréhension de l'information même en absence de couleurs)"
   category: Couleurs
 - 
   title: "Designer les différents états d'un composant"
-  desc: "Les utilisateurs ont besoin naviguant au clavier (ou avec un autre système qu'une souris) doivent voir clairement quel élément de l'interface dispose du focus.  De la même manière que vous concevez les états de passage de la souris, concevez les états de hover."
+  desc: |
+    Les utilisateurs ont besoin d'avoir du feedback sur leurs interactions :
+    * Le focus doit être visible, lors de la navigation au clavier.
+    * Le passage de la souris (hover) sur un élément doit être visible.
   further: "* (link: https://www.24joursdeweb.fr/2017/le-focus-nest-pas-juste-une-astuce/ text: Le focus n'est pas juste une astuce)"
   category: Couleurs
 - 
   title: Nommer chaque champ de formulaire.
-  desc: >
-    Les libellés indiquent clairement
-    comment une personne doit remplir le
-    formulaire. Des conseils
-    supplémentaires peuvent être utile
-    pour éviter les erreurs et guider les
-    utilisateurs.
+  desc: "Le libellé d'un champ permet d'indiquer comment une personne doit le remplir. Parfois, des conseils supplémentaires sont nécessaires pour guider les utilisateurs."
   further: |
     * (link: https://www.accede-web.com/notices/fonctionnelle-graphique/formulaires/prevoir-un-intitule-explicite-pour-chaque-champ-de-formulaire/ text: Prévoir un intitulé explicite pour chaque champ de formulaire)
     * (link: https://www.accede-web.com/notices/fonctionnelle-graphique/formulaires/positionner-chaque-intitule-a-proximite-de-son-champ/ text: Positionner chaque intitulé à proximité de son champ)
@@ -105,7 +123,11 @@ Checklist:
   category: Formulaires
 - 
   title: "Permettre à l'utilisateur de vérifier ses informations"
-  desc: "L'utilisateur doit avoir un moyen de vérifier et corriger les informations saisies avant de les soumettre, en particulier dans le cas de paiement, données personnelles."
+  desc: |
+    L'utilisateur doit pouvoir vérifier et corriger les informations saisies :
+    * paiement en ligne
+    * données personnelles
+    * ...
   further: '* (link: https://design-system.service.gov.uk/patterns/check-answers/ text: Check answers lang: en)'
   category: Formulaires
 - 
@@ -116,14 +138,18 @@ Checklist:
     - Identifiez clairement où se trouve l'erreur.
     - Donnez des suggestions sur la manière de la corriger.
     
-    Les erreurs doivent être détectées uniquement à la validation et pas pendant que la personne est en train de saisir.
+    Les erreurs doivent être détectées à la validation (et pas pendant que la personne est en train de saisir).
   further: |
     * (link: https://www.accede-web.com/notices/fonctionnelle-graphique/formulaires/prevoir-des-messages-derreur-explicites-et-des-suggestions-de-correction/ text: Prévoir des messages d'erreurs explicites et des suggestions de correction)
     * (link: https://adamsilver.io/blog/live-validation-is-problematic/ text: Live validation is problematic)
   category: Formulaires
 - 
   title: Être prédictible.
-  desc: "Modifier l'état d'une entrée de formulaire (comme un bouton radio) ne doit pas provoquer d'événement surprenant, comme l'envoi d'un formulaire, la modification significative du contenu de la page ou le déplacement du focus du clavier."
+  desc: |
+    Remplir un formulaire (par exemple cliquer sur un bouton radio) ne doit pas provoquer d'événements surprenants :
+    * envoi du formulaire
+    * modification du contenu de la page
+    * déplacement du focus du clavier.
   further: ""
   category: Formulaires
 - 
@@ -135,7 +161,14 @@ Checklist:
   title: >
     Proposer une version responsive du
     service.
-  desc: "Les contenus et fonctionnalités du produit doivent être accessible sur un écran d’une largeur de 320px (l'équivalent d'un iPhone 5), sans barre de défilement horizontale."
+  desc: >
+    Le site doit être accessible sur un
+    écran de 320px de large (par ex un
+    iPhone 5), sans barre de défilement
+    horizontale. Les utilisateurs doivent
+    retrouver le même contenu et le même
+    fonctionnalités que sur un grand
+    écran.
   further: '* (link: https://www.accede-web.com/notices/fonctionnelle-graphique/orientation-et-taille-decran/ne-pas-supprimer-de-fonctionnalites-ou-de-contenus-en-vues-responsive/ text: Ne pas supprimer de fonctionnalités ou de contenus en vue responsive)'
   category: Navigation
 - 
@@ -154,7 +187,7 @@ Checklist:
   title: "Faciliter l'accès aux contenus cachés ."
   desc: |
     Les contenus cachés (comme une info-bulle) doivent être facile à accéder :
-    - la zone d'activation doit être suffisament large (pour les personnes ayant des troubles moteurs) ;
+    - la zone d'activation doit être suffisamment large (pour les personnes ayant des troubles moteurs) ;
     - elle doit être accessible au clavier ;
     - elle doit rester visible.
     
