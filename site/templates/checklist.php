@@ -7,17 +7,13 @@
 		<?php foreach ($page->categories()->toStructure() as $category): ?>
 			<h3><?= $category->title() ?></h3>
 
-			<ul>
+			<ul class="last__article-list">
 			<?php foreach ($page->checklist()->toStructure()->filterBy('category', $category->title()) as $item): ?>
-				<li>
-					<h4><?= $item->title() ?></h4>
-					<p><?= $item->desc()->kirbytext() ?></p>
-
-					<?php if ($item->further()->isNotEmpty()): ?>
-						<h5>Pour aller plus loin</h5>
-						<p><?= $item->further()->kirbytext() ?></p>
-					<?php endif ?>
-				</li>
+				<li class="last__article-item">
+    		        <article class="card card--horizontal">
+						<?php snippet('checklist-item', ['item' => $item]) ?>
+		            </article>
+          		</li>
 			<?php endforeach ?>
 			</ul>
 		<?php endforeach ?>
