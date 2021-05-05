@@ -51,8 +51,14 @@
       </ul>
 
       <a href="<?= page('ressources')->url() ?>" class="button button--primary">
-        Explorer les ressources
+        Explorer les ressources →
       </a>
+    </div>
+  </div>
+
+  <div class="nexstep">
+    <div class="container">
+      <p><?= $site->nextstep()->kt() ?></p>
     </div>
   </div>
 
