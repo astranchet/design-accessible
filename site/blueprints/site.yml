@@ -46,6 +46,13 @@ fields:
         label: Lien
         type: url
 
+  nextstepHeading:
+    label: Étape suivante
+    type: headline
+  nextstep:
+    label: Étape suivante
+    type: textarea
+
   newsletterHeading:
     label: Newsletter
     type: headline

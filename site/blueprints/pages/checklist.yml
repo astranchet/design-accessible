@@ -46,7 +46,6 @@ fields:
   ressourcesHeading:
     label: Ressources
     type: headline
-
   ressources:
     label: Ressources
     type: structure
@@ -60,3 +59,10 @@ fields:
       url:
         label: Lien
         type: url
+
+  nextstepHeading:
+    label: Étape suivante
+    type: headline
+  nextstep:
+    label: Étape suivante
+    type: textarea

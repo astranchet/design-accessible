@@ -44,6 +44,13 @@
 			</li>
 		<?php endforeach ?>
 		</ul>
+
+  <div class="nexstep">
+    <div class="container">
+      <p><?= $page->nextstep()->kt() ?></p>
+    </div>
+  </div>
+
   	</div>	
 </div>
 
