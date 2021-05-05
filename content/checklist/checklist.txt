@@ -17,8 +17,7 @@ Checklist:
   desc: >
     Chaque page doit avoir un titre unique
     et utile qui indique le but de la page.
-  further: |
-    * (link: https://www.accede-web.com/notices/html-et-css/titre-de-la-page/renseigner-un-title-precis-sur-chaque-page/ text: Renseigner un title précis sur chaque page)
+  further: '* (link: https://www.accede-web.com/notices/html-et-css/titre-de-la-page/renseigner-un-title-precis-sur-chaque-page/ text: Renseigner un title précis sur chaque page)'
   category: Contenu
 - 
   title: "Faciliter la compréhension rapide d'une page."
@@ -176,50 +175,38 @@ Checklist:
   further: ""
   category: Navigation
 - 
-  title: >
-    Proposer plusieurs moyens de
-    navigations.
-  desc: ""
-  further: ""
-  category: Navigation
-- 
   title: "Faciliter l'accès aux contenus cachés ."
   desc: |
-    Les contenus cachés (comme une info-bulle) doivent être facile à accéder :
-    - la zone d'activation doit être suffisamment large (pour les personnes ayant des troubles moteurs) ;
-    - elle doit être accessible au clavier ;
-    - elle doit rester visible.
+    Les contenus cachés (comme une info-bulle) doivent être facile d'accès :
+    - la zone d'activation doit être suffisamment large ;
+    - le contenu doit être afficheable au clavier ;
+    - le contenu doit rester facilement.
     
-    Le plus souvent, les textes d'info-bulles mériteraient d'être toujours présents 😇.
+    *Note : le plus souvent, les textes d'info-bulles mériteraient d'être toujours présents 😇.*
   further: ""
   category: Navigation
 - 
   title: >
     Proposer plusieurs moyens de
     navigations.
-  desc: >
-    Donnez aux gens différents moyens de
-    trouver chaque page (comme des liens de
-    recherche ou de navigation), à moins
-    que la page ne soit une étape dans un
-    processus.
+  desc: |
+    Les gens pensent différemment. En proposant plusieurs moyens de navigations, on permet à chacun de s'y retrouver facilement. La navigation peut se faire par :
+    - un menu
+    - un plan du site
+    - un moteur de recherche
   further: '* (link: https://www.accede-web.com/notices/fonctionnelle-graphique/navigation/prevoir-au-moins-deux-moyens-de-navigation-parmi-un-menu-principal-un-plan-du-site-et-un-moteur-de-recherche/ text: Prévoir au moins deux moyens de navigation parmi un menu principal, un plan du site et un moteur de recherche)'
   category: Navigation
 - 
   title: "Ne pas bloquer l'orientation de l'affichage."
-  desc: "Certaines personnes ne peuvent pas changer l'orientation de leur support (s'il est fixé à un fauteuil)."
+  desc: "Certaines personnes ne peuvent pas changer l'orientation de leur support. C'est le cas des personnes dont l'appareil est fixé à un fauteuil roulant par exemple."
   further: "* (link: https://www.accede-web.com/notices/fonctionnelle-graphique/orientation-et-taille-decran/ne-pas-brider-la-possibilite-de-changer-lorientation-de-laffichage/ text: Ne pas brider la possibilité de changer l'orientation de l'affichage)"
   category: Navigation
 - 
   title: "Proposer des liens d'évitements"
   desc: |
-    Donnez aux utilisateurs de claviers et de lecteurs d'écran un moyen d'accéder directement au contenu principal de la page.
-    
-    Les personnes qui utilisent la navigation au clavier (ou d'autres moyens de navigation séquentielle) pour parcourir une page rencontrent souvent des listes d'éléments interactifs qu'elles doivent parcourir avant d'arriver au contenu qu'elles souhaitent lire. Le menu de navigation en haut de la page en est un exemple courant.
-    
-    Vous pouvez permettre aux utilisateurs de sauter ces blocs en incluant un "lien de saut" en haut de la page qui renvoie directement au contenu principal. Ce lien peut être masqué par défaut mais doit devenir visible lorsqu'il reçoit le focus du clavier.
-    
-    Cette technique peut également être utilisée pour d'autres composants qui contiennent beaucoup d'éléments interactifs, comme les carrousels.
+    Les personnes qui naviguent au clavier ou via un lecteur d'écran ont besoin de raccourcis pour arriver au contenu qui les intéresse. Des liens d'évitements permettent cela :
+    - sur toutes les pages, pour accéder au contenu ou aux fonctionnalités principales (recherche...)
+    - sur les pages ayant beaucoup de contenu
   further: |
     * (link: https://www.accede-web.com/notices/fonctionnelle-graphique/bonnes-pratiques/prevoir-lapparence-des-liens-devitement/ text: Prévoir l'apparence des liens d'évitements)
     * (link: https://webaim.org/techniques/skipnav/ text: Skipnav hreflang: en)
@@ -229,7 +216,7 @@ Checklist:
     Proposer des zones de touchs assez
     large.
   desc: |
-    Les zones tactiles doivent être suffisament grandes (au moins 44 × 44 pixels) et éloignées les unes des autres.
+    Les zones tactiles doivent être suffisamment grandes (au moins 44 × 44 pixels) et éloignées les unes des autres.
     
     Cela sera utile :
     - aux personnes ayant des troubles moteurs
@@ -242,7 +229,10 @@ Checklist:
   category: Conception
 - 
   title: Éviter les distractions visuelles.
-  desc: "Ne montrez rien qui clignote, défile, s'anime ou se met à jour automatiquement et fréquemment si cela dure plus de 5 secondes. Ou donnez aux gens un moyen de l'arrêter."
+  desc: |
+    Les animations peuvent nuire à la concentration. Les contenus qui clignotent, défilent ou s'animent doivent :
+    - s'arrêter après 5 secondes
+    - pouvoir être stoppés par l'utilisateur.
   further: |
     * (link: https://www.accede-web.com/notices/editoriale-modele/utiliser-correctement-les-contenus-riches-et-multimedias/verifier-la-possibilite-de-mettre-en-pause-les-contenus-en-mouvement/ text: Vérifier la possibilité de mettre en pause les contenus en mouvement)
     * (link: https://www.accede-web.com/notices/fonctionnelle-graphique/contenus-riches-et-multimedias/prevoir-un-moyen-pour-controler-chaque-contenu-anime/ text: Prévoir un moyen pour contrôler chaque contenu animé)
@@ -254,8 +244,11 @@ Checklist:
     Proposer une alternative aux gestes
     complexes.
   desc: |
-    Ne pas exiger des gestes complexes ou l'utilisation de plus d'un doigt pour faire des choses.
-    Les gestes effectués sur un écran tactile doivent être rendus aussi faciles que possible, sans obliger les utilisateurs à s'engager dans une action.
+    Les gestes effectués sur un écran tactile doivent être aussi faciles que possible :
+    - faisable avec un seul doigt
+    - suivre une trajectoire courte et simple
+    
+    Les fonctionnalités activables via des gestes complexes doivent l'être aussi de manière alternative.
   further: ""
   category: Conception
 
