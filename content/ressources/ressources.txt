@@ -10,7 +10,9 @@ Ressources:
 	url: >
 		https://www.lalutineduweb.fr/ecriture-inclusive-accessibilite-numerique-jetdv2020/
 	source: Julie Moynat
+	description: État des lieux des différentes outils d'écriture inclusive et de leur impact sur l'accessibilité.
 	lang: fr
+	phase: Conception
 	type: Article
 	thematique: Écriture inclusive, Contenu
 	date: 2021-01-14
@@ -19,8 +21,10 @@ Ressources:
 	url: >
 		https://t.co/N8pdHaRs0Q?amp=1
 	source: Vincent Valentin
+	description: Sensibilisation à l'accessibilité.
 	lang: fr
 	type: PDF
+	thematique: Sensibilisation
 	date: 2020-10-02
 -
 	title: "Contrast Checker"
@@ -46,8 +50,10 @@ Ressources:
 	url: >
 		https://aveuglesdefrance.org/tout-savoir-avec-labc-de-laccessibilite-numerique/
 	source: Fédération des Aveugles de France 
+	description: Bases de l'accessibilité : principes fondamentaux, chiffres et conseils concrets pour faire du numérique accessible.
 	lang: fr
 	type: PDF
+	thematique: Étude, Sensibilisation
 	date: 2020-10-02
 -
 	title: " How we made GOV.UK more accessible"
@@ -57,12 +63,14 @@ Ressources:
 	description: Retour d'expérience de classification et priorisations des problèmes d'accessibilité.
 	lang: en
 	type: Article
+	thematique: Méthodologie
 	date: 2021-01-14
 -
 	title: "Concevoir des sites et applications mobiles accessibles"
 	url: >
 		https://blog.hello-bokeh.fr/2021/01/14/concevoir-des-sites-et-applications-mobiles-accessibles/
 	source: Anne-Sophie Tranchet
+	description: Bonnes pratiques d'accessibilité adaptées aux applications mobiles.
 	lang: fr
 	phase: Conception
 	type: Article
@@ -153,6 +161,7 @@ Ressources:
 	lang: en
 	phase: Conception
 	type: Article
+	thematique: Notifications, Contenu
 	date: 2021-02-27
 -
 	title: "Illustrer la diversité et l’inclusion pour l’application Alerte COVID"
@@ -217,6 +226,7 @@ Ressources:
 	url: >
 		https://almanac.httparchive.org/en/2020/accessibility
 	source: HTTP Archive
+	description: Analyse des tendances du web en accessibilité en 2020. facilité de lecture, médias, navigation, technologies d'assistances et formulaires : quel est l'état du Web aujourd'hui ?
 	lang: en
 	type: Article
 	thematique: Étude
@@ -258,6 +268,7 @@ Ressources:
 	lang: en
 	phase: Conception
 	type: Article
+	thematique: Retour d'expérience
 	date: 2021-02-27
 -
 	title: "Accessibility for UX and UI Designers"
@@ -309,7 +320,9 @@ Ressources:
 	url: >
 		https://uxdesign.cc/golden-microcopy-helping-older-users-use-your-product-f0f1b173aa3e
 	source: Michal Halperin Ben Zvi et Kinneret Yifrah
+	description: Bonnes pratiques de rédaction de contenu pour les personnes âgées.
 	lang: en
+	phase: Conception
 	type: Article
 	thematique: Contenu
 	date: 2021-01-14
@@ -368,15 +381,6 @@ Ressources:
 	thematique: Sensibilisation
 	date: 2021-02-27
 -
-	title: " Digital typography and accessibility"
-	url: >
-		https://ux.christmas/2020/7
-	source: Ragnhild Finsveen Liven
-	lang: en
-	type: Article
-	thematique: Typographie
-	date: 2021-01-14
--
 	title: "Design d’interfaces accessibles : UX, UI, multimédia"
 	url: >
 		https://formations.access42.net/formations/design-dinterfaces-accessibles-ux-ui-multimedia/
@@ -390,6 +394,7 @@ Ressources:
 	source: Laura Kalbag
 	lang: en
 	type: Livre
+	thematique: Sensibilisation
 -
 	title: "What is your favorite one sentence definition of digital accessibility? "
 	url: >
@@ -431,18 +436,22 @@ Ressources:
 	url: >
 		https://www.smashingmagazine.com/2020/11/weaving-web-accessibility-usability/
 	source: Uri Paz
+	description: Retour d'expérience sur la différence entre accessibilité et usabilité et de l'intérêt de faire des tests utilisateurs avec des personnes concernées.
 	lang: en
 	phase: Recherche
 	type: Article
+	thematique: Technologie d'assistance, Retour d'expérience
 	date: 2021-01-14
 -
 	title: " A Comprehensive Guide to Accessible User Research: Part 1 – Project Planning"
 	url: >
 		https://dscout.com/people-nerds/accessible-user-research-1
 	source: DScout
+	description: Conseils pour planifier de la recherche utilisateur avec des personnes en situation de handicap.
 	lang: en
 	phase: Recherche
 	type: Article
+	thematique: Méthodologie
 	date: 2021-01-14
 -
 	title: "A11Y Websites"
@@ -467,6 +476,7 @@ Ressources:
 	url: >
 		https://www.24joursdeweb.fr/2020/30-ans-de-web-mais-toujours-pas-d-accessibilite/
 	source: Arthur Rigaud
+	description: Retour sur les obstacles à l'accessibilité les plus fréquents.
 	lang: fr
 	type: Article
 	thematique: Étude
@@ -484,9 +494,11 @@ Ressources:
 	url: >
 		https://twitter.com/ericwbailey/status/1351243179060768778?s=20
 	source: Eric Bailey
+	description: Analyse des erreurs d'accessibilité les plus évidentes sur des sites récompensés pour leur esthétique.
 	lang: en
 	phase: Conception
 	type: Thread Twitter
+	thematique: Design
 	date: 2021-02-27
 -
 	title: "Stark Public Library"
@@ -529,6 +541,7 @@ Ressources:
 	url: >
 		https://twitter.com/FrankElavsky/status/1351311898428362754?s=20
 	source: Frank Elaksvy
+	description: Plaidoyer pour considérer des handicaps plus fréquents que le daltonisme.
 	lang: en
 	phase: Conception
 	type: Thread Twitter
@@ -550,10 +563,11 @@ Ressources:
 	url: >
 		https://fr.wordpress.org/2020/11/26/wordpress-5-6-des-changements-visant-a-ameliorer-linclusivite-de-linterface-dadministration/
 	source: l'équipe de traduction de Wordpress
+	description: Retour d'expérience sur la refonte de l'interface de Wordpress pour une écriture épicène.
 	lang: fr
 	phase: Conception
 	type: Article
-	thematique: Écriture inclusive, Contenu
+	thematique: Écriture inclusive, Contenu, Retour d'expérience
 	date: 2021-01-14
 -
 	title: "Introduction to Web Accessibility"
@@ -608,7 +622,7 @@ Ressources:
 	lang: fr
 	phase: Conception
 	type: Article
-	thematique: Retour d'expérience
+	thematique: Retour d'expérience, Méthodologie
 	date: 2021-01-14
 -
 	title: "Cards for Humanity"
@@ -644,15 +658,6 @@ Ressources:
 	lang: fr
 	type: Ressource
 	date: 2020-10-02
--
-	title: "Content & Tone"
-	url: >
-		https://kittygiraudel.com/2020/12/01/a11y-advent-calendar/#day-20-content-tone
-	source: Kitty Giraudel
-	lang: en
-	type: Article
-	thematique: Contenu
-	date: 2021-01-14
 -
 	title: "Which accessibility settings do the Dutch really use on their phone? "
 	url: >
