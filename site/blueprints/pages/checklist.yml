@@ -1,0 +1,62 @@
+title: Checklist
+preset: pages
+icon: ✅
+
+fields:
+  headerHeading:
+    label: Entête
+    type: headline
+
+  text:
+    label: Introduction
+    type: textarea
+
+  checklisteHeading:
+    label: Checklist
+    type: headline
+  checklist:
+    label: Checklist
+    type: structure
+    fields:
+      title:
+        label: Titre
+        type: text
+      desc:
+        label: Description
+        type: textarea
+      further:
+        label: Pour aller plus loin
+        type: textarea
+      category:
+        label: Catégorie
+        type: select
+        options: query
+        query: 
+          fetch: page.categories.toStructure
+          text: "{{ structureItem.title }}"
+          value: "{{ structureItem.title }}"
+  categories:
+    label: Catégories
+    type: structure
+    fields:
+      title: 
+        label: Titre
+        type: text
+
+  ressourcesHeading:
+    label: Ressources
+    type: headline
+
+  ressources:
+    label: Ressources
+    type: structure
+    fields:
+      title:
+        label: Titre
+        type: text
+      source:
+        label: Source
+        type: text
+      url:
+        label: Lien
+        type: url

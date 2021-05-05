@@ -1,0 +1,11 @@
+a::after {
+    opacity: .5;
+}
+
+a[hreflang]::after {
+    content: "\0000a0[" attr(hreflang) "]";
+    font-weight: normal;
+}
+
+
+

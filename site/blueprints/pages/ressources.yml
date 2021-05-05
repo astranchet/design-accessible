@@ -1,5 +1,5 @@
 title: Ressources
-icon: 📂
+icon: ✨
 
 fields:
   text:
@@ -19,6 +19,9 @@ fields:
       url:
         label: Lien
         type: url
+      date:
+        label: Date
+        type: date
       type:
         label: Type de ressource
         type: select
