@@ -19,7 +19,6 @@ Checklist:
     et utile qui indique le but de la page.
   further: |
     * (link: https://www.accede-web.com/notices/html-et-css/titre-de-la-page/renseigner-un-title-precis-sur-chaque-page/ text: Renseigner un title précis sur chaque page)
-    * (link: https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-title.html text: Mécanisme de navigation au clavier lang: en)
   category: Contenu
 - 
   title: "Faciliter la compréhension rapide d'une page."
@@ -33,8 +32,8 @@ Checklist:
     * (link: https://www.accede-web.com/notices/fonctionnelle-graphique/formulaires/prevoir-un-intitule-explicite-pour-chaque-bouton-de-formulaire/ text: Prévoir un intitulé explicite pour chaque bouton de formulaire)
     * (link: https://www.accede-web.com/notices/editoriale-modele/ecrire-des-liens-de-maniere-accessible/rediger-des-intitules-de-liens-explicites/ text: Rédiger des intitulés de liens explicites)
     * (link: https://www.accede-web.com/notices/editoriale-modele/ecrire-des-liens-de-maniere-accessible/savoir-utiliser-les-titres-de-liens-en-dernier-recours/ text: Savoir utiliser les titres de liens en dernier recours)
-    * (link: https://www.smashingmagazine.com/2012/06/links-should-never-say-click-here/ text: Links should never say click here lang: en)
-    * (link: https://www.nngroup.com/articles/writing-links/ text: Writing links lang: en)
+    * (link: https://www.smashingmagazine.com/2012/06/links-should-never-say-click-here/ text: Links should never say click here hreflang: en)
+    * (link: https://www.nngroup.com/articles/writing-links/ text: Writing links hreflang: en)
   category: Contenu
 - 
   title: >
@@ -70,7 +69,7 @@ Checklist:
   further: |
     * (link: https://www.accede-web.com/notices/editoriale-modele/utiliser-les-images-de-maniere-accessible text: Utiliser les images de manière accessible)
     * (link: https://www.accede-web.com/notices/fonctionnelle-graphique/contenus-riches-et-multimedias/prevoir-un-titre-et-ou-un-resume-pour-chaque-video-et-contenu-audio text: Prévoir un titre ou un résumé pour chaque vidéo et contenu audio)
-    * (link: https://www.a11yproject.com/posts/2013-01-14-alt-text text: Alt text lang: en)
+    * (link: https://www.a11yproject.com/posts/2013-01-14-alt-text text: Alt text hreflang: en)
   category: Contenu
 - 
   title: Constraster les textes.
@@ -81,8 +80,8 @@ Checklist:
   further: |
     * (link: # text: Voir les outils de contrastes)
     * (link: https://www.accede-web.com/notices/fonctionnelle-graphique/couleurs/assurer-un-contraste-suffisant-entre-les-textes-et-larriere-plan/ text: Assurer un contraste suffisant entre les textes et l'arrière plan)
-    * (link: https://24ways.org/2015/designing-with-contrast/ text: Designing with contrast lang: en)
-    * (link: https://www.a11yproject.com/posts/2013-01-22-check-contrast-with-mobile-device/ text: Check constrast with mobile device lang: en)
+    * (link: https://24ways.org/2015/designing-with-contrast/ text: Designing with contrast hreflang: en)
+    * (link: https://www.a11yproject.com/posts/2013-01-22-check-contrast-with-mobile-device/ text: Check constrast with mobile device hreflang: en)
   category: Couleurs
 - 
   title: "Constraster les éléments d'interfaces."
@@ -119,7 +118,7 @@ Checklist:
   further: |
     * (link: https://www.accede-web.com/notices/fonctionnelle-graphique/formulaires/prevoir-un-intitule-explicite-pour-chaque-champ-de-formulaire/ text: Prévoir un intitulé explicite pour chaque champ de formulaire)
     * (link: https://www.accede-web.com/notices/fonctionnelle-graphique/formulaires/positionner-chaque-intitule-a-proximite-de-son-champ/ text: Positionner chaque intitulé à proximité de son champ)
-    * (link: https://adamsilver.io/blog/always-use-a-label/ text: Always use a label)
+    * (link: https://adamsilver.io/blog/always-use-a-label/ text: Always use a label hreflang: en)
   category: Formulaires
 - 
   title: "Permettre à l'utilisateur de vérifier ses informations"
@@ -128,7 +127,7 @@ Checklist:
     * paiement en ligne
     * données personnelles
     * ...
-  further: '* (link: https://design-system.service.gov.uk/patterns/check-answers/ text: Check answers lang: en)'
+  further: '* (link: https://design-system.service.gov.uk/patterns/check-answers/ text: Check answers hreflang: en)'
   category: Formulaires
 - 
   title: Aider à la correction des erreurs.
@@ -141,7 +140,7 @@ Checklist:
     Les erreurs doivent être détectées à la validation (et pas pendant que la personne est en train de saisir).
   further: |
     * (link: https://www.accede-web.com/notices/fonctionnelle-graphique/formulaires/prevoir-des-messages-derreur-explicites-et-des-suggestions-de-correction/ text: Prévoir des messages d'erreurs explicites et des suggestions de correction)
-    * (link: https://adamsilver.io/blog/live-validation-is-problematic/ text: Live validation is problematic)
+    * (link: https://adamsilver.io/blog/live-validation-is-problematic/ text: Live validation is problematic hreflang: en)
   category: Formulaires
 - 
   title: Être prédictible.
@@ -223,7 +222,7 @@ Checklist:
     Cette technique peut également être utilisée pour d'autres composants qui contiennent beaucoup d'éléments interactifs, comme les carrousels.
   further: |
     * (link: https://www.accede-web.com/notices/fonctionnelle-graphique/bonnes-pratiques/prevoir-lapparence-des-liens-devitement/ text: Prévoir l'apparence des liens d'évitements)
-    * (link: https://webaim.org/techniques/skipnav/ text: Skipnav )
+    * (link: https://webaim.org/techniques/skipnav/ text: Skipnav hreflang: en)
   category: Navigation
 - 
   title: >
@@ -238,8 +237,8 @@ Checklist:
     - faible vision
   further: |
     * (link: https://www.24joursdeweb.fr/2019/et-tu-cliques-a-cote-du-bouton/ text: Et tu cliques à côté du bouton !)
-    * (link: https://www.smashingmagazine.com/2012/02/finger-friendly-design-ideal-mobile-touchscreen-target-sizes/ text: Finger-Friendly Design: Ideal Mobile Touchscreen Target Sizes lang: en)
-    * (link: https://www.a11yproject.com/posts/2018-11-21-large-touch-targets/ text: Large touch targets lang: en)
+    * (link: https://www.smashingmagazine.com/2012/02/finger-friendly-design-ideal-mobile-touchscreen-target-sizes/ text: Finger-Friendly Design: Ideal Mobile Touchscreen Target Sizes hreflang: en)
+    * (link: https://www.a11yproject.com/posts/2018-11-21-large-touch-targets/ text: Large touch targets hreflang: en)
   category: Conception
 - 
   title: Éviter les distractions visuelles.
@@ -247,8 +246,8 @@ Checklist:
   further: |
     * (link: https://www.accede-web.com/notices/editoriale-modele/utiliser-correctement-les-contenus-riches-et-multimedias/verifier-la-possibilite-de-mettre-en-pause-les-contenus-en-mouvement/ text: Vérifier la possibilité de mettre en pause les contenus en mouvement)
     * (link: https://www.accede-web.com/notices/fonctionnelle-graphique/contenus-riches-et-multimedias/prevoir-un-moyen-pour-controler-chaque-contenu-anime/ text: Prévoir un moyen pour contrôler chaque contenu animé)
-    * (link: https://www.w3.org/WAI/tutorials/carousels/ text: Carousels lang: en)
-    * (link: https://www.a11yproject.com/posts/2020-12-22-design-accessible-animation/ text: Design accessible animations lang: en)
+    * (link: https://www.w3.org/WAI/tutorials/carousels/ text: Carousels hreflang: en)
+    * (link: https://www.a11yproject.com/posts/2020-12-22-design-accessible-animation/ text: Design accessible animations hreflang: en)
   category: Conception
 - 
   title: >

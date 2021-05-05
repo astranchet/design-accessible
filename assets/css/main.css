@@ -603,6 +603,13 @@ body {
   text-size-adjust: 100%;
   text-rendering: optimizeLegibility; }
 
+a::after {
+  opacity: .5; }
+
+a[hreflang]::after {
+  content: " [" attr(hreflang) "]";
+  font-weight: normal; }
+
 .blockquote {
   background: var(--green-light);
   border-radius: 1.6rem;
