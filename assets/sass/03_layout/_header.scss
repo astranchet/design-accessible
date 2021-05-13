@@ -78,12 +78,26 @@ header {
 
 .header__main {
   background: url(../img/Illustration-header.png) no-repeat center right;
+  min-height: 33rem;
+
+  @include desktop-xs {
+    padding: $space-6;
+  }
+
+  @include tablet {
+    background: none;
+  }
+
+  @include tablet-xs {
+    min-height: auto;
+  }
+}
+
+.header__main--homepage {
   min-height: 44.5rem;
 
   @include tablet-xs {
-    background: none;
     min-height: auto;
-    padding: $space-6;
   }
 }
 
@@ -91,6 +105,14 @@ header {
   display: flex;
   flex-direction: column;
   min-height: inherit;
+  padding: $space-10 0;
+
+  @include tablet-xs {
+    padding: 0;
+  }
+}
+
+.header__main--homepage > .container {
   padding-top: 9rem;
   padding-bottom: 15rem;
 

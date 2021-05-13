@@ -1033,13 +1033,30 @@ header {
 
 .header__main {
   background: url(../img/Illustration-header.png) no-repeat center right;
-  min-height: 44.5rem;
+  min-height: 33rem;
+}
+@media screen and (max-width: 74.9375em) {
+  .header__main {
+    padding: 2.4rem;
+  }
+}
+@media screen and (max-width: 64em) {
+  .header__main {
+    background: none;
+  }
 }
 @media screen and (max-width: 47.9375em) {
   .header__main {
-    background: none;
     min-height: auto;
-    padding: 2.4rem;
+  }
+}
+
+.header__main--homepage {
+  min-height: 44.5rem;
+}
+@media screen and (max-width: 47.9375em) {
+  .header__main--homepage {
+    min-height: auto;
   }
 }
 
@@ -1047,11 +1064,20 @@ header {
   display: flex;
   flex-direction: column;
   min-height: inherit;
+  padding: 6.4rem 0;
+}
+@media screen and (max-width: 47.9375em) {
+  .header__main > .container {
+    padding: 0;
+  }
+}
+
+.header__main--homepage > .container {
   padding-top: 9rem;
   padding-bottom: 15rem;
 }
 @media screen and (max-width: 47.9375em) {
-  .header__main > .container {
+  .header__main--homepage > .container {
     padding: 0;
   }
 }

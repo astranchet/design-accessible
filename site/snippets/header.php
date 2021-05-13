@@ -47,7 +47,7 @@
             </nav>
           </div>
         </div>
-        <div class="header__main">
+        <div class="header__main <?php if ($page->isHomePage()): ?>header__main--homepage<?php endif; ?>">
           <div class="container">
             <h1 class="header__title">
               <?= $site->heading()->kirbytextinline() ?>
