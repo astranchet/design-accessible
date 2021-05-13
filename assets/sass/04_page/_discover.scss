@@ -1,0 +1,15 @@
+.discover__title {
+
+}
+
+.discover__grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -$space-4;
+  margin-right: -$space-4;
+}
+
+.discover__grid .card {
+  margin: $space-4;
+  width: calc(100% / 4 - #{$space-4} * 2);
+}

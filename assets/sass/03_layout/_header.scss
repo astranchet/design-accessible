@@ -81,7 +81,7 @@ header {
   min-height: 33rem;
 
   @include desktop-xs {
-    padding: $space-6;
+    padding: $space-6 2rem;
   }
 
   @include tablet {
@@ -105,7 +105,7 @@ header {
   display: flex;
   flex-direction: column;
   min-height: inherit;
-  padding: $space-10 0;
+  padding: $space-10 2rem;
 
   @include tablet-xs {
     padding: 0;

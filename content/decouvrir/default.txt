@@ -16,7 +16,7 @@ Text:
 
 Rendre un site accessible signifie s’assurer qu’il peut être utilisé par le plus grand nombre ; en particulier les personnes en situation de handicap.
 
-<div>
+<div class="discover__grid">
 (card: Solène est aveugle de naissance. desc: Elle est habituée des technologies et maîtrise les lecteurs d'écrans de son ordinateur et de son smartphone.)
 (card: Philippe est atteint d’arthrose. desc: Il utilise beaucoup les commandes vocales pour naviguer ; et parfois le clavier, qui lui est moins douloureux que la souris.)
 (card: Brigitte est mal voyante. desc: Grâce à la loupe d'écran, elle peut naviguer sur Internet, à condition que l'interface ne soit pas trop complexe.)

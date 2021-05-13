@@ -1037,7 +1037,7 @@ header {
 }
 @media screen and (max-width: 74.9375em) {
   .header__main {
-    padding: 2.4rem;
+    padding: 2.4rem 2rem;
   }
 }
 @media screen and (max-width: 64em) {
@@ -1064,7 +1064,7 @@ header {
   display: flex;
   flex-direction: column;
   min-height: inherit;
-  padding: 6.4rem 0;
+  padding: 6.4rem 2rem;
 }
 @media screen and (max-width: 47.9375em) {
   .header__main > .container {
@@ -1110,6 +1110,18 @@ header {
   .header__subtitle {
     font-size: 1.8rem;
   }
+}
+
+.discover__grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -1.2rem;
+  margin-right: -1.2rem;
+}
+
+.discover__grid .card {
+  margin: 1.2rem;
+  width: calc(100% / 4 - 1.2rem * 2);
 }
 
 @media screen and (max-width: 47.9375em) {
