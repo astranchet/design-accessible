@@ -7,9 +7,27 @@
   flex-wrap: wrap;
   margin-left: -$space-4;
   margin-right: -$space-4;
+
+  @include mobile {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
 .discover__grid .card {
   margin: $space-4;
   width: calc(100% / 4 - #{$space-4} * 2);
+
+  @include desktop-xs {
+    width: calc(100% / 3 - #{$space-4} * 2);
+  }
+
+  @include tablet {
+    width: calc(100% / 2 - #{$space-4} * 2);
+  }
+
+  @include mobile {
+    margin: $space-4 0;
+    width: 100%;
+  }
 }

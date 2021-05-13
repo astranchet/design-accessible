@@ -1118,10 +1118,32 @@ header {
   margin-left: -1.2rem;
   margin-right: -1.2rem;
 }
+@media screen and (max-width: 35.3125em) {
+  .discover__grid {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
 
 .discover__grid .card {
   margin: 1.2rem;
   width: calc(100% / 4 - 1.2rem * 2);
+}
+@media screen and (max-width: 74.9375em) {
+  .discover__grid .card {
+    width: calc(100% / 3 - 1.2rem * 2);
+  }
+}
+@media screen and (max-width: 64em) {
+  .discover__grid .card {
+    width: calc(100% / 2 - 1.2rem * 2);
+  }
+}
+@media screen and (max-width: 35.3125em) {
+  .discover__grid .card {
+    margin: 1.2rem 0;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 47.9375em) {
