@@ -45,7 +45,7 @@
 		<?php endforeach ?>
 		</ul>
 
-  <div class="nexstep">
+  <div class="next-step">
     <div class="container">
       <p><?= $page->nextstep()->kt() ?></p>
     </div>

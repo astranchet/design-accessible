@@ -50,13 +50,15 @@
         <?php endforeach ?>
       </ul>
 
-      <a href="<?= page('ressources')->url() ?>" class="button button--primary">
-        Explorer les ressources →
-      </a>
+      <div class="last__article-action">
+        <a href="<?= page('ressources')->url() ?>" class="button button--primary">
+          Explorer les ressources →
+        </a>
+      </div>
     </div>
   </div>
 
-  <div class="nexstep">
+  <div class="next-step">
     <div class="container">
       <p><?= $site->nextstep()->kt() ?></p>
     </div>

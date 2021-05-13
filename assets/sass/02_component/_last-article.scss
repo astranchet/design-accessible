@@ -6,6 +6,10 @@
 .last__article-title {
   font-size: 3.6rem;
   font-weight: normal;
+
+  @include tablet-xs {
+    font-size: 2.4rem;
+  }
 }
 
 .last__article-list {
@@ -15,4 +19,11 @@
 
 .last__article-item {
   margin-bottom: $space-6;
+}
+
+.last__article-action {
+
+  @include tablet-xs {
+    text-align: center;
+  }
 }

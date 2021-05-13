@@ -12,7 +12,8 @@
   text-decoration: none;
 }
 
-.button--primary, .button--primary-alt {
+.button--primary, 
+.button--alt {
   background-color: var(--green-dark);
   color: var(--white);
 
@@ -26,6 +27,10 @@
   }
 }
 
-.button--primary-alt {
+.button--alt {
   background-color: var(--purple-dark);
+}
+
+.button--third {
+  background-color: var(--yellow-bright);
 }

@@ -80,7 +80,7 @@ Nextstep:
 Qui sont les personnes concernées par l’accessibilité numérique ?
 Quelles barrières peuvent-elles rencontrées sur le web ?
 
-(link: /decouvrir text: Comprendre l'accessibilité class: button button--primary)
+(link: /decouvrir text: Comprendre l'accessibilité class: button button--third)
 
 ----
 
@@ -90,7 +90,7 @@ Suscribe:
 
 Recevez chaque mois une sélection de liens pour **concevoir des sites et applications accessibles et inclusifs**.
 
-(link: https://tinyletter.com/annso text: S'abonner à la newsletter class: button button--primary-alt)
+(link: https://tinyletter.com/annso text: S'abonner à la newsletter class: button button--alt)
 
 ----
 

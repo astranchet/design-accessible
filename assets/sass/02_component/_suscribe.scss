@@ -4,5 +4,15 @@
 
   @include tablet-xs {
     background: linear-gradient(180deg, var(--purple-light) 0%, rgba(251, 248, 252, 0) 100%);
+    padding: $space-6;
+    text-align: center;
+  }
+}
+
+.suscribe h2 {
+  font-size: 3.6rem;
+
+  @include tablet-xs {
+    font-size: 2.4rem;
   }
 }

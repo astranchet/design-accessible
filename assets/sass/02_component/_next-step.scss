@@ -1,0 +1,17 @@
+.next-step {
+  background-color: var(--yellow-light);
+  padding: $space-9 0;
+
+  @include tablet-xs {
+    padding: $space-6;
+    text-align: center;
+  }
+}
+
+.next-step h2 {
+  font-size: 3.6rem;
+
+  @include tablet-xs {
+    font-size: 2.4rem;
+  }
+}

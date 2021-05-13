@@ -5,12 +5,22 @@ header {
 .header__top {
   background: var(--green-dark);
   font-size: 1.8rem;
+
+  @include tablet-xs {
+    padding: $space-5 0;
+  }
 }
 
 .header__top > .container {
   display: flex;
   justify-content: space-between;
   min-height: $header-height;
+
+  @include tablet-xs {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 .header__top a {
@@ -41,6 +51,10 @@ header {
 .header__menu {
   display: flex;
   min-height: 100%;
+
+  @include tablet-xs {
+    margin-top: $space-5;
+  }
 }
 
 .header__menu li {
@@ -68,6 +82,8 @@ header {
 
   @include tablet-xs {
     background: none;
+    min-height: auto;
+    padding: $space-6;
   }
 }
 
@@ -77,6 +93,10 @@ header {
   min-height: inherit;
   padding-top: 9rem;
   padding-bottom: 15rem;
+
+  @include tablet-xs {
+    padding: 0;
+  }
 }
 
 .header__title,
@@ -92,9 +112,17 @@ header {
 .header__title {
   font-size: 4.8rem;
   line-height: 1.2;
+
+  @include tablet-xs {
+    font-size: 3.6rem;
+  }
 }
 
 .header__subtitle {
   font-size: 2.4rem;
   line-height: 1.5;
+
+  @include tablet-xs {
+    font-size: 1.8rem;
+  }
 }

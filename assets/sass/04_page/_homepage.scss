@@ -1,12 +1,32 @@
-.homepage .blockquote {
-  margin-top: -13rem;
-  margin-bottom: 6rem;
-}
+.homepage {
 
-.homepage .intro__title {
-  margin-bottom: 1rem;
-}
+  .quote {
 
-.homepage .list__link {
-  margin-top: 2rem;
+    > .container {
+  
+      @include tablet-xs {
+        padding: 0;
+      }
+    }
+  }
+
+  .blockquote {
+    min-height: 16rem;
+    margin-top: -13rem;
+    margin-bottom: 6rem;
+  
+    @include tablet-xs {
+      border-radius: 0;
+      margin: 0;
+      min-height: auto;
+    }
+  }
+
+  .intro__title {
+    margin-bottom: 1rem;
+  }
+
+  .list__link {
+    margin-top: 2rem;
+  }  
 }
