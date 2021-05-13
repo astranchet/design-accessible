@@ -1,4 +1,8 @@
 .suscribe {
-  background: linear-gradient(180deg, var(--purple-light) 0%, rgba(251, 248, 252, 0) 100%);
+  background: url(../img/Illustration-newsletter.png) no-repeat center right, linear-gradient(180deg, var(--purple-light) 0%, rgba(251, 248, 252, 0) 100%);
   padding: $space-9 0;
+
+  @include tablet-xs {
+    background: linear-gradient(180deg, var(--purple-light) 0%, rgba(251, 248, 252, 0) 100%);
+  }
 }

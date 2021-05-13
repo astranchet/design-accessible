@@ -63,7 +63,12 @@ header {
 }
 
 .header__main {
+  background: url(../img/Illustration-header.png) no-repeat center right;
   min-height: 44.5rem;
+
+  @include tablet-xs {
+    background: none;
+  }
 }
 
 .header__main > .container {
