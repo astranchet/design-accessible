@@ -10,18 +10,18 @@ Ressources:
 	url: >
 		https://www.lalutineduweb.fr/ecriture-inclusive-accessibilite-numerique-jetdv2020/
 	source: Julie Moynat
-	description: État des lieux des différentes outils d'écriture inclusive et de leur impact sur l'accessibilité.
+	description: "État des lieux des différentes outils d'écriture inclusive et de leur impact sur l'accessibilité."
 	lang: fr
 	phase: Conception
 	type: Article
-	thematique: Écriture inclusive, Contenu
+	thematique: Écriture inclusive, UX Writing
 	date: 2021-01-14
 -
 	title: "Le handicap, tout un symbole."
 	url: >
 		https://t.co/N8pdHaRs0Q?amp=1
 	source: Vincent Valentin
-	description: Sensibilisation à l'accessibilité.
+	description: "Sensibilisation à l'accessibilité."
 	lang: fr
 	type: PDF
 	thematique: Sensibilisation
@@ -35,15 +35,14 @@ Ressources:
 	thematique: Couleurs
 	date: 2020-12-05
 -
-	title: "Français simplifié"
-	url: >
-		https://blog.hello-bokeh.fr/2021/03/03/francais-simplifie/
+	title: Français simplifié
+	url: https://blog.hello-bokeh.fr/2021/03/03/francais-simplifie/
 	source: Anne-Sophie Tranchet
-	description: Présentation du français simplifié, pour produire du contenu adaptés aux personnes avec des difficultés de communication ou de compréhension.
+	description: "Présentation du français simplifié, pour produire du contenu adaptés aux personnes avec des difficultés de communication ou de compréhension."
 	lang: fr
 	phase: Conception
 	type: Article
-	thematique: Contenu
+	thematique: UX Writing
 	date: 2021-02-27
 -
 	title: "L'ABC de l'accessibilité numérique"
@@ -60,7 +59,7 @@ Ressources:
 	url: >
 		https://accessibility.blog.gov.uk/2020/12/17/how-we-made-gov-uk-more-accessible/
 	source: Gouvernement britannique
-	description: Retour d'expérience de classification et priorisations des problèmes d'accessibilité.
+	description: "Retour d'expérience de classification et priorisations des problèmes d'accessibilité."
 	lang: en
 	type: Article
 	thematique: Méthodologie
@@ -70,11 +69,11 @@ Ressources:
 	url: >
 		https://blog.hello-bokeh.fr/2021/01/14/concevoir-des-sites-et-applications-mobiles-accessibles/
 	source: Anne-Sophie Tranchet
-	description: Bonnes pratiques d'accessibilité adaptées aux applications mobiles.
+	description: "Bonnes pratiques d'accessibilité adaptées aux applications mobiles."
 	lang: fr
 	phase: Conception
 	type: Article
-	thematique: Appli mobile
+	thematique: Mobile
 	date: 2021-01-14
 -
 	title: "Le design par les extrêmes users ou comment le handicap inspire l’innovation"
@@ -97,7 +96,7 @@ Ressources:
 	url: >
 		https://twitter.com/feather/status/1360308876026007558?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed&ref_url=notion%3A%2F%2Fwww.notion.so%2Fhellobokeh%2Ff7bfb9d28dc84f44a4af67feecb79058%3Fv%3Dcaa3e30608e5445e868db7da7137bb90%26p%3D5ab3af3aa5ad4ce5b81386a38bdc25f6
 	source: Derek Featherstone
-	description: Idées pour mener des tests utilisateurs auprès de personnes en situation de handicap à l'étape du prototype.
+	description: "Idées pour mener des tests utilisateurs auprès de personnes en situation de handicap à l'étape du prototype."
 	lang: en
 	phase: Conception,Tests
 	type: Thread Twitter
@@ -109,26 +108,26 @@ Ressources:
 		https://alt-text-as-poetry.net/
 	lang: en
 	type: Article
-	thematique: Contenu
+	thematique: UX Writing
 	date: 2020-11-04
 -
 	title: "How to write inclusive, accessible digital products "
 	url: >
 		https://uxdesign.cc/how-to-write-inclusive-accessible-digital-products-2f4b35ec59a2
 	source: Nick DiLallo
-	description: Bonnes pratiques pour rédiger du contenu d'interface accessible.
-
+	description: "Bonnes pratiques pour rédiger du contenu d'interface accessible.
+"
 	lang: en
 	phase: Conception
 	type: Article
-	thematique: Contenu
+	thematique: UX Writing
 	date: 2021-02-27
 -
 	title: "How people in government are making their research more inclusive"
 	url: >
 		https://digital.canada.ca/2021/01/07/how-people-in-government-are-making-their-research-more-inclusive/
 	source: le Service Numérique Canadien
-	description: Retour d'expérience du gouvernement canadien pour une recherche utilisateur plus inclusive.
+	description: "Retour d'expérience du gouvernement canadien pour une recherche utilisateur plus inclusive."
 	lang: en
 	phase: Recherche
 	type: Article
@@ -141,7 +140,7 @@ Ressources:
 	source: NN Group
 	lang: en
 	type: Article
-	thematique: Contenu
+	thematique: UX Writing
 	date: 2020-11-04
 -
 	title: "Plain Language Writing — An Essential Part Of Accessibility"
@@ -157,11 +156,11 @@ Ressources:
 	url: >
 		https://uxdesign.cc/designing-mindful-experiences-for-users-with-anxiety-456ead8e702a
 	source: Laura Alr
-	description: Bonnes pratiques pour concevoir sans stress pour les personnes sujettes à l'anxiéé.
+	description: "Bonnes pratiques pour concevoir sans stress pour les personnes sujettes à l'anxiéé."
 	lang: en
 	phase: Conception
 	type: Article
-	thematique: Notifications, Contenu
+	thematique: Notifications, UX Writing
 	date: 2021-02-27
 -
 	title: "Illustrer la diversité et l’inclusion pour l’application Alerte COVID"
@@ -244,7 +243,7 @@ Ressources:
 	url: >
 		https://www.creativejuiz.fr/blog/veille-graphique/couleurs-pantone-annee-2021-travailler-palette-accessible
 	source:  Geoffrey Crofte
-	description: Processus détaillé pour construire une palette de couleur accessible et utilisable dans une interface à partir d'une base de deux couleurs.
+	description: "Processus détaillé pour construire une palette de couleur accessible et utilisable dans une interface à partir d'une base de deux couleurs."
 	lang: fr
 	phase: Conception
 	type: Article
@@ -264,7 +263,7 @@ Ressources:
 	url: >
 		https://uxdesign.cc/the-ux-of-deadnaming-9f01ce5f0d6f
 	source: Vale Melvin Querini
-	description: Conséquences d'un produit qui utilise le nom légal plutôt que le nom choisi sur les personnes transexuelles.
+	description: "Conséquences d'un produit qui utilise le nom légal plutôt que le nom choisi sur les personnes transexuelles."
 	lang: en
 	phase: Conception
 	type: Article
@@ -283,7 +282,7 @@ Ressources:
 	url: >
 		https://access42.net/navigation-au-clavier-versus-navigation-avec-un-lecteur-decran
 	source: Access42
-	description: Traduction de l’article de Léonie Watson sur les différences fondamentales entre navigation au clavier et lecteur d'écran. 
+	description: "Traduction de l’article de Léonie Watson sur les différences fondamentales entre navigation au clavier et lecteur d'écran. "
 	lang: fr
 	type: Article
 	thematique: Usage, Sensibilisation, Navigation au clavier, Lecteur d'écran
@@ -302,7 +301,7 @@ Ressources:
 	url: >
 		https://uxdesign.cc/taking-the-keyboard-navigation-red-pill-dbb76dd73b1e
 	source: Denis Boudreau
-	description: Invitation à naviguer sur Internet **sans souris** pour comprendre les barrières que les utilisateurs concernés peuvent rencontrer.
+	description: "Invitation à naviguer sur Internet **sans souris** pour comprendre les barrières que les utilisateurs concernés peuvent rencontrer."
 	lang: en
 	type: Article
 	thematique: Usage, Sensibilisation, Technologie d'assistance, Navigation au clavier
@@ -320,11 +319,11 @@ Ressources:
 	url: >
 		https://uxdesign.cc/golden-microcopy-helping-older-users-use-your-product-f0f1b173aa3e
 	source: Michal Halperin Ben Zvi et Kinneret Yifrah
-	description: Bonnes pratiques de rédaction de contenu pour les personnes âgées.
+	description: "Bonnes pratiques de rédaction de contenu pour les personnes âgées."
 	lang: en
 	phase: Conception
 	type: Article
-	thematique: Contenu
+	thematique: UX Writing
 	date: 2021-01-14
 -
 	title: "Hands-Free Coding"
@@ -355,7 +354,7 @@ Ressources:
 	url: >
 		https://www.youtube.com/watch?v=zwvM6WBRsco&feature=youtu.be
 	source: Aldo de la Paz
-	description: Retour d'expérience pour créer un système d'illustration qui soit représentatif des différents usagers d'un produit.
+	description: "Retour d'expérience pour créer un système d'illustration qui soit représentatif des différents usagers d'un produit."
 	lang: en
 	phase: Conception
 	type: Vidéo
@@ -366,7 +365,7 @@ Ressources:
 	url: >
 		https://gomakethings.com/theres-no-such-thing-as-a-website-or-web-app-that-doesnt-need-to-be-accessible/
 	source: Chris Ferdinandi
-	description: Plaidoyer pour des sites ou applications accessibles, quelque soit leur objectif premier.
+	description: "Plaidoyer pour des sites ou applications accessibles, quelque soit leur objectif premier."
 	lang: en
 	type: Article
 	thematique: Sensibilisation
@@ -400,7 +399,7 @@ Ressources:
 	url: >
 		https://twitter.com/LFLegal/status/1348777835670896640
 	source: Lainey Feingold
-	description: Thread collaboratif pour tenter de décrire en une phrase l'accessibilité numérique. 
+	description: "Thread collaboratif pour tenter de décrire en une phrase l'accessibilité numérique. "
 	lang: en
 	type: Thread Twitter
 	thematique: Sensibilisation
@@ -429,14 +428,14 @@ Ressources:
 	lang: en
 	phase: Conception
 	type: Article
-	thematique: DataViz
+	thematique: Datavisualisation
 	date: 2020-12-05
 -
 	title: "Weaving Web Accessibility With Usability "
 	url: >
 		https://www.smashingmagazine.com/2020/11/weaving-web-accessibility-usability/
 	source: Uri Paz
-	description: Retour d'expérience sur la différence entre accessibilité et usabilité et de l'intérêt de faire des tests utilisateurs avec des personnes concernées.
+	description: "Retour d'expérience sur la différence entre accessibilité et usabilité et de l'intérêt de faire des tests utilisateurs avec des personnes concernées."
 	lang: en
 	phase: Recherche
 	type: Article
@@ -447,7 +446,7 @@ Ressources:
 	url: >
 		https://dscout.com/people-nerds/accessible-user-research-1
 	source: DScout
-	description: Conseils pour planifier de la recherche utilisateur avec des personnes en situation de handicap.
+	description: "Conseils pour planifier de la recherche utilisateur avec des personnes en situation de handicap."
 	lang: en
 	phase: Recherche
 	type: Article
@@ -458,7 +457,7 @@ Ressources:
 	url: >
 		https://www.a11ywebsites.com/
 	source: Calum Ryan
-	description: Annuaire de sites accessibles
+	description: "Annuaire de sites accessibles"
 	lang: en
 	type: Ressource
 	thematique: Design
@@ -476,7 +475,7 @@ Ressources:
 	url: >
 		https://www.24joursdeweb.fr/2020/30-ans-de-web-mais-toujours-pas-d-accessibilite/
 	source: Arthur Rigaud
-	description: Retour sur les obstacles à l'accessibilité les plus fréquents.
+	description: "Retour sur les obstacles à l'accessibilité les plus fréquents."
 	lang: fr
 	type: Article
 	thematique: Étude
@@ -494,7 +493,7 @@ Ressources:
 	url: >
 		https://twitter.com/ericwbailey/status/1351243179060768778?s=20
 	source: Eric Bailey
-	description: Analyse des erreurs d'accessibilité les plus évidentes sur des sites récompensés pour leur esthétique.
+	description: "Analyse des erreurs d'accessibilité les plus évidentes sur des sites récompensés pour leur esthétique."
 	lang: en
 	phase: Conception
 	type: Thread Twitter
@@ -530,44 +529,44 @@ Ressources:
 	url: >
 		https://fossheim.io/writing/posts/apple-health-dataviz-a11y/
 	source: Sarah Fossheim
-	description: Analyse des datavisualisations d'Apple avec un lecteur d'écran.
+	description: "Analyse des datavisualisations d'Apple avec un lecteur d'écran."
 	lang: en
 	phase: Conception
 	type: Article
-	thematique: DataViz, Lecteur d'écran
+	thematique: Datavisualisation, Lecteur d'écran
 	date: 2021-02-27
 -
 	title: "Data visualization cares disproportionately far too much about designing for colorblindness relative to other disabilities that are more common"
 	url: >
 		https://twitter.com/FrankElavsky/status/1351311898428362754?s=20
 	source: Frank Elaksvy
-	description: Plaidoyer pour considérer des handicaps plus fréquents que le daltonisme.
+	description: "Plaidoyer pour considérer des handicaps plus fréquents que le daltonisme."
 	lang: en
 	phase: Conception
 	type: Thread Twitter
-	thematique: DataViz
+	thematique: Datavisualisation
 	date: 2021-02-27
 -
 	title: "Inclusive language: words to use and avoid when writing about disability"
 	url: >
 		https://www.gov.uk/government/publications/inclusive-communication/inclusive-language-words-to-use-and-avoid-when-writing-about-disability
 	source: Gov.UK
-	description: Glossaires de mots à utiliser ou à éviter pour aborder le sujet du handicap.
+	description: "Glossaires de mots à utiliser ou à éviter pour aborder le sujet du handicap."
 	lang: en
 	phase: Conception
 	type: Article
-	thematique: Contenu
+	thematique: UX Writing
 	date: 2021-02-27
 -
 	title: "WordPress 5.6 : des changements visant à améliorer l’inclusivité de l’interface d’administration"
 	url: >
 		https://fr.wordpress.org/2020/11/26/wordpress-5-6-des-changements-visant-a-ameliorer-linclusivite-de-linterface-dadministration/
 	source: l'équipe de traduction de Wordpress
-	description: Retour d'expérience sur la refonte de l'interface de Wordpress pour une écriture épicène.
+	description: "Retour d'expérience sur la refonte de l'interface de Wordpress pour une écriture épicène."
 	lang: fr
 	phase: Conception
 	type: Article
-	thematique: Écriture inclusive, Contenu, Retour d'expérience
+	thematique: Écriture inclusive, UX Writing, Retour d'expérience
 	date: 2021-01-14
 -
 	title: "Introduction to Web Accessibility"
@@ -590,10 +589,10 @@ Ressources:
 	url: >
 		https://www.figma.com/community/plugin/731310036968334777/A11y---Focus-Orderer
 	source: Stark
-	description: Plugin pour annoter l'ordre de tabulation d'une maquette.
+	description: "Plugin pour annoter l'ordre de tabulation d'une maquette."
 	phase: Conception
 	type: Plugin Figma
-	thematique: Handoff aux devs
+	thematique: Dev
 	date: 2021-02-27
 -
 	title: "Order and control: ideal online experience for an autistic person"
@@ -618,7 +617,7 @@ Ressources:
 	url: >
 		https://blog.octo.com/le-comptoir-octo-laccessibilite-en-agilite-retour-dexperience-sur-ile-de-france-mobilites/
 	source: Romy Duhem-Verdière 
-	description: Conseils concrets pour arriver à un objectif d’accessibilité ambitieux dans une méthodologie agile.
+	description: "Conseils concrets pour arriver à un objectif d’accessibilité ambitieux dans une méthodologie agile."
 	lang: fr
 	phase: Conception
 	type: Article
@@ -663,17 +662,17 @@ Ressources:
 	url: >
 		https://accessibility.q42.nl/
 	source: Q42
-	description: Enquête sur l’utilisation des paramètres d’accessibilité sur les téléphones mobiles aux Pays-Bas.
+	description: "Enquête sur l’utilisation des paramètres d’accessibilité sur les téléphones mobiles aux Pays-Bas."
 	lang: en
 	type: Études
-	thematique: Usage, Sensibilisation, Étude
+	thematique: Usage, Sensibilisation, Étude, Mobile
 	date: 2021-02-27
 -
 	title: "Shit’s broken: why we need Mindful Notifications & how to Design them"
 	url: >
 		https://thistooshallgrow.com/blog/mindful-notifications
 	source: Clo S
-	description: Bonnes pratiques pour concevoir des notifications utiles et non stressantes.
+	description: "Bonnes pratiques pour concevoir des notifications utiles et non stressantes."
 	lang: en
 	phase: Conception
 	type: Article
@@ -693,7 +692,7 @@ Ressources:
 	url: >
 		https://www.lullabot.com/articles/accessibility-tools-make-your-life-easier
 	source: Kat Shaw
-	description: Sélection d'outils pour améliorer l'accessibilité de ses produits.
+	description: "Sélection d'outils pour améliorer l'accessibilité de ses produits."
 	lang: en
 	phase: Conception
 	type: Article
@@ -703,7 +702,7 @@ Ressources:
 	title: "Top 5 things to review in an Accessible Design Review "
 	url: >
 		https://www.hassellinclusion.com/blog/accessible-design-reviews/
-	description: Erreurs fréquentes à corriger dès la conception de maquettes basses ou hautes fidélité.
+	description: "Erreurs fréquentes à corriger dès la conception de maquettes basses ou hautes fidélité."
 	lang: en
 	phase: Conception
 	type: Article
@@ -722,7 +721,7 @@ Ressources:
 	url: >
 		https://thoughtbot.com/blog/an-introduction-to-macos-head-pointer
 	source: Eric Bailey
-	description: Démonstration de la fonctionnalité Head Pointer, pour controler son ordinateur avec sa tête (et ses sourcils !)
+	description: "Démonstration de la fonctionnalité Head Pointer, pour controler son ordinateur avec sa tête (et ses sourcils !)"
 	lang: en
 	type: Article
 	thematique: Usage, Sensibilisation, Technologie d'assistance

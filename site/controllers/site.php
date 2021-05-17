@@ -30,7 +30,9 @@ return function ($page, $pages, $site, $kirby) {
 	});
 
 	// Ressources filtered
-	$ressources = page('ressources')->ressources()->toStructure()->sortBy('date', 'desc');
+	$ressources = page('ressources')->ressources()->toStructure()
+		->sortBy('date', 'desc')
+		->filterBy('title', '!=', null);
 	$ressources_title = '<b>{{ desc }}</b> : {{ count }} ressource{{ plural }}';
 	$ressources_is_filtered = true;
 	

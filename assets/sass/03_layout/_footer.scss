@@ -1,3 +1,28 @@
 footer {
   background: var(--purple-bright);
+  padding: $space-5;
+
+  nav {
+	  display: flex;
+		justify-content: space-between;
+
+		p, a {
+			text-decoration: none;
+			font-weight: bold;
+			color: var(--purple-dark);
+			font-size: 1.8rem;
+			margin-right: $space-9;
+		}
+
+		.footer__links {
+			display: flex;
+			width: 75%;
+
+		}
+
+		.footer__legals {
+			text-align: right;
+		}
+	}
+
 }

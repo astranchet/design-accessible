@@ -854,15 +854,17 @@ footer {
   footer nav {
     display: flex;
     justify-content: space-between; }
-    footer nav ul {
+    footer nav p, footer nav a {
+      text-decoration: none;
+      font-weight: bold;
+      color: var(--purple-dark);
+      font-size: 1.8rem;
+      margin-right: 4.8rem; }
+    footer nav .footer__links {
       display: flex;
-      flex-direction: column;
-      width: 50%; }
-      footer nav ul a {
-        text-decoration: none;
-        font-weight: bold;
-        color: var(--purple-dark);
-        font-size: 1.8rem; }
+      width: 75%; }
+    footer nav .footer__legals {
+      text-align: right; }
 
 header {
   background: var(--green-medium); }
