@@ -50,7 +50,7 @@ def print_ressources(ressources):
 			print("	source: " + ressource['fields']['Auteur'])
 
 		if 'Description' in ressource['fields']:
-			print("	description: "{}"".format(ressource['fields']['Description']))
+			print('	description: "{}"'.format(ressource['fields']['Description']))
 
 		if 'Langue' in ressource['fields']:
 			if ressource['fields']['Langue'] == 'Français':
