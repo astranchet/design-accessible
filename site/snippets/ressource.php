@@ -1,8 +1,9 @@
+<article class="card card--horizontal <?= $ressource->type() == "Citation" ? "card--horizontal-full" : "" ?>">
 <?php if ($ressource->type() == "Citation") { ?>
 	<blockquote>
 		<p><?= $ressource->title()->kt() ?></p>
 		<p class="card__author">
-			— Par <span><?= $ressource->source() ?>
+			— Par <span><a href="<?= $ressource->url() ?>"><?= $ressource->source() ?></a></span>
 		</p>
 	</blockquote>
 
@@ -53,3 +54,4 @@
 </ul>
 
 <?php } ?>
+</article>

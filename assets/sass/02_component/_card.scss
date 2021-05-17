@@ -23,7 +23,7 @@
     }
 
     a {
-      flex-basis: 75%;
+      flex-basis: 80%;
       text-decoration: none;
 
       @include tablet-xs {
@@ -51,10 +51,22 @@
 
   .card__author {
     color: var(--neutral-3);
-    margin-bottom: $space-4;
+    margin: $space-4 0;
 
     span {
       font-weight: bold;
+    }
+  }
+
+
+  &.card--horizontal-full {
+    background-color: var(--green-light);
+    font-style: italic;
+    color: var(--green-dark);
+    font-size: 2.4rem;
+
+    blockquote {
+      margin: 0;
     }
   }
 }

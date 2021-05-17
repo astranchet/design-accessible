@@ -19,9 +19,7 @@
       <ul class="last__article-list">
         <?php foreach ($ressources as $ressource): ?>
           <li class="last__article-item">
-            <article class="card card--horizontal">
-              <?php snippet('ressource', ['ressource' => $ressource]) ?>
-            </article>
+            <?php snippet('ressource', ['ressource' => $ressource]) ?>
           </li>
         <?php endforeach ?>
       </ul>
