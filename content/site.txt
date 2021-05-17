@@ -84,9 +84,7 @@ Quelles barrières peuvent-elles rencontrées sur le web ?
 
 ----
 
-Suscribe:
-
-## 💌 Newsletter
+Suscribe: ## 💌 Newsletter
 
 Recevez chaque mois une sélection de liens pour **concevoir des sites et applications accessibles et inclusifs**.
 
