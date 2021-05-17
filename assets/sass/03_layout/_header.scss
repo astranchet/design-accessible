@@ -25,10 +25,17 @@ header {
 
 .header__top a {
   color: var(--white);
+  border: 2px solid transparent;
+  padding: .6rem;
 
-  &:hover,
+  &:hover {
+    color: var(--green-light);
+    border-bottom: 2px solid var(--green-light);
+  }
+
   &:focus {
     color: var(--white);
+    border: 2px solid var(--white);
   }
 }
 
