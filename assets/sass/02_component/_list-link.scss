@@ -14,14 +14,22 @@
   display: block;
   padding: 2.4rem;
   text-decoration: none;
+  border: .6rem solid var(--purple-dark);
 
-  &:hover,
+  &:hover {
+    background: var(--white);
+    color: var(--purple-dark);
+    border: .6rem solid var(--purple-dark);
+  }
+
   &:focus {
-    color: var(--white);
+    background: var(--purple-light);
+    color: var(--purple-dark);
+    border: .6rem solid var(--purple-dark);
   }
 }
 
 .list__link-title {
-  color: var(--white);
+  color: inherit;
   font-size: 2.4rem;
 }
