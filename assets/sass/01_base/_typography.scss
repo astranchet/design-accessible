@@ -1,0 +1,12 @@
+p {
+	// font-size: 1.8rem;
+}
+
+h2 {
+  font-size: 3.6rem;
+  font-weight: bold;
+
+  @include tablet-xs {
+    font-size: 2.4rem;
+  }
+}

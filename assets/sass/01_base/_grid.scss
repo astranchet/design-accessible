@@ -6,3 +6,7 @@ $grid-container: 110rem;
   padding: 0 2rem;
   position: relative;
 }
+
+#content > .container {
+	margin: $space-9 auto;
+}
