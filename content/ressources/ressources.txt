@@ -6,7 +6,7 @@ Baseline: Explorer des ressources pour concevoir des services utiles et utilisab
 ----
 Ressources:
 -
-	title: " Écriture inclusive et accessibilité numérique"
+	title: "Écriture inclusive et accessibilité numérique"
 	url: >
 		https://www.lalutineduweb.fr/ecriture-inclusive-accessibilite-numerique-jetdv2020/
 	source: Julie Moynat
@@ -50,7 +50,7 @@ Ressources:
 	url: >
 		https://aveuglesdefrance.org/tout-savoir-avec-labc-de-laccessibilite-numerique/
 	source: Fédération des Aveugles de France 
-	description: Bases de l'accessibilité : principes fondamentaux, chiffres et conseils concrets pour faire du numérique accessible.
+	description: "Bases de l'accessibilité : principes fondamentaux, chiffres et conseils concrets pour faire du numérique accessible."
 	lang: fr
 	type: PDF
 	thematique: Étude, Sensibilisation
@@ -226,7 +226,7 @@ Ressources:
 	url: >
 		https://almanac.httparchive.org/en/2020/accessibility
 	source: HTTP Archive
-	description: Analyse des tendances du web en accessibilité en 2020. facilité de lecture, médias, navigation, technologies d'assistances et formulaires : quel est l'état du Web aujourd'hui ?
+	description: "Analyse des tendances du web en accessibilité en 2020. facilité de lecture, médias, navigation, technologies d'assistances et formulaires : quel est l'état du Web aujourd'hui ?"
 	lang: en
 	type: Article
 	thematique: Étude
