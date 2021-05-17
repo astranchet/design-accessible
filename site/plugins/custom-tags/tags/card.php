@@ -9,10 +9,10 @@ return [
     'html' => function($tag) {
     	$html = '<div class="card">';
 
-    	$html .= '<strong class="card__title">' . kirbytextinline($tag->value) . '</strong> ';
+    	$html .= '<p class="card__title">' . kirbytextinline($tag->value) . '</p> ';
 
     	if(isset($tag->desc)) {
-	    	$html .= kirbytextinline($tag->desc);
+	    	$html .= kirbytext($tag->desc);
     	}
 
     	if(isset($tag->img) && $tag->file = $tag->file($tag->img)) {

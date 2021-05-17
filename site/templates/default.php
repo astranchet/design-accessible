@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-<div id="content">
+<div id="content" class="<?= $page->slug(); ?>">
     <div class="container">
 		<?= $page->text()->kt() ?>
 	</div>

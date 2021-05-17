@@ -12,9 +12,9 @@ Baseline: Comprendre le rôle de l’accessibilité pour l’expérience utilisa
 
 Text:
 
-## À quoi sert l’accessibilité numérique ?
+## ✨ À quoi sert l’accessibilité numérique ?
 
-Rendre un site accessible signifie s’assurer qu’il peut être utilisé par le plus grand nombre ; en particulier les personnes en situation de handicap.
+(highlight: Rendre un site accessible signifie s’assurer qu’il peut être utilisé par le plus grand nombre ; en particulier les personnes en situation de handicap.)
 
 <div class="discover__grid">
 (card: Solène est aveugle de naissance. desc: Elle est habituée des technologies et maîtrise les lecteurs d'écrans de son ordinateur et de son smartphone.)
@@ -42,7 +42,7 @@ Rendre un site accessible signifie s’assurer qu’il peut être utilisé par l
 - à des degrés divers de gravité.
 - permanentes, situationnelles ou temporaires. 
 
-## Chaque personne est unique
+## 💜 Chaque personne est unique
 
 L’accessibilité concerne une variété de personnes avec des capacités et besoins différents. Il existe plusieurs catégories de déficiences :
 
@@ -79,13 +79,14 @@ Ces déficiences ont un impact sur la manière dont les personnes naviguent sur 
 (card: Des claviers et souris **compensent les tremblements**. img: )
 (card: La reconnaissance vocale ou faciale permet de cliquer **sans utiliser les mains**. img: )
 
-## Les obstacles du numérique
+## 👉 Concevoir des sites accessibles
 
 Le numérique est une formidable opportunité de permettre à tout le monde d’accéder à l’information ; sans barrières géographiques ou physiques. Pourtant, c’est encore loin d’être le cas. Une étude récente a révélé que (link: https://webaim.org/projects/million/ text: 98 % des sites ne sont pas accessibles).
 
-De nombreux problèmes pourraient être corrigés dès l’étape de la conception : 
-✅ Proposer une interface responsive
-✅ Choisir une palette de couleurs contrastées
-✅ Nommer chaque champ de formulaire.
+De nombreux problèmes relèvent pourtant de l’expérience utilisateur : 
+✅ Des **contenus** accessibles et inclusifs
+✅ Une palette de **couleurs** accessible
+✅ Des **formulaires** bien conçus
+✅ Une **navigation** simple
 
 (link: /checklist text: Voir la checkliste du designer 👉 class: button button--primary)
