@@ -7,9 +7,23 @@
 
 .tags__item {
   margin-right: 1rem;
+  text-transform: lowercase;
+  background: var(--neutral-5);
+  border-radius: .6rem;
+  padding: .6rem;
 
   &:last-child {
     margin-right: 0;
+  }
+
+  &.tags__item-phase {
+	background: var(--purple-bright);
+  }
+  &.tags__item-thematique {
+	background: var(--green-light);
+  }
+  &.tags__item-lang {
+	background: var(--yellow-light);
   }
 }
 

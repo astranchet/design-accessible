@@ -47,7 +47,7 @@
 
   <div class="next-step">
     <div class="container">
-      <p><?= $page->nextstep()->kt() ?></p>
+      <?= $page->nextstep()->kt() ?>
     </div>
   </div>
 

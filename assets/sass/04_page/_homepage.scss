@@ -1,5 +1,12 @@
 .homepage {
 
+  .intro {
+    padding-top: $space-6;
+  }
+  .last__article {
+    padding-top: $space-9;    
+  }
+
   .quote {
 
     > .container {
@@ -29,4 +36,6 @@
   .list__link {
     margin-top: 2rem;
   }  
+
+
 }

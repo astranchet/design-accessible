@@ -43,9 +43,7 @@
       <ul class="last__article-list">
         <?php foreach ($ressources->limit(4) as $ressource): ?>
           <li class="last__article-item">
-            <article class="card card--horizontal">
-              <?php snippet('ressource', ['ressource' => $ressource]) ?>
-            </article>
+            <?php snippet('ressource', ['ressource' => $ressource]) ?>
           </li>
         <?php endforeach ?>
       </ul>
@@ -60,7 +58,7 @@
 
   <div class="next-step">
     <div class="container">
-      <p><?= $site->nextstep()->kt() ?></p>
+      <?= $site->nextstep()->kt() ?>
     </div>
   </div>
 

@@ -9,19 +9,27 @@
 
 .list__link a {
   background: linear-gradient(90deg, var(--purple-dark) 0%, rgba(132, 70, 188, 0.85) 100%);
-  border-radius: 2.4rem;
+  border-radius: 1.2rem;
   color: var(--white);
   display: block;
   padding: 2.4rem;
   text-decoration: none;
+  border: .6rem solid var(--purple-dark);
 
-  &:hover,
+  &:hover {
+    background: var(--white);
+    color: var(--purple-dark);
+    border: .6rem solid var(--purple-dark);
+  }
+
   &:focus {
-    color: var(--white);
+    background: var(--purple-light);
+    color: var(--purple-dark);
+    border: .6rem solid var(--purple-dark);
   }
 }
 
 .list__link-title {
-  color: var(--white);
+  color: inherit;
   font-size: 2.4rem;
 }
