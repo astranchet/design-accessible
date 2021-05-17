@@ -1,5 +1,5 @@
   <div class="suscribe" id="suscribe">
     <div class="container">
-      <p><?= $site->suscribe()->kt() ?></p>
+      <?= $site->suscribe()->kt() ?>
     </div>
   </div>
