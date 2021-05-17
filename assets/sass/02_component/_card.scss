@@ -4,6 +4,12 @@
   border-radius: 2.4rem;
   padding: $space-6;
 
+  &:hover {
+    background-color: var(--purple-light);
+    border-color: var(--purple-bright);
+    color: var(--purple-dark);
+  }
+
   .card__title {
     color: var(--neutral-2);
     display: flex;
