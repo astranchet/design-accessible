@@ -125,6 +125,7 @@ header {
 .header__subtitle {
   font-weight: normal;
   color: var(--white);
+  max-width: 60rem;
 
   strong {
     font-weight: bold;
