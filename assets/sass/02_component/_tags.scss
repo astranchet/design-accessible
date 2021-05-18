@@ -10,6 +10,7 @@
   text-transform: lowercase;
   background: var(--neutral-5);
   border-radius: .6rem;
+  border: 2px solid var(--neutral-5);
   padding: .6rem;
 
   &:last-child {
@@ -17,16 +18,37 @@
   }
 
   &.tags__item-phase {
-	background: var(--purple-bright);
+	  background: var(--purple-bright);
+    border: 2px solid var(--purple-bright);
+
+    &:hover {
+      border-color: var(--purple-dark);
+    }
   }
+
   &.tags__item-thematique {
-	background: var(--green-light);
+	  background: var(--green-light);
+    border: 2px solid var(--green-light);
+
+    &:hover {
+      border-color: var(--green-bright);
+    }
   }
+
   &.tags__item-lang {
-	background: var(--yellow-light);
+	 background: var(--yellow-light);
+   border: 2px solid var(--yellow-light);
+
+    &:hover {
+      border-color: var(--yellow-bright);
+    }
   }
 }
 
 .tags__link {
   text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
 }
