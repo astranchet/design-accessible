@@ -37,6 +37,10 @@ header {
     color: var(--white);
     border: 2px solid var(--white);
   }
+
+  &[aria-current="page"] {
+    font-weight: bold;
+  }
 }
 
 .header__logo {
