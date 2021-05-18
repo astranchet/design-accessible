@@ -3,6 +3,21 @@
     font-size: 1.8rem;
   }
 
+  a:not(.button) {
+    font-weight: bold;
+    color: var(--purple-dark);
+    text-decoration: none;
+
+    &:hover {
+      border-bottom: 2px solid var(--purple-dark);
+    }
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
   .highlight p {
     font-size: 2.4rem;
   }
@@ -63,9 +78,18 @@
     .card {
       background-color: var(--purple-light);
       width: calc(100% / 3 - #{$space-4} * 2);
+      display: flex;
+      flex-direction: column-reverse;
+      position: relative;
+      padding: 0;
 
       .card__title {
         color: var(--purple-dark);
+        padding: $space-3;
+      }
+
+      &:hover {
+        transform: translateY(-$space-1);
       }
     }
   }

@@ -1,7 +1,7 @@
 .button {
   align-items: center;
   border-radius: 2.4rem;
-  border: 0;
+  border: 2px solid inherit;
   display: inline-flex;
   font-size: 1.8rem;
   font-weight: 600;
@@ -13,7 +13,8 @@
 }
 
 .button--primary, 
-.button--alt {
+.button--alt,
+.button--third {
   background-color: var(--green-dark);
   color: var(--white);
 
@@ -21,16 +22,47 @@
     margin-left: $space-4;
   }
 
-  &:hover,
-  &:focus {
-    color: var(--white);
+  &:hover, &:focus {
+    background-color: var(--white);
+    color: var(--green-dark);
+    text-decoration: none;
   }
+
+  &:hover:after, &:focus:after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 1px;
+    bottom: 0px;
+    border: 4px solid var(--green-dark);
+    border-radius: 2.4rem;
+  }
+
 }
 
 .button--alt {
   background-color: var(--purple-dark);
+
+  &:hover, &:focus {
+    color: var(--purple-dark);
+  }
+
+  &:hover:after, &:focus:after {
+    border: 4px solid var(--purple-dark);
+  }
 }
 
 .button--third {
   background-color: var(--yellow-bright);
+  color: var(--neutral-1);
+
+  &:hover, &:focus {
+    color: var(--neutral-1);
+    background-color: var(--yellow-bright);
+  }
+
+  &:hover:after, &:focus:after {
+    border: 4px solid var(--neutral-1);
+  }
 }
