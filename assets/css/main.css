@@ -563,13 +563,14 @@ template {
   --purple-dark: #8446BC;
   --purple-bright: #D1B6E1;
   --purple-light: #FBF8FC;
+  --purple-pale: #F3ECF8;
   --yellow-light: rgba(251, 239, 179, 0.5);
   --yellow-bright: #F2CB00;
-  --neutral-1: #333333;
-  --neutral-2: #4F4F4F;
-  --neutral-3: #828282;
-  --neutral-4: #BDBDBD;
-  --neutral-5: #E0E0E0; }
+  --neutral-1: #263F3B;
+  --neutral-2: #445451;
+  --neutral-3: #728C88;
+  --neutral-4: #B6C3C1;
+  --neutral-5: #DAE1E0; }
 
 @font-face {
   font-family: 'silka';
@@ -595,6 +596,11 @@ template {
   padding: 0 2rem;
   position: relative; }
 
+#content > .container,
+#content > .section > .container {
+  margin: 2.4rem auto;
+  padding: 2.4rem; }
+
 body {
   font-family: 'silka', sans-serif;
   color: var(--neutral-1);
@@ -605,12 +611,32 @@ body {
   text-size-adjust: 100%;
   text-rendering: optimizeLegibility; }
 
-a::after {
+::selection {
+  background: var(--green-medium);
+  color: var(--white); }
+
+a:not(.button)::after {
   opacity: .5; }
 
 a[hreflang]::after {
   content: " [" attr(hreflang) "]";
   font-weight: normal; }
+
+h2 {
+  font-size: 3.6rem;
+  font-weight: bold; }
+  @media screen and (max-width: 47.9375em) {
+    h2 {
+      font-size: 2.4rem; } }
+
+h3 {
+  font-size: 3.2rem; }
+
+h4 {
+  font-size: 2.4rem; }
+
+h5 {
+  font-size: 1.8rem; }
 
 .blockquote {
   background: var(--green-light);
@@ -651,7 +677,7 @@ a[hreflang]::after {
 .button {
   align-items: center;
   border-radius: 2.4rem;
-  border: 0;
+  border: 2px solid inherit;
   display: inline-flex;
   font-size: 1.8rem;
   font-weight: 600;
@@ -662,22 +688,69 @@ a[hreflang]::after {
   text-decoration: none; }
 
 .button--primary,
-.button--alt {
+.button--alt,
+.button--third {
   background-color: var(--green-dark);
   color: var(--white); }
   .button--primary span,
-  .button--alt span {
+  .button--alt span,
+  .button--third span {
     margin-left: 1.2rem; }
   .button--primary:hover, .button--primary:focus,
   .button--alt:hover,
-  .button--alt:focus {
-    color: var(--white); }
+  .button--alt:focus,
+  .button--third:hover,
+  .button--third:focus {
+    background-color: var(--white);
+    color: var(--green-dark);
+    text-decoration: none; }
+  .button--primary:hover:after, .button--primary:focus:after,
+  .button--alt:hover:after,
+  .button--alt:focus:after,
+  .button--third:hover:after,
+  .button--third:focus:after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 1px;
+    bottom: 0px;
+    border: 4px solid var(--green-dark);
+    border-radius: 2.4rem; }
 
 .button--alt {
   background-color: var(--purple-dark); }
+  .button--alt:hover, .button--alt:focus {
+    color: var(--purple-dark); }
+  .button--alt:hover:after, .button--alt:focus:after {
+    border: 4px solid var(--purple-dark); }
 
 .button--third {
-  background-color: var(--yellow-bright); }
+  background-color: var(--yellow-bright);
+  color: var(--neutral-1); }
+  .button--third:hover, .button--third:focus {
+    color: var(--neutral-1);
+    background-color: var(--yellow-bright); }
+  .button--third:hover:after, .button--third:focus:after {
+    border: 4px solid var(--neutral-1); }
+
+.card__grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 4.8rem -1.2rem; }
+  @media screen and (max-width: 35.3125em) {
+    .card__grid {
+      margin-left: 0;
+      margin-right: 0; } }
+  .card__grid .card {
+    margin: 1.2rem;
+    width: calc(100% / 4 - 1.2rem * 2);
+    border-radius: .6rem;
+    padding: 1.2em; }
+
+.card {
+  border-radius: 2.4rem;
+  padding: 2.4rem; }
 
 .card--horizontal {
   border: 0.1rem solid var(--neutral-5);
@@ -730,13 +803,6 @@ a[hreflang]::after {
 .last__article {
   margin-top: 4.8rem;
   padding-bottom: 4.8rem; }
-
-.last__article-title {
-  font-size: 3.6rem;
-  font-weight: normal; }
-  @media screen and (max-width: 47.9375em) {
-    .last__article-title {
-      font-size: 2.4rem; } }
 
 .last__article-list {
   list-style-type: none;
@@ -848,6 +914,12 @@ a[hreflang]::after {
 .tags__link {
   text-decoration: none; }
 
+.highlight {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: var(--green-dark);
+  margin: 3.2rem auto; }
+
 footer {
   background: var(--purple-bright);
   padding: 1.6rem; }
@@ -896,6 +968,8 @@ header {
   .header__top a:focus {
     color: var(--white);
     border: 2px solid var(--white); }
+  .header__top a[aria-current="page"] {
+    font-weight: bold; }
 
 .header__logo {
   align-items: center;
@@ -987,29 +1061,46 @@ header {
     .header__subtitle {
       font-size: 1.8rem; } }
 
-.discover__grid {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: -1.2rem;
-  margin-right: -1.2rem; }
-  @media screen and (max-width: 35.3125em) {
-    .discover__grid {
-      margin-left: 0;
-      margin-right: 0; } }
-
-.discover__grid .card {
-  margin: 1.2rem;
-  width: calc(100% / 4 - 1.2rem * 2); }
+.decouvrir p, .decouvrir ul {
+  font-size: 1.8rem; }
+.decouvrir .highlight p {
+  font-size: 2.4rem; }
+.decouvrir p + ul {
+  margin-bottom: 4.8rem; }
+.decouvrir .card__grid-personas .card {
+  background-color: var(--green-pale); }
+  .decouvrir .card__grid-personas .card .card__title {
+    font-weight: bold;
+    font-size: 1.8rem; }
+  .decouvrir .card__grid-personas .card p {
+    font-size: 1.4rem; }
   @media screen and (max-width: 74.9375em) {
-    .discover__grid .card {
+    .decouvrir .card__grid-personas .card {
       width: calc(100% / 3 - 1.2rem * 2); } }
   @media screen and (max-width: 64em) {
-    .discover__grid .card {
+    .decouvrir .card__grid-personas .card {
       width: calc(100% / 2 - 1.2rem * 2); } }
   @media screen and (max-width: 35.3125em) {
-    .discover__grid .card {
+    .decouvrir .card__grid-personas .card {
       margin: 1.2rem 0;
       width: 100%; } }
+  .decouvrir .card__grid-personas .card:hover {
+    transform: translateY(-0.2rem); }
+.decouvrir .card__grid-handicaps .card {
+  background-color: var(--purple-light); }
+  .decouvrir .card__grid-handicaps .card .card__title {
+    font-weight: bold;
+    font-size: 2.4rem;
+    color: var(--purple-dark); }
+  .decouvrir .card__grid-handicaps .card:hover {
+    transform: translateY(-0.2rem); }
+.decouvrir .card__grid-technos .card {
+  background-color: var(--purple-light);
+  width: calc(100% / 3 - 1.2rem * 2); }
+  .decouvrir .card__grid-technos .card .card__title {
+    color: var(--purple-dark); }
+.decouvrir .alt {
+  background-color: var(--purple-pale); }
 
 .homepage .intro {
   padding-top: 2.4rem; }

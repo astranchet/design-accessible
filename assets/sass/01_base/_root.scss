@@ -8,3 +8,8 @@ body {
   text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
 }
+
+::selection { 
+	background: var(--green-medium); 
+	color: var(--white); 
+}

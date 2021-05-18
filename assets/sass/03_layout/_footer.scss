@@ -18,6 +18,21 @@ footer {
 			display: flex;
 			width: 75%;
 
+			a {
+  				border: 2px solid transparent;
+  				padding: .6rem;
+  				text-decoration: none;
+	
+			  	&:hover {
+		  			color: var(--purple-dark);
+		    		border-bottom: 2px solid var(--purple-dark);
+		  		}
+
+			  	&:focus {
+		  			color: var(--purple-dark);
+		    		border: 2px solid var(--purple-dark);
+		  		}
+		  	}
 		}
 
 		.footer__legals {
