@@ -65,6 +65,9 @@ header {
 
   @include tablet-xs {
     margin-top: $space-5;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
   }
 }
 
@@ -72,6 +75,10 @@ header {
   align-items: center;
   display: flex;
   margin-right: 4.8rem;
+
+  @include tablet-xs {
+    margin-right: 0;
+  }
 
   &:last-child {
     margin-right: 0;
@@ -96,7 +103,9 @@ header {
   }
 
   @include tablet {
-    background: none;
+    background: var(--green-medium) url(../img/Illustration-header.png) no-repeat bottom center;
+    background-size: contain;
+    padding-bottom: 18rem;
   }
 
   @include tablet-xs {
@@ -118,7 +127,7 @@ header {
   min-height: inherit;
   padding: $space-10 2rem;
 
-  @include tablet-xs {
+  @include tablet {
     padding: 0;
   }
 }
@@ -127,7 +136,7 @@ header {
   padding-top: 9rem;
   padding-bottom: 15rem;
 
-  @include tablet-xs {
+  @include tablet {
     padding: 0;
   }
 }

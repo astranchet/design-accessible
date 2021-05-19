@@ -18,6 +18,12 @@ footer {
 			display: flex;
 			width: 75%;
 
+			@include tablet-xs {
+				align-items: center;
+				flex-direction: column;
+				justify-content: center;
+			}
+
 			a {
   				border: 2px solid transparent;
   				padding: .6rem;

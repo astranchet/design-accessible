@@ -27,6 +27,12 @@
   }
 
   .card__grid-handicaps {
+    @include tablet-xs {
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+    }
+
     .card {
       display: flex;
       flex-direction: column-reverse;
@@ -75,6 +81,20 @@
       background-color: var(--purple-light);
       width: calc(100% / 4 - #{$space-9} * 2);
 
+      @include desktop-xs {
+        width: calc(100% / 3 - #{$space-4} * 2);
+      }
+
+      @include tablet {
+        width: calc(100% / 2 - #{$space-4} * 2);
+      }
+
+      @include tablet-xs {
+        width: 100%;
+        padding: 0;
+        margin: $space-4 0;
+      }
+
       .card__title {
         font-weight: bold;
         font-size: 2.4rem;
@@ -98,6 +118,16 @@
       justify-content: flex-end;
       position: relative;
       padding: 0;
+
+      @include tablet {
+        width: calc(100% / 2 - #{$space-4} * 2);
+      }
+      
+      @include tablet-xs {
+        width: 100%;
+        padding: 0;
+        margin: $space-4 0;
+      }
 
       .card__img {
         position: relative; 
