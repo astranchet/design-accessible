@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-<div id="content">
+<div class="checklist" id="content">
     <div class="container">
 		<?= $page->text()->kt() ?>
 
@@ -9,11 +9,7 @@
 
 			<ul class="last__article-list">
 			<?php foreach ($page->checklist()->toStructure()->filterBy('category', $category->title()) as $item): ?>
-				<li class="last__article-item">
-    		        <article class="card card--horizontal">
-						<?php snippet('checklist-item', ['item' => $item]) ?>
-		            </article>
-          		</li>
+				<?php snippet('checklist-item', ['item' => $item]) ?>
 			<?php endforeach ?>
 			</ul>
 		<?php endforeach ?>
