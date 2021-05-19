@@ -1,0 +1,14 @@
+{
+  "name": "Design Accessible",
+  "short_name": "Design A11Y",
+  "icons": [
+    {
+      "src": "/assets/favicons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#01A58E",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}

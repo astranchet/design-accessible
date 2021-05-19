@@ -1,0 +1,13 @@
+<link rel="apple-touch-icon"
+      href="/assets/favicons/apple-touch-icon.png"
+      sizes="180x180">
+<link rel="icon"
+      type="image/png"
+      href="/assets/favicons/favicon-32.png"
+      sizes="32x32">
+<link rel="icon"
+      type="image/png"
+      href="/assets/favicons/favicon-16.png"
+      sizes="16x16">
+<link rel="manifest"
+      href="/assets/favicons/manifest.json">

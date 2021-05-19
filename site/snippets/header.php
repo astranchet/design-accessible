@@ -10,7 +10,11 @@
       <?= css(['assets/css/main.css', '@auto']) ?>
       <meta name="theme-color" content="#01A58E">
 
-      <?php snippet('seo') ?>
+      <?php snippet('header-seo') ?>
+      <?php snippet('header-favicon') ?>
+
+      <meta name="apple-mobile-web-app-title" content="<?= $site->title() ?>">
+      <meta name="application-name" content="<?= $site->title() ?>">
 
       <link href="<?= $site->page('feed')->url() ?>" rel="alternate" type="application/atom+xml" title="<?php $site->page('feed')->title() ?>" />
     </head>
