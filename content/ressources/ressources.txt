@@ -263,7 +263,7 @@ Ressources:
 	url: >
 		https://uxdesign.cc/the-ux-of-deadnaming-9f01ce5f0d6f
 	source: Vale Melvin Querini
-	description: "Conséquences d'un produit qui utilise le nom légal plutôt que le nom choisi sur les personnes transexuelles."
+	description: "Conséquences d'un produit qui utilise le nom légal plutôt que le nom choisi sur les personnes transgenre."
 	lang: en
 	phase: Conception
 	type: Article
