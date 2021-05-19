@@ -10,7 +10,7 @@
         </div>
         <?php if ($quote->source()->isNotEmpty()): ?>
           <p class="blockquote__author">
-            – Source&nbsp;: <?= $quote->source()->kirbytextinline() ?>
+            – <?= $quote->source()->kirbytextinline() ?>
           </p>
         <?php endif ?>
       </blockquote>
