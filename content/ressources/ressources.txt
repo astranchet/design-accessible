@@ -103,6 +103,25 @@ Ressources:
 	thematique: Wireframes
 	date: 2021-02-27
 -
+	title: "Darkmode et accessibilité"
+	url: >
+		https://nota-bene.org/Dark-mode-et-accessibilite
+	source: Stéphane Deschamps
+	lang: fr
+	thematique: Dark Mode
+	date: 2021-04-26
+-
+	title: "Disabled buttons don’t have to suck"
+	url: >
+		https://stories.justinewin.com/disabled-buttons-dont-have-to-suck-10da0bb6d37e
+	source: Justine Win
+	description: "Bonnes pratiques et alternatives aux boutons désactivés dans les formulaires."
+	lang: en
+	phase: Conception
+	type: Article
+	thematique: Formulaires
+	date: 2021-04-26
+-
 	title: "Alt-Text as Poetry"
 	url: >
 		https://alt-text-as-poetry.net/
@@ -209,6 +228,16 @@ Ressources:
 	type: Ressource
 	date: 2020-10-02
 -
+	title: "There’s no such thing as a website or web app that doesn’t need to be accessible "
+	url: >
+		https://gomakethings.com/theres-no-such-thing-as-a-website-or-web-app-that-doesnt-need-to-be-accessible/
+	source: Chris Ferdinandi
+	description: "Retour contre l'idée reçue que certains sites n'auraient pas besoin d’être accessibles."
+	lang: en
+	type: Article
+	thematique: Sensibilisation
+	date: 2021-04-26
+-
 	title: "Designing for autistic people — overview of existing research"
 	url: >
 		https://uxdesign.cc/designing-for-autistic-people-overview-of-existing-research-d6f6dc20710e
@@ -248,6 +277,16 @@ Ressources:
 	type: Article
 	thematique: Couleurs
 	date: 2021-02-27
+-
+	title: "« Tu sais que tu es non-voyant sur le web quand… »"
+	url: >
+		https://sonix.ai/r/e3WEY89NefAeNKU3a35BawKZ/share
+	source: Tech Ethic
+	description: "Interview de Céline Boeuf sur l'usage d'internet en tant que personne aveugle. "
+	lang: fr
+	type: Podcast
+	thematique: Retour d'expérience
+	date: 2021-04-26
 -
 	title: "Une grande partie de l'accessibilité numérique ne peut pas être automatisée. Pourquoi ? Parce que le coeur de l'accessibilité, c'est l'expérience humaine et l'empathie. Bien sûr, tu peux être conforme WCAG/RGAA ; mais ça ne veut pas dire que l'expérience utilisateur sera bonne. Vise l'excellence, pas la conformité."
 	url: >
@@ -415,6 +454,17 @@ Ressources:
 	type: Article
 	thematique: Sensibilisation
 	date: 2020-10-02
+-
+	title: "Applying Accessibility Heuristics to a Wireframe"
+	url: >
+		https://accessibility.deque.com/applying-accessibility-heuristics-to-a-wireframe
+	source: Deque
+	description: "Bonnes pratiques WCAG/RGAA revues sous la forme d’heuristiques pour auditer ses wireframes."
+	lang: en
+	phase: Conception
+	type: Ressource
+	thematique: Méthodologie
+	date: 2021-04-26
 -
 	title: "How (not) to make accessible data visualizations, illustrated by the US presidential election"
 	url: >
