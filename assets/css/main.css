@@ -1289,12 +1289,11 @@ header {
   transform: rotate(45deg); }
 .checklist .checklist__item label input:checked ~ .checklist__item__content {
   display: none; }
-
-.last__article-list {
+.checklist .last__article-list {
   display: flex;
   flex-wrap: wrap;
   margin: 4.8rem -1.2rem; }
-  .last__article-list .last__article-item {
+  .checklist .last__article-list .last__article-item {
     margin: 1.2rem;
     width: calc(100% / 2 - 1.2rem * 2); }
 
