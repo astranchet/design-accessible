@@ -1287,7 +1287,9 @@ header {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg); }
-.checklist .checklist__item label input:checked ~ .checklist__item__content {
+.checklist .checklist__item label ~ .checklist__item__content {
+  display: block; }
+.checklist .checklist__item label.active ~ .checklist__item__content {
   display: none; }
 .checklist .last__article-list {
   display: flex;

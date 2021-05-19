@@ -89,7 +89,10 @@
 		-ms-transform: rotate(45deg);
 		transform: rotate(45deg);
 	}
-	.checklist__item label input:checked ~ .checklist__item__content {
+	.checklist__item label ~ .checklist__item__content {
+		display: block;
+	}
+	.checklist__item label.active ~ .checklist__item__content {
 		display: none;
 	}
 
