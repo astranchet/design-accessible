@@ -4,7 +4,23 @@
 		font-size: 2.4rem;
 	}
 
-	.checklist-item label {
+	.checklist__group {
+		list-style-type: none;
+		padding: 0;
+		margin-bottom: 4.2rem;	
+	}
+
+	.checklist__item__content {
+		h5 {
+			margin-top: $space-5;
+		}
+		li {
+			list-style-type: square;
+			margin-left: 1.6rem;
+		}
+	}
+
+	.checklist__item label {
 		display: block;
 		position: relative;
 		padding-left: 4.2rem;
@@ -23,7 +39,7 @@
 			width: 0;
 		}
 
-		.checklist-item__checkmark {
+		.checklist__item__checkmark {
 			position: absolute;
 			top: 0;
 			left: 0;
@@ -37,32 +53,32 @@
 	}
 
 	// On mouse-over
-	.checklist-item label:hover input ~ .checklist-item__checkmark,
-	.checklist-item input:focus ~ .checklist-item__checkmark {
+	.checklist__item label:hover input ~ .checklist__item__checkmark,
+	.checklist__item input:focus ~ .checklist__item__checkmark {
 		border-color: var(--green-dark);
 	}
-	.checklist-item label:hover input ~ .checklist-item__title {
+	.checklist__item label:hover input ~ .checklist__item__title {
 		color: var(--neutral-1);
 	}
 
 	// When checked
-	.checklist-item label input:checked ~ .checklist-item__checkmark {
+	.checklist__item label input:checked ~ .checklist__item__checkmark {
 	  	background-color: var(--green-medium);
 	}
-	.checklist-item label input:checked ~ .checklist-item__title {
+	.checklist__item label input:checked ~ .checklist__item__title {
 		text-decoration: line-through;
 	}
 
 	// Checkmark indicator
-	.checklist-item__checkmark:after {
+	.checklist__item__checkmark:after {
 	  content: "";
 	  position: absolute;
 	  display: none;
 	}
-	.checklist-item label input:checked ~ .checklist-item__checkmark:after {
+	.checklist__item label input:checked ~ .checklist__item__checkmark:after {
 	  display: block;
 	}
-	.checklist-item label .checklist-item__checkmark:after {
+	.checklist__item label .checklist__item__checkmark:after {
 		left: .6rem;
 		top: .3rem;
 		width: .6rem;
@@ -72,5 +88,19 @@
 		-webkit-transform: rotate(45deg);
 		-ms-transform: rotate(45deg);
 		transform: rotate(45deg);
+	}
+	.checklist__item label input:checked ~ .checklist__item__content {
+		display: none;
+	}
+}
+
+.last__article-list {
+	display: flex;
+	flex-wrap: wrap;
+  	margin: $space-9 #{-$space-4};
+
+	.last__article-item {
+		margin: $space-4;
+	    width: calc(100% / 2 - #{$space-4} * 2);
 	}
 }

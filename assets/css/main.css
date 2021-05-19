@@ -923,34 +923,35 @@ h5 {
   .tags__link:hover {
     text-decoration: none; }
 
-.checklist-item {
+.checklist__item {
   background-color: var(--green-pale);
   padding: 1.2rem; }
-  .checklist-item a:not(.button)::after {
+  .checklist__item a:not(.button)::after {
     opacity: .5; }
-  .checklist-item a[hreflang]::after {
+  .checklist__item a[hreflang]::after {
     content: " [" attr(hreflang) "]";
     font-weight: normal; }
-  .checklist-item:first-child {
+  .checklist__item:first-child {
     border-top-left-radius: 1.2rem;
     border-top-right-radius: 1.2rem; }
-  .checklist-item:last-child {
+  .checklist__item:last-child {
     border-bottom-left-radius: 1.2rem;
     border-bottom-right-radius: 1.2rem; }
-  .checklist-item h4 {
+  .checklist__item h4 {
     display: inline;
     color: var(--green-dark); }
-  .checklist-item .checklist-item__content {
+  .checklist__item .checklist__item__content {
     margin: 1.6rem;
     margin-bottom: 4.8rem;
+    margin-left: 4.2rem;
     color: var(--neutral-2); }
-    .checklist-item .checklist-item__content h5 {
+    .checklist__item .checklist__item__content h5 {
       color: var(--neutral-1);
       margin-top: 1rem; }
-    .checklist-item .checklist-item__content ul {
+    .checklist__item .checklist__item__content ul {
       list-style-type: none;
       padding: 0; }
-    .checklist-item .checklist-item__content li {
+    .checklist__item .checklist__item__content li {
       margin: 0.8rem 0; }
 
 .highlight {
@@ -1226,7 +1227,16 @@ header {
 .checklist h3 {
   margin-top: 2rem;
   font-size: 2.4rem; }
-.checklist .checklist-item label {
+.checklist .checklist__group {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 4.2rem; }
+.checklist .checklist__item__content h5 {
+  margin-top: 1.6rem; }
+.checklist .checklist__item__content li {
+  list-style-type: square;
+  margin-left: 1.6rem; }
+.checklist .checklist__item label {
   display: block;
   position: relative;
   padding-left: 4.2rem;
@@ -1236,13 +1246,13 @@ header {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none; }
-  .checklist .checklist-item label input {
+  .checklist .checklist__item label input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
     height: 0;
     width: 0; }
-  .checklist .checklist-item label .checklist-item__checkmark {
+  .checklist .checklist__item label .checklist__item__checkmark {
     position: absolute;
     top: 0;
     left: 0;
@@ -1252,22 +1262,22 @@ header {
     border: 3px solid var(--green-medium);
     border-radius: .6rem;
     margin-top: .6rem; }
-.checklist .checklist-item label:hover input ~ .checklist-item__checkmark,
-.checklist .checklist-item input:focus ~ .checklist-item__checkmark {
+.checklist .checklist__item label:hover input ~ .checklist__item__checkmark,
+.checklist .checklist__item input:focus ~ .checklist__item__checkmark {
   border-color: var(--green-dark); }
-.checklist .checklist-item label:hover input ~ .checklist-item__title {
+.checklist .checklist__item label:hover input ~ .checklist__item__title {
   color: var(--neutral-1); }
-.checklist .checklist-item label input:checked ~ .checklist-item__checkmark {
+.checklist .checklist__item label input:checked ~ .checklist__item__checkmark {
   background-color: var(--green-medium); }
-.checklist .checklist-item label input:checked ~ .checklist-item__title {
+.checklist .checklist__item label input:checked ~ .checklist__item__title {
   text-decoration: line-through; }
-.checklist .checklist-item__checkmark:after {
+.checklist .checklist__item__checkmark:after {
   content: "";
   position: absolute;
   display: none; }
-.checklist .checklist-item label input:checked ~ .checklist-item__checkmark:after {
+.checklist .checklist__item label input:checked ~ .checklist__item__checkmark:after {
   display: block; }
-.checklist .checklist-item label .checklist-item__checkmark:after {
+.checklist .checklist__item label .checklist__item__checkmark:after {
   left: .6rem;
   top: .3rem;
   width: .6rem;
@@ -1277,5 +1287,15 @@ header {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg); }
+.checklist .checklist__item label input:checked ~ .checklist__item__content {
+  display: none; }
+
+.last__article-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 4.8rem -1.2rem; }
+  .last__article-list .last__article-item {
+    margin: 1.2rem;
+    width: calc(100% / 2 - 1.2rem * 2); }
 
 /*# sourceMappingURL=main.css.map */

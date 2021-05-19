@@ -1,4 +1,4 @@
-.checklist-item {
+.checklist__item {
   background-color: var(--green-pale);
   padding: 1.2rem;
 
@@ -26,9 +26,11 @@
     color: var(--green-dark);
   }
 
-  .checklist-item__content {
+  .checklist__item__content {
     margin: $space-5;
     margin-bottom: $space-9;
+    margin-left: 4.2rem;
+
     color: var(--neutral-2);
 
     h5 {

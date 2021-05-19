@@ -7,7 +7,8 @@
 		<?php foreach ($page->categories()->toStructure() as $category): ?>
 			<h3><?= $category->title() ?></h3>
 
-			<ul class="last__article-list">
+			<?= $category->description()->kt() ?>
+			<ul class="checklist__group">
 			<?php foreach ($page->checklist()->toStructure()->filterBy('category', $category->title()) as $item): ?>
 				<?php snippet('checklist-item', ['item' => $item]) ?>
 			<?php endforeach ?>

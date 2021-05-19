@@ -13,20 +13,16 @@ Cette checkliste est un point de départ pour concevoir un produit accessible. E
 Checklist:
 
 - 
-  title: 'Donner un titre unique à chaque page. '
-  desc: >
-    Chaque page doit avoir un titre unique
-    et utile qui indique le but de la page.
-  further: '* (link: https://www.accede-web.com/notices/html-et-css/titre-de-la-page/renseigner-un-title-precis-sur-chaque-page/ text: Renseigner un title précis sur chaque page)'
-  category: Contenu
-- 
   title: "Faciliter la compréhension rapide d'une page."
-  desc: "Une page accessible peut être lue rapidement et facilement. Les gros blocs de textes sont intimidant et long à lire. Les textes courts, organisez à l'aide de titres et de listes sont plus facile à lire."
-  further: ""
+  desc: |
+    Une page accessible doit pouvoir être **lue rapidement et facilement**. Les gros blocs de textes sont intimidant et fastidieux à lire. Pour rendre un texte facile à lire, privilégier :
+    - les listes et les titres
+    - les phrases courtes.
+  further: '* (link: https://www.plainlanguage.gov/guidelines/design text: Design for reading hreflang: en)'
   category: Contenu
 - 
   title: Nommer les liens explicitement.
-  desc: "L'objectif du lien doit être clair, même sans contexte."
+  desc: "L'objectif d'un lien doit être clair, même sans contexte. Cela sera particulièrement utile aux personnes utilisant un lecteur d'écran."
   further: |
     * (link: https://www.accede-web.com/notices/fonctionnelle-graphique/formulaires/prevoir-un-intitule-explicite-pour-chaque-bouton-de-formulaire/ text: Prévoir un intitulé explicite pour chaque bouton de formulaire)
     * (link: https://www.accede-web.com/notices/editoriale-modele/ecrire-des-liens-de-maniere-accessible/rediger-des-intitules-de-liens-explicites/ text: Rédiger des intitulés de liens explicites)
@@ -39,22 +35,15 @@ Checklist:
     Construire une hiérarchie des titres
     pertinente.
   desc: |
-    La hiérarchie des titres permet aux utilisateurs de :
+    Une **bonne hiérarchie de titres** permet aux utilisateurs de :
     - se situer rapidement dans une page
     - s'assurer d'être au bon endroit.
-    
-    Une bonne hiérarchie de titre est complète (pas de trous entre les titres de niveaux 1, 2, 3...).
+    Pour cela, la hiérarchie doit être complète (pas de trous entre les titres de niveaux 1, 2, 3...) et les titres porteurs de sens.
   further: '* (link: https://www.accede-web.com/notices/editoriale-modele/utiliser-correctement-la-hierarchie-des-titres/ text: Utiliser correctement la hiérarchie des titres)'
   category: Contenu
 - 
   title: Rester cohérent sur tout le parcours
-  desc: |
-    Les noms des composants et fonctionnalités doivent être cohérents. Cela rend le service familier et prévisible pour les utilisateurs. Après avoir appris une fonctionnalité, l'utilisateur la retrouve plus facilement ensuite.
-    
-    C'est particulièrement utile pour :
-    * les personnes avec des limitations cognitives
-    * les utilisateurs malvoyants
-    * les utilisateurs aveugles.
+  desc: "Les termes utilisés sur le site doivent être cohérents. Cela rend le service familier et prévisible. Après avoir appris une fonctionnalité, l'utilisateur la retrouve plus facilement ensuite."
   further: '* (link: https://www.accede-web.com/notices/fonctionnelle-graphique/regles-supplementaires-pour-la-conformite/prevoir-des-intitules-identiques-pour-les-champs-dont-la-fonction-est-identique/ text: Prévoir des intitulés identiques pour les champs font la fonction est identique)'
   category: Contenu
 - 
@@ -251,6 +240,13 @@ Checklist:
     Les fonctionnalités activables via des gestes complexes doivent l'être aussi de manière alternative.
   further: ""
   category: Conception
+- 
+  title: 'Donner un titre unique à chaque page. '
+  desc: >
+    Chaque page doit avoir un titre unique
+    et utile qui indique le but de la page.
+  further: '* (link: https://www.accede-web.com/notices/html-et-css/titre-de-la-page/renseigner-un-title-precis-sur-chaque-page/ text: Renseigner un title précis sur chaque page)'
+  category: Livrables
 
 ----
 
@@ -258,49 +254,66 @@ Categories:
 
 - 
   title: Contenu
+  description: "Le contenu est un moyen simple d'apporter de l'information et du contexte."
 - 
   title: Couleurs
+  description: "Le contenu est un moyen simple d'apporter de l'information et du contexte."
 - 
   title: Formulaires
+  description: "Les formulaires ont un fort impact sur l'accessibilité. Un utilisateur qui ne peut pas remplir un formulaire ne pourra probalement pas accomplir sa tâche."
 - 
   title: Navigation
+  description: >
+    Accessibilité et usabilité ont de
+    fortes points communs. En voici la
+    preuve.
 - 
   title: Conception
+  description: >
+    Certaines bonnes pratiques se pensent au
+    moment même de définir le produit.
+- 
+  title: Livrables
+  description: "Pour porter l'accessibilité, les livrables du designers doivent inclure blabla."
 
 ----
 
 Ressources:
 
 - 
-  title: Notices d’accessibilité
+  title: Notices d’accessibilité fonctionnelle et graphique
   source: AccedeWeb
-  url: https://www.accede-web.com/
-  description: ""
+  url: https://www.accede-web.com/notices/fonctionnelle-graphique/
+  description: "Ensemble des éléments à prendre en compte pour que les maquettes ergonomiques (storyboards, wireframes) et graphiques"
 - 
   title: Accessibility for UX and UI Designers
   source: Accessibility for teams
   url: >
     https://accessibility-for-teams.com/accessibility-for-ux-designers
-  description: ""
+  description: "Guide de démarrage en anglais pour les concepteurs d'UX et d'UI sur la création de sites Web accessibles. "
 - 
   title: Accessibility Heuristiques for Designers
   source: Deque
-  url: ""
+  url: "https://accessibility.deque.com/applying-accessibility-heuristics-to-a-wireframe"
+  description: "Critères d'accessibilité sous forme d'heuristiques pour évaluer l'accessibilité d'interfaces."
 - 
-  title: Accessibility Guidelines Sumarry
+  title: Accessibility Guidelines Summary
   source: The App Business
-  url: ""
+  url: "https://theappbusiness.github.io/accessibility-guidelines/index.html"
+  description: "Critères d'accessibilité du WCAG rédigés en anglais simplifié et illustrés d'exemples."
 
 ----
 
-Baseline: Concevoir un service ou un produit accessible à toutes et tous.
+Nextstep:
 
-----
-
-Nextstep: ## 🔧 Outiller sa démarche d’accessibilité
+## 🔧 Outiller sa démarche d’accessibilité
 
 L’accessibilité n’est pas seulement une liste de cases à cocher. 
 
 Pour proposer une bonne expérience à tous les utilisateurs, la démarche d’accessibilité doit être entreprise dès la phase de recherche.
 
 (link: /ressources text: Explorer les ressources → class: button button--third)
+
+----
+
+Baseline: Concevoir un service ou un produit accessible à toutes et tous.
