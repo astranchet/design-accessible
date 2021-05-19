@@ -149,7 +149,7 @@ Ressources:
 	source: Andrew Pulrang
 	lang: en
 	type: Article
-	thematique: Contenu simplifié
+	thematique: Contenu simplifié, UX Writing
 	date: 2020-12-05
 -
 	title: "Designing mindful experiences for users with anxiety"
@@ -177,16 +177,21 @@ Ressources:
 	url: >
 		http://www.webaxe.org/resources-for-developing-accessible-cards-tiles/
 	source: Dennis Lembree
+	description: "Liste de ressources pour designer des *cards* accessibles."
 	lang: en
 	type: Article
+	thematique: Design
 	date: 2020-10-02
 -
 	title: "Understanding Point Sizing and Font Characteristics"
 	url: >
 		https://haltersweb.github.io/Accessibility/font-sizing-and-contrast.html
 	source: Adina Halter
+	description: "Aide au calcul du ratio de contraste en fonction de la taille et de la graisse de la typographie utilisée."
 	lang: en
+	phase: Conception
 	type: Article
+	thematique: Typographie
 	date: 2020-10-02
 -
 	title: "Platform Abuse"
@@ -208,8 +213,11 @@ Ressources:
 	url: >
 		https://uxdesign.cc/designing-for-autistic-people-overview-of-existing-research-d6f6dc20710e
 	source: Irina Rusakova
+	description: "Bonnes pratiques de conception pour les personnes autistes : mise en page, contenu, couleurs, interactions, navigation..."
 	lang: en
+	phase: Conception
 	type: Article
+	thematique: Autisme
 	date: 2020-11-04
 -
 	title: "Accessibility 2020"
@@ -303,8 +311,11 @@ Ressources:
 	url: >
 		https://gerireid.com/accessibility.html
 	source: Geri Reid
+	description: "Retour d'expérience de l'amélioration de l'accessibilité par la conception et mise en place d'un design system."
 	lang: en
+	phase: Conception
 	type: Article
+	thematique: Design System, Retour d'expérience
 	date: 2020-10-02
 -
 	title: " 11 Guidelines for Writing Microcopy that Helps Older Adults Use Your Product"
@@ -405,18 +416,11 @@ Ressources:
 	thematique: Sensibilisation
 	date: 2020-10-02
 -
-	title: "Do Website Policy Disclosure Pages Always Have To Be So Ugly?"
-	url: >
-		https://www.smashingmagazine.com/2020/10/website-policy-disclosure-pages/
-	source: Suzanne Scacca
-	lang: en
-	type: Article
-	date: 2020-11-04
--
 	title: "How (not) to make accessible data visualizations, illustrated by the US presidential election"
 	url: >
 		https://fossheim.io/writing/posts/accessible-dataviz-us-elections/
 	source: Sarah Fossheim
+	description: "Étude de cas de l'accessibilité de datavisualisations des élections américaines de 2020."
 	lang: en
 	phase: Conception
 	type: Article
@@ -449,7 +453,7 @@ Ressources:
 	url: >
 		https://www.a11ywebsites.com/
 	source: Calum Ryan
-	description: "Annuaire de sites accessibles"
+	description: "Annuaire de sites accessibles."
 	lang: en
 	type: Ressource
 	thematique: Design
@@ -605,6 +609,7 @@ Ressources:
 	url: >
 		https://www.benjystanton.co.uk/blog/a-plan-for-accessible-maps/
 	source: Benjy Stanton
+	description: "Méthodologie de conception pour concevoir une carte interactive accessible."
 	lang: en
 	phase: Conception
 	type: Article
@@ -634,6 +639,7 @@ Ressources:
 	url: >
 		https://blog.hello-bokeh.fr/2020/04/30/construire-une-carte-accessible/
 	source: Anne-Sophie Tranchet
+	description: "Bonnes pratiques de conception d'une carte accessible."
 	lang: fr
 	phase: Conception
 	type: Article
