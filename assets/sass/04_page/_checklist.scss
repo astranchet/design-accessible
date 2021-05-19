@@ -3,4 +3,74 @@
 		margin-top: 2rem;
 		font-size: 2.4rem;
 	}
+
+	.checklist-item label {
+		display: block;
+		position: relative;
+		padding-left: 4.2rem;
+		cursor: pointer;
+		font-size: 2.4rem;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+
+		input {
+			position: absolute;
+			opacity: 0;
+			cursor: pointer;
+			height: 0;
+			width: 0;
+		}
+
+		.checklist-item__checkmark {
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 2.4rem;
+			width: 2.4rem;
+			background-color: var(--white);
+			border: 3px solid var(--green-medium);
+			border-radius: .6rem;
+			margin-top: .6rem;
+		}	
+	}
+
+	// On mouse-over
+	.checklist-item label:hover input ~ .checklist-item__checkmark,
+	.checklist-item input:focus ~ .checklist-item__checkmark {
+		border-color: var(--green-dark);
+	}
+	.checklist-item label:hover input ~ .checklist-item__title {
+		color: var(--neutral-1);
+	}
+
+	// When checked
+	.checklist-item label input:checked ~ .checklist-item__checkmark {
+	  	background-color: var(--green-medium);
+	}
+	.checklist-item label input:checked ~ .checklist-item__title {
+		text-decoration: line-through;
+	}
+
+	// Checkmark indicator
+	.checklist-item__checkmark:after {
+	  content: "";
+	  position: absolute;
+	  display: none;
+	}
+	.checklist-item label input:checked ~ .checklist-item__checkmark:after {
+	  display: block;
+	}
+	.checklist-item label .checklist-item__checkmark:after {
+		left: .6rem;
+		top: .3rem;
+		width: .6rem;
+		height: 1.2rem;
+		border: solid white;
+		border-width: 0 .3rem .3rem 0;
+		-webkit-transform: rotate(45deg);
+		-ms-transform: rotate(45deg);
+		transform: rotate(45deg);
+	}
 }

@@ -751,6 +751,9 @@ h5 {
 .card {
   border-radius: 2.4rem;
   padding: 2.4rem; }
+  .card .card__icon {
+    color: var(--purple-bright);
+    font-size: 9.6rem; }
 
 .card--horizontal {
   border: 0.1rem solid var(--neutral-5);
@@ -1133,6 +1136,11 @@ header {
   font-size: 2.4rem; }
 .decouvrir p + ul {
   margin-bottom: 4.8rem; }
+.decouvrir .card__grid-handicaps .card {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  text-align: center; }
 .decouvrir .card__grid-personas .card {
   background-color: var(--green-pale); }
   .decouvrir .card__grid-personas .card .card__title {
@@ -1152,14 +1160,18 @@ header {
       width: 100%; } }
   .decouvrir .card__grid-personas .card:hover {
     transform: translateY(-0.2rem); }
-.decouvrir .card__grid-handicaps .card {
-  background-color: var(--purple-light); }
-  .decouvrir .card__grid-handicaps .card .card__title {
-    font-weight: bold;
-    font-size: 2.4rem;
-    color: var(--purple-dark); }
-  .decouvrir .card__grid-handicaps .card:hover {
-    transform: translateY(-0.2rem); }
+.decouvrir .card__grid-handicaps {
+  justify-content: space-between;
+  margin-bottom: 4.8rem; }
+  .decouvrir .card__grid-handicaps .card {
+    background-color: var(--purple-light);
+    width: calc(100% / 4 - 4.8rem * 2); }
+    .decouvrir .card__grid-handicaps .card .card__title {
+      font-weight: bold;
+      font-size: 2.4rem;
+      color: var(--purple-dark); }
+    .decouvrir .card__grid-handicaps .card:hover {
+      transform: translateY(-0.2rem); }
 .decouvrir .card__grid-technos {
   margin-top: 0; }
   .decouvrir .card__grid-technos .card {
@@ -1216,5 +1228,56 @@ header {
 .checklist h3 {
   margin-top: 2rem;
   font-size: 2.4rem; }
+.checklist .checklist-item label {
+  display: block;
+  position: relative;
+  padding-left: 4.2rem;
+  cursor: pointer;
+  font-size: 2.4rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+  .checklist .checklist-item label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0; }
+  .checklist .checklist-item label .checklist-item__checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2.4rem;
+    width: 2.4rem;
+    background-color: var(--white);
+    border: 3px solid var(--green-medium);
+    border-radius: .6rem;
+    margin-top: .6rem; }
+.checklist .checklist-item label:hover input ~ .checklist-item__checkmark,
+.checklist .checklist-item input:focus ~ .checklist-item__checkmark {
+  border-color: var(--green-dark); }
+.checklist .checklist-item label:hover input ~ .checklist-item__title {
+  color: var(--neutral-1); }
+.checklist .checklist-item label input:checked ~ .checklist-item__checkmark {
+  background-color: var(--green-medium); }
+.checklist .checklist-item label input:checked ~ .checklist-item__title {
+  text-decoration: line-through; }
+.checklist .checklist-item__checkmark:after {
+  content: "";
+  position: absolute;
+  display: none; }
+.checklist .checklist-item label input:checked ~ .checklist-item__checkmark:after {
+  display: block; }
+.checklist .checklist-item label .checklist-item__checkmark:after {
+  left: .6rem;
+  top: .3rem;
+  width: .6rem;
+  height: 1.2rem;
+  border: solid white;
+  border-width: 0 .3rem .3rem 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg); }
 
 /*# sourceMappingURL=main.css.map */

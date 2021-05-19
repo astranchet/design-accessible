@@ -55,10 +55,10 @@ Sections:
 		L’accessibilité concerne une variété de personnes avec des capacités et besoins différents. Il existe plusieurs catégories de déficiences :
 
 		<div class="card__grid card__grid-handicaps">
-		(card: Troubles auditifs)
-		(card: Troubles moteurs)
-		(card: Troubles visuels)
-		(card: Troubles cognitifs)
+		(card: Troubles auditifs icon: fa-solid:deaf)
+		(card: Troubles moteurs icon: fa-brands:accessible-icon)
+		(card: Troubles visuels icon: fa-solid:low-vision)
+		(card: Troubles cognitifs icon: fa-solid:brain)
 		</div>
 
 		Ces déficiences ont un impact sur la manière dont les personnes naviguent sur le Web.

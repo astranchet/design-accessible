@@ -19,6 +19,11 @@
 .card {
   border-radius: 2.4rem;
   padding: $space-6;
+
+  .card__icon {
+    color: var(--purple-bright);
+    font-size: 9.6rem;
+  }
 }
 
 .card--horizontal {
