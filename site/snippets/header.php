@@ -8,6 +8,7 @@
         <?= $title ?>
       </title>
       <?= css(['assets/css/main.css', '@auto']) ?>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="theme-color" content="#01A58E">
 
       <?php snippet('header-seo') ?>
