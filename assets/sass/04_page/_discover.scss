@@ -26,6 +26,15 @@
     margin-bottom: $space-9;
   }
 
+  .card__grid-handicaps {
+    .card {
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: flex-end;
+      text-align: center;
+    }
+  }
+
   .card__grid-personas {
     .card {
       background-color: var(--green-pale);
@@ -59,8 +68,12 @@
   }
 
   .card__grid-handicaps {
+    justify-content : space-between;
+    margin-bottom: $space-9;
+
     .card {
       background-color: var(--purple-light);
+      width: calc(100% / 4 - #{$space-9} * 2);
 
       .card__title {
         font-weight: bold;

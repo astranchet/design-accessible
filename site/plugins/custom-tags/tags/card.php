@@ -4,6 +4,7 @@ return [
 	'attr' => [
 		'desc',
 		'img',
+        'icon',
         'alt',
       ],
     'html' => function($tag) {
@@ -23,7 +24,15 @@ return [
                 'alt'    => $tag->alt ?? ' '
             ]);
             $html .= '</p>';
-    	}
+    	} else if(isset($tag->icon)) {
+            $html .= '<p class="card__icon">';
+            $html .= Html::tag('span', null, [
+                'class'         => 'iconify',
+                'data-inline'   => false,
+                'data-icon'     => $tag->icon,
+            ]);
+            $html .= '</p>';
+        }
 
     	$html .= '</div>';
 
