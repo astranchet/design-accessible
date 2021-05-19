@@ -958,6 +958,15 @@ h5 {
   color: var(--green-dark);
   margin: 3.2rem auto; }
 
+.filters {
+  margin-bottom: 4.8rem; }
+  .filters .tags {
+    margin-bottom: 0.8rem; }
+  .filters .tags__item {
+    margin-bottom: 1.6rem; }
+  .filters a {
+    text-decoration: none; }
+
 footer {
   background: var(--purple-bright);
   padding: 1.6rem; }
@@ -1151,18 +1160,35 @@ header {
     color: var(--purple-dark); }
   .decouvrir .card__grid-handicaps .card:hover {
     transform: translateY(-0.2rem); }
-.decouvrir .card__grid-technos .card {
-  background-color: var(--purple-light);
-  width: calc(100% / 3 - 1.2rem * 2);
-  display: flex;
-  flex-direction: column-reverse;
-  position: relative;
-  padding: 0; }
-  .decouvrir .card__grid-technos .card .card__title {
-    color: var(--purple-dark);
-    padding: 0.8rem; }
-  .decouvrir .card__grid-technos .card:hover {
-    transform: translateY(-0.2rem); }
+.decouvrir .card__grid-technos {
+  margin-top: 0; }
+  .decouvrir .card__grid-technos .card {
+    background-color: var(--purple-light);
+    width: calc(100% / 3 - 1.2rem * 2);
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    position: relative;
+    padding: 0; }
+    .decouvrir .card__grid-technos .card .card__img {
+      position: relative;
+      padding-top: 56.25%; }
+      .decouvrir .card__grid-technos .card .card__img img {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-top-left-radius: .6rem;
+        border-top-right-radius: .6rem; }
+    .decouvrir .card__grid-technos .card .card__title {
+      color: var(--purple-dark);
+      padding: 0.8rem; }
+    .decouvrir .card__grid-technos .card:hover {
+      transform: translateY(-0.2rem); }
 .decouvrir .alt {
   background-color: var(--purple-pale); }
 

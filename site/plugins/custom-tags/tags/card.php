@@ -16,11 +16,13 @@ return [
     	}
 
     	if(isset($tag->img) && $tag->file = $tag->file($tag->img)) {
+            $html .= '<p class="card__img">';
             // TODO : fix this publish thing
             $html .= Html::img($tag->file->publish()->url(), [
                 'class'  => '',
                 'alt'    => $tag->alt ?? ' '
             ]);
+            $html .= '</p>';
     	}
 
     	$html .= '</div>';
