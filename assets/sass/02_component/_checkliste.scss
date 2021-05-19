@@ -2,6 +2,15 @@
   background-color: var(--green-pale);
   padding: 1.2rem;
 
+  a:not(.button)::after {
+      opacity: .5;
+  }
+
+  a[hreflang]::after {
+      content: "\0000a0[" attr(hreflang) "]";
+      font-weight: normal;
+  }
+
   &:first-child {
     border-top-left-radius: 1.2rem;
     border-top-right-radius: 1.2rem;

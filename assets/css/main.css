@@ -615,13 +615,6 @@ body {
   background: var(--green-medium);
   color: var(--white); }
 
-a:not(.button)::after {
-  opacity: .5; }
-
-a[hreflang]::after {
-  content: " [" attr(hreflang) "]";
-  font-weight: normal; }
-
 h2 {
   font-size: 3.6rem;
   font-weight: bold; }
@@ -662,7 +655,7 @@ h5 {
     margin-left: 1rem; }
 
 .blockquote__author {
-  color: var(--neutral-3);
+  color: var(--neutral-1);
   font-size: 1.8rem;
   font-weight: normal;
   margin-bottom: 0;
@@ -672,7 +665,7 @@ h5 {
       text-align: center; } }
 
 .blockquote__author a {
-  color: var(--neutral-3); }
+  color: var(--neutral-1); }
 
 .button {
   align-items: center;
@@ -785,14 +778,14 @@ h5 {
       .card--horizontal .card__title a:hover, .card--horizontal .card__title a:focus {
         text-decoration: underline; }
   .card--horizontal .card__type {
-    color: var(--green-medium);
+    color: var(--green-dark);
     font-size: 1.8rem; }
   .card--horizontal .card__description {
     color: var(--neutral-2);
     font-size: 1.8rem;
     margin-bottom: 1.2rem; }
   .card--horizontal .card__author {
-    color: var(--neutral-3);
+    color: var(--neutral-2);
     margin: 1.2rem 0; }
     .card--horizontal .card__author span {
       font-weight: bold; }
@@ -933,6 +926,11 @@ h5 {
 .checklist-item {
   background-color: var(--green-pale);
   padding: 1.2rem; }
+  .checklist-item a:not(.button)::after {
+    opacity: .5; }
+  .checklist-item a[hreflang]::after {
+    content: " [" attr(hreflang) "]";
+    font-weight: normal; }
   .checklist-item:first-child {
     border-top-left-radius: 1.2rem;
     border-top-right-radius: 1.2rem; }
@@ -971,7 +969,7 @@ h5 {
     text-decoration: none; }
 
 footer {
-  background: var(--purple-bright);
+  background: var(--purple-pale);
   padding: 1.6rem; }
   footer nav {
     display: flex;
@@ -1064,7 +1062,7 @@ header {
     color: var(--white); }
 
 .header__main {
-  background: url(../img/Illustration-header.png) no-repeat center right;
+  background: var(--green-medium) url(../img/Illustration-header.png) no-repeat center right;
   min-height: 33rem; }
   @media screen and (max-width: 74.9375em) {
     .header__main {

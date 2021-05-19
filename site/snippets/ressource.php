@@ -9,7 +9,7 @@
 
 <?php } else { ?>
 <h3 class="card__title">
-  <a href="<?= $ressource->url() ?>">
+  <a href="<?= $ressource->url() ?>" rel="external" hreflang="<?= $ressource->lang() ?>">
     <?= $ressource->title() ?>
   </a>
   <span class="card__type">
@@ -30,7 +30,7 @@
 <ul class="tags">
 	<?php foreach ($ressource->phase()->split() as $phase): ?>
     <li class="tags__item tags__item-phase">
-      <a href="<?= url(page('ressources')->url(), ['params' => ['phase' => $phase]]) ?>" class="tags__link">
+      <a href="<?= url(page('ressources')->url(), ['params' => ['phase' => $phase]]) ?>" class="tags__link" aria-label="Autre ressources pour la phase <?= $phase ?>">
         <?= $phase ?>
       </a>
     </li>
@@ -38,7 +38,7 @@
 
   <?php foreach ($ressource->thematique()->split() as $thematique): ?>
     <li class="tags__item tags__item-thematique">
-      <a href="<?= url(page('ressources')->url(), ['params' => ['thematique' => $thematique]]) ?>" class="tags__link">
+      <a href="<?= url(page('ressources')->url(), ['params' => ['thematique' => $thematique]]) ?>" class="tags__link" aria-label="Autres ressources sur : <?= $thematique ?>">
         <?= $thematique ?>
       </a>
     </li>
@@ -46,7 +46,7 @@
 
   <?php if ($ressource->lang()->isNotEmpty()) : ?>
     <li class="tags__item tags__item-lang">
-      <a href="<?= url(page('ressources')->url(), ['params' => ['lang' => $ressource->lang()]]) ?>" class="tags__link">
+      <a href="<?= url(page('ressources')->url(), ['params' => ['lang' => $ressource->lang()]]) ?>" class="tags__link" aria-label="Autres ressources en <?= $langs[$ressource->lang()->value()] ?>">
         <?= $langs[$ressource->lang()->value()] ?>
       </a>
     </li>

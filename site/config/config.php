@@ -39,9 +39,10 @@ return [
 		'script-src' => [
 			"'self'",
 			// "https://www.googletagmanager.com",
-			// "https://ajax.googleapis.com",
+			"https://ajax.googleapis.com",
 			// "https://www.google-analytics.com",
 			// "https://cdn.jsdelivr.net",
+			"https://www.ssa.gov/accessibility/andi/",
 			"https://scripts.withcabin.com",
 			"https://code.iconify.design/1/1.0.6/iconify.min.js",
 			"https://api.iconify.design/",
@@ -51,6 +52,7 @@ return [
 		'style-src' => [
 			"'self'",
 			"'unsafe-inline'",
+			"https://www.ssa.gov/accessibility/andi/",
 		],
 		'img-src' => [
 			"* data:"
