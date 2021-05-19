@@ -6,14 +6,14 @@ Text:
 
 ## À propos de ce site
 
-(highlight: Design Accessible rassemble des ressources sur l'accessibilité pour les designers.)
+(highlight: **Design Accessible** rassemble des ressources sur l'accessibilité pour les designers.)
 
 Que vous soyez UX, UI, UX Researcher, UX Writer, ou même dev ou chef de projet curieux, **Design Accessible** vous permettra de trouver des ressources utiles et actionnables pour votre projet.
 
 Ces ressources étaient initialiement publiées sous forme de veille sur (link: https://blog.hello-bokeh.fr/ text: le blog d'Anne-Sophie Tranchet). UX/UI Designer indépendante et engagée, elle est spécialisée dans le design de service public. Elle conçoit des produits inclusifs et accessibles à toutes et tous.
 
-Côté intégration, **Design Accessible** a pris vie grâce au fabuleux (link: twitter.com/skyounet text: Jimmy Burbure) 🤗, intégrateur freelance, spécialisé en accessibilité 💪.  
+Côté intégration, **Design Accessible** a pris vie grâce au fabuleux (link: https://twitter.com/skyounet text: Jimmy Burbure) 🤗, intégrateur freelance, spécialisé en accessibilité 💪.  
 
 Les (très mignonnes) illustrations de l'entête viennent du pack (link: https://blush.design/fr/collections/hands text: Hands hreflang: en) de (link: https://ivanmesaros.com/ text: Ivan Mesaroš) 👌.
 
-Le site grâce au génial (link: https://getkirby.com/ text: Kirby) ✊💜. Le code source est disponible sur (link: https://github.com/astranchet/design-accessible text: Github).
+Le site tourne grâce au génial (link: https://getkirby.com/ text: Kirby) ✊💜. Le code source est disponible sur (link: https://github.com/astranchet/design-accessible text: Github).
