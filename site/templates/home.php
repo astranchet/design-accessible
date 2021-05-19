@@ -1,7 +1,7 @@
 <?php snippet('header') ?>
 
 <div class="homepage" id="content">
-  <?php $quote = $site->quotes()->toStructure()->shuffle()->first(); ?>
+  <?php $quote = $site->quotes()->toStructure()->filterBy('show', 'true')->shuffle()->first(); ?>
   <div class="quote">
     <div class="container">
       <blockquote class="blockquote">

@@ -26,32 +26,48 @@ Quotes:
 - 
   citation: Nous sommes tous temporairement valides.
   source: '(link: https://en.wikipedia.org/wiki/Cindy_Li text: Cindy Li)'
+  show: 'false'
 - 
-  citation: >
-    L’accessibilité est une facette de
-    l’expérience utilisateur plutôt
-    qu’une liste de cases à cocher.
+  citation: "L’accessibilité est plus qu'une checkliste : c'est une facette de l’expérience utilisateur."
   source: '(link: https://accessibility-for-teams.com/accessibility-for-ux-designers text: Accessibility for teams)'
+  show: 'true'
 - 
   citation: >
     L’accessibilité, c’est l’affaire
     de toutes et tous
   source: ""
+  show: 'false'
 - 
   citation: '24 % de la population active est en situation de handicap.'
   source: '(link: https://www.education.gouv.fr/handicap-tous-concernes-99935 text: Ministère du travail, de l’emploi et de la santé)'
+  show: 'true'
 - 
   citation: '50% des personnes actives seront touchés par une situation de handicap au cours de leur vie.'
   source: '(link: https://www.education.gouv.fr/handicap-tous-concernes-99935 text: Ministère du travail, de l’emploi et de la santé)'
+  show: 'true'
 - 
   citation: '80 % des handicaps sont invisibles.'
   source: '(link: https://www.education.gouv.fr/handicap-tous-concernes-99935 text: Ministère du travail, de l’emploi et de la santé)'
+  show: 'false'
 - 
-  citation: "Le travail sur l'accessibilité doit être intégré dans les étapes de recherche, d'idéation et de conception avant le développement."
+  citation: "L'accessibilité doit être intégrée avant le développement, dès les étapes de recherche, d'idéation et de conception."
   source: '(link: https://almanac.httparchive.org/en/2020/accessibility#conclusion text: The Web Almanac 2020)'
+  show: 'true'
 - 
-  citation: "86 % des sites ont des erreurs d'accessibilité résolvables dès la phase de design."
+  citation: "86 % des sites ont des erreurs d'accessibilité corrigeables dès la phase de design."
   source: '(link: https://webaim.org/projects/million/ text: The WebAIM Million)'
+  show: 'true'
+- 
+  citation: "Abordez l'accessibilité comme un impératif pour une bonne expérience client, et non comme une histoire de conformité."
+  source: '(link: https://speakerdeck.com/bennoloewenberg/accessibility-in-design-systems-english?slide=9 text: Gina Balhwalker)'
+  show: 'true'
+- 
+  citation: >
+    Les utilisateurs ne sont pas
+    handicapés. Ce sont les systèmes qui
+    les handicapent.
+  source: Benno Loewenberg
+  show: 'true'
 
 ----
 

@@ -32,6 +32,12 @@ fields:
       source:
         label: Source
         type: text
+      show:
+        label: Afficher
+        type: toggle
+        text:
+          - non
+          - oui
   gettingStarted:
     label: Pour commencer
     type: structure
