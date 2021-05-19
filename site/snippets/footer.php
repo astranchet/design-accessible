@@ -20,6 +20,7 @@
 </footer>
 
 <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+<script async defer src="https://scripts.withcabin.com/hello.js"></script>
 
 </body>
 </html>
