@@ -1,0 +1,39 @@
+.checklist-item {
+  background-color: var(--green-pale);
+  padding: 1.2rem;
+
+  &:first-child {
+    border-top-left-radius: 1.2rem;
+    border-top-right-radius: 1.2rem;
+  }
+
+  &:last-child {
+    border-bottom-left-radius: 1.2rem;
+    border-bottom-right-radius: 1.2rem;
+  }
+
+  h4 {
+    display: inline;
+    color: var(--green-dark);
+  }
+
+  .checklist-item__content {
+    margin: $space-5;
+    margin-bottom: $space-9;
+    color: var(--neutral-2);
+
+    h5 {
+      color: var(--neutral-1);
+      margin-top: 1rem;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      margin: $space-3 0;
+    }
+  }
+}
