@@ -40,14 +40,13 @@
 			</li>
 		<?php endforeach ?>
 		</ul>
+  	</div>
 
-  <div class="next-step">
+    <div class="next-step">
     <div class="container">
       <?= $page->nextstep()->kt() ?>
     </div>
   </div>
-
-  	</div>	
 </div>
 
 <?php snippet('footer') ?>

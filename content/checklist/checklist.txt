@@ -294,3 +294,13 @@ Ressources:
 ----
 
 Baseline: Concevoir un service ou un produit accessible à toutes et tous.
+
+----
+
+Nextstep: ## 🔧 Outiller sa démarche d’accessibilité
+
+L’accessibilité n’est pas seulement une liste de cases à cocher. 
+
+Pour proposer une bonne expérience à tous les utilisateurs, la démarche d’accessibilité doit être entreprise dès la phase de recherche.
+
+(link: /ressources text: Explorer les ressources → class: button button--third)
