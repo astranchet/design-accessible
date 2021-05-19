@@ -196,15 +196,6 @@ Ressources:
 	type: Ressource
 	date: 2020-10-02
 -
-	title: " An Event Apart 2019: Inclusive, by design"
-	url: >
-		https://feather.ca/inclusion/aea2019/
-	source: Derek Featherstone
-	lang: en
-	phase: Idéation
-	type: Article
-	date: 2020-12-05
--
 	title: "La roue d'accessibilité"
 	url: >
 		https://apf-conseil.com/good-design-playbook/methode/outil18/
@@ -263,7 +254,7 @@ Ressources:
 	url: >
 		https://uxdesign.cc/the-ux-of-deadnaming-9f01ce5f0d6f
 	source: Vale Melvin Querini
-	description: "Conséquences d'un produit qui utilise le nom légal plutôt que le nom choisi sur les personnes transgenre."
+	description: "Conséquences d'un produit qui utilise le nom légal plutôt que le nom choisi sur les personnes transgenres."
 	lang: en
 	phase: Conception
 	type: Article
@@ -274,6 +265,7 @@ Ressources:
 	url: >
 		https://accessibility-for-teams.com/accessibility-for-ux-designers
 	source: Peter van Grieken
+	description: "Checkliste de bonnes pratiques pour les designers UX/UI."
 	lang: en
 	type: Ressource
 	date: 2020-10-02
@@ -330,25 +322,22 @@ Ressources:
 	url: >
 		https://www.joshwcomeau.com/blog/hands-free-coding/
 	source: Josh Comeau
+	description: "Retour d'expérience d'usage de logiciels de dictée et d'oculométrie."
 	lang: en
 	type: Article
+	thematique: Sensibilisation, Technologie d'assistance, Retour d'expérience
 	date: 2020-11-04
 -
 	title: "Developing Inclusive Design Habits for the Average Sketch User"
 	url: >
 		https://yg.is/cluse/
 	source: Yana G
+	description: "Étude de cas de la conception d'un plugin pour aider les designers à concevoir des interfaces accessibles."
 	lang: en
+	phase: Conception
 	type: Article
+	thematique: Outils
 	date: 2020-11-04
--
-	title: " Cupper: An Inclusive Documentation Builder"
-	url: >
-		https://www.tpgi.com/infusion-an-inclusive-documentation-builder/
-	source: TGPI
-	lang: en
-	type: Ressource
-	date: 2020-12-05
 -
 	title: "Creating an inclusive illustration system"
 	url: >
@@ -409,8 +398,11 @@ Ressources:
 	url: >
 		https://comica11y.humaan.com/
 	source: Humaan
+	description: "Démonstration d'une liseuse de bande dessinée numérique inclusive."
 	lang: en
+	phase: Idéation
 	type: Article
+	thematique: Sensibilisation
 	date: 2020-10-02
 -
 	title: "Do Website Policy Disclosure Pages Always Have To Be So Ugly?"
@@ -485,8 +477,10 @@ Ressources:
 	url: >
 		https://axesslab.com/parent-a11y/
 	source: Hampus Sethfors
+	description: "Retour d'expérience sur les points communs entre parentalité de jeunes enfants et accessibilité."
 	lang: en
 	type: Article
+	thematique: Retour d'expérience, Sensibilisation
 	date: 2020-12-05
 -
 	title: "Audit rapide d’accessibilité sur les sites AWWARDS 2020"
@@ -581,6 +575,7 @@ Ressources:
 	url: >
 		https://accessibility-for-teams.com/accessibility-for-product-managers
 	source: Peter van Grieken
+	description: "Checklistes de bonnes pratiques pour les Product Managers."
 	lang: en
 	type: Ressource
 	date: 2020-10-02
@@ -599,8 +594,11 @@ Ressources:
 	url: >
 		https://uxdesign.cc/order-and-control-ideal-online-experience-for-an-autistic-person-e3e039f52945
 	source: Irina Rusakova
+	description: "Retour d'expérience de personnes autistes sur l'usage de sites de ecommerce."
 	lang: en
+	phase: Conception
 	type: Article
+	thematique: Autisme, ecommerce, Retour d'expérience
 	date: 2020-11-04
 -
 	title: "A plan for accessible maps "
