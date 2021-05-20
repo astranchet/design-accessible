@@ -732,7 +732,7 @@ Ressources:
 		https://axesslab.com/alt-texts/
 	source: Daniel Göransson
 	description: "Guide de rédaction de textes alternatifs, par un utilisateur de lecteur d'écran."
-	lang: fr
+	lang: en
 	type: Article
 	thematique: Textes alternatifs, Retour d'expérience
 	date: 2017-09-15
