@@ -8,13 +8,19 @@ Text:
 
 (highlight: **Design Accessible** rassemble des ressources sur l'accessibilité pour les designers.)
 
-Que vous soyez UX, UI, UX Researcher, UX Writer, ou même dev ou chef de projet curieux, **Design Accessible** vous permettra de trouver des ressources utiles et actionnables pour votre projet.
+Que vous soyez UX, UI, UX Researcher, UX Writer, ou même dev ou chef de projet curieux, **Design Accessible** vous permettra de trouver des ressources utiles, actionnables et en français pour votre projet.
 
 ## L'autrice
 
-Ce site est à l'initiative d'Anne-Sophie Tranchet. UX/UI Designer indépendante et engagée, elle est spécialisée dans le design de service public. Elle conçoit des produits inclusifs et accessibles à toutes et tous.
+**Design Accessible** est à l'initiative d'Anne-Sophie Tranchet. UX/UI Designer indépendante et engagée, elle est spécialisée dans le design de service public. Elle conçoit des produits inclusifs et accessibles à toutes et tous.
 
-*« Après avoir publié une veille sur l'accessibilité sur (link: https://blog.hello-bokeh.fr/ text: mon blog) pendant plusieurs mois, j'avais envie de rassembler ça sur un site dédié. Je voulais aussi pouvoir proposer une checklist spécifique au métier du designer et facile à comprendre. Et puis, je voulais aussi prouver qu'on peut faire un site accessible **ET** beau. Bref, quelques semaines de travail plus tard, **(link: / text: Design Accessible)** est né&nbsp;!»*
+La naissance de ce site est venue de plusieurs constats : 
+* En débutant en accessibilité, j'ai trouvé beaucoup de ressources pour les devs, mais moins pour les designers.
+* Les ressources que je trouvais étaient souvent en anglais, et pas toujours facile à comprendre. 
+* Après plusieurs mois à publier ma veille d'accessibilité sur (link: https://blog.hello-bokeh.fr/ text: mon blog), j'avais envie de pouvoir retrouver plus facilement des ressources.
+* Je voulais aussi prouver qu'on peut faire un site accessible **ET** beau. 
+
+Bref, quelques semaines de travail plus tard, **Design Accessible** est né&nbsp;!
 
 ## Les contributeurs
 
