@@ -11,7 +11,7 @@ fields:
     label: Introduction
     type: textarea
 
-  checklisteHeading:
+  checklistHeading:
     label: Checklist
     type: headline
   checklist:

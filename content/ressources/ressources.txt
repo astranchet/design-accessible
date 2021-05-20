@@ -257,11 +257,11 @@ Ressources:
 	url: >
 		https://apf-conseil.com/good-design-playbook/methode/outil18/
 	source: AFP Conseil
-	description: "Checkliste de critères d'accessibilité physiques, sensoriels et cognitifs."
+	description: "Checklist de critères d'accessibilité physiques, sensoriels et cognitifs."
 	lang: fr
 	phase: Conception
 	type: Ressource
-	thematique: Checkliste
+	thematique: Checklist
 	date: 2020-10-02
 -
 	title: "There’s no such thing as a website or web app that doesn’t need to be accessible "
@@ -340,10 +340,10 @@ Ressources:
 	url: >
 		https://accessibility-for-teams.com/accessibility-for-ux-designers
 	source: Peter van Grieken
-	description: "Checkliste de bonnes pratiques pour les designers UX/UI."
+	description: "Checklist de bonnes pratiques pour les designers UX/UI."
 	lang: en
 	type: Ressource
-	thematique: Checkliste
+	thematique: Checklist
 	date: 2020-10-02
 -
 	title: "Navigation au clavier versus navigation avec un lecteur d’écran "
@@ -610,7 +610,7 @@ Ressources:
 	url: >
 		https://www.getstark.co/library/
 	source: Stark
-	description: "Librairies de ressources sur l'accessibilité (livres, outils, blogs, checklistes, design patterns...)"
+	description: "Librairies de ressources sur l'accessibilité (livres, outils, blogs, checklists, design patterns...)"
 	lang: en
 	type: Ressource
 	date: 2020-10-02
@@ -691,7 +691,7 @@ Ressources:
 	url: >
 		https://accessibility-for-teams.com/accessibility-for-product-managers
 	source: Peter van Grieken
-	description: "Checklistes de bonnes pratiques pour les Product Managers."
+	description: "Checklists de bonnes pratiques pour les Product Managers."
 	lang: en
 	type: Ressource
 	date: 2020-10-02

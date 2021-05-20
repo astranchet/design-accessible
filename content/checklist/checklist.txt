@@ -4,9 +4,9 @@ Title: Checklist
 
 Text:
 
-## (emoji: ✨) La checkliste du designer
+## (emoji: ✨) La checklist du designer
 
-Cette checkliste est un point de départ pour concevoir un produit accessible. Elle vous aidera à améliorer l’expérience utilisateur des personnes en situation de handicap.
+Cette checklist est un point de départ pour concevoir un produit accessible. Elle vous aidera à améliorer l’expérience utilisateur des personnes en situation de handicap.
 
 ----
 

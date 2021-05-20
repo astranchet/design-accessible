@@ -28,7 +28,7 @@ Quotes:
   source: '(link: https://en.wikipedia.org/wiki/Cindy_Li text: Cindy Li)'
   show: 'false'
 - 
-  citation: "L’accessibilité est plus qu'une checkliste : c'est une facette de l’expérience utilisateur."
+  citation: "L’accessibilité est plus qu'une checklist : c'est une facette de l’expérience utilisateur."
   source: '(link: https://accessibility-for-teams.com/accessibility-for-ux-designers text: Accessibility for teams)'
   show: 'true'
 - 
@@ -86,7 +86,7 @@ Gettingstarted:
     handicap.
   url: /decouvrir
 - 
-  title: 'La checkliste du designer (emoji: ✅)'
+  title: 'La checklist du designer (emoji: ✅)'
   desc: >
     Concevoir des produits accessibles dès
     la phase des maquettes.

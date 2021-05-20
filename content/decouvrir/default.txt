@@ -117,7 +117,7 @@ Sections:
 		- (emoji: ✅) Une **navigation** simple
 
 
-		(link: /checklist text: Voir la checkliste du designer → class: button button--primary)
+		(link: /checklist text: Voir la checklist du designer → class: button button--primary)
 	style: section__checklist
 
 ----
