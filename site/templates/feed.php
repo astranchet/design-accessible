@@ -1,7 +1,7 @@
 <?php
 $kirby->response()->type('application/xml');
+echo '<?xml version="1.0" encoding="utf-8" standalone="yes" ?>';
 ?>
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
     <title><?= $site->title(); ?></title>
@@ -16,20 +16,22 @@ $kirby->response()->type('application/xml');
         <guid isPermaLink="true"><?= $ressource->url() ?></guid>
         <pubDate><?= $ressource->date() ?></pubDate>
         <description><![CDATA[
-            <?= $ressource->description() ?>
+            <p><?= $ressource->description() ?></p>
 
+            <p>
+            #<?= $ressource->type(); ?>
             <?php foreach ($ressource->phase()->split() as $phase): ?>
 	        	#<?= $phase ?> 
 			<?php endforeach ?>
-
 			<?php if ($ressource->lang()->isNotEmpty()) : ?>
 		        #<?= $langs[$ressource->lang()->value()] ?> 
 			<?php endif ?>
-
 		    <?php foreach ($ressource->thematique()->split() as $thematique): ?>
 			    #<?= $thematique ?> 
 			<?php endforeach ?>
+            </p>
 
+            <?= $page->desc()->kt(); ?>
         ]]>
         </description>
     </item>

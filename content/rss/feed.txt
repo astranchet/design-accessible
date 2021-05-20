@@ -1,1 +1,3 @@
 Title: Ressources pour un design accessible
+----
+Desc: Ressource sélectionnée pour (link: / text: Design Accessible).
