@@ -17,7 +17,7 @@
       <meta name="apple-mobile-web-app-title" content="<?= $site->title() ?>">
       <meta name="application-name" content="<?= $site->title() ?>">
 
-      <link href="<?= $site->page('feed')->url() ?>" rel="alternate" type="application/atom+xml" title="<?php $site->page('feed')->title() ?>" />
+      <link href="<?= $site->page('rss')->url() ?>" rel="alternate" type="application/atom+xml" title="<?php $site->page('rss')->title() ?>" />
     </head>
 
     <body>
