@@ -52,7 +52,7 @@ Checklist:
   desc: |
     Les contrastes entre un texte et son arrière-plan doit être d'au moins 4,5:1. Pour les textes de grandes tailles (plus de 24 px) ou en gras, le contraste peut être de 3:1. De nombreux outils permettent de mesurer ce ratio de contrastes.
   further: |
-    * (link: # text: Voir les outils de contrastes)
+    * (link: https://design-accessible.fr/ressources/thematique:Couleurs text: Voir les outils de contrastes)
     * (link: https://www.accede-web.com/notices/fonctionnelle-graphique/couleurs/assurer-un-contraste-suffisant-entre-les-textes-et-larriere-plan/ text: Assurer un contraste suffisant entre les textes et l'arrière plan)
     * (link: https://24ways.org/2015/designing-with-contrast/ text: Designing with contrast hreflang: en)
     * (link: https://www.a11yproject.com/posts/2013-01-22-check-contrast-with-mobile-device/ text: Check constrast with mobile device hreflang: en)
