@@ -58,6 +58,10 @@ return function ($page, $pages, $site, $kirby) {
 	  	'desc' => $desc
   	]);
 
+  	if ($ressources_is_filtered) {
+  		$title = Str::unhtml($ressources_title) . ' - ' . $site->title();
+  	}
+
 	return compact('title', 'baseline', 'phases', 'langs', 'thematiques', 'ressources', 'ressources_title', 'ressources_is_filtered', 'seo');
 };
 
