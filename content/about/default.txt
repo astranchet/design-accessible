@@ -20,7 +20,13 @@ La naissance de ce site est venue de plusieurs constats :
 * Après plusieurs mois à publier ma veille d'accessibilité sur (link: https://blog.hello-bokeh.fr/ text: mon blog), j'avais envie de pouvoir retrouver plus facilement des ressources.
 * Je voulais aussi prouver qu'on peut faire un site accessible **ET** beau. 
 
-Bref, quelques semaines de travail plus tard, **Design Accessible** est né&nbsp;!
+Bref, quelques mois de travail plus tard, **Design Accessible** est né&nbsp;!
+
+## Les valeurs
+
+* Ce site tente d'être le plus **(link: /accessibility-statement text: accessible)** possible.
+* Ce site est **(link: # text: open-source)** (link: http://creativecommons.org/licenses/by-nc-sa/4.0/ text: sous licence) (pas d’utilisation commerciale - partage dans les mêmes conditions).
+* Ce site est **(link: https://withcabin.com/faq#how-does-cabin-protect-my-visitors text: respectueux de votre vie privée)**. 
 
 ## Les contributeurs
 
