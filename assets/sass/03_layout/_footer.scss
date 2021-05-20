@@ -8,7 +8,6 @@ footer {
 
 		p, a {
 			text-decoration: none;
-			font-weight: bold;
 			color: var(--purple-dark);
 			font-size: 1.8rem;
 			margin-right: $space-9;
@@ -21,6 +20,7 @@ footer {
 		.footer__links {
 			display: flex;
 			width: 75%;
+			font-weight: bold;
 
 			@include tablet-xs {
 				flex-direction: column;
@@ -44,6 +44,7 @@ footer {
 		}
 
 		.footer__legals {
+			font-weight: normal;
 			text-align: right;
 		}
 	}

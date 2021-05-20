@@ -978,7 +978,6 @@ footer {
     justify-content: space-between; }
     footer nav p, footer nav a {
       text-decoration: none;
-      font-weight: bold;
       color: var(--purple-dark);
       font-size: 1.8rem;
       margin-right: 4.8rem; }
@@ -987,7 +986,8 @@ footer {
           margin-right: 0; } }
     footer nav .footer__links {
       display: flex;
-      width: 75%; }
+      width: 75%;
+      font-weight: bold; }
       @media screen and (max-width: 47.9375em) {
         footer nav .footer__links {
           flex-direction: column; } }
@@ -1002,6 +1002,7 @@ footer {
           color: var(--purple-dark);
           border: 2px solid var(--purple-dark); }
     footer nav .footer__legals {
+      font-weight: normal;
       text-align: right; }
 
 header {
