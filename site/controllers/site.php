@@ -41,7 +41,7 @@ return function ($page, $pages, $site, $kirby) {
     	$desc = urldecode($tag);
   	} elseif ($tag = param('lang')) {
     	$ressources = $ressources->filterBy('lang', urldecode($tag), ',');
-    	$desc = "en " .($tag == "en") ? "Anglais" : "Français";
+    	$desc = ($tag == "en") ? "Anglais" : "Français";
   	} elseif ($tag = param('thematique')) {
     	$ressources = $ressources->filterBy('thematique', urldecode($tag), ',');
     	$ressources_title = '<b>{{ desc }}</b> : {{ count }} ressource{{ plural }}';
