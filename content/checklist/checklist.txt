@@ -4,7 +4,7 @@ Title: Checklist
 
 Text:
 
-## ✨ La checkliste du designer
+## (emoji: ✨) La checkliste du designer
 
 Cette checkliste est un point de départ pour concevoir un produit accessible. Elle vous aidera à améliorer l’expérience utilisateur des personnes en situation de handicap.
 
@@ -237,7 +237,7 @@ Checklist:
     * (link: https://a11y-guidelines.orange.com/fr/articles/liens-evitement/ text: Les bonnes pratiques pour les liens d’évitements)    
     * (link: https://webaim.org/techniques/skipnav/ text: Skipnav hreflang: en)
   category: Livrables
-  
+
 ----
 
 Categories:
@@ -298,7 +298,7 @@ Ressources:
 
 Nextstep:
 
-## 🔧 Outiller sa démarche d’accessibilité
+## (emoji: 🔧) Outiller sa démarche d’accessibilité
 
 L’accessibilité n’est pas seulement une liste de cases à cocher. 
 

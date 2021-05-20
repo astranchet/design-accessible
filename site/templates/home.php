@@ -22,9 +22,9 @@
           <li>
             <a href="<?= $ressource->url() ?>" class="link__big">
               <h3 class="list__link-title">
-                <?= $ressource->title() ?>
+                <?= $ressource->title()->kirbytextinline() ?>
               </h3>
-              <p><?= $ressource->desc() ?></p>
+              <p><?= $ressource->desc()->kirbytextinline() ?></p>
             </a>
           </li>
         <?php endforeach ?>

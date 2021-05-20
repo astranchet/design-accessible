@@ -19,7 +19,7 @@
 
 
 		<h2 class="last__article-title">
-	        ✨ Pour aller plus loin
+	        <span aria-hidden="true">✨</span> Pour aller plus loin
 	    </h2>
 
 		<ul class="last__article-list">

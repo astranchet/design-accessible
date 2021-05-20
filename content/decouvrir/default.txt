@@ -12,7 +12,7 @@ Baseline: Comprendre le rôle de l’accessibilité pour l’expérience utilisa
 Sections:
 - 
 	text: >
-		## ✨ À quoi sert l’accessibilité numérique ?
+		## (emoji: ✨) À quoi sert l’accessibilité numérique ?
 
 		(highlight: Rendre un site accessible signifie s’assurer qu’il peut être utilisé par le plus grand nombre ; en particulier les personnes en situation de handicap.)
 
@@ -31,7 +31,7 @@ Sections:
 		(card: Thierry a fait un AVC. desc: Il est encore en pleine rééducation. Il réapprend à utiliser son bras dominant, à lire, etc. Se concentrer est très fatiguant pour lui.)
 		</div>
 
-		👉 **L’accessibilité concerne potentiellement tout de monde :**
+		(emoji: 👉) **L’accessibilité concerne potentiellement tout de monde :**
 
 		- En France, on estime qu’une personne sur 5 est en situation de handicap.
 
@@ -40,7 +40,7 @@ Sections:
 		- 85% des personnes handicapées le deviennent au cours de leur vie.
 
 
-		👉 **Les déficiences peuvent prendre de nombreuses formes :**
+		(emoji: 👉) **Les déficiences peuvent prendre de nombreuses formes :**
 
 		- physique ou cognitive ;
 
@@ -50,7 +50,7 @@ Sections:
 
 - 
 	text: >
-		## 💜 Chaque personne est unique
+		## (emoji: 💜) Chaque personne est unique
 
 		L’accessibilité concerne une variété de personnes avec des capacités et besoins différents. Il existe plusieurs catégories de déficiences :
 
@@ -64,7 +64,7 @@ Sections:
 		Ces déficiences ont un impact sur la manière dont les personnes naviguent sur le Web.
 
 
-		👉 Les gens **perçoivent** le contenu par différents sens, en fonction de leurs besoins et de leurs préférences. Par exemple, certaines personnes ne voient pas l'écran ou n'entendent pas le son.
+		(emoji: 👉) Les gens **perçoivent** le contenu par différents sens, en fonction de leurs besoins et de leurs préférences. Par exemple, certaines personnes ne voient pas l'écran ou n'entendent pas le son.
 
 		<div class="card__grid card__grid-technos">
 		(card: **L’écran** est le moyen le plus utilisé pour percevoir de l’information. img: screen.png)
@@ -72,7 +72,7 @@ Sections:
 		(card: Les personnes aveugles et sourdes peuvent utiliser une **plage braille** qui leur permet percevoir le texte. img: plage-braille.jpg)
 		</div>
 
-		👉 Certaines personnes adaptent la **présentation de l’information**, pour la rendre plus facile à distinguer et à comprendre.
+		(emoji: 👉) Certaines personnes adaptent la **présentation de l’information**, pour la rendre plus facile à distinguer et à comprendre.
 
 		<div class="card__grid card__grid-technos">
 		(card: Le **mode lecture** enlève les distractions autour du contenu. Il est plus facile de se concentrer sur le texte. img: mode-lecture.png)
@@ -80,7 +80,7 @@ Sections:
 		(card: Les **contrastes élevés** sont particulièrement utile pour les personnes agées dont la vue baisse avec le temps. img: high-contrast.png)
 		</div>
 
-		👉 Les gens **naviguent et trouvent du contenu** en utilisant différentes stratégies. Cela dépend de leurs capacités, de leurs préférences, mais aussi de leurs compétences. 
+		(emoji: 👉) Les gens **naviguent et trouvent du contenu** en utilisant différentes stratégies. Cela dépend de leurs capacités, de leurs préférences, mais aussi de leurs compétences. 
 
 		<div class="card__grid card__grid-technos">
 		(card: Une personne qui ne voit pas l’écran en aura une vue d’ensemble en « scannant » les **titres de la page**. img: screen-reader-headings.jpg)
@@ -88,7 +88,7 @@ Sections:
 		(card: Certaines personnes naviguent en utilisant **uniquement le clavier**. img: navigation.png)
 		</div>
 
-		👉 Il existe plusieurs manières de **saisir du texte** ou de **déclencher des actions**. Certaines personnes n”utilisent ni clavier, ni souris. D’autres utilisent du matériel adapté à leur situation.
+		(emoji: 👉) Il existe plusieurs manières de **saisir du texte** ou de **déclencher des actions**. Certaines personnes n”utilisent ni clavier, ni souris. D’autres utilisent du matériel adapté à leur situation.
 
 		<div class="card__grid card__grid-technos">
 		(card: Des logiciels permettent de prédire ou compléter les mots pour **faciliter la saisie**. img: )
@@ -101,23 +101,23 @@ Sections:
 	style: alt
 - 
 	text: >
-		## 👉 Concevoir des sites accessibles
+		## (emoji: 👉) Concevoir des sites accessibles
 
 		Le numérique est une formidable opportunité de permettre à tout le monde d’accéder à l’information ; sans barrières géographiques ou physiques. Pourtant, c’est encore loin d’être le cas. Une étude récente a révélé que (link: https://webaim.org/projects/million/ text: 98 % des sites ne sont pas accessibles).
 
 
 		De nombreux problèmes relèvent pourtant de l’expérience utilisateur : 
 		
-		- ✅ Des **contenus** accessibles et inclusifs
+		- (emoji: ✅) Des **contenus** accessibles et inclusifs
 		
-		- ✅ Une palette de **couleurs** accessible
+		- (emoji: ✅) Une palette de **couleurs** accessible
 		
-		- ✅ Des **formulaires** bien conçus
+		- (emoji: ✅) Des **formulaires** bien conçus
 		
-		- ✅ Une **navigation** simple
+		- (emoji: ✅) Une **navigation** simple
 
 
-		(link: /checklist text: Voir la checkliste du designer 👉 class: button button--primary)
+		(link: /checklist text: Voir la checkliste du designer → class: button button--primary)
 	style: section__checklist
 
 ----

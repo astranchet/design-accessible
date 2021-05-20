@@ -79,14 +79,14 @@ Quotes:
 Gettingstarted:
 
 - 
-  title: L’accessibilité, c’est quoi ? 🤔
+  title: "L’accessibilité, c’est quoi ? (emoji: 🤔)"
   desc: >
     Comprendre les usages et les points
     bloquants des personnes en situation de
     handicap.
   url: /decouvrir
 - 
-  title: La checkliste du designer ✅
+  title: 'La checkliste du designer (emoji: ✅)'
   desc: >
     Concevoir des produits accessibles dès
     la phase des maquettes.
@@ -96,7 +96,7 @@ Gettingstarted:
 
 Nextstep:
 
-## 💡 Comment commencer ?
+## (emoji: 💡) Comment commencer ?
 
 Qui sont les personnes concernées par l’accessibilité numérique ?
 Quelles barrières peuvent-elles rencontrer sur le web ?
@@ -107,7 +107,7 @@ Quelles barrières peuvent-elles rencontrer sur le web ?
 
 Suscribe:
 
-## 💌 Newsletter
+## (emoji: 💌) Newsletter
 
 Recevez chaque mois une sélection de liens pour **concevoir des sites et applications accessibles et inclusifs**.
 
