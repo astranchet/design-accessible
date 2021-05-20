@@ -98,7 +98,7 @@ Nextstep:
 
 ## (emoji: 💡) Comment commencer ?
 
-Qui sont les personnes concernées par l’accessibilité numérique ?
+Quelles sont les personnes concernées par l’accessibilité numérique ?
 Quelles barrières peuvent-elles rencontrer sur le web ?
 
 (link: /decouvrir text: Comprendre l'accessibilité → class: button button--third)
