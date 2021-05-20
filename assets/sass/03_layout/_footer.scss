@@ -12,6 +12,10 @@ footer {
 			color: var(--purple-dark);
 			font-size: 1.8rem;
 			margin-right: $space-9;
+
+			@include tablet-xs {
+				margin-right: 0;
+			}
 		}
 
 		.footer__links {
@@ -19,9 +23,7 @@ footer {
 			width: 75%;
 
 			@include tablet-xs {
-				align-items: center;
 				flex-direction: column;
-				justify-content: center;
 			}
 
 			a {

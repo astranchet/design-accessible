@@ -106,6 +106,7 @@ header {
     background: var(--green-medium) url(../img/Illustration-header.png) no-repeat bottom center;
     background-size: contain;
     padding-bottom: 18rem;
+    text-align: center;
   }
 
   @include tablet-xs {
