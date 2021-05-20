@@ -30,13 +30,16 @@ Ressources:
 	title: "Contrast Checker"
 	url: >
 		https://contrast-checker.glitch.me/
+	description: "Outil de vérification de contrastes pour les boutons et éléments interactifs."
 	lang: en
+	phase: Conception
 	type: Ressource
 	thematique: Couleurs
 	date: 2020-12-05
 -
-	title: Français simplifié
-	url: https://blog.hello-bokeh.fr/2021/03/03/francais-simplifie/
+	title: "Français simplifié"
+	url: >
+		https://blog.hello-bokeh.fr/2021/03/03/francais-simplifie/
 	source: Anne-Sophie Tranchet
 	description: "Présentation du français simplifié, pour produire du contenu adaptés aux personnes avec des difficultés de communication ou de compréhension."
 	lang: fr
@@ -88,8 +91,11 @@ Ressources:
 	url: >
 		https://apf-conseil.com/good-design-playbook/
 	source: AFP Conseil
+	description: "Outils et méthodes de design inclusif."
 	lang: fr
+	phase: Recherche,Idéation,Conception,Tests
 	type: Ressource
+	thematique: Méthodologie
 	date: 2020-10-02
 -
 	title: "« But we CAN’T do any testing with people with disabilities at this stage… it’s still a prototype » "
@@ -107,7 +113,9 @@ Ressources:
 	url: >
 		https://nota-bene.org/Dark-mode-et-accessibilite
 	source: Stéphane Deschamps
+	description: "Mise au point sur le mode nuit en terme d'accessibilité."
 	lang: fr
+	type: Article
 	thematique: Dark Mode
 	date: 2021-04-26
 -
@@ -125,6 +133,7 @@ Ressources:
 	title: "Alt-Text as Poetry"
 	url: >
 		https://alt-text-as-poetry.net/
+	description: "Expériences autour des textes alternatifs."
 	lang: en
 	type: Article
 	thematique: UX Writing
@@ -157,6 +166,7 @@ Ressources:
 	url: >
 		https://www.nngroup.com/articles/better-link-labels/
 	source: NN Group
+	description: "Bonnes pratiques de rédactions de liens."
 	lang: en
 	type: Article
 	thematique: UX Writing
@@ -186,10 +196,11 @@ Ressources:
 	url: >
 		https://numerique.canada.ca/2020/11/26/illustrer-la-diversit%C3%A9-et-linclusion-pour-lapplication-alerte-covid/
 	source: Service numérique Canadien
+	description: "Retour d'expérience de conception d'illustrations inclusives."
 	lang: fr
 	phase: Conception
 	type: Article
-	thematique: Illustrations
+	thematique: Illustrations, Retour d'expérience
 	date: 2020-12-05
 -
 	title: "Resources for developing accessible cards/tiles"
@@ -213,19 +224,15 @@ Ressources:
 	thematique: Typographie
 	date: 2020-10-02
 -
-	title: "Platform Abuse"
-	url: >
-		https://platformabuse.org/
-	lang: en
-	type: Ressource
-	date: 2020-10-02
--
 	title: "La roue d'accessibilité"
 	url: >
 		https://apf-conseil.com/good-design-playbook/methode/outil18/
 	source: AFP Conseil
+	description: "Checkliste de critères d'accessibilité physiques, sensoriels et cognitifs."
 	lang: fr
+	phase: Conception
 	type: Ressource
+	thematique: Checkliste
 	date: 2020-10-02
 -
 	title: "There’s no such thing as a website or web app that doesn’t need to be accessible "
@@ -258,14 +265,6 @@ Ressources:
 	type: Article
 	thematique: Étude
 	date: 2021-01-14
--
-	title: "Tommy's inclusive datepicker"
-	url: >
-		https://fymmot.github.io/inclusive-dates/
-	source: Tommy Feldt
-	lang: en
-	type: Ressource
-	date: 2020-10-02
 -
 	title: "Couleurs Pantone 2021 : travailler une palette accessible"
 	url: >
@@ -315,6 +314,7 @@ Ressources:
 	description: "Checkliste de bonnes pratiques pour les designers UX/UI."
 	lang: en
 	type: Ressource
+	thematique: Checkliste
 	date: 2020-10-02
 -
 	title: "Navigation au clavier versus navigation avec un lecteur d’écran "
@@ -331,9 +331,11 @@ Ressources:
 	url: >
 		https://userresearch.blog.gov.uk/2020/05/20/conducting-remote-research-with-people-with-access-needs/
 	source: Gov.UK
+	description: "Conseils pour mettre en place des tests utilisateurs avec personnes en situation de handicap."
 	lang: en
 	phase: Recherche
 	type: Article
+	thematique: Méthodologie
 	date: 2020-12-05
 -
 	title: "The no-mouse challenge: Taking the keyboard navigation red pill "
@@ -423,14 +425,19 @@ Ressources:
 	url: >
 		https://formations.access42.net/formations/design-dinterfaces-accessibles-ux-ui-multimedia/
 	source: Access42
+	description: "Formation à une approche inclusive du design web pour les personnes qui désignent des applications et sites numériques.
+"
 	lang: fr
+	phase: Conception
 	type: Formation
 -
 	title: "Accessibility for Everyone"
 	url: >
 		https://abookapart.com/products/accessibility-for-everyone
 	source: Laura Kalbag
+	description: "Livre sur le design accessible : défis liés aux handicaps, bonnes pratiques, méthodologie, conception et tests. "
 	lang: en
+	phase: Recherche,Idéation,Conception,Tests
 	type: Livre
 	thematique: Sensibilisation
 -
@@ -513,8 +520,10 @@ Ressources:
 	url: >
 		https://codepen.io/jared_w_smith/full/vYGXeMy
 	source: Jared Smith
+	description: "Bookmarklet pour tester la taille des zones de touchs pour les applications et sites mobiles."
 	lang: en
 	type: Ressource
+	thematique: Mobile
 	date: 2020-10-02
 -
 	title: "30 ans de web, mais toujours pas d’accessibilité "
@@ -552,6 +561,7 @@ Ressources:
 	url: >
 		https://www.getstark.co/library/
 	source: Stark
+	description: "Librairies de ressources sur l'accessibilité (livres, outils, blogs, checklistes, design patterns...)"
 	lang: en
 	type: Ressource
 	date: 2020-10-02
@@ -568,7 +578,9 @@ Ressources:
 	title: "Luciole"
 	url: >
 		http://www.luciole-vision.com/index.html
+	description: "Typographie conçue spécifiquement pour les personnes malvoyantes."
 	lang: fr
+	phase: Conception
 	type: Ressource
 	thematique: Typographie
 	date: 2020-10-02
@@ -621,9 +633,10 @@ Ressources:
 	url: >
 		https://www.edx.org/course/web-accessibility-introduction
 	source: le W3C
+	description: "MOOC d'introduction à l'accessibilité : impact sur l'expérience utilisateur, méthodologie, arguments pour la hiérarchie..."
 	lang: en
 	type: Formation
-	thematique: Sensibilisation
+	thematique: Sensibilisation, Méthodologie
 -
 	title: "Accessibility for Product Managers"
 	url: >
@@ -640,8 +653,8 @@ Ressources:
 	source: Stark
 	description: "Plugin pour annoter l'ordre de tabulation d'une maquette."
 	phase: Conception
-	type: Plugin Figma
-	thematique: Dev
+	type: Ressource
+	thematique: Transmissions aux devs, Figma
 	date: 2021-02-27
 -
 	title: "Order and control: ideal online experience for an autistic person"
@@ -681,7 +694,9 @@ Ressources:
 	url: >
 		https://cardsforhumanity.idean.com/
 	source: Idean
+	description: "Jeu de cartes pour concevoir des applications inclusives."
 	lang: en
+	phase: Conception,Idéation
 	type: Ressource
 	date: 2020-10-02
 -
@@ -700,16 +715,22 @@ Ressources:
 	url: >
 		https://dribbble.com/shots/6269661-Accessibility-Bluelines
 	source:  Jeremy Elder
+	description: "Librairie d'annotations d'accessibilité pour Sketch, Figma, Adobe XD, et InVision Studio."
 	lang: fr
+	phase: Conception
 	type: Ressource
+	thematique: Transmissions aux devs
 	date: 2020-11-04
 -
-	title: "Des cartes situations"
+	title: "Cartes Situations"
 	url: >
 		https://apf-conseil.com/good-design-playbook/methode/outil09/
 	source: AFP Conseil
+	description: "Jeu de cartes de situations fictionnels de handicap."
 	lang: fr
+	phase: Idéation
 	type: Ressource
+	thematique: Méthodologie
 	date: 2020-10-02
 -
 	title: "Which accessibility settings do the Dutch really use on their phone? "
@@ -718,7 +739,7 @@ Ressources:
 	source: Q42
 	description: "Enquête sur l’utilisation des paramètres d’accessibilité sur les téléphones mobiles aux Pays-Bas."
 	lang: en
-	type: Études
+	type: Ressource
 	thematique: Usage, Sensibilisation, Étude, Mobile
 	date: 2021-02-27
 -
@@ -737,6 +758,7 @@ Ressources:
 	url: >
 		https://www.thecut.com/2020/08/the-reason-comic-sans-is-a-public-good.html
 	source: Drake Baer
+	description: "Plaidoyer pour l'usager de la typographie Comic Sans Ms."
 	lang: en
 	type: Article
 	thematique: Typographie
