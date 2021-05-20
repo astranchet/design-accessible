@@ -215,6 +215,7 @@ Checklist:
   further: |
     * (link: https://www.accede-web.com/notices/editoriale-modele/utiliser-les-images-de-maniere-accessible text: Utiliser les images de manière accessible)
     * (link: https://www.accede-web.com/notices/fonctionnelle-graphique/contenus-riches-et-multimedias/prevoir-un-titre-et-ou-un-resume-pour-chaque-video-et-contenu-audio text: Prévoir un titre ou un résumé pour chaque vidéo et contenu audio)
+    * (link: https://www.24joursdeweb.fr/2019/comment-bien-sous-titrer-les-videos/ text: Comment bien sous-titrer les vidéos ?)
     * (link: https://www.a11yproject.com/posts/2013-01-14-alt-text text: Alt text hreflang: en)
   category: Livrables
 - 
