@@ -120,7 +120,7 @@ Ressources:
 -
 	title: "« But we CAN’T do any testing with people with disabilities at this stage… it’s still a prototype » "
 	url: >
-		https://twitter.com/feather/status/1360308876026007558?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed&ref_url=notion%3A%2F%2Fwww.notion.so%2Fhellobokeh%2Ff7bfb9d28dc84f44a4af67feecb79058%3Fv%3Dcaa3e30608e5445e868db7da7137bb90%26p%3D5ab3af3aa5ad4ce5b81386a38bdc25f6
+		https://twitter.com/feather/status/1360308876026007558
 	source: Derek Featherstone
 	description: "Idées pour mener des tests utilisateurs auprès de personnes en situation de handicap à l'étape du prototype."
 	lang: en
