@@ -37,6 +37,16 @@ Ressources:
 	thematique: Sensibilisation
 	date: 2020-10-02
 -
+	title: "Stop using Material Design text fields! "
+	url: >
+		https://www.matsuko.ca/blog/stop-using-material-design-text-fields/
+	source: Matsuko
+	description: "Problèmes d’usabilité du design system Material Design de Google et  alternatives"
+	lang: en
+	type: Article
+	thematique: Design System, Formulaires
+	date: 2020-02-26
+-
 	title: "Contrast Checker"
 	url: >
 		https://contrast-checker.glitch.me/
@@ -68,7 +78,7 @@ Ressources:
 	thematique: Étude, Sensibilisation
 	date: 2020-10-02
 -
-	title: " How we made GOV.UK more accessible"
+	title: "How we made GOV.UK more accessible"
 	url: >
 		https://accessibility.blog.gov.uk/2020/12/17/how-we-made-gov-uk-more-accessible/
 	source: Gouvernement britannique
@@ -127,6 +137,16 @@ Ressources:
 	lang: en
 	type: Article
 	date: 2021-04-26
+-
+	title: "Littératie et illectronisme en France"
+	url: >
+		https://blog.hello-bokeh.fr/2020/07/20/litteratie-et-illectronisme-en-france/
+	source: Anne-Sophie Tranchet
+	description: "Chiffres et bonnes pratiques pour concevoir des interfaces inclusives."
+	lang: fr
+	type: Article
+	thematique: Étude
+	date: 2020-07-26
 -
 	title: "Darkmode et accessibilité"
 	url: >
@@ -253,16 +273,45 @@ Ressources:
 	thematique: Typographie
 	date: 2020-10-02
 -
+	title: "Rendre accessible en un mois seulement ?"
+	url: >
+		http://romy.tetue.net/rendre-accessible-en-un-mois
+	source: Romy Duhem-Verdière
+	description: "Retour d'expérience sur une approche pragmatique pour améliorer l'accessibilité d'un site."
+	lang: fr
+	type: Article
+	thematique: Méthodologie, Retour d'expérience
+	date: 2020-07-26
+-
+	title: "Accessibility Guidelines Summary"
+	url: >
+		https://theappbusiness.github.io/accessibility-guidelines/index.html
+	source: The App Business
+	description: "Version simplifiée du WCAG avec des exemples pour le web, Android et iOS."
+	lang: en
+	type: Ressource
+	date: 2021-04-26
+-
 	title: "La roue d'accessibilité"
 	url: >
 		https://apf-conseil.com/good-design-playbook/methode/outil18/
 	source: AFP Conseil
-	description: "Checklist de critères d'accessibilité physiques, sensoriels et cognitifs."
+	description: "Checkliste de critères d'accessibilité physiques, sensoriels et cognitifs."
 	lang: fr
 	phase: Conception
 	type: Ressource
-	thematique: Checklist
+	thematique: Checkliste
 	date: 2020-10-02
+-
+	title: "Accessibilité et emoji"
+	url: >
+		https://blog.hello-bokeh.fr/2020/07/23/des-emoji-accessibles/
+	source: Anne-Sophie Tranchet
+	description: "Comment utiliser les emojis à bon escient sur les réseaux sociaux ou dans ses e-mails marketing."
+	lang: fr
+	type: Article
+	thematique: UX Writing
+	date: 2020-07-26
 -
 	title: "There’s no such thing as a website or web app that doesn’t need to be accessible "
 	url: >
@@ -325,6 +374,17 @@ Ressources:
 	thematique: Sensibilisation
 	date: 2021-02-27
 -
+	title: "Accessibilité et couleurs : outils et ressources pour concevoir des produits accessibles "
+	url: >
+		https://stephaniewalter.design/fr/blog/accessibilite-et-couleurs-outils-et-ressources-pour-concevoir-des-produits-accessible/
+	source: Stéphanie Walter
+	description: "Outils et méthodologie pour concevoir des palettes de couleurs accessibles."
+	lang: fr
+	phase: Conception
+	type: Article
+	thematique: Couleurs
+	date: 2020-06-30
+-
 	title: "The UX of deadnaming"
 	url: >
 		https://uxdesign.cc/the-ux-of-deadnaming-9f01ce5f0d6f
@@ -340,10 +400,10 @@ Ressources:
 	url: >
 		https://accessibility-for-teams.com/accessibility-for-ux-designers
 	source: Peter van Grieken
-	description: "Checklist de bonnes pratiques pour les designers UX/UI."
+	description: "Checkliste de bonnes pratiques pour les designers UX/UI."
 	lang: en
 	type: Ressource
-	thematique: Checklist
+	thematique: Checkliste
 	date: 2020-10-02
 -
 	title: "Navigation au clavier versus navigation avec un lecteur d’écran "
@@ -374,7 +434,7 @@ Ressources:
 	lang: en
 	type: Ressource
 	thematique: Figma, Transmissions aux devs
-	date: 2021-04-27
+	date: 2021-04-26
 -
 	title: "Conducting remote research with people with access needs"
 	url: >
@@ -408,7 +468,7 @@ Ressources:
 	thematique: Design System, Retour d'expérience
 	date: 2020-10-02
 -
-	title: " 11 Guidelines for Writing Microcopy that Helps Older Adults Use Your Product"
+	title: "11 Guidelines for Writing Microcopy that Helps Older Adults Use Your Product"
 	url: >
 		https://uxdesign.cc/golden-microcopy-helping-older-users-use-your-product-f0f1b173aa3e
 	source: Michal Halperin Ben Zvi et Kinneret Yifrah
@@ -429,6 +489,16 @@ Ressources:
 	thematique: Sensibilisation, Technologie d'assistance, Retour d'expérience
 	date: 2020-11-04
 -
+	title: "A Guide to Understanding What Makes a Typeface Accessible, and How to Make Informed Decisions "
+	url: >
+		https://medium.com/@garethfordwilliams/a-guide-to-understanding-what-makes-a-typeface-accessible-and-how-to-make-informed-decisions-9e5c0b9040a0
+	source: Gareth Ford Williams
+	description: "Points d’attention à avoir pour le choix d’une police de caractères lisible pour les personnes ayant une mauvaise vue et/ou des difficultés d’apprentissages."
+	lang: en
+	type: Article
+	thematique: Typographie
+	date: 2020-08-14
+-
 	title: "Developing Inclusive Design Habits for the Average Sketch User"
 	url: >
 		https://yg.is/cluse/
@@ -439,6 +509,16 @@ Ressources:
 	type: Article
 	thematique: Outils
 	date: 2020-11-04
+-
+	title: "Écrire pour ne pas être lu "
+	url: >
+		https://plumeswithattitude.substack.com/p/crire-pour-ne-pas-tre-lu
+	source: Camille Promérat
+	description: "Découverte du métier d'UX Writing : travailler ses contenus pour qu’ils soient inclusifs, accessibles et compréhensifs."
+	lang: fr
+	type: Article
+	thematique: UX Writing
+	date: 2020-07-30
 -
 	title: "Creating an inclusive illustration system"
 	url: >
@@ -479,6 +559,7 @@ Ressources:
 	lang: fr
 	phase: Conception
 	type: Formation
+	date: 2020-01-01
 -
 	title: "Accessibility for Everyone"
 	url: >
@@ -489,6 +570,7 @@ Ressources:
 	phase: Recherche,Idéation,Conception,Tests
 	type: Livre
 	thematique: Sensibilisation
+	date: 2020-01-01
 -
 	title: "What is your favorite one sentence definition of digital accessibility? "
 	url: >
@@ -544,7 +626,7 @@ Ressources:
 	thematique: Technologie d'assistance, Retour d'expérience
 	date: 2021-01-14
 -
-	title: " A Comprehensive Guide to Accessible User Research: Part 1 – Project Planning"
+	title: "A Comprehensive Guide to Accessible User Research: Part 1 – Project Planning"
 	url: >
 		https://dscout.com/people-nerds/accessible-user-research-1
 	source: DScout
@@ -575,6 +657,17 @@ Ressources:
 	thematique: Mobile
 	date: 2020-10-02
 -
+	title: "WCAG for designers "
+	url: >
+		https://gerireid.com/wcag-for-designers.html
+	source: Geri Reid
+	description: "Checklist de critères du WCAG pour les designers"
+	lang: en
+	phase: Conception
+	type: Ressource
+	thematique: Checkliste
+	date: 2020-08-26
+-
 	title: "30 ans de web, mais toujours pas d’accessibilité "
 	url: >
 		https://www.24joursdeweb.fr/2020/30-ans-de-web-mais-toujours-pas-d-accessibilite/
@@ -585,7 +678,7 @@ Ressources:
 	thematique: Étude
 	date: 2021-01-14
 -
-	title: " Parent accessibility"
+	title: "Parent accessibility"
 	url: >
 		https://axesslab.com/parent-a11y/
 	source: Hampus Sethfors
@@ -610,12 +703,12 @@ Ressources:
 	url: >
 		https://www.getstark.co/library/
 	source: Stark
-	description: "Librairies de ressources sur l'accessibilité (livres, outils, blogs, checklists, design patterns...)"
+	description: "Librairies de ressources sur l'accessibilité (livres, outils, blogs, checklistes, design patterns...)"
 	lang: en
 	type: Ressource
 	date: 2020-10-02
 -
-	title: " ProPublica experiments with ultra-accessible plain language in stories about people with disabilities"
+	title: "ProPublica experiments with ultra-accessible plain language in stories about people with disabilities"
 	url: >
 		https://www.niemanlab.org/2020/11/propublica-experiments-with-ultra-accessible-plain-language-in-stories-about-disabilities/
 	source: Sarah Scire
@@ -633,6 +726,16 @@ Ressources:
 	type: Ressource
 	thematique: Typographie
 	date: 2020-10-02
+-
+	title: "Alt-texts: the ultimate guide"
+	url: >
+		https://axesslab.com/alt-texts/
+	source: Daniel Göransson
+	description: "Guide de rédaction de textes alternatifs, par un utilisateur de lecteur d'écran."
+	lang: fr
+	type: Article
+	thematique: Textes alternatifs, Retour d'expérience
+	date: 2017-09-15
 -
 	title: "What we can learn from Apple’s dataviz accessibility"
 	url: >
@@ -686,12 +789,13 @@ Ressources:
 	lang: en
 	type: Formation
 	thematique: Sensibilisation, Méthodologie
+	date: 2020-01-01
 -
 	title: "Accessibility for Product Managers"
 	url: >
 		https://accessibility-for-teams.com/accessibility-for-product-managers
 	source: Peter van Grieken
-	description: "Checklists de bonnes pratiques pour les Product Managers."
+	description: "Checklistes de bonnes pratiques pour les Product Managers."
 	lang: en
 	type: Ressource
 	date: 2020-10-02
@@ -727,6 +831,16 @@ Ressources:
 	type: Article
 	thematique: Cartographie
 	date: 2020-12-05
+-
+	title: "Color Contrast Grid"
+	url: >
+		https://www.figma.com/community/plugin/870226217840930134/Color-Contrast-Grid
+	source: Luke Finch
+	description: "Plugin Figma qui transforme les couleurs d’une palette Figma en grille de combinaisons accessibles."
+	lang: en
+	type: Ressource
+	thematique: Figma, Couleurs
+	date: 2020-08-26
 -
 	title: "L’accessibilité en agilité (retour d’expérience sur Île-de-France Mobilités)"
 	url: >
@@ -842,7 +956,7 @@ Ressources:
 	lang: fr
 	type: Ressource
 	thematique: Design System
-	date: 2021-04-27
+	date: 2021-04-26
 -
 	title: "Comment le handicap inspire-t-il l'innovation ? "
 	url: >
