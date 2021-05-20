@@ -365,7 +365,7 @@ Ressources:
 	thematique: Retour d'expérience
 	date: 2021-04-26
 -
-	title: "Une grande partie de l'accessibilité numérique ne peut pas être automatisée. Pourquoi ? Parce que le coeur de l'accessibilité, c'est l'expérience humaine et l'empathie. Bien sûr, tu peux être conforme WCAG/RGAA ; mais ça ne veut pas dire que l'expérience utilisateur sera bonne. Vise l'excellence, pas la conformité."
+	title: "Une grande partie de l'accessibilité numérique ne peut pas être automatisée. Pourquoi ? Parce que le coeur de l'accessibilité, c'est l'expérience humaine et l'empathie. Bien sûr, tu peux être conforme WCAG/RGAA ; mais ça ne veut pas dire que l'expérience utilisateur sera bonne. Vise l'excellence, pas seulement la conformité."
 	url: >
 		https://twitter.com/Seraphae/status/1367922904495759363?s=20
 	source: Sophie Beaumont
