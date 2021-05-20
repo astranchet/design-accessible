@@ -42,7 +42,7 @@ Quotes:
   source: '(link: https://www.education.gouv.fr/handicap-tous-concernes-99935 text: Ministère du travail, de l’emploi et de la santé)'
   show: 'true'
 - 
-  citation: '50% des personnes actives seront touchés par une situation de handicap au cours de leur vie.'
+  citation: '50 % des personnes actives seront touchées par une situation de handicap au cours de leur vie.'
   source: '(link: https://www.education.gouv.fr/handicap-tous-concernes-99935 text: Ministère du travail, de l’emploi et de la santé)'
   show: 'true'
 - 
