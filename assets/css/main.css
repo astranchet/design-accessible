@@ -1144,9 +1144,6 @@ header {
   text-decoration: none; }
   .decouvrir a:not(.button):hover {
     border-bottom: 2px solid var(--purple-dark); }
-.decouvrir ul {
-  list-style-type: none;
-  padding: 0; }
 .decouvrir .highlight p {
   font-size: 2.4rem; }
 .decouvrir p + ul {
@@ -1242,6 +1239,9 @@ header {
       transform: translateY(-0.2rem); }
 .decouvrir .alt {
   background-color: var(--purple-pale); }
+.decouvrir .section__checklist ul {
+  list-style-type: none;
+  padding: 0; }
 
 .homepage .intro {
   padding-top: 2.4rem; }

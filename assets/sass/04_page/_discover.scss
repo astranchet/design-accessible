@@ -13,11 +13,6 @@
     }
   }
 
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-
   .highlight p {
     font-size: 2.4rem;
   }
@@ -160,4 +155,12 @@
   .alt {
     background-color: var(--purple-pale);
   }
+
+  .section__checklist {
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }      
+  }
+
 }

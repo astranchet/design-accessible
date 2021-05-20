@@ -116,6 +116,7 @@ Sections:
 
 
 		(link: /checklist text: Voir la checkliste du designer 👉 class: button button--primary)
+	style: section__checklist
 
 ----
 Ressources:
