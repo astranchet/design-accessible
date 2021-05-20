@@ -17,6 +17,16 @@ Ressources:
 	thematique: Écriture inclusive, UX Writing
 	date: 2021-01-14
 -
+	title: "How to write accessible descriptions for interactive charts "
+	url: >
+		https://www.highcharts.com/blog/tutorials/accessible-descriptions-for-interactive-charts/#
+	source: Huw Alexander
+	description: "Guide pour rédiger de descriptions de visualisations complexes."
+	lang: en
+	type: Article
+	thematique: Datavisualisation, Textes alternatifs
+	date: 2021-04-26
+-
 	title: "Le handicap, tout un symbole."
 	url: >
 		https://t.co/N8pdHaRs0Q?amp=1
@@ -109,6 +119,15 @@ Ressources:
 	thematique: Wireframes
 	date: 2021-02-27
 -
+	title: "Tips on designing inclusively for cognitive disabilities "
+	url: >
+		https://uxdesign.cc/tips-on-designing-inclusively-for-cognitive-disabilities-a7c19852208
+	source: Blayne Phillips
+	description: "Bonnes pratiques pour concevoir des applications accessibles aux personnes ayant des troubles cognitifs."
+	lang: en
+	type: Article
+	date: 2021-04-26
+-
 	title: "Darkmode et accessibilité"
 	url: >
 		https://nota-bene.org/Dark-mode-et-accessibilite
@@ -136,7 +155,7 @@ Ressources:
 	description: "Expériences autour des textes alternatifs."
 	lang: en
 	type: Article
-	thematique: UX Writing
+	thematique: UX Writing, Textes alternatifs
 	date: 2020-11-04
 -
 	title: "How to write inclusive, accessible digital products "
@@ -171,6 +190,16 @@ Ressources:
 	type: Article
 	thematique: UX Writing
 	date: 2020-11-04
+-
+	title: "Accessibility for Vestibular Disorders: How My Temporary Disability Changed My Perspective "
+	url: >
+		https://alistapart.com/article/accessibility-for-vestibular/
+	source:  Facundo Corradini
+	description: "Impact des troubles vestibulaires sur le web."
+	lang: en
+	type: Article
+	thematique: Retour d'expérience
+	date: 2021-04-26
 -
 	title: "Plain Language Writing — An Essential Part Of Accessibility"
 	url: >
@@ -327,6 +356,26 @@ Ressources:
 	thematique: Usage, Sensibilisation, Navigation au clavier, Lecteur d'écran
 	date: 2021-02-27
 -
+	title: "Designing for the autistic community "
+	url: >
+		https://uxdesign.cc/inclusive-design-guide-7-principles-of-designing-for-the-autistic-community-1e6dcd4bae85
+	source: Irina Rusakova
+	description: "Principes de design pour les personnes sur le spectre autistiques"
+	lang: en
+	type: Article
+	thematique: Autisme
+	date: 2021-04-26
+-
+	title: "A11y Annotation Kit "
+	url: >
+		https://www.figma.com/community/file/953682768192596304
+	source: Stephanie Hagadorn
+	description: "Librairie Figma très complète pour annoter ses maquettes : titres des pages, niveau de hiérarchie, libellés de formulaires, etc."
+	lang: en
+	type: Ressource
+	thematique: Figma, Transmissions aux devs
+	date: 2021-04-27
+-
 	title: "Conducting remote research with people with access needs"
 	url: >
 		https://userresearch.blog.gov.uk/2020/05/20/conducting-remote-research-with-people-with-access-needs/
@@ -402,16 +451,6 @@ Ressources:
 	thematique: Illustrations
 	date: 2021-02-27
 -
-	title: "There's no such thing as a website or web app that doesn't need to be accessible"
-	url: >
-		https://gomakethings.com/theres-no-such-thing-as-a-website-or-web-app-that-doesnt-need-to-be-accessible/
-	source: Chris Ferdinandi
-	description: "Plaidoyer pour des sites ou applications accessibles, quelque soit leur objectif premier."
-	lang: en
-	type: Article
-	thematique: Sensibilisation
-	date: 2021-02-27
--
 	title: "Quand je milite pour l'accessibilité, les gens me disent parfois « Mon site à moi, il est grand public. » Plus d'un milliard de personnes dans le monde ont un handicap : ne nous excluez pas. Et puis, « grand public » n'est pas un synonyme de non-handicapé."
 	url: >
 		https://twitter.com/HabenGirma/status/1375569364921905153?s=20
@@ -420,6 +459,16 @@ Ressources:
 	type: Citation
 	thematique: Sensibilisation
 	date: 2021-02-27
+-
+	title: "Accessibility in Design Systems"
+	url: >
+		https://speakerdeck.com/bennoloewenberg/accessibility-in-design-systems-english
+	source: Benno Loewenberg
+	description: "Conférence sur comment l’accessibilité peut être portée (ou pas) par les design system."
+	lang: en
+	type: Conférence
+	thematique: Design System
+	date: 2021-04-26
 -
 	title: "Design d’interfaces accessibles : UX, UI, multimédia"
 	url: >
@@ -593,7 +642,7 @@ Ressources:
 	lang: en
 	phase: Conception
 	type: Article
-	thematique: Datavisualisation, Lecteur d'écran
+	thematique: Datavisualisation, Lecteur d'écran, Textes alternatifs
 	date: 2021-02-27
 -
 	title: "Data visualization cares disproportionately far too much about designing for colorblindness relative to other disabilities that are more common"
@@ -785,6 +834,16 @@ Ressources:
 	thematique: Wireframes
 	date: 2021-02-27
 -
+	title: "Design System de l'État"
+	url: >
+		https://systeme-de-design.gouv.fr/
+	source: Design.gouv.fr
+	description: "Design System de l'État français dédié au service public, avec une trentaine de composants conforme au RGAA. "
+	lang: fr
+	type: Ressource
+	thematique: Design System
+	date: 2021-04-27
+-
 	title: "Comment le handicap inspire-t-il l'innovation ? "
 	url: >
 		https://peertube.designersethiques.org/videos/watch/984ab1e3-d9eb-4fd7-bf7c-ce856b61d036
@@ -802,3 +861,13 @@ Ressources:
 	type: Article
 	thematique: Usage, Sensibilisation, Technologie d'assistance
 	date: 2021-02-27
+-
+	title: "Excluding non-binary people by design: How sign-up forms can lead to discrimination"
+	url: >
+		https://fossheim.io/writing/posts/excluding-non-binary-people-by-design/
+	source: Sarah Fossheim
+	description: "Retour d'expérience sur la discrimination liée à des formulaires d’inscriptions mal conçus."
+	lang: en
+	type: Article
+	thematique: Formulaires, Retour d'expérience
+	date: 2021-04-26
