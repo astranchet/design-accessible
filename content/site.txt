@@ -73,7 +73,11 @@ Quotes:
     les handicapent.
   source: Benno Loewenberg
   show: 'true'
-
+-
+  citation: >
+    L'accessibilité est un voyage continu. Ce n'est pas un projet que l'on peut terminer et finir. C'est un processus, une pratique et une culture. C'est un changement de paradigme et de mode de vie qui doit faire partie intégrante de notre pratique.
+  source: '(link: https://practical-accessibility.today/ text: Sara Soueidan)'
+  show: 'true'
 ----
 
 Gettingstarted:
