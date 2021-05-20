@@ -9,9 +9,7 @@
           <?= $quote->citation()->kt() ?>
         </div>
         <?php if ($quote->source()->isNotEmpty()): ?>
-          <p class="blockquote__author">
-            – <?= $quote->source()->kirbytextinline() ?>
-          </p>
+          <p class="blockquote__author"><?= $quote->source()->kirbytextinline() ?></p>
         <?php endif ?>
       </blockquote>
     </div>

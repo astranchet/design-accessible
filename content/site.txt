@@ -63,6 +63,11 @@ Quotes:
   show: 'true'
 - 
   citation: >
+    Ce n'est pas la technique qui rend l'accessibilité compliqué à atteindre. Ce sont les gens qui s'en foutent.
+  source: Sheri Byrne-Haber
+  show: 'true'
+- 
+  citation: >
     Les utilisateurs ne sont pas
     handicapés. Ce sont les systèmes qui
     les handicapent.
