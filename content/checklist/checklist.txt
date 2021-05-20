@@ -109,7 +109,7 @@ Checklist:
     * envoi du formulaire
     * modification du contenu de la page
     * déplacement du focus du clavier
-  further: ""
+  further: "* (link: https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-unpredictable-change.html text: Changing the setting of any user interface component does not automatically cause a change of context hreflang: en)"
   category: Formulaires
 - 
   title: Indiquer les champs obligatoires
