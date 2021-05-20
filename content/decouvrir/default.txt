@@ -25,7 +25,7 @@ Sections:
 		(card: Loïc est dysphrasique. desc: Sa mémoire procédurale fonctionne mal. Il a du mal à retenir certains concepts comme la gauche et la droite.)
 		(card: Alexandre est jeune papa. desc: Il a beaucoup d’heures de sommeil en retard et du mal à se concentrer. Il utilise souvent son téléphone de nuit, sans son.)
 		(card: Florian est daltonien. desc: Comme 10 % des hommes, il a du mal à percevoir les différences de couleurs, notamment entre le rouge et le vert.)
-		(card: Samia est sourde profonde. desc: Sa langue maternelle est la lange des signes. Certains contenus en français sont difficile à comprendre pour elle.)
+		(card: Samia est sourde profonde. desc: Sa langue maternelle est la langue des signes. Certains contenus en français sont difficile à comprendre pour elle.)
 		(card: Marianne est dyslexique. desc: Remplir des formulaires est fastidieux pour elle. Heureusement, son logiciel de saisie l'aide beaucoup dans son travail. )
 		(card: Inès a une leucémie. desc: Elle suit une chimiothérapie. Elle a du mal à lire, avoir une conversation ou se souvenir de certaines choses.)
 		(card: Thierry a fait un AVC. desc: Il est encore en pleine rééducation. Il réapprend à utiliser son bras dominant, à lire, etc. Se concentrer est très fatiguant pour lui.)
