@@ -1081,10 +1081,9 @@ header {
       background: var(--green-medium) url(../img/Illustration-header.png) no-repeat bottom center;
       background-size: contain;
       padding-bottom: 18rem;
+      background-size: auto 18rem;
+      min-height: 18rem;
       text-align: center; } }
-  @media screen and (max-width: 47.9375em) {
-    .header__main {
-      min-height: auto; } }
   .header__main .container {
     display: flex;
     flex-direction: column;
@@ -1098,7 +1097,8 @@ header {
   min-height: 44.5rem; }
   @media screen and (max-width: 47.9375em) {
     .header__main--homepage {
-      min-height: auto; } }
+      background-size: auto 18rem;
+      min-height: 18rem; } }
   .header__main--homepage .container {
     padding-top: 9rem;
     padding-bottom: 15rem; }

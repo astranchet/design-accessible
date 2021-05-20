@@ -106,11 +106,9 @@ header {
     background: var(--green-medium) url(../img/Illustration-header.png) no-repeat bottom center;
     background-size: contain;
     padding-bottom: 18rem;
+    background-size: auto 18rem;
+    min-height: 18rem;
     text-align: center;
-  }
-
-  @include tablet-xs {
-    min-height: auto;
   }
 
   .container {
@@ -129,7 +127,8 @@ header {
   min-height: 44.5rem;
 
   @include tablet-xs {
-    min-height: auto;
+    background-size: auto 18rem;
+    min-height: 18rem;
   }
 
   .container {
