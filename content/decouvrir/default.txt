@@ -96,6 +96,8 @@ Sections:
 		(card: La reconnaissance vocale ou faciale permet de cliquer **sans utiliser les mains**. img: )
 		</div>
 
+		Un site est accessible s'il est compatible avec ces différentes **stratégies d'adaptations** et **outils d'assistance**.
+
 	style: alt
 - 
 	text: >
