@@ -4,6 +4,15 @@ Title: Contribuer
 
 Text:
 
+### (emoji: ✨) Améliorer ce site
+
+Vous avez repéré une faute d'orthographe ? Une approximation dans la **(link: /checklist text: checklist)** ou la page de **(link: /decouvrir text: sensibilisation)** ? 
+
+Le (link: https://github.com/astranchet/design-accessible text: code source est disponible sur Github), vous pouvez créer une (link: https://github.com/astranchet/design-accessible/issues/new text: issue) ou faire une (link: https://github.com/astranchet/design-accessible/compare text: pull request).
+
+
+### (emoji: 💌) Proposer une ressource
+
 Vous connaissez (ou avez produit) une ressource : 
 - destiné à des designers
 - en rapport avec l'accessibilité
