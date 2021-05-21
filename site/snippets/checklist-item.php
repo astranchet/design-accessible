@@ -1,9 +1,10 @@
 <li class="checklist__item">
-	<label>
+	<h4><label class="checklist__item__title">
+        <?= $item->title() ?>
         <input type="checkbox" id="<?= $item->title()->slug() ?>">
         <span class="checklist__item__checkmark"></span>
-        <h4 class="checklist__item__title"><?= $item->title() ?></h4>
-	</label>
+	</label></h4>
+        
     <div class="checklist__item__content">
 		<?= $item->desc()->kirbytext() ?>
 		<?php if ($item->further()->isNotEmpty()): ?>
