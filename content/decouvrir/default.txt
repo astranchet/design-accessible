@@ -28,7 +28,7 @@ Sections:
 		(card: Samia est sourde profonde. desc: Sa langue maternelle est la langue des signes. Certains contenus en français sont difficile à comprendre pour elle.)
 		(card: Marianne est dyslexique. desc: Remplir des formulaires est fastidieux pour elle. Heureusement, son logiciel de saisie l'aide beaucoup dans son travail. )
 		(card: Inès a une leucémie. desc: Elle suit une chimiothérapie. Elle a du mal à lire, avoir une conversation ou se souvenir de certaines choses.)
-		(card: Thierry a fait un AVC. desc: Il est encore en pleine rééducation. Il réapprend à utiliser son bras dominant, à lire, etc. Se concentrer est très fatiguant pour lui.)
+		(card: Thierry a fait un AVC. desc: Il est encore en pleine rééducation. Il réapprend à utiliser son bras dominant, à lire, etc. Se concentrer est très fatigant pour lui.)
 		</div>
 
 		(emoji: 👉) **L’accessibilité concerne potentiellement tout de monde :**
@@ -76,19 +76,19 @@ Sections:
 
 		<div class="card__grid card__grid-technos">
 		(card: Le **mode lecture** enlève les distractions autour du contenu. Il est plus facile de se concentrer sur le texte. img: mode-lecture.png)
-		(card: Certaines personnes **modifient** le type de police, les couleurs, de l'espacement et de la largeur des lignes pour mieux lire le texte. img: dyslexia.png)
-		(card: Les **contrastes élevés** sont particulièrement utile pour les personnes agées dont la vue baisse avec le temps. img: high-contrast.png)
+		(card: Certaines personnes **modifient** le type de police, les couleurs, l'espacement et la largeur des lignes pour mieux lire le texte. img: dyslexia.png)
+		(card: Les **contrastes élevés** sont particulièrement utiles pour les personnes âgées dont la vue baisse avec le temps. img: high-contrast.png)
 		</div>
 
 		(emoji: 👉) Les gens **naviguent et trouvent du contenu** en utilisant différentes stratégies. Cela dépend de leurs capacités, de leurs préférences, mais aussi de leurs compétences. 
 
 		<div class="card__grid card__grid-technos">
 		(card: Une personne qui ne voit pas l’écran en aura une vue d’ensemble en « scannant » les **titres de la page**. img: screen-reader-headings.jpg)
-		(card: Certaines personnes ne voient qu’une portion de l’interface à la fois avec la **loupe d’écran**. Elles ont besoins de **repères visuels**. img: loupe.jpeg)
+		(card: Certaines personnes ne voient qu’une portion de l’interface à la fois avec la **loupe d’écran**. Elles ont besoin de **repères visuels**. img: loupe.jpeg)
 		(card: Certaines personnes naviguent en utilisant **uniquement le clavier**. img: navigation.png)
 		</div>
 
-		(emoji: 👉) Il existe plusieurs manières de **saisir du texte** ou de **déclencher des actions**. Certaines personnes n”utilisent ni clavier, ni souris. D’autres utilisent du matériel adapté à leur situation.
+		(emoji: 👉) Il existe plusieurs manières de **saisir du texte** ou de **déclencher des actions**. Certaines personnes n’utilisent ni clavier, ni souris. D’autres utilisent du matériel adapté à leur situation.
 
 		<div class="card__grid card__grid-technos">
 		(card: Des logiciels permettent de prédire ou compléter les mots pour **faciliter la saisie**. img: )
@@ -127,7 +127,7 @@ Ressources:
 	url: >
 		https://www.lalutineduweb.fr/ecriture-inclusive-accessibilite-numerique-jetdv2020/
 	source: Julie Moynat
-	description: "État des lieux des différentes outils d'écriture inclusive et de leur impact sur l'accessibilité."
+	description: "État des lieux des différents outils d'écriture inclusive et de leur impact sur l'accessibilité."
 	lang: fr
 	phase: Conception
 	type: Article
