@@ -10,12 +10,13 @@ return [
         }
 
         return Html::a($tag->value, $tag->text, [
-        	'hreflang'	=> $tag->hreflang,
-            'rel'    	=> $tag->rel,
-            'class' 	=> $tag->class,
-            'role'   	=> $tag->role,
-            'title'  	=> $tag->title,
-            'target' 	=> $tag->target,
+            'hreflang'  => $tag->hreflang,
+            'lang'      => $tag->hreflang,
+            'rel'       => $tag->rel,
+            'class'     => $tag->class,
+            'role'      => $tag->role,
+            'title'     => $tag->title,
+            'target'    => $tag->target,
         ]);
     }
 ];
