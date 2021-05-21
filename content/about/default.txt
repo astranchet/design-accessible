@@ -25,7 +25,7 @@ Que vous soyez UX, UI, UX Researcher, UX Writer, ou même dev ou chef de projet 
 ## Les valeurs
 
 * Ce site tente d'être le plus **(link: /accessibility-statement text: accessible)** possible.
-* Ce site est **(link: # text: open-source)** (link: http://creativecommons.org/licenses/by-nc-sa/4.0/ text: sous licence) (pas d’utilisation commerciale - partage dans les mêmes conditions).
+* Ce site est **(link: https://github.com/astranchet/design-accessible/ text: open-source)** (link: http://creativecommons.org/licenses/by-nc-sa/4.0/ text: sous licence) (pas d’utilisation commerciale - partage dans les mêmes conditions).
 * Ce site est **(link: https://withcabin.com/faq#how-does-cabin-protect-my-visitors text: respectueux de votre vie privée)**. 
 
 ## Les contributeurs
