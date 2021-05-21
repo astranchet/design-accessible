@@ -193,7 +193,7 @@ Ressources:
 	title: "How people in government are making their research more inclusive"
 	url: >
 		https://digital.canada.ca/2021/01/07/how-people-in-government-are-making-their-research-more-inclusive/
-	source: le Service Numérique Canadien
+	source: le Service Numérique canadien
 	description: "Retour d'expérience du gouvernement canadien pour une recherche utilisateur plus inclusive."
 	lang: en
 	phase: Recherche
@@ -244,7 +244,7 @@ Ressources:
 	title: "Illustrer la diversité et l’inclusion pour l’application Alerte COVID"
 	url: >
 		https://numerique.canada.ca/2020/11/26/illustrer-la-diversit%C3%A9-et-linclusion-pour-lapplication-alerte-covid/
-	source: Service numérique canadien
+	source: le Service numérique canadien
 	description: "Retour d'expérience de conception d'illustrations inclusives."
 	lang: fr
 	phase: Conception
@@ -420,7 +420,7 @@ Ressources:
 	url: >
 		https://uxdesign.cc/inclusive-design-guide-7-principles-of-designing-for-the-autistic-community-1e6dcd4bae85
 	source: Irina Rusakova
-	description: "Principes de design pour les personnes sur le spectre autistiques."
+	description: "Principes de design pour les personnes sur le spectre autistique."
 	lang: en
 	type: Article
 	thematique: Autisme
@@ -554,7 +554,7 @@ Ressources:
 	url: >
 		https://formations.access42.net/formations/design-dinterfaces-accessibles-ux-ui-multimedia/
 	source: Access42
-	description: "Formation à une approche inclusive du design web pour les personnes qui désignent des applications et sites numériques.
+	description: "Formation à une approche inclusive du design Web pour les personnes qui désignent des applications et sites numériques.
 "
 	lang: fr
 	phase: Conception
@@ -668,7 +668,7 @@ Ressources:
 	thematique: Checklist
 	date: 2020-08-26
 -
-	title: "30 ans de web, mais toujours pas d’accessibilité "
+	title: "30 ans de Web, mais toujours pas d’accessibilité "
 	url: >
 		https://www.24joursdeweb.fr/2020/30-ans-de-web-mais-toujours-pas-d-accessibilite/
 	source: Arthur Rigaud
@@ -795,7 +795,7 @@ Ressources:
 	url: >
 		https://accessibility-for-teams.com/accessibility-for-product-managers
 	source: Peter van Grieken
-	description: "Checklists de bonnes pratiques pour les Product Managers."
+	description: "Checklist de bonnes pratiques pour les Product Managers."
 	lang: en
 	type: Ressource
 	date: 2020-10-02
