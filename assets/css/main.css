@@ -1294,6 +1294,8 @@ header {
     height: 0.6rem;
     width: 1.3rem;
     transform: rotate(-45deg); }
+  .checklist .checklist__item input:checked ~ .checklist__item__content {
+    display: none; }
   .checklist .checklist__item input + label {
     color: var(--green-dark);
     font-size: 2.4rem;

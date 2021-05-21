@@ -72,6 +72,10 @@
             transform: rotate(-45deg);
           }
         }
+
+        ~ .checklist__item__content {
+      		display: none;
+    	}
       }
 
       + label {
