@@ -927,8 +927,6 @@ h5 {
 .checklist__item {
   background-color: var(--green-pale);
   padding: 1.2rem; }
-  .checklist__item a:not(.button)::after {
-    opacity: .5; }
   .checklist__item a[hreflang]::after {
     content: " [" attr(hreflang) "]";
     font-weight: normal; }
