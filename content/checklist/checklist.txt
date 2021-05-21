@@ -278,22 +278,26 @@ Ressources:
   source: AccedeWeb
   url: https://www.accede-web.com/notices/fonctionnelle-graphique/
   description: "Ensemble des éléments à prendre en compte pour que les maquettes ergonomiques (storyboards, wireframes) et graphiques"
+  lang: fr
 - 
   title: Accessibility for UX and UI Designers
   source: Accessibility for teams
   url: >
     https://accessibility-for-teams.com/accessibility-for-ux-designers
   description: "Guide de démarrage en anglais pour les concepteurs d'UX et d'UI sur la création de sites Web accessibles. "
+  lang: en
 - 
-  title: Accessibility Heuristiques for Designers
+  title: Accessibility Heuristics for Designers
   source: Deque
   url: "https://accessibility.deque.com/applying-accessibility-heuristics-to-a-wireframe"
   description: "Critères d'accessibilité sous forme d'heuristiques pour évaluer l'accessibilité d'interfaces."
+  lang: en
 - 
   title: Accessibility Guidelines Summary
   source: The App Business
   url: "https://theappbusiness.github.io/accessibility-guidelines/index.html"
   description: "Critères d'accessibilité du WCAG rédigés en anglais simplifié et illustrés d'exemples."
+  lang: en
 
 ----
 
