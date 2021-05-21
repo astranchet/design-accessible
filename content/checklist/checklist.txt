@@ -15,7 +15,7 @@ Checklist:
 - 
   title: "Faciliter la compréhension rapide d'une page"
   desc: |
-    Une page accessible doit pouvoir être **lue rapidement et facilement**. Les gros blocs de textes sont intimidant et fastidieux à lire. Pour rendre un texte facile à lire, privilégier :
+    Une page accessible doit pouvoir être **lue rapidement et facilement**. Les gros blocs de textes sont intimidants et fastidieux à lire. Pour rendre un texte facile à lire, privilégier :
     - les listes et les titres
     - les phrases courtes.
   further: '* (link: https://www.plainlanguage.gov/guidelines/design text: Design for reading hreflang: en)'
@@ -48,34 +48,34 @@ Checklist:
   further: '* (link: https://www.accede-web.com/notices/fonctionnelle-graphique/regles-supplementaires-pour-la-conformite/prevoir-des-intitules-identiques-pour-les-champs-dont-la-fonction-est-identique/ text: Prévoir des intitulés identiques pour les champs font la fonction est identique)'
   category: Contenu
 - 
-  title: Constraster les textes
+  title: Contraster les textes
   desc: |
-    Les contrastes entre un texte et son arrière-plan doit être d'au moins 4,5:1. Pour les textes de grandes tailles (plus de 24 px) ou en gras, le contraste peut être de 3:1. De nombreux outils permettent de mesurer ce ratio de contrastes.
+    Les contrastes entre un texte et son arrière-plan doivent être d'au moins 4,5:1. Pour les textes de grandes tailles (plus de 24 px) ou en gras, le contraste peut être de 3:1. De nombreux outils permettent de mesurer ce ratio de contraste.
   further: |
-    * (link: https://design-accessible.fr/ressources/thematique:Couleurs text: Voir les outils de contrastes)
+    * (link: https://design-accessible.fr/ressources/thematique:Couleurs text: Voir les outils de contraste)
     * (link: https://www.accede-web.com/notices/fonctionnelle-graphique/couleurs/assurer-un-contraste-suffisant-entre-les-textes-et-larriere-plan/ text: Assurer un contraste suffisant entre les textes et l'arrière plan)
     * (link: https://24ways.org/2015/designing-with-contrast/ text: Designing with contrast hreflang: en)
     * (link: https://www.a11yproject.com/posts/2013-01-22-check-contrast-with-mobile-device/ text: Check constrast with mobile device hreflang: en)
   category: Couleurs
 - 
-  title: "Constraster les éléments d'interfaces"
+  title: "Contraster les éléments d'interfaces"
   desc: |
     Les éléments d'interfaces interactifs doivent être facilement identifiables. Pour cela, le contraste avec l'arrière plan doit être suffisant. Cela concerne :
     * les boutons
     * les champs de formulaires
     * les icônes
-  further: '* (link: https://www.accede-web.com/notices/fonctionnelle-graphique/couleurs/assurer-un-contraste-suffisant-entre-les-elements-graphiques-informatifs-et-interactifs-avec-leur-arriere-plan/ text: Assurer un constraste suffisant entre les éléments graphiques informatifs et interactifs avec leur arrière plan)'
+  further: '* (link: https://www.accede-web.com/notices/fonctionnelle-graphique/couleurs/assurer-un-contraste-suffisant-entre-les-elements-graphiques-informatifs-et-interactifs-avec-leur-arriere-plan/ text: Assurer un contraste suffisant entre les éléments graphiques informatifs et interactifs avec leur arrière-plan)'
   category: Couleurs
 - 
   title: "S'assurer que l’information n'est pas véhiculée uniquement par la couleur"
   desc: |
-    Utiliser la couleur pour communiquer  une information à l'utilisateur est une bonne chose. Le rouge est souvent utilisé pour indiquer des erreurs par exemple. Mais la couleur **ne doit pas être l'unique moyen** de communiquer cette information. Pour un champ de formulaire en erreur, on peut coupler l'information avec une icône.
+    Utiliser la couleur pour communiquer une information à l'utilisateur est une bonne chose. Le rouge est souvent utilisé pour indiquer des erreurs par exemple. Mais la couleur **ne doit pas être l'unique moyen** de communiquer cette information. Pour un champ de formulaire en erreur, on peut coupler l'information avec une icône.
     Cela sera utile pour les personnes dont la vision des couleurs est limitée.
-  further: "* (link: https://www.accede-web.com/notices/fonctionnelle-graphique/couleurs/assurer-la-comprehension-de-linformation-meme-en-labsence-de-couleurs/ text: Assurer la compréhension de l'information même en absence de couleurs)"
+  further: "* (link: https://www.accede-web.com/notices/fonctionnelle-graphique/couleurs/assurer-la-comprehension-de-linformation-meme-en-labsence-de-couleurs/ text: Assurer la compréhension de l'information même en l'absence de couleurs)"
   category: Couleurs
 - 
   title: Nommer chaque champ de formulaire
-  desc: "Le libellé d'un champ est indispensable. Il indique à une personne ce qu'elle doit renseigner. Les placeholders ne peuvent pas remplir ce rôle : ils sont peut lisibles, et non accessibles aux personnes utilisant un lecteur d'écran."
+  desc: "Le libellé d'un champ est indispensable. Il indique à une personne ce qu'elle doit renseigner. Les placeholders ne peuvent pas remplir ce rôle : ils sont peu lisibles, et non accessibles aux personnes utilisant un lecteur d'écran."
   further: |
     * (link: https://www.accede-web.com/notices/fonctionnelle-graphique/formulaires/prevoir-un-intitule-explicite-pour-chaque-champ-de-formulaire/ text: Prévoir un intitulé explicite pour chaque champ de formulaire)
     * (link: https://www.accede-web.com/notices/fonctionnelle-graphique/formulaires/positionner-chaque-intitule-a-proximite-de-son-champ/ text: Positionner chaque intitulé à proximité de son champ)
@@ -92,7 +92,7 @@ Checklist:
 - 
   title: Aider à la correction des erreurs
   desc: |
-    Lorsque quelqu'une personne fait une erreur en remplissant un formulaire :
+    Lorsque qu'une personne fait une erreur en remplissant un formulaire :
     - Décrivez l'erreur.
     - Identifiez clairement où se trouve l'erreur.
     - Donnez des suggestions sur la manière de la corriger.
@@ -125,7 +125,7 @@ Checklist:
     écran de 320px de large (par exemple un
     iPhone 5), sans barre de défilement
     horizontale. Les utilisateurs doivent
-    retrouver le même contenu et le même
+    retrouver le même contenu et les mêmes
     fonctionnalités que sur un grand
     écran.
   further: '* (link: https://www.accede-web.com/notices/fonctionnelle-graphique/orientation-et-taille-decran/ne-pas-supprimer-de-fonctionnalites-ou-de-contenus-en-vues-responsive/ text: Ne pas supprimer de fonctionnalités ou de contenus en vue responsive)'
@@ -135,8 +135,8 @@ Checklist:
   desc: |
     Les contenus cachés (comme une info-bulle) doivent être facile d'accès :
     - la zone d'activation doit être suffisamment large ;
-    - le contenu doit être afficheable au clavier ;
-    - le contenu doit rester facilement.
+    - le contenu doit être affichable au clavier ;
+    - le contenu doit rester facilement lisible.
     
     *Note : le plus souvent, les textes d'info-bulles mériteraient d'être toujours présents 😇.*
   further: ""
@@ -144,9 +144,9 @@ Checklist:
 - 
   title: >
     Proposer plusieurs moyens de
-    navigations
+    navigation 
   desc: |
-    Les gens pensent différemment. En proposant plusieurs moyens de navigations, on permet à chacun de s'y retrouver facilement. La navigation peut se faire par :
+    Les gens pensent différemment. En proposant plusieurs moyens de navigation, on permet à chacun de s'y retrouver facilement. La navigation peut se faire par :
     - un menu
     - un plan du site
     - un moteur de recherche
@@ -159,8 +159,8 @@ Checklist:
   category: Navigation
 - 
   title: >
-    Proposer des zones de touchs assez
-    large
+    Proposer des zones tactiles assez
+    larges
   desc: |
     Les zones tactiles doivent être suffisamment grandes (au moins 44 × 44 pixels) et éloignées les unes des autres.
     
@@ -260,14 +260,14 @@ Categories:
 - 
   title: Navigation
   description: >
-    L'accessibilité concerne aussi l'usabilité au sein du site pour tout les usagers.
+    L'accessibilité concerne aussi l'usabilité au sein du site pour tous les usagers.
 - 
   title: Conception
   description: >
     L'accessibilité se pense au moment de définir un produit et son usage, avant même de penser aux interfaces.
 - 
   title: Livrables
-  description: "Le rôle du designer est de penser à l'accessibilité au delà de ses maquettes. Ses livrables peuvent comporter des informations additionnelles qui serviront l'accessibilité."
+  description: "Le rôle du designer est de penser à l'accessibilité au-delà de ses maquettes. Ses livrables peuvent comporter des informations additionnelles qui serviront l'accessibilité."
 
 ----
 
@@ -277,14 +277,14 @@ Ressources:
   title: Notices d’accessibilité fonctionnelle et graphique
   source: AccedeWeb
   url: https://www.accede-web.com/notices/fonctionnelle-graphique/
-  description: "Ensemble des éléments à prendre en compte pour que les maquettes ergonomiques (storyboards, wireframes) et graphiques"
+  description: "Ensemble des éléments à prendre en compte pour les maquettes ergonomiques (storyboards, wireframes) et graphiques."
   lang: fr
 - 
   title: Accessibility for UX and UI Designers
   source: Accessibility for teams
   url: >
     https://accessibility-for-teams.com/accessibility-for-ux-designers
-  description: "Guide de démarrage en anglais pour les concepteurs d'UX et d'UI sur la création de sites Web accessibles. "
+  description: "Guide de démarrage en anglais pour les concepteurs d'UX et d'UI sur la création de sites Web accessibles."
   lang: en
 - 
   title: Accessibility Heuristics for Designers
