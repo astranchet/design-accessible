@@ -7,11 +7,13 @@ return [
     'html' => function($tag) {
         if (empty($tag->lang) === false) {
             $tag->value = Url::to($tag->value, $tag->lang);
+        } else {
+            $tag->lang = $tag->hreflang;
         }
 
         return Html::a($tag->value, $tag->text, [
             'hreflang'  => $tag->hreflang,
-            'lang'      => $tag->hreflang,
+            'lang'      => $tag->lang,
             'rel'       => $tag->rel,
             'class'     => $tag->class,
             'role'      => $tag->role,
