@@ -27,7 +27,7 @@
 			<li class="last__article-item">
 				<article class="card card--horizontal">
 					<h3 class="card__title">
-  						<a href="<?= $ressource->url() ?>"><?= $ressource->title() ?></a>
+  						<a href="<?= $ressource->url() ?>" hreflang="<?= $ressource->lang() ?>" lang="<?= $ressource->lang() ?>"><?= $ressource->title() ?></a>
 					</h3>
 
 					<div class="card__description">

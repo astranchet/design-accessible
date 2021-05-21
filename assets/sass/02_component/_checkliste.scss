@@ -2,15 +2,6 @@
   background-color: var(--green-pale);
   padding: 1.2rem;
 
-  a:not(.button)::after {
-      opacity: .5;
-  }
-
-  a[hreflang]::after {
-      content: "\0000a0[" attr(hreflang) "]";
-      font-weight: normal;
-  }
-
   &:first-child {
     border-top-left-radius: 1.2rem;
     border-top-right-radius: 1.2rem;
@@ -32,6 +23,11 @@
     margin-left: 4.2rem;
 
     color: var(--neutral-2);
+
+    a[hreflang="en"]::after {
+        content: "\0000a0(en anglais)";
+        font-weight: normal;
+    }
 
     h5 {
       color: var(--neutral-1);
