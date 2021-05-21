@@ -21,7 +21,7 @@ Ressources:
 	url: >
 		https://www.highcharts.com/blog/tutorials/accessible-descriptions-for-interactive-charts/#
 	source: Huw Alexander
-	description: "Guide pour rédiger de descriptions de visualisations complexes."
+	description: "Guide pour rédiger des descriptions de visualisations complexes."
 	lang: en
 	type: Article
 	thematique: Datavisualisation, Textes alternatifs
@@ -41,7 +41,7 @@ Ressources:
 	url: >
 		https://www.matsuko.ca/blog/stop-using-material-design-text-fields/
 	source: Matsuko
-	description: "Problèmes d’usabilité du design system Material Design de Google et  alternatives"
+	description: "Problèmes d’usabilité du design system Material Design de Google et alternatives"
 	lang: en
 	type: Article
 	thematique: Design System, Formulaires
@@ -50,7 +50,7 @@ Ressources:
 	title: "Contrast Checker"
 	url: >
 		https://contrast-checker.glitch.me/
-	description: "Outil de vérification de contrastes pour les boutons et éléments interactifs."
+	description: "Outil de vérification de contraste pour les boutons et éléments interactifs."
 	lang: en
 	phase: Conception
 	type: Ressource
@@ -61,7 +61,7 @@ Ressources:
 	url: >
 		https://blog.hello-bokeh.fr/2021/03/03/francais-simplifie/
 	source: Anne-Sophie Tranchet
-	description: "Présentation du français simplifié, pour produire du contenu adaptés aux personnes avec des difficultés de communication ou de compréhension."
+	description: "Présentation du français simplifié, pour produire du contenu adapté aux personnes avec des difficultés de communication ou de compréhension."
 	lang: fr
 	phase: Conception
 	type: Article
@@ -82,7 +82,7 @@ Ressources:
 	url: >
 		https://accessibility.blog.gov.uk/2020/12/17/how-we-made-gov-uk-more-accessible/
 	source: Gouvernement britannique
-	description: "Retour d'expérience de classification et priorisations des problèmes d'accessibilité."
+	description: "Retour d'expérience de classification et priorisation des problèmes d'accessibilité."
 	lang: en
 	type: Article
 	thematique: Méthodologie
@@ -215,7 +215,7 @@ Ressources:
 	url: >
 		https://alistapart.com/article/accessibility-for-vestibular/
 	source:  Facundo Corradini
-	description: "Impact des troubles vestibulaires sur le web."
+	description: "Impact des troubles vestibulaires sur le Web."
 	lang: en
 	type: Article
 	thematique: Retour d'expérience
@@ -234,7 +234,7 @@ Ressources:
 	url: >
 		https://uxdesign.cc/designing-mindful-experiences-for-users-with-anxiety-456ead8e702a
 	source: Laura Alr
-	description: "Bonnes pratiques pour concevoir sans stress pour les personnes sujettes à l'anxiéé."
+	description: "Bonnes pratiques pour concevoir sans stress pour les personnes sujettes à l'anxiété."
 	lang: en
 	phase: Conception
 	type: Article
@@ -244,7 +244,7 @@ Ressources:
 	title: "Illustrer la diversité et l’inclusion pour l’application Alerte COVID"
 	url: >
 		https://numerique.canada.ca/2020/11/26/illustrer-la-diversit%C3%A9-et-linclusion-pour-lapplication-alerte-covid/
-	source: Service numérique Canadien
+	source: Service numérique canadien
 	description: "Retour d'expérience de conception d'illustrations inclusives."
 	lang: fr
 	phase: Conception
@@ -287,7 +287,7 @@ Ressources:
 	url: >
 		https://theappbusiness.github.io/accessibility-guidelines/index.html
 	source: The App Business
-	description: "Version simplifiée du WCAG avec des exemples pour le web, Android et iOS."
+	description: "Version simplifiée du WCAG avec des exemples pour le Web, Android et iOS."
 	lang: en
 	type: Ressource
 	date: 2021-04-26
@@ -296,11 +296,11 @@ Ressources:
 	url: >
 		https://apf-conseil.com/good-design-playbook/methode/outil18/
 	source: AFP Conseil
-	description: "Checkliste de critères d'accessibilité physiques, sensoriels et cognitifs."
+	description: "Checklist de critères d'accessibilité physiques, sensoriels et cognitifs."
 	lang: fr
 	phase: Conception
 	type: Ressource
-	thematique: Checkliste
+	thematique: Checklist
 	date: 2020-10-02
 -
 	title: "Accessibilité et emoji"
@@ -338,7 +338,7 @@ Ressources:
 	url: >
 		https://almanac.httparchive.org/en/2020/accessibility
 	source: HTTP Archive
-	description: "Analyse des tendances du web en accessibilité en 2020. facilité de lecture, médias, navigation, technologies d'assistances et formulaires : quel est l'état du Web aujourd'hui ?"
+	description: "Analyse des tendances du Web en accessibilité en 2020. Facilité de lecture, médias, navigation, technologies d'assistances et formulaires : quel est l'état du Web aujourd'hui ?"
 	lang: en
 	type: Article
 	thematique: Étude
@@ -355,7 +355,7 @@ Ressources:
 	thematique: Couleurs
 	date: 2021-02-27
 -
-	title: "« Tu sais que tu es non-voyant sur le web quand… »"
+	title: "« Tu sais que tu es non-voyant sur le Web quand… »"
 	url: >
 		https://sonix.ai/r/e3WEY89NefAeNKU3a35BawKZ/share
 	source: Tech Ethic
@@ -400,33 +400,33 @@ Ressources:
 	url: >
 		https://accessibility-for-teams.com/accessibility-for-ux-designers
 	source: Peter van Grieken
-	description: "Checkliste de bonnes pratiques pour les designers UX/UI."
+	description: "Checklist de bonnes pratiques pour les designers UX/UI."
 	lang: en
 	type: Ressource
-	thematique: Checkliste
+	thematique: Checklist
 	date: 2020-10-02
 -
 	title: "Navigation au clavier versus navigation avec un lecteur d’écran "
 	url: >
 		https://access42.net/navigation-au-clavier-versus-navigation-avec-un-lecteur-decran
 	source: Access42
-	description: "Traduction de l’article de Léonie Watson sur les différences fondamentales entre navigation au clavier et lecteur d'écran. "
+	description: "Traduction de l’article de Léonie Watson sur les différences fondamentales entre navigation au clavier et lecteur d'écran."
 	lang: fr
 	type: Article
 	thematique: Usage, Sensibilisation, Navigation au clavier, Lecteur d'écran
 	date: 2021-02-27
 -
-	title: "Designing for the autistic community "
+	title: "Designing for the autistic community"
 	url: >
 		https://uxdesign.cc/inclusive-design-guide-7-principles-of-designing-for-the-autistic-community-1e6dcd4bae85
 	source: Irina Rusakova
-	description: "Principes de design pour les personnes sur le spectre autistiques"
+	description: "Principes de design pour les personnes sur le spectre autistiques."
 	lang: en
 	type: Article
 	thematique: Autisme
 	date: 2021-04-26
 -
-	title: "A11y Annotation Kit "
+	title: "A11y Annotation Kit"
 	url: >
 		https://www.figma.com/community/file/953682768192596304
 	source: Stephanie Hagadorn
@@ -493,7 +493,7 @@ Ressources:
 	url: >
 		https://medium.com/@garethfordwilliams/a-guide-to-understanding-what-makes-a-typeface-accessible-and-how-to-make-informed-decisions-9e5c0b9040a0
 	source: Gareth Ford Williams
-	description: "Points d’attention à avoir pour le choix d’une police de caractères lisible pour les personnes ayant une mauvaise vue et/ou des difficultés d’apprentissages."
+	description: "Points d’attention à avoir pour le choix d’une police de caractères lisible pour les personnes ayant une mauvaise vue et/ou des difficultés d’apprentissage."
 	lang: en
 	type: Article
 	thematique: Typographie
@@ -544,7 +544,7 @@ Ressources:
 	url: >
 		https://speakerdeck.com/bennoloewenberg/accessibility-in-design-systems-english
 	source: Benno Loewenberg
-	description: "Conférence sur comment l’accessibilité peut être portée (ou pas) par les design system."
+	description: "Conférence sur comment l’accessibilité peut être portée (ou pas) par les design systems."
 	lang: en
 	type: Conférence
 	thematique: Design System
@@ -576,7 +576,7 @@ Ressources:
 	url: >
 		https://twitter.com/LFLegal/status/1348777835670896640
 	source: Lainey Feingold
-	description: "Thread collaboratif pour tenter de décrire en une phrase l'accessibilité numérique. "
+	description: "Thread collaboratif pour tenter de décrire en une phrase l'accessibilité numérique."
 	lang: en
 	type: Thread Twitter
 	thematique: Sensibilisation
@@ -665,7 +665,7 @@ Ressources:
 	lang: en
 	phase: Conception
 	type: Ressource
-	thematique: Checkliste
+	thematique: Checklist
 	date: 2020-08-26
 -
 	title: "30 ans de web, mais toujours pas d’accessibilité "
@@ -703,7 +703,7 @@ Ressources:
 	url: >
 		https://www.getstark.co/library/
 	source: Stark
-	description: "Librairies de ressources sur l'accessibilité (livres, outils, blogs, checklistes, design patterns...)"
+	description: "Librairies de ressources sur l'accessibilité (livres, outils, blogs, checklists, design patterns...)"
 	lang: en
 	type: Ressource
 	date: 2020-10-02
@@ -795,7 +795,7 @@ Ressources:
 	url: >
 		https://accessibility-for-teams.com/accessibility-for-product-managers
 	source: Peter van Grieken
-	description: "Checklistes de bonnes pratiques pour les Product Managers."
+	description: "Checklists de bonnes pratiques pour les Product Managers."
 	lang: en
 	type: Ressource
 	date: 2020-10-02
@@ -889,7 +889,7 @@ Ressources:
 	url: >
 		https://apf-conseil.com/good-design-playbook/methode/outil09/
 	source: AFP Conseil
-	description: "Jeu de cartes de situations fictionnels de handicap."
+	description: "Jeu de cartes de situations fictionnelles de handicap."
 	lang: fr
 	phase: Idéation
 	type: Ressource
