@@ -86,7 +86,4 @@ fields:
     fields:
       name:
         label: Type
-        type: text
-      icon:
-        label: Icône
-        type: text  
+        type: text 

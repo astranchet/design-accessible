@@ -3,7 +3,16 @@ icon: 💜
 preset: page
 fields:
   text:
-    label: Text
+    label: Texte
     type: textarea
-    size: large
-
+  sections:
+    label: Sections
+    type: structure
+    fields:
+      text:
+        label: Texte
+        type: textarea
+        size: large
+      style:
+        label: Style
+        type: text

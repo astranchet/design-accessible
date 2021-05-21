@@ -62,8 +62,7 @@ Quotes:
   source: '(link: https://speakerdeck.com/bennoloewenberg/accessibility-in-design-systems-english?slide=9 text: Gina Balhwalker hreflang: en)'
   show: 'true'
 - 
-  citation: >
-    Ce n'est pas la technique qui rend l'accessibilité compliqué à atteindre. Ce sont les gens qui s'en foutent.
+  citation: "Ce n'est pas la technique qui rend l'accessibilité compliqué à atteindre. Ce sont les gens qui s'en foutent."
   source: Sheri Byrne-Haber
   show: 'true'
 - 
@@ -73,17 +72,17 @@ Quotes:
     les handicapent.
   source: Benno Loewenberg
   show: 'true'
--
-  citation: >
-    L'accessibilité est un voyage continu. Ce n'est pas un projet que l'on peut terminer et finir. C'est un processus, une pratique et une culture. C'est un changement de paradigme et de mode de vie qui doit faire partie intégrante de notre pratique.
+- 
+  citation: "L'accessibilité est un voyage continu. Ce n'est pas un projet que l'on peut terminer et finir. C'est un processus, une pratique et une culture. C'est un changement de paradigme et de mode de vie qui doit faire partie intégrante de notre pratique."
   source: '(link: https://practical-accessibility.today/ text: Sara Soueidan)'
   show: 'true'
+
 ----
 
 Gettingstarted:
 
 - 
-  title: "L’accessibilité, c’est quoi ? (emoji: 🤔)"
+  title: 'L’accessibilité, c’est quoi ? (emoji: 🤔)'
   desc: >
     Comprendre les usages et les points
     bloquants des personnes en situation de
@@ -131,34 +130,23 @@ Ressource-type:
 
 - 
   name: Article
-  icon: ""
 - 
-  name: Citation
-  icon: ""
-- 
-  name: Design System
-  icon: ""
-- 
-  name: Étude
-  icon: ""
-- 
-  name: Figma
-  icon: ""
-- 
-  name: Formation
-  icon: ""
-- 
-  name: Livre
-  icon: ""
-- 
-  name: PDF
-  icon: ""
-- 
-  name: Site web
-  icon: ""
+  name: Ressource
 - 
   name: Thread Twitter
-  icon: ""
 - 
   name: Vidéo
-  icon: ""
+- 
+  name: PDF
+- 
+  name: Formation
+- 
+  name: Citation
+- 
+  name: Podcast
+- 
+  name: Design System
+- 
+  name: Livre
+- 
+  name: Conférence

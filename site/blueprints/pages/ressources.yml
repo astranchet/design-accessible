@@ -2,10 +2,9 @@ title: Ressources
 icon: ✨
 
 fields:
-  text:
-    label: Introduction
+  baseline:
+    label: Baseline
     type: textarea
-    size: small
   ressources:
     label: Ressources
     type: structure
@@ -13,24 +12,15 @@ fields:
       title:
         label: Titre
         type: text
-      description:
-        label: Description
-        type: textarea
       url:
         label: Lien
         type: url
-      date:
-        label: Date
-        type: date
-      type:
-        label: Type de ressource
-        type: select
-        width: 1/4
-        options: query
-        query: 
-          fetch: site.ressource_type.toStructure
-          text: "{{ structureItem.name }}"
-          value: "{{ structureItem.name }}"
+      source:
+        label: Auteur ou autrice
+        type: text
+      description:
+        label: Description
+        type: textarea
       lang:
         label: Langue
         type: select
@@ -47,7 +37,19 @@ fields:
           Recherche: Recherche
           Conception: Conception
           Tests: Tests
+      type:
+        label: Type de ressource
+        type: select
+        width: 1/4
+        options: query
+        query: 
+          fetch: site.ressource_type.toStructure
+          text: "{{ structureItem.name }}"
+          value: "{{ structureItem.name }}"
       thematique:
         label: Thématiques
         type: tags
         width: 1/4
+      date:
+        label: Date
+        type: date
