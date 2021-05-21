@@ -1337,4 +1337,16 @@ header {
         padding: 0;
         margin: 1.2rem 0; } }
 
+.about h2 {
+  margin: 4.8rem 0 1.6rem; }
+.about blockquote {
+  background: var(--green-light);
+  border-radius: .6rem;
+  padding: 3.2rem;
+  line-height: 2.8rem;
+  margin: 4.8rem 0 0 0; }
+  @media screen and (max-width: 47.9375em) {
+    .about blockquote {
+      text-align: center; } }
+
 /*# sourceMappingURL=main.css.map */

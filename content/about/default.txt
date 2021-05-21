@@ -14,13 +14,13 @@ Que vous soyez UX, UI, UX Researcher, UX Writer, ou même dev ou chef de projet 
 
 **Design Accessible** est à l'initiative d'Anne-Sophie Tranchet. UX/UI Designer indépendante et engagée, elle est spécialisée dans le design de service public. Elle conçoit des produits inclusifs et accessibles à toutes et tous.
 
-La naissance de ce site est venue de plusieurs constats : 
-* En débutant en accessibilité, j'ai trouvé beaucoup de ressources pour les devs, mais moins pour les designers.
-* Les ressources que je trouvais étaient souvent en anglais, et pas toujours facile à comprendre. 
-* Après plusieurs mois à publier ma veille d'accessibilité sur (link: https://blog.hello-bokeh.fr/ text: mon blog), j'avais envie de pouvoir retrouver plus facilement des ressources.
-* Je voulais aussi prouver qu'on peut faire un site accessible **ET** beau. 
-
-Bref, quelques mois de travail plus tard, **Design Accessible** est né&nbsp;!
+> La naissance de ce site est venue de plusieurs constats : 
+> * En débutant en accessibilité, j'ai trouvé beaucoup de ressources pour les devs, mais moins pour les designers.
+> * Les ressources que je trouvais étaient souvent en anglais, et pas toujours facile à comprendre. 
+> * Après plusieurs mois à publier ma veille d'accessibilité sur (link: https://blog.hello-bokeh.fr/ text: mon blog), j'avais envie de pouvoir retrouver plus facilement des ressources.
+> * Je voulais aussi prouver qu'on peut faire un site accessible **ET** beau. 
+>
+> Bref, quelques mois de travail plus tard, **Design Accessible** est né&nbsp;!
 
 ## Les valeurs
 
@@ -30,8 +30,6 @@ Bref, quelques mois de travail plus tard, **Design Accessible** est né&nbsp;!
 
 ## Les contributeurs
 
-Côté intégration, **Design Accessible** a pris vie grâce au fabuleux (link: https://twitter.com/skyounet text: Jimmy Burbure) 🤗, intégrateur freelance, spécialisé en accessibilité 💪.  
-
-Les (très mignonnes) illustrations de l'entête viennent du pack (link: https://blush.design/fr/collections/hands text: Hands hreflang: en) de (link: https://ivanmesaros.com/ text: Ivan Mesaroš) 👌.
-
-Le site tourne grâce au génial (link: https://getkirby.com/ text: Kirby) ✊💜. Le code source est disponible sur (link: https://github.com/astranchet/design-accessible text: Github).
+* Côté intégration, **Design Accessible** a pris vie grâce au fabuleux (link: https://twitter.com/skyounet text: Jimmy Burbure) (emoji: 🤗), intégrateur freelance, spécialisé en accessibilité (emoji: 💪).  
+* Les (très mignonnes) illustrations de l'entête viennent du pack (link: https://blush.design/fr/collections/hands text: Hands hreflang: en) de (link: https://ivanmesaros.com/ text: Ivan Mesaroš) (emoji: 👌).
+* Le site tourne grâce au génial (link: https://getkirby.com/ text: Kirby) (emoji: ✊💜). Le code source est disponible sur (link: https://github.com/astranchet/design-accessible text: Github).

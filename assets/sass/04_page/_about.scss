@@ -1,0 +1,17 @@
+.about {
+	h2 {
+		margin: $space-9 0 $space-5;
+	}
+	blockquote {
+ 		background: var(--green-light);
+		border-radius: .6rem;
+  		padding: 3.2rem;
+  		line-height: 2.8rem;
+		margin: $space-9 0 0 0;
+
+		@include tablet-xs {
+		    text-align: center;
+  		}
+	}
+
+}
