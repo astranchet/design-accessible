@@ -9,7 +9,7 @@
 
 <?php } else { ?>
 <h3 class="card__title">
-  <a href="<?= $ressource->url() ?>" rel="external" hreflang="<?= $ressource->lang() ?>" lang="<?= $ressource->lang() ?>" lang="<?= $ressource->lang(); ?>">
+  <a href="<?= $ressource->url() ?>" rel="external" hreflang="<?= $ressource->lang() ?>" lang="<?= $ressource->lang(); ?>">
     <?= $ressource->title() ?>
   </a>
   <span class="card__type">
