@@ -5,10 +5,10 @@
         <h4 class="checklist__item__title"><?= $item->title() ?></h4>
 	</label>
     <div class="checklist__item__content">
-		<p><?= $item->desc()->kirbytext() ?></p>
+		<?= $item->desc()->kirbytext() ?>
 		<?php if ($item->further()->isNotEmpty()): ?>
 			<h5>Ressources</h5>
-			<p><?= $item->further()->kirbytext() ?></p>
+			<?= $item->further()->kirbytext() ?>
 		<?php endif ?>
     </div>
 </li>
