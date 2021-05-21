@@ -25,11 +25,11 @@ Quotes:
 
 - 
   citation: Nous sommes tous temporairement valides.
-  source: '(link: https://en.wikipedia.org/wiki/Cindy_Li text: Cindy Li)'
+  source: '(link: https://en.wikipedia.org/wiki/Cindy_Li text: Cindy Li hreflang: en)'
   show: 'false'
 - 
   citation: "L’accessibilité est plus qu'une checklist : c'est une facette de l’expérience utilisateur."
-  source: '(link: https://accessibility-for-teams.com/accessibility-for-ux-designers text: Accessibility for teams)'
+  source: '(link: https://accessibility-for-teams.com/accessibility-for-ux-designers text: Accessibility for teams hreflang: en)'
   show: 'true'
 - 
   citation: >
@@ -51,15 +51,15 @@ Quotes:
   show: 'false'
 - 
   citation: "L'accessibilité doit être intégrée avant le développement, dès les étapes de recherche, d'idéation et de conception."
-  source: '(link: https://almanac.httparchive.org/en/2020/accessibility#conclusion text: The Web Almanac 2020)'
+  source: '(link: https://almanac.httparchive.org/en/2020/accessibility#conclusion text: The Web Almanac 2020 hreflang: en)'
   show: 'true'
 - 
   citation: "86 % des sites ont des erreurs d'accessibilité corrigeables dès la phase de design."
-  source: '(link: https://webaim.org/projects/million/ text: The WebAIM Million)'
+  source: '(link: https://webaim.org/projects/million/ text: The WebAIM Million hreflang: en)'
   show: 'true'
 - 
   citation: "Abordez l'accessibilité comme un impératif pour une bonne expérience client, et non comme une histoire de conformité."
-  source: '(link: https://speakerdeck.com/bennoloewenberg/accessibility-in-design-systems-english?slide=9 text: Gina Balhwalker)'
+  source: '(link: https://speakerdeck.com/bennoloewenberg/accessibility-in-design-systems-english?slide=9 text: Gina Balhwalker hreflang: en)'
   show: 'true'
 - 
   citation: >
