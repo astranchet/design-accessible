@@ -6,7 +6,7 @@
 	<div class="checklist__item__content">
 		<?= $item->desc()->kirbytext() ?>
 		<?php if ($item->further()->isNotEmpty()): ?>
-			<h4>Ressources</h4>
+			<p class="checklist__item__ressources">Ressources</p>
 			<?= $item->further()->kirbytext() ?>
 		<?php endif ?>
 	</div>

@@ -944,8 +944,9 @@ h5 {
     .checklist__item .checklist__item__content a[hreflang="en"]::after {
       content: "\0000a0(en anglais)";
       font-weight: normal; }
-    .checklist__item .checklist__item__content h5 {
+    .checklist__item .checklist__item__content .checklist__item__ressources {
       color: var(--neutral-1);
+      font-weight: bold;
       margin-top: 1rem; }
     .checklist__item .checklist__item__content ul {
       list-style-type: none;
