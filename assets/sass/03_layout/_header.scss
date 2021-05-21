@@ -1,5 +1,9 @@
 header {
   background: var(--green-medium);
+
+  ::selection { 
+    background: var(--neutral-1); 
+  }
 }
 
 .header__top {
