@@ -1,14 +1,13 @@
 <li class="checklist__item">
-	<label>
-        <input type="checkbox" id="<?= $item->title()->slug() ?>">
-        <span class="checklist__item__checkmark"></span>
-        <h4 class="checklist__item__title"><?= $item->title() ?></h4>
+	<input type="checkbox" id="<?= $item->title()->slug() ?>">
+	<label for="<?= $item->title()->slug() ?>">
+		<span class="checklist__item__title"><?= $item->title() ?></span>
 	</label>
-    <div class="checklist__item__content">
+	<div class="checklist__item__content">
 		<?= $item->desc()->kirbytext() ?>
 		<?php if ($item->further()->isNotEmpty()): ?>
-			<h5>Ressources</h5>
+			<h4>Ressources</h4>
 			<?= $item->further()->kirbytext() ?>
 		<?php endif ?>
-    </div>
+	</div>
 </li>

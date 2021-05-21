@@ -7,11 +7,11 @@
 	.checklist__group {
 		list-style-type: none;
 		padding: 0;
-		margin-bottom: 4.2rem;	
+		margin-bottom: 4.2rem;
 	}
 
 	.checklist__item__content {
-		h5 {
+		h4 {
 			margin-top: $space-5;
 		}
 		li {
@@ -20,98 +20,113 @@
 		}
 	}
 
-	.checklist__item label {
-		display: block;
-		position: relative;
-		padding-left: 4.2rem;
-		cursor: pointer;
-		font-size: 2.4rem;
-		-webkit-user-select: none;
-		-moz-user-select: none;
-		-ms-user-select: none;
-		user-select: none;
+	.checklist__item {
 
 		input {
 			position: absolute;
-			opacity: 0;
-			cursor: pointer;
-			height: 0;
-			width: 0;
+      height: 1px;
+      width: 1px;
+      overflow: hidden;
+      clip: rect(1px, 1px, 1px, 1px);
+
+      &:hover,
+      &:focus {
+
+        + label {
+          color: var(--neutral-1);
+        }
+      }
+
+      &:focus {
+
+        + label {
+
+          &::before {
+            outline: var(--green-dark) solid 0.1rem;
+          }
+        }
+      }
+
+      &:checked {
+
+        + label {
+
+          .checklist__item__title {
+            text-decoration: line-through;
+          }
+
+          &::before {
+            background: var(--green-medium);
+            border-color: var(--green-dark);
+          }
+
+          &::after {
+            content: '';
+            position: absolute;
+            top: 1.3rem;
+            left: 0.6rem;
+            border-left: 0.2rem solid var(--white);
+            border-bottom: 0.2rem solid var(--white);
+            height: 0.6rem;
+            width: 1.3rem;
+            transform: rotate(-45deg);
+          }
+        }
+      }
+
+      + label {
+        color: var(--green-dark);
+        font-size: 2.4rem;
+        font-weight: bold;
+        display: flex;
+        position: relative;
+        padding: 0 1.5rem 0 0;
+
+        &:hover,
+        &:focus {
+
+          &::before {
+            border-color: var(--green-dark);
+          }
+        }
+
+        &::before {
+          border: 0.3rem solid var(--green-medium);
+          border-radius: .6rem;
+          content: '';
+          position: relative;
+          display: inline-block;
+          margin-right: 1.75rem;
+          min-width: 2.4rem;
+          top: 0.5rem;
+          height: 2.4rem;
+          background: var(--white);
+        }
+      }
 		}
 
-		.checklist__item__checkmark {
-			position: absolute;
-			top: 0;
-			left: 0;
-			height: 2.4rem;
-			width: 2.4rem;
-			background-color: var(--white);
-			border: 3px solid var(--green-medium);
-			border-radius: .6rem;
-			margin-top: .6rem;
-		}	
-	}
+    &.active {
 
-	// On mouse-over
-	.checklist__item label:hover input ~ .checklist__item__checkmark,
-	.checklist__item input:focus ~ .checklist__item__checkmark {
-		border-color: var(--green-dark);
-	}
-	.checklist__item label:hover input ~ .checklist__item__title {
-		color: var(--neutral-1);
-	}
-
-	// When checked
-	.checklist__item label input:checked ~ .checklist__item__checkmark {
-	  	background-color: var(--green-medium);
-	}
-	.checklist__item label input:checked ~ .checklist__item__title {
-		text-decoration: line-through;
-	}
-
-	// Checkmark indicator
-	.checklist__item__checkmark:after {
-	  content: "";
-	  position: absolute;
-	  display: none;
-	}
-	.checklist__item label input:checked ~ .checklist__item__checkmark:after {
-	  display: block;
-	}
-	.checklist__item label .checklist__item__checkmark:after {
-		left: .6rem;
-		top: .3rem;
-		width: .6rem;
-		height: 1.2rem;
-		border: solid white;
-		border-width: 0 .3rem .3rem 0;
-		-webkit-transform: rotate(45deg);
-		-ms-transform: rotate(45deg);
-		transform: rotate(45deg);
-	}
-	.checklist__item label ~ .checklist__item__content {
-		display: block;
-	}
-	.checklist__item label.active ~ .checklist__item__content {
-		display: none;
-	}
-
+      .checklist__item__content {
+        display: none;
+      }
+    }
+  }
 
 	.last__article-list {
 		display: flex;
 		flex-wrap: wrap;
-	  	margin: $space-9 #{-$space-4};
+    margin: $space-9 #{-$space-4};
 
 		.last__article-item {
 			margin: $space-4;
-		    width: calc(100% / 2 - #{$space-4} * 2);
-      
-	      @include tablet-xs {
-	        width: 100%;
-	        padding: 0;
-	        margin: $space-4 0;
-	      }
+      width: calc(100% / 2 - #{$space-4} * 2);
+
+      @include tablet-xs {
+        width: 100%;
+        padding: 0;
+        margin: $space-4 0;
+      }
 		}
 	}
-
 }
