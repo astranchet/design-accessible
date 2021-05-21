@@ -1,5 +1,5 @@
 <li class="checklist__item">
-	<h4><label class="checklist__item__title">
+	<h4><label class="checklist__item__title" for="<?= $item->title()->slug() ?>">
         <?= $item->title() ?>
         <input type="checkbox" id="<?= $item->title()->slug() ?>">
         <span class="checklist__item__checkmark"></span>
