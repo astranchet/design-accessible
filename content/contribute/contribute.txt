@@ -14,7 +14,7 @@ Le (link: https://github.com/astranchet/design-accessible text: code source est 
 ### (emoji: 💌) Proposer une ressource
 
 Vous connaissez (ou avez produit) une ressource : 
-- destiné à des designers
+- destinée à des designers
 - en rapport avec l'accessibilité
 - de qualité
 
