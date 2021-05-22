@@ -67,7 +67,7 @@ header {
   display: flex;
   min-height: 100%;
 
-  @include tablet-xs {
+  @include mobile {
     margin-top: $space-5;
     align-items: center;
     flex-direction: column;
