@@ -901,7 +901,7 @@ h5 {
   background: var(--neutral-5);
   border-radius: .6rem;
   border: 2px solid var(--neutral-5);
-  padding: .6rem;
+  padding: .6rem 1.2rem;
   margin-top: .6rem; }
   .tags__item:last-child {
     margin-right: 0; }
@@ -1053,7 +1053,7 @@ header {
 .header__menu {
   display: flex;
   min-height: 100%; }
-  @media screen and (max-width: 47.9375em) {
+  @media screen and (max-width: 35.3125em) {
     .header__menu {
       margin-top: 1.6rem;
       align-items: center;
@@ -1074,19 +1074,21 @@ header {
       color: var(--white); }
 
 .header__main {
-  background: var(--green-medium) url(../img/Illustration-header.png) no-repeat center right;
+  background: var(--green-medium) url(../img/Illustration-header.png) no-repeat bottom right;
   min-height: 33rem; }
   @media screen and (max-width: 74.9375em) {
     .header__main {
       padding: 2.4rem 2rem; } }
   @media screen and (max-width: 64em) {
     .header__main {
-      background: var(--green-medium) url(../img/Illustration-header.png) no-repeat bottom center;
-      background-size: contain;
+      background-size: auto 50%; } }
+  @media screen and (max-width: 47.9375em) {
+    .header__main {
+      background-position: bottom right;
       padding-bottom: 18rem;
-      background-size: auto 18rem;
       min-height: 18rem;
-      text-align: center; } }
+      text-align: center;
+      background-size: auto 18rem; } }
   .header__main .container {
     display: flex;
     flex-direction: column;
@@ -1097,14 +1099,26 @@ header {
         padding: 0; } }
 
 .header__main--homepage {
-  min-height: 44.5rem; }
+  min-height: 44.5rem;
+  background-position-y: center; }
+  @media screen and (max-width: 74.9375em) {
+    .header__main--homepage {
+      background-position: right bottom;
+      min-height: 38rem; } }
+  @media screen and (max-width: 64em) {
+    .header__main--homepage .header__title,
+    .header__main--homepage .header__subtitle {
+      max-width: 100%; } }
   @media screen and (max-width: 47.9375em) {
     .header__main--homepage {
-      background-size: auto 18rem;
-      min-height: 18rem; } }
+      min-height: auto; } }
   .header__main--homepage .container {
     padding-top: 9rem;
     padding-bottom: 15rem; }
+    @media screen and (max-width: 74.9375em) {
+      .header__main--homepage .container {
+        padding: 0;
+        padding-left: 2.4rem; } }
     @media screen and (max-width: 64em) {
       .header__main--homepage .container {
         padding: 0; } }
@@ -1117,6 +1131,18 @@ header {
   .header__title strong,
   .header__subtitle strong {
     font-weight: bold; }
+  @media screen and (max-width: 74.9375em) {
+    .header__title,
+    .header__subtitle {
+      max-width: 45%; } }
+  @media screen and (max-width: 64em) {
+    .header__title,
+    .header__subtitle {
+      max-width: 45%; } }
+  @media screen and (max-width: 47.9375em) {
+    .header__title,
+    .header__subtitle {
+      max-width: none; } }
 
 .header__title {
   font-size: 4.8rem;

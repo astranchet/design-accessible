@@ -105,14 +105,17 @@ header {
   @include desktop-xs {
     padding: $space-6 2rem;
   }
-
+  
   @include tablet {
-    background: var(--green-medium) url(../img/Illustration-header.png) no-repeat bottom center;
-    background-size: contain;
+    background-size: auto 50%;
+  }
+
+  @include tablet-xs {
+    background-position: bottom right;
     padding-bottom: 18rem;
-    background-size: auto 18rem;
     min-height: 18rem;
     text-align: center;
+    background-size: auto 18rem;
   }
 
   .container {
@@ -131,15 +134,30 @@ header {
   min-height: 44.5rem;
   background-position-y: center;
 
+  @include desktop-xs {
+    background-position: right bottom;
+    min-height: 38rem;
+  }
+
+  .header__title,
+  .header__subtitle {
+    @include tablet {
+      max-width: 100%;
+    }
+  }
+
   @include tablet-xs {
-    background-size: auto 18rem;
-    min-height: 18rem;
+    min-height: auto;
   }
 
   .container {
     padding-top: 9rem;
     padding-bottom: 15rem;
 
+    @include desktop-xs {
+      padding: 0;
+      padding-left: $space-6;
+    }
     @include tablet {
       padding: 0;
     }
@@ -154,6 +172,16 @@ header {
 
   strong {
     font-weight: bold;
+  }
+
+  @include desktop-xs {
+    max-width: 45%;
+  }
+  @include tablet {
+    max-width: 45%;
+  }
+  @include tablet-xs {
+    max-width: none;
   }
 }
 
