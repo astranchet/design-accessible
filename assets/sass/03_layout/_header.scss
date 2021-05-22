@@ -99,7 +99,7 @@ header {
 }
 
 .header__main {
-  background: var(--green-medium) url(../img/Illustration-header.png) no-repeat center right;
+  background: var(--green-medium) url(../img/Illustration-header.png) no-repeat bottom right;
   min-height: 33rem;
 
   @include desktop-xs {
@@ -129,6 +129,7 @@ header {
 
 .header__main--homepage {
   min-height: 44.5rem;
+  background-position-y: center;
 
   @include tablet-xs {
     background-size: auto 18rem;
