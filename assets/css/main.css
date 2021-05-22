@@ -666,6 +666,8 @@ h5 {
 
 .blockquote__author a {
   color: var(--neutral-1); }
+  .blockquote__author a:hover {
+    border-bottom: 1px solid var(--neutral-1); }
 
 .button {
   align-items: center;

@@ -43,4 +43,8 @@
 
 .blockquote__author a {
   color: var(--neutral-1);
+
+  &:hover {
+    border-bottom: 1px solid var(--neutral-1);
+  }
 }

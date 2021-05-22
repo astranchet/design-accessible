@@ -10,8 +10,6 @@
 return [
     'debug' => false,
 
-    'date.handler' => 'strftime',
-    
     'locale' => [
 	    LC_COLLATE => 'fr_FR.UTF-8',
 	    LC_MONETARY => 'fr_FR.UTF-8',
