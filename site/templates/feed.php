@@ -14,7 +14,7 @@ echo '<?xml version="1.0" encoding="utf-8" standalone="yes" ?>';
         <title><?= $ressource->title() ?></title>
         <link><?= $ressource->url() ?></link>
         <guid isPermaLink="true"><?= $ressource->url() ?></guid>
-        <pubDate><?= $ressource->date() ?></pubDate>
+        <pubDate><?= $ressource->date()->toDate("%a, %d %b %Y %H:%M:%S %z") ?></pubDate>
         <description><![CDATA[
             <p><?= $ressource->description() ?></p>
 
