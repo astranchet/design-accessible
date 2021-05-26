@@ -1231,3 +1231,16 @@ Ressources:
   type: Article
   thematique: "Lecteur d'écran, Technologie d'assistance, Transmissions aux devs"
   date: 2021-05-26
+- 
+  title: 'Form design : best practice, research insights and examples'
+  url: https://www.gerireid.com/forms.html
+  source: Geri Reid
+  description: >
+    Bonnes pratiques, recherche utilisateur
+    et exemples pour concevoir des
+    formulaires accessibles.
+  lang: en
+  phase: Conception
+  type: Article
+  thematique: Checklist, Formulaires
+  date: 2021-05-26
