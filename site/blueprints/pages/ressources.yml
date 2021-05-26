@@ -50,6 +50,8 @@ fields:
         label: Thématiques
         type: tags
         width: 1/4
+        options: query
+        query: page.ressources.ressources.toStructure.pluck("thematique", ",", true)
       date:
         label: Date
         type: date
