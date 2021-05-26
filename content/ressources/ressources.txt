@@ -1220,3 +1220,16 @@ Ressources:
   type: Article
   thematique: "Formulaires, Retour d'expérience"
   date: 2021-04-26
+- 
+  title: >
+    How to document the screen reader user
+    experience
+  url: >
+    https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html
+  source: BBC Accessibility Team
+  description: "Bonnes pratiques d'annotations de maquettes pour les lecteurs d'écrans."
+  lang: en
+  phase: Conception
+  type: Article
+  thematique: "Lecteur d'écran, Technologie d'assistance, Transmissions aux devs"
+  date: 2021-05-26
