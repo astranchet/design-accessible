@@ -233,8 +233,7 @@ Ressources:
   url: >
     https://uxdesign.cc/how-to-write-inclusive-accessible-digital-products-2f4b35ec59a2
   source: Nick DiLallo
-  description: >
-    Bonnes pratiques pour rédiger du contenu d'interface accessible.
+  description: "Bonnes pratiques pour rédiger du contenu d'interface accessible."
   lang: en
   phase: Conception
   type: Article
@@ -768,8 +767,7 @@ Ressources:
   thematique: Datavisualisation
   date: 2020-12-05
 - 
-  title: >
-    Weaving Web Accessibility With Usability
+  title: Weaving Web Accessibility With Usability
   url: >
     https://www.smashingmagazine.com/2020/11/weaving-web-accessibility-usability/
   source: Uri Paz
