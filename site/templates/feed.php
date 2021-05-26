@@ -19,19 +19,13 @@ echo '<?xml version="1.0" encoding="utf-8" standalone="yes" ?>';
             <p><?= $ressource->description() ?></p>
 
             <p>
-            #<?= $ressource->type(); ?>
             <?php foreach ($ressource->phase()->split() as $phase): ?>
 	        	#<?= $phase ?> 
 			<?php endforeach ?>
-			<?php if ($ressource->lang()->isNotEmpty()) : ?>
-		        #<?= $langs[$ressource->lang()->value()] ?> 
-			<?php endif ?>
 		    <?php foreach ($ressource->thematique()->split() as $thematique): ?>
-			    #<?= $thematique ?> 
+			    #<?= Str::replace(ucwords($thematique), [" ", "'"], "") ?> 
 			<?php endforeach ?>
             </p>
-
-            <?= $page->desc()->kt(); ?>
         ]]>
         </description>
     </item>
