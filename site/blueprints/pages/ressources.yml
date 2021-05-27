@@ -8,6 +8,17 @@ fields:
   ressources:
     label: Ressources
     type: structure
+    limit: 10
+    sortBy: date desc
+    default:
+      - date: today
+    columns:
+      title:
+        width: 1/2
+      source:
+        width: 1/4
+      thematique:
+        width: 1/4    
     fields:
       title:
         label: Titre
