@@ -31,7 +31,7 @@ Sections:
 		(card: Thierry a fait un AVC. desc: Il est encore en pleine rééducation. Il réapprend à utiliser son bras dominant, à lire, etc. Se concentrer est très fatigant pour lui.)
 		</div>
 
-		(emoji: 👉) **L’accessibilité concerne potentiellement tout de monde :**
+		(emoji: 👉) **L’accessibilité concerne potentiellement tout le monde :**
 
 		- En France, on estime qu’une personne sur 5 est en situation de handicap.
 
@@ -42,7 +42,7 @@ Sections:
 
 		(emoji: 👉) **Les déficiences peuvent prendre de nombreuses formes :**
 
-		- physique ou cognitive ;
+		- physique ou cognitive.
 
 		- à des degrés divers de gravité.
 		
