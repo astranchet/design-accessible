@@ -42,7 +42,7 @@ Sections:
 
 		(emoji: 👉) **Les déficiences peuvent prendre de nombreuses formes :**
 
-		- physique ou cognitive ;
+		- physique ou cognitive.
 
 		- à des degrés divers de gravité.
 		
