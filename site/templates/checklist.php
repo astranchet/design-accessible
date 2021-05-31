@@ -4,8 +4,14 @@
     <div class="container">
 		<?= $page->text()->kt() ?>
 
+		<ul class="toc">
+			<?php foreach ($page->categories()->toStructure() as $category): ?>
+			<li><a href="<?= $page->url() ?>#<?= $category->title()->slug() ?>"><?= $category->title() ?></a></li>
+			<?php endforeach ?>
+		</ul>
+
 		<?php foreach ($page->categories()->toStructure() as $category): ?>
-			<h3><?= $category->title() ?></h3>
+			<h3 id="<?= $category->title()->slug() ?>"><?= $category->title() ?></h3>
 
 			<?= $category->description()->kt() ?>
 			<ul class="checklist__group">
@@ -13,6 +19,8 @@
 				<?php snippet('checklist-item', ['item' => $item]) ?>
 			<?php endforeach ?>
 			</ul>
+
+			<p class="backtotop"><a href="#content">↑ Retourner en haut</a></p>
 		<?php endforeach ?>
 
 

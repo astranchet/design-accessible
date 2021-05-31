@@ -1365,6 +1365,18 @@ header {
         width: 100%;
         padding: 0;
         margin: 1.2rem 0; } }
+.checklist .toc {
+  list-style-type: none;
+  margin: 0 0 4.8rem 0;
+  padding: 0; }
+  .checklist .toc::before {
+    content: "👉 "; }
+  .checklist .toc li {
+    display: inline;
+    margin-left: 2rem; }
+.checklist .backtotop {
+  margin: -1.6rem 0 4.8rem;
+  font-size: 1.4rem; }
 
 .card--horizontal .card__title a:visited {
   color: var(--neutral-2); }

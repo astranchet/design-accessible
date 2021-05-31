@@ -133,4 +133,24 @@
       }
 		}
 	}
+
+  .toc {
+    list-style-type: none;
+    margin: 0 0 $space-9 0;
+    padding: 0;
+
+    &::before {
+      content: "👉 ";
+    }
+
+    li {
+      display: inline;
+      margin-left: 2rem;
+    }
+  }
+
+  .backtotop {
+    margin: -$space-5 0 $space-9;
+    font-size: 1.4rem;
+  }
 }
