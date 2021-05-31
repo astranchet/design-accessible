@@ -8,17 +8,25 @@
 .tags__item {
   margin-right: 1rem;
   text-transform: lowercase;
-  background: var(--neutral-5);
-  border-radius: .6rem;
-  border: 2px solid var(--neutral-5);
-  padding: .6rem 1.2rem;
   margin-top: .6rem;
+
+  a {
+    background: var(--neutral-5);
+    border-radius: .6rem;
+    border: 2px solid var(--neutral-5);
+    padding: .6rem 1.2rem;
+
+    &:focus {
+      border: 2px solid var(--neutral-1);
+    }
+  }
 
   &:last-child {
     margin-right: 0;
   }
+}
 
-  &.tags__item-phase {
+  .tags__item-phase a {
 	  background: var(--purple-bright);
     border: 2px solid var(--purple-bright);
 
@@ -27,7 +35,7 @@
     }
   }
 
-  &.tags__item-thematique {
+  .tags__item-thematique a {
 	  background: var(--green-light);
     border: 2px solid var(--green-light);
 
@@ -36,7 +44,7 @@
     }
   }
 
-  &.tags__item-lang {
+  .tags__item-lang a {
 	 background: var(--yellow-light);
    border: 2px solid var(--yellow-light);
 
@@ -44,7 +52,7 @@
       border-color: var(--yellow-bright);
     }
   }
-}
+
 
 .tags__link {
   text-decoration: none;

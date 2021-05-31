@@ -898,28 +898,34 @@ h5 {
 .tags__item {
   margin-right: 1rem;
   text-transform: lowercase;
-  background: var(--neutral-5);
-  border-radius: .6rem;
-  border: 2px solid var(--neutral-5);
-  padding: .6rem 1.2rem;
   margin-top: .6rem; }
+  .tags__item a {
+    background: var(--neutral-5);
+    border-radius: .6rem;
+    border: 2px solid var(--neutral-5);
+    padding: .6rem 1.2rem; }
+    .tags__item a:focus {
+      border: 2px solid var(--neutral-1); }
   .tags__item:last-child {
     margin-right: 0; }
-  .tags__item.tags__item-phase {
-    background: var(--purple-bright);
-    border: 2px solid var(--purple-bright); }
-    .tags__item.tags__item-phase:hover {
-      border-color: var(--purple-dark); }
-  .tags__item.tags__item-thematique {
-    background: var(--green-light);
-    border: 2px solid var(--green-light); }
-    .tags__item.tags__item-thematique:hover {
-      border-color: var(--green-bright); }
-  .tags__item.tags__item-lang {
-    background: var(--yellow-light);
-    border: 2px solid var(--yellow-light); }
-    .tags__item.tags__item-lang:hover {
-      border-color: var(--yellow-bright); }
+
+.tags__item-phase a {
+  background: var(--purple-bright);
+  border: 2px solid var(--purple-bright); }
+  .tags__item-phase a:hover {
+    border-color: var(--purple-dark); }
+
+.tags__item-thematique a {
+  background: var(--green-light);
+  border: 2px solid var(--green-light); }
+  .tags__item-thematique a:hover {
+    border-color: var(--green-bright); }
+
+.tags__item-lang a {
+  background: var(--yellow-light);
+  border: 2px solid var(--yellow-light); }
+  .tags__item-lang a:hover {
+    border-color: var(--yellow-bright); }
 
 .tags__link {
   text-decoration: none; }
