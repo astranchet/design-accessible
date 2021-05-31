@@ -18,7 +18,7 @@
 
 
 
-		<h2 class="last__article-title">
+		<h2 class="last__article-title" id="further">
 	        <span aria-hidden="true">✨</span> Pour aller plus loin
 	    </h2>
 
