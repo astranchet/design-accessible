@@ -113,8 +113,11 @@ Checklist:
   category: Formulaires
 - 
   title: Indiquer les champs obligatoires
-  desc: ""
-  further: '* (link: https://www.accede-web.com/notices/fonctionnelle-graphique/formulaires/indiquer-clairement-les-champs-obligatoires/ text: Indiquer clairement les champs obligatoires)'
+  desc: |
+    Indiquer les champs obligatoires d'un formulaire facilite la vie des utilisateurs.
+  further: |
+    * (link: http://romy.tetue.net/signaler-les-champs-obligatoires text: Signaler les champs obligatoires)
+    * (link: https://www.accede-web.com/notices/fonctionnelle-graphique/formulaires/indiquer-clairement-les-champs-obligatoires/ text: Indiquer clairement les champs obligatoires)
   category: Formulaires
 - 
   title: >
