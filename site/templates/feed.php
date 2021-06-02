@@ -17,15 +17,6 @@ echo '<?xml version="1.0" encoding="utf-8" standalone="yes" ?>';
         <pubDate><?= $ressource->date()->toDate(\DateTimeInterface::RSS) ?></pubDate>
         <description><![CDATA[
             <p><?= $ressource->description() ?></p>
-
-            <p>
-            <?php foreach ($ressource->phase()->split() as $phase): ?>
-	        	#<?= $phase ?> 
-			<?php endforeach ?>
-		    <?php foreach ($ressource->thematique()->split() as $thematique): ?>
-			    #<?= Str::replace(ucwords($thematique), [" ", "'"], "") ?> 
-			<?php endforeach ?>
-            </p>
         ]]>
         </description>
     </item>
