@@ -12,8 +12,8 @@ echo '<?xml version="1.0" encoding="utf-8" standalone="yes" ?>';
     <?php foreach ($ressources->limit(15) as $ressource): ?>
     <item>
         <title><?= $ressource->title() ?></title>
-        <link><?= $ressource->url() ?></link>
-        <guid isPermaLink="true"><?= $ressource->url() ?></guid>
+        <link><?= Str::replace($ressource->url(), ['&'], ['&amp;']) ?></link>
+        <guid isPermaLink="true"><?= Str::replace($ressource->url(), ['&'], ['&amp;']) ?></guid>
         <pubDate><?= $ressource->date()->toDate(\DateTimeInterface::RSS) ?></pubDate>
         <description><![CDATA[
             <p><?= $ressource->description() ?></p>
