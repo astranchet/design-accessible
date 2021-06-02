@@ -9,6 +9,24 @@ Baseline: Explorer des ressources pour concevoir des services utiles et utilisab
 Ressources:
 
 - 
+  title: >
+    Malentendants, ils témoignent sur la
+    toile
+  url: >
+    https://www.lemessageur.com/malentendants-ils-temoignent-sur-la-toile/
+  source: Le messageur
+  description: >
+    Sélection de personnes malentendantes
+    ou sourdes à suivre pour découvrir des
+    récits de parcours, billets d’humeur,
+    anecdotes et morceaux choisis du
+    quotidien.
+  lang: fr
+  phase: ""
+  type: Article
+  thematique: "Retour d'expérience, Troubles auditifs"
+  date: 2021-06-02
+- 
   title: 'Form design: from zero to hero all in one blog post'
   url: >
     https://adamsilver.io/blog/form-design-from-zero-to-hero-all-in-one-blog-post/
