@@ -10,7 +10,6 @@ footer {
 			text-decoration: none;
 			color: var(--purple-dark);
 			font-size: 1.8rem;
-			margin-right: $space-9;
 
 			@include tablet-xs {
 				margin-right: 0;
@@ -28,6 +27,7 @@ footer {
 
 			a {
   				border: 2px solid transparent;
+  				margin-right: $space-9;
   				padding: .6rem;
   				text-decoration: none;
 	
@@ -46,6 +46,10 @@ footer {
 		.footer__legals {
 			font-weight: normal;
 			text-align: right;
+
+		  	.footer__network {
+		  		font-size: 3.6rem;
+		  	}
 		}
 	}
 

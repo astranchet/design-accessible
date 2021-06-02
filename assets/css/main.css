@@ -986,8 +986,7 @@ footer {
     footer nav p, footer nav a {
       text-decoration: none;
       color: var(--purple-dark);
-      font-size: 1.8rem;
-      margin-right: 4.8rem; }
+      font-size: 1.8rem; }
       @media screen and (max-width: 47.9375em) {
         footer nav p, footer nav a {
           margin-right: 0; } }
@@ -1000,6 +999,7 @@ footer {
           flex-direction: column; } }
       footer nav .footer__links a {
         border: 2px solid transparent;
+        margin-right: 4.8rem;
         padding: .6rem;
         text-decoration: none; }
         footer nav .footer__links a:hover {
@@ -1011,6 +1011,8 @@ footer {
     footer nav .footer__legals {
       font-weight: normal;
       text-align: right; }
+      footer nav .footer__legals .footer__network {
+        font-size: 3.6rem; }
 
 header {
   background: var(--green-medium); }

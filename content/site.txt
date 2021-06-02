@@ -126,6 +126,23 @@ Footernav:
 
 ----
 
+Network:
+
+- 
+  name: Twitter
+  url: https://twitter.com/design_a11y_fr
+  icon: fa-twitter-square
+- 
+  name: RSS
+  url: /rss
+  icon: fa-rss-square
+- 
+  name: Newsletter
+  url: https://tinyletter.com/annso
+  icon: fa-envelope-square
+
+----
+
 Ressource-type:
 
 - 

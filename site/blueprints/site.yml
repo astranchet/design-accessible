@@ -74,6 +74,20 @@ fields:
     type: pages
     text: "{{ page.menu.or(page.title) }}"
     width: 1/2
+  network:
+    label: Réseaux sociaux
+    type: structure
+    width: 1/2
+    fields:
+      name:
+        label: Nom
+        type: text 
+      URL:
+        label: Lien
+        type: text 
+      icon:
+        label: Icone
+        type: text 
 
   globalHeading:
     label: Général
