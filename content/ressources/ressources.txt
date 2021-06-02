@@ -70,6 +70,19 @@ Ressources:
   date: 2021-05-26
 - 
   title: >
+    Auditing Design Systems for
+    Accessibility
+  url: >
+    https://www.deque.com/blog/auditing-design-systems-for-accessibility/
+  source: Deque
+  description: "Guide très complet pour auditer l'accessibilité d'un design system avec de nombreuses ressources, livrables et outils."
+  lang: en
+  phase: Conception
+  type: Article
+  thematique: Design System
+  date: 2021-05-04
+- 
+  title: >
     How to write accessible descriptions for
     interactive charts
   url: 'https://www.highcharts.com/blog/tutorials/accessible-descriptions-for-interactive-charts/#'
