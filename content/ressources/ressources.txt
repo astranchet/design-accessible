@@ -9,6 +9,30 @@ Baseline: Explorer des ressources pour concevoir des services utiles et utilisab
 Ressources:
 
 - 
+  title: >
+    L’accessibilité numérique, un droit
+    pour tous
+  url: >
+    https://apollinerouze.fr/accessibilite-numerique-anne-sophie-tranchet/
+  source: Apolline Rouzé et Anne-Sophie Tranchet
+  description: "Discussion sur l'accessibilité en tant qu'UX Designer : quels sont les enjeux, pourquoi c'est important, comment faire..."
+  lang: fr
+  phase: ""
+  type: Podcast
+  thematique: Sensibilisation
+  date: 2021-06-03
+- 
+  title: "L’accessibilité c’est pas juste un petit truc comme ça pour faire joli, hein. C'est aussi un droit pour moi, droit à l'information, droit comme tout humain."
+  url: >
+    https://twitter.com/cyberbaloo_/status/1389260939535470592?s=20
+  source: Sophie Drouvroy
+  description: ""
+  lang: fr
+  phase: ""
+  type: Citation
+  thematique: ""
+  date: 2021-06-03
+- 
   title: Testing fonts for accessibility
   url: >
     https://uxdesign.cc/testing-fonts-for-accessibility-817f47011078
