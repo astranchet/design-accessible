@@ -10,16 +10,18 @@ Text:
 
 ## Démarche d'accessibilité
 
-Le site **Design Accessible** est non conforme avec le RGAA 4.0 : le site n'a pas été audité.
+Le site (link: / text: Design Accessible) n'a pas été audité par des experts. Il est donc considéré comme **non conforme** avec le RGAA 4.1 (Hey oui, c'est le jeu (emoji: 🤷)). 
 
 Il a cependant été conçu pour être accessible au plus grand nombre. Vous devriez donc pouvoir :
 - changer les couleurs, les niveaux de contraste et les polices de caractères,
 - zoomer jusqu'à 300% sans que le texte ne déborde de l'écran,
 - naviguer sur toutes les pages du site en utilisant un clavier,
-- écouter la plus grande partie du site web à l'aide d'un lecteur d'écran.
+- consulter le site web avec un lecteur d'écran. 
 
-Le texte du site a été rédigé pour être aussi simple que possible à comprendre.
+Les textes du site ont été rédigés pour être aussi simple que possible à comprendre.
 
-## Défauts d'accessibilité
+### Défauts d'accessibilité
 
-Nous ne pouvons garantir l'accessibilité des ressources listées sur ce site.
+Je ne peux pas garantir l'accessibilité :
+- des ressources listées sur ce site
+- des outils externes liés (l'inscription à la newsletter par exemple).
