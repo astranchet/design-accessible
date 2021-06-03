@@ -21,6 +21,8 @@ Que vous soyez UX, UI, UX Researcher, UX Writer, ou même dev ou chef de projet 
 > * Je voulais aussi prouver qu'on peut faire un site accessible **ET** beau. 
 >
 > Bref, quelques mois de travail plus tard, (link: / text: Design Accessible) est né&nbsp;!
+>
+> (emoji: 👉) (link: https://blog.hello-bokeh.fr/2021/05/31/design-accessible-la-genese-dun-projet/ text: En savoir plus sur la génèse du projet)
 
 ## Les valeurs
 
