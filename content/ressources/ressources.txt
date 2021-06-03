@@ -9,6 +9,17 @@ Baseline: Explorer des ressources pour concevoir des services utiles et utilisab
 Ressources:
 
 - 
+  title: Testing fonts for accessibility
+  url: >
+    https://uxdesign.cc/testing-fonts-for-accessibility-817f47011078
+  source: Colin Shanley
+  description: "Bonnes pratiques pour le choix d'une police facile à lire."
+  lang: en
+  phase: Conception
+  type: Article
+  thematique: Typographie
+  date: 2021-06-03
+- 
   title: >
     Malentendants, ils témoignent sur la
     toile
