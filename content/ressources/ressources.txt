@@ -9,6 +9,16 @@ Baseline: Explorer des ressources pour concevoir des services utiles et utilisab
 Ressources:
 
 - 
+  title: Giving a damn about accessibility
+  url: https://accessibility.uxdesign.cc/
+  source: Sheri Byrne-Haber
+  description: "Guide rapide et sincère pour les designers : pourquoi les gens se foutent de l'accessibilité ? Comment s'y mettre même si ça risque d'être nul pour commencer ? Que ne PAS faire ?"
+  lang: en
+  phase: ""
+  type: PDF
+  thematique: Sensibilisation
+  date: 2021-06-08
+- 
   title: >
     L’accessibilité numérique, un droit
     pour tous
