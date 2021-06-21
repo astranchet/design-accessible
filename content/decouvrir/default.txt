@@ -101,6 +101,12 @@ Sections:
 	style: alt
 - 
 	text: >
+		## (emoji: 📃) Un droit pour tous
+
+		Accessibility is a legdqsdqsdq al requirement in many countries.
+
+- 
+	text: >
 		## (emoji: 👉) Concevoir des sites accessibles
 
 		Le numérique est une formidable opportunité de permettre à tout le monde d’accéder à l’information ; sans barrières géographiques ou physiques. Pourtant, c’est encore loin d’être le cas. Une étude récente a révélé que (link: https://webaim.org/projects/million/ text: 98 % des sites ne sont pas accessibles).
@@ -120,26 +126,3 @@ Sections:
 		(link: /checklist text: Voir la checklist du designer → class: button button--primary)
 	style: section__checklist
 
-----
-Ressources:
--
-	title: "Écriture inclusive et accessibilité numérique"
-	url: >
-		https://www.lalutineduweb.fr/ecriture-inclusive-accessibilite-numerique-jetdv2020/
-	source: Julie Moynat
-	description: "État des lieux des différents outils d'écriture inclusive et de leur impact sur l'accessibilité."
-	lang: fr
-	phase: Conception
-	type: Article
-	thematique: Écriture inclusive, UX Writing
-	date: 2021-01-14
--
-	title: "Le handicap, tout un symbole."
-	url: >
-		https://t.co/N8pdHaRs0Q?amp=1
-	source: Vincent Valentin
-	description: "Sensibilisation à l'accessibilité."
-	lang: fr
-	type: PDF
-	thematique: Sensibilisation
-	date: 2020-10-02
