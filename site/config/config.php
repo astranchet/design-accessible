@@ -79,6 +79,19 @@ return [
 
 	'panel' => [
 	    'css' => 'assets/css/panel.css'
-	]
+	],
 
+	'smartypants' => [
+	    'attr' => 3,
+	    'doublequote.open' => '« ',
+	    'doublequote.close' => ' »',
+	    'space.emdash' => ' ',
+	    'space.endash' => ' ',
+	    'space.colon' => ' ',
+	    'space.semicolon' => ' ',
+	    'space.marks' => ' ',
+	    'space.frenchquote' => ' ',
+	    'space.thousand' => '',
+	    'space.unit' => ' '
+	],
 ];
