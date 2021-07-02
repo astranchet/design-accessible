@@ -101,12 +101,6 @@ Sections:
 	style: alt
 - 
 	text: >
-		## (emoji: 📃) Un droit pour tous
-
-		Accessibility is a legdqsdqsdq al requirement in many countries.
-
-- 
-	text: >
 		## (emoji: 👉) Concevoir des sites accessibles
 
 		Le numérique est une formidable opportunité de permettre à tout le monde d’accéder à l’information ; sans barrières géographiques ou physiques. Pourtant, c’est encore loin d’être le cas. Une étude récente a révélé que (link: https://webaim.org/projects/million/ text: 98 % des sites ne sont pas accessibles).
@@ -123,6 +117,5 @@ Sections:
 		- (emoji: ✅) Une **navigation** simple
 
 
-		(link: /checklist text: Voir la checklist du designer → class: button button--third)
-	style: next-step
+		(link: /checklist text: Voir la checklist du designer → class: button button--primary)
 
