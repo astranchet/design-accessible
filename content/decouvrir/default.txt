@@ -113,16 +113,16 @@ Sections:
 
 
 		De nombreux problèmes relèvent pourtant de l’expérience utilisateur : 
-		
+
 		- (emoji: ✅) Des **contenus** accessibles et inclusifs
-		
+
 		- (emoji: ✅) Une palette de **couleurs** accessible
-		
+
 		- (emoji: ✅) Des **formulaires** bien conçus
-		
+
 		- (emoji: ✅) Une **navigation** simple
 
 
-		(link: /checklist text: Voir la checklist du designer → class: button button--primary)
-	style: section__checklist
+		(link: /checklist text: Voir la checklist du designer → class: button button--third)
+	style: next-step
 
