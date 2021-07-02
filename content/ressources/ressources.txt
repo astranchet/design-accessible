@@ -19,6 +19,19 @@ Ressources:
   thematique: Sensibilisation
   date: 2021-06-08
 - 
+  title: 'Accessible design: How much motion is too much motion?'
+  url: >
+    https://uxdesign.cc/accessible-interaction-design-38db3b72c3ae
+  source: Heather Waroff
+  description: >
+    Guide pour concevoir des animations
+    (micro ou macro) accessibles.
+  lang: en
+  phase: Conception
+  type: Article
+  thematique: Animations
+  date: 2021-06-06
+- 
   title: >
     L’accessibilité numérique, un droit
     pour tous
@@ -106,6 +119,17 @@ Ressources:
   thematique: UX Writing
   date: 2021-06-01
 - 
+  title: Inclusive UX in an era of anxiety
+  url: >
+    https://uxdesign.cc/inclusive-ux-in-an-era-of-anxiety-dc89c39ec202
+  source: Cara Brashears
+  description: "Tour d'horizon de l'impact des interfaces sur la santé mentale de ses usagers."
+  lang: en
+  phase: Conception
+  type: Article
+  thematique: Santé mentale
+  date: 2021-05-28
+- 
   title: >
     How to document the screen reader user
     experience
@@ -131,6 +155,19 @@ Ressources:
   type: Article
   thematique: Checklist, Formulaires
   date: 2021-05-26
+- 
+  title: >
+    How to document accessibility as a UX
+    designer
+  url: >
+    https://bootcamp.uxdesign.cc/how-to-document-accessibility-as-a-ux-designer-c51476104723
+  source: Elise Livingston
+  description: "Bonnes pratiques d'éléments à documenter dans des maquettes."
+  lang: en
+  phase: Conception
+  type: Article
+  thematique: Transmissions aux devs
+  date: 2021-05-13
 - 
   title: >
     Auditing Design Systems for
