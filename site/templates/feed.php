@@ -1,6 +1,7 @@
 <?php
 $kirby->response()->type('application/xml');
 echo '<?xml version="1.0" encoding="utf-8" standalone="yes" ?>';
+echo '<?xml-stylesheet href="/assets/rss.xsl" type="text/xsl"?>';
 ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
