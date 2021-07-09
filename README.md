@@ -31,6 +31,7 @@ Si vous voyez une ressource qui ne devrait pas être ici ou si vous voulez en aj
 ```
 php -S localhost:8000
 sass --watch assets/sass/main.scss:assets/css/main.css
+sass --watch assets/sass/print.scss:assets/css/print.css
 ```
 
 ### Importer des ressources

@@ -1,0 +1,60 @@
+@import "05_plugin/knacss/knacss.scss";
+@import "01_base/_font";
+
+// Make your site printable: https://www.slideshare.net/aardrian/making-your-site-printable
+
+@media print {
+	// Basic style
+	body {
+	  font-family: 'silka', sans-serif;
+		color: #000;
+		margin: 0;
+	}
+	h1, h2, h3, h4, h5, h6 {
+		color: #000;
+		text-transform: none;
+		page-break-after: avoid;
+	}
+	img { max-width: 100%; }
+	a:link, a:visited {
+		text-decoration: underline;
+		color: #000;
+	}
+	ol, ul, img {
+		page-break-inside: avoid;
+	}
+	span[aria-hidden="true"] {
+		display: none;
+	}
+
+  // Get rid of navigation
+  nav, .skiplinks, .toc, .backtotop, footer { display: none; }
+	.header__main, .next-step { display: none; }
+	
+
+	// Checklist page
+  // Display links
+  #content .checklist__item a[href]:after {
+		content: " [" attr(href) "] ";
+		word-wrap: break-world;
+	}
+	.checklist__item {
+		padding: 0;
+		.checklist__item__content {
+			margin-top: 0;
+			margin-bottom: 1rem;
+		}
+	}
+	.checklist .last__article-list .last__article-item {
+		width: 100%;
+
+		a[href]:after {
+			content: " [" attr(href) "] ";
+			font-weight: normal;
+			font-size: 0.8em;
+			word-wrap: break-world;
+		}
+	}
+
+
+}

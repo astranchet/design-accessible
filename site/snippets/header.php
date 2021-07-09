@@ -8,6 +8,8 @@
         <?= $title ?>
       </title>
       <?= css(['assets/css/main.css', '@auto']) ?>
+      <?= css('assets/css/print.css', 'print') ?>
+
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="theme-color" content="#01A58E">
 
@@ -18,6 +20,18 @@
       <meta name="application-name" content="<?= $site->title() ?>">
 
       <link href="<?= $site->page('rss')->url() ?>" rel="alternate" type="application/atom+xml" title="<?php $site->page('rss')->title() ?>" />
+
+      <style>
+      @media print {
+        header::before{
+          content: url(http://chart.apis.google.com/chart?chs=120x120&cht=qr&chl=<?= $page->url(); ?>);
+          position:absolute;
+          top: 0.5in;
+          right: 0.5in;
+        }
+      }
+      </style>
+
     </head>
 
     <body>
