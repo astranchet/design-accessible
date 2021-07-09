@@ -13,7 +13,7 @@ Que vous soyez UX, UI, UX Researcher, UX Writer, ou même dev ou chef de projet 
 
 Si vous trouvez des bugs ou si vous avez des demandes de fonctionnalités, vous pouvez ouvrir une issue sur GitHub.
 
-Une seule personne travaille sur ce projet. Les fonctionnalités seront donc ajoutées au fil de l'eau. Les améliorations de l'accessibilité sont prioritaires. Les points suivants sont déjà sur la feuille de route :
+Je travaille seule sur ce projet. Les fonctionnalités seront donc ajoutées au fil de l'eau. Les améliorations de l'accessibilité sont prioritaires. Les points suivants sont déjà sur la feuille de route :
 
 * Filtres multiples
 * Recherche
@@ -22,7 +22,7 @@ Une seule personne travaille sur ce projet. Les fonctionnalités seront donc ajo
 
 Si vous voyez une ressource qui ne devrait pas être ici ou si vous voulez en ajouter une, vous pouvez : 
 - Ouvrir une nouvelle issue.
-- Envoyer un email à `contributions / arobase / design-accessible.fr`.
+- Envoyer un email à `contributions @ design-accessible.fr`.
 
 ## Lancer le projet en local
 
