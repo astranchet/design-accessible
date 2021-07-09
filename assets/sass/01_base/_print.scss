@@ -1,0 +1,23 @@
+@media print {
+  // Make your site printable: https://www.slideshare.net/aardrian/making-your-site-printable
+
+  // Change print unit and make sure it's black
+  header {
+    font-size: 24pt;
+    color: #000;
+  }
+
+  // Get rid of navigation
+  nav, .skiplinks { display: none; }
+
+  // Shrink footer
+  footer {
+    font-size: 6pt;
+  }
+
+  // Display links
+  #content a[href]:after {
+    content: " [" attr(href) "] ";
+    word-wrap: break-world;
+  }
+}

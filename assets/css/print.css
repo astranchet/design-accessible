@@ -1,0 +1,30 @@
+@media print {
+  // Make your site printable: https://www.slideshare.net/aardrian/making-your-site-printable
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #000;
+    text-transform: none;
+    page-break-after: avoid;
+  }
+
+  h1 { font-size: 11pt; margin-top: 1em; }
+  h2 { font-size: 10pt; }
+  h3 { font-size: 9pt; }
+  h4, h5, h6 { font-size: 8pt; }
+  img { max-width: 100%; }
+  a:link, a:visited {
+    text-decoration: underline;
+    color: #000;
+  }
+  ol, ul, img {
+    page-break-inside: avoid;
+  }
+
+  span[aria-hidden="true"] {
+    display: none;
+  }
+
+
+        footer { font-size: 6pt; }
+
+}
