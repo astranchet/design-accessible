@@ -26,8 +26,8 @@
         header::before{
           content: url(http://chart.apis.google.com/chart?chs=120x120&cht=qr&chl=<?= $page->url(); ?>);
           position:absolute;
-          top: 1in;
-          right: 1in;
+          top: 0.5in;
+          right: 0.5in;
         }
       }
       </style>
