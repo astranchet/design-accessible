@@ -245,7 +245,6 @@ table {
   * {
     animation: none !important;
     transition: none !important; } }
-
 /*
  * Change the cursor on busy elements in all browsers.
  */
@@ -480,11 +479,13 @@ template {
     background: transparent !important;
     box-shadow: none !important;
     text-shadow: none !important; }
+
   body {
     width: auto;
     margin: auto;
     font-family: serif;
     font-size: 12pt; }
+
   p,
   .p-like,
   h1,
@@ -505,21 +506,26 @@ template {
   ol {
     color: #000;
     margin: auto; }
+
   .print {
     display: block; }
+
   .no-print {
     display: none; }
+
   /* no orphans, no widows */
   p,
   .p-like,
   blockquote {
     orphans: 3;
     widows: 3; }
+
   /* no breaks inside these elements */
   blockquote,
   ul,
   ol {
     page-break-inside: avoid; }
+
   /* page break before main headers
   h1,
   .h1-like {
@@ -535,8 +541,10 @@ template {
   .h3-like,
   caption {
     page-break-after: avoid; }
+
   a {
     color: #000; }
+
   /* displaying URLs
   a[href]::after {
     content: " (" attr(href) ")";
@@ -545,7 +553,6 @@ template {
   a[href^="javascript:"]::after,
   a[href^="#"]::after {
     content: ""; } }
-
 :root {
   --white: #fff;
   --green-dark: #257172;
@@ -571,21 +578,18 @@ template {
   font-weight: normal;
   font-display: swap;
   font-style: normal; }
-
 @font-face {
   font-family: 'silka';
   src: url("../fonts/silka-regularitalic-webfont.woff2") format("woff2"), url("../fonts/silka-regularitalic-webfont.woff") format("woff");
   font-weight: normal;
   font-style: italic;
   font-display: swap; }
-
 @font-face {
   font-family: 'silka';
   src: url("../fonts/silka-bold-webfont.woff2") format("woff2"), url("../fonts/silka-bold-webfont.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap; }
-
 .container {
   max-width: 110rem;
   margin: 0 auto;
@@ -617,6 +621,7 @@ h2 {
   @media screen and (max-width: 47.9375em) {
     h2 {
       font-size: 2.4rem; } }
+
 h3 {
   font-size: 3.2rem; }
 
@@ -634,6 +639,7 @@ h5 {
   @media screen and (max-width: 47.9375em) {
     .blockquote {
       text-align: center; } }
+
 .blockquote__citation {
   color: var(--green-dark);
   font-size: 2.4rem;
@@ -657,6 +663,7 @@ h5 {
   @media screen and (max-width: 47.9375em) {
     .blockquote__author {
       text-align: center; } }
+
 .blockquote__author a {
   color: var(--neutral-1); }
   .blockquote__author a:hover {
@@ -842,11 +849,13 @@ h5 {
     .next-step {
       padding: 2.4rem;
       text-align: center; } }
+
 .next-step h2 {
   font-size: 3.6rem; }
   @media screen and (max-width: 47.9375em) {
     .next-step h2 {
       font-size: 2.4rem; } }
+
 .skiplinks a {
   background: var(--green-dark);
   color: var(--white);
@@ -1097,6 +1106,7 @@ header {
     @media screen and (max-width: 64em) {
       .header__main .container {
         padding: 0; } }
+
 .header__main--homepage {
   min-height: 44.5rem;
   background-position-y: center; }
@@ -1121,6 +1131,7 @@ header {
     @media screen and (max-width: 64em) {
       .header__main--homepage .container {
         padding: 0; } }
+
 .header__title,
 .header__subtitle {
   font-weight: normal;
@@ -1141,46 +1152,43 @@ header {
     .header__title,
     .header__subtitle {
       max-width: none; } }
+
 .header__title {
   font-size: 4.8rem;
   line-height: 1.2; }
   @media screen and (max-width: 47.9375em) {
     .header__title {
       font-size: 3.6rem; } }
+
 .header__subtitle {
   font-size: 2.4rem;
   line-height: 1.5; }
   @media screen and (max-width: 47.9375em) {
     .header__subtitle {
       font-size: 1.8rem; } }
+
 .decouvrir p, .decouvrir ul {
   font-size: 1.8rem; }
-
 .decouvrir a:not(.button) {
   font-weight: bold;
   color: var(--purple-dark);
   text-decoration: none; }
   .decouvrir a:not(.button):hover {
     border-bottom: 2px solid var(--purple-dark); }
-
 .decouvrir .highlight p {
   font-size: 2.4rem; }
-
 .decouvrir p + ul {
   margin-bottom: 4.8rem; }
-
 @media screen and (max-width: 47.9375em) {
   .decouvrir .card__grid-handicaps {
     align-items: center;
     flex-direction: column;
     justify-content: center; } }
-
 .decouvrir .card__grid-handicaps .card {
   display: flex;
   flex-direction: column-reverse;
   justify-content: flex-end;
   text-align: center; }
-
 .decouvrir .card__grid-personas .card {
   background-color: var(--green-pale); }
   .decouvrir .card__grid-personas .card .card__title {
@@ -1200,7 +1208,6 @@ header {
       width: 100%; } }
   .decouvrir .card__grid-personas .card:hover {
     transform: translateY(-0.2rem); }
-
 .decouvrir .card__grid-handicaps {
   justify-content: space-between;
   margin-bottom: 4.8rem; }
@@ -1224,7 +1231,6 @@ header {
       color: var(--purple-dark); }
     .decouvrir .card__grid-handicaps .card:hover {
       transform: translateY(-0.2rem); }
-
 .decouvrir .card__grid-technos {
   margin-top: 0; }
   .decouvrir .card__grid-technos .card {
@@ -1262,24 +1268,19 @@ header {
       padding: 0.8rem; }
     .decouvrir .card__grid-technos .card:hover {
       transform: translateY(-0.2rem); }
-
 .decouvrir .alt {
   background-color: var(--purple-pale); }
-
 .decouvrir .section__checklist ul {
   list-style-type: none;
   padding: 0; }
 
 .homepage .intro {
   padding-top: 2.4rem; }
-
 .homepage .last__article {
   padding-top: 4.8rem; }
-
 @media screen and (max-width: 47.9375em) {
   .homepage .quote > .container {
     padding: 0; } }
-
 .homepage .blockquote {
   min-height: 9rem;
   margin-top: -9rem;
@@ -1291,26 +1292,21 @@ header {
       min-height: auto; } }
 .homepage .intro__title {
   margin-bottom: 1rem; }
-
 .homepage .list__link {
   margin-top: 2rem; }
 
 .checklist h3 {
   margin-top: 2rem;
   font-size: 2.4rem; }
-
 .checklist .checklist__group {
   list-style-type: none;
   padding: 0;
   margin-bottom: 4.2rem; }
-
 .checklist .checklist__item__content h4 {
   margin-top: 1.6rem; }
-
 .checklist .checklist__item__content li {
   list-style-type: square;
   margin-left: 1.6rem; }
-
 .checklist .checklist__item input {
   position: absolute;
   height: 1px;
@@ -1358,10 +1354,8 @@ header {
       top: 0.5rem;
       height: 2.4rem;
       background: var(--white); }
-
 .checklist .checklist__item.active .checklist__item__content {
   display: none; }
-
 .checklist .last__article-list {
   display: flex;
   flex-wrap: wrap;
@@ -1383,7 +1377,6 @@ header {
   .checklist .toc li {
     display: inline;
     margin-left: 2rem; }
-
 .checklist .backtotop {
   margin: -1.6rem 0 4.8rem;
   font-size: 1.4rem; }
@@ -1393,7 +1386,6 @@ header {
 
 .about h2 {
   margin: 4.8rem 0 1.6rem; }
-
 .about blockquote {
   background: var(--green-light);
   border-radius: .6rem;
@@ -1403,3 +1395,5 @@ header {
   @media screen and (max-width: 47.9375em) {
     .about blockquote {
       text-align: center; } }
+
+/*# sourceMappingURL=main.css.map */

@@ -23,38 +23,11 @@
 
       <style>
       @media print {
-        body {
-          color: #000;
-          font-size: 8pt;
-          line-height: 150%;
-          margin: 0;
-        }
         header::before{
           content: url(http://chart.apis.google.com/chart?chs=120x120&cht=qr&chl=<?= $page->url(); ?>);
           position:absolute;
           top: 1in;
           right: 1in;
-        }
-        nav { display: none; }
-        .container { margin: 0; padding: 0; }
-        .header__main { min-height: 2in; }
-        .header__main--homepage .container { padding-top: 0; padding-bottom: 0; }
-        .header__logo a { text-decoration: none; }
-        .header__title, .header__subtitle { color: #000; margin: 0; font-size: 14pt;
-    color: #000;}
-        .header__subtitle { font-size: 12pt; }
-        .quote a, .list__link a { border: none; text-decoration: none; }
-
-        .homepage .blockquote { margin: 0; padding: 0; }
-        .blockquote__citation { font-weight: normal; line-height: 120%; }
-        #content > div {
-          margin: 0;
-          padding: 0;
-        }
-        .card--horizontal { border: none; }
-        #content a[href][rel="external"]:after {
-          content: " [" attr(href) "] ";
-          word-wrap: break-world;
         }
       }
       </style>
