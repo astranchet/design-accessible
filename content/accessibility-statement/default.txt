@@ -14,7 +14,7 @@ Le site (link: / text: Design Accessible) n'a pas été audité par des experts.
 
 Il a cependant été conçu pour être accessible au plus grand nombre. Vous devriez donc pouvoir :
 - changer les couleurs, les niveaux de contraste et les polices de caractères,
-- zoomer jusqu'à 300% sans que le texte ne déborde de l'écran,
+- zoomer jusqu'à 400% sans que le texte ne déborde de l'écran,
 - naviguer sur toutes les pages du site en utilisant un clavier,
 - consulter le site web avec un lecteur d'écran. 
 
