@@ -1384,16 +1384,18 @@ header {
 .card--horizontal .card__title a:visited {
   color: var(--neutral-2); }
 
-.about h2 {
+.default h2, .default h3 {
   margin: 4.8rem 0 1.6rem; }
-.about blockquote {
+.default h2:first-of-type {
+  margin-top: 0; }
+.default blockquote {
   background: var(--green-light);
   border-radius: .6rem;
   padding: 3.2rem;
   line-height: 2.8rem;
   margin: 4.8rem 0 0 0; }
   @media screen and (max-width: 47.9375em) {
-    .about blockquote {
+    .default blockquote {
       text-align: center; } }
 
 /*# sourceMappingURL=main.css.map */

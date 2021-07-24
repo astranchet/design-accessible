@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-<div id="content" class="<?= $page->slug(); ?>">
+<div id="content" class="default <?= $page->slug(); ?>">
 	<?php foreach ($page->sections()->toStructure() as $section): ?>
      	<div class="section <?= $section->style()->or("") ?>">
 	    	<div class="container">

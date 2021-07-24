@@ -1,6 +1,9 @@
-.about {
-	h2 {
+.default {
+	h2, h3 {
 		margin: $space-9 0 $space-5;
+	}
+	h2:first-of-type {
+		margin-top: 0;
 	}
 	blockquote {
  		background: var(--green-light);
