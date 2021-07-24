@@ -10,7 +10,8 @@ Text:
 
 ## Démarche d'accessibilité
 
-Le site (link: / text: Design Accessible) n'a pas été audité par des experts. Il est donc considéré comme **non conforme** avec le RGAA 4.1 (Hey oui, c'est le jeu (emoji: 🤷)). 
+
+Le site (link: / text: Design Accessible) n’a pas fait l’objet d’un audit RGAA 4.1. Il est donc impossible en l’état d’en évaluer la conformité avec le référentiel. Par défaut, le site est donc considéré comme **non conforme**.
 
 Il a cependant été conçu pour être accessible au plus grand nombre. Vous devriez donc pouvoir :
 - changer les couleurs, les niveaux de contraste et les polices de caractères,
@@ -25,3 +26,11 @@ Les textes du site ont été rédigés pour être aussi simple que possible à c
 Je ne peux pas garantir l'accessibilité :
 - des ressources listées sur ce site
 - des outils externes liés (l'inscription à la newsletter par exemple).
+
+### Amélioration et contact
+
+Vous pouvez contribuer à améliorer l’accessibilité du site.
+
+N’hésitez pas à nous signaler les problèmes éventuels que vous rencontrez et qui vous empêchent d’accéder à un contenu ou à une fonctionnalité du site.
+
+Contact : (email: contributions@design-accessible.fr).
