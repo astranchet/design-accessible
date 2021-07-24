@@ -9,6 +9,40 @@ Baseline: Explorer des ressources pour concevoir des services utiles et utilisab
 Ressources:
 
 - 
+  title: Accessibility design review
+  url: >
+    https://bbc.github.io/accessibility-news-and-you/guides/accessibility-design-review.html
+  source: BBC
+  description: "Guide de revue d'accessibilité pour identifier les problèmes dès la phase de conception."
+  lang: en
+  phase: Conception
+  type: Article
+  thematique: Audit
+  date: 2021-07-24
+- 
+  title: |
+    Les utilisateurs "normaux" et "moyens" n'existent pas.   Lorsque nous concevons pour la moyenne, nous concevons pour personne, pas pour tout le monde.   Peu de gens correspondent à ce que nous considérons comme "normal". La plupart des gens ont des besoins, des préférences et des handicaps variés.
+  url: >
+    https://twitter.com/annaecook/status/1418586590381760517
+  source: Anna E. Cook
+  description: ""
+  lang: ""
+  phase: ""
+  type: Citation
+  thematique: ""
+  date: 2021-07-23
+- 
+  title: "Have you ever wondered why the WCAG colour contrast ratio doesn't always seem to work?"
+  url: >
+    https://twitter.com/DanHollick/status/1417895151003865090
+  source: Dan Hollick
+  description: "Pourquoi le calcul de contraste des couleurs n'est pas toujours intuitif, et comment ça va évoluer dans les années qui viennent."
+  lang: en
+  phase: ""
+  type: Thread Twitter
+  thematique: Couleurs
+  date: 2021-07-21
+- 
   title: Giving a damn about accessibility
   url: https://accessibility.uxdesign.cc/
   source: Sheri Byrne-Haber
