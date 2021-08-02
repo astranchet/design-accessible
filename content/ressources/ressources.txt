@@ -7,7 +7,27 @@ Baseline: Explorer des ressources pour concevoir des services utiles et utilisab
 ----
 
 Ressources:
-
+-
+  title: Inclusive Personas and Accessible Design Prompts
+  url: >
+    https://www.getstark.co/library/collections/inclusive-personas-and-accessible-design-prompts
+  source: Stark
+  description: "Liste de ressources pour concevoir des personas inclusifs et comprendre comment les personnes porteuses de handicap utilisent le web."
+  lang: en
+  type: Ressource
+  thematique: Persona, Retour d'expérience
+  date: 2021-07-27
+-
+  title: How will Long-Covid Change the UX Accessibility Landscape?
+  url: >
+    https://uxdesign.cc/how-will-long-covid-change-the-ux-accessibility-landscape-9ac2a2909168
+  source:
+  description: "De la recherche utilisateur "
+  lang: en
+  phase: Recherche
+  type: Article
+  thematique: Covid
+  date: 2021-07-27
 - 
   title: Accessibility design review
   url: >
