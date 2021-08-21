@@ -1,41 +1,82 @@
 <?php
 
 return [
-	'attr' => [
-		'desc',
-		'img',
+    'attr' => [
+        'desc',
+        'img',
         'icon',
         'alt',
-      ],
+    ],
     'html' => function($tag) {
-    	$html = '<div class="card">';
-
-    	$html .= '<p class="card__title">' . kirbytextinline($tag->value) . '</p> ';
-
-    	if(isset($tag->desc)) {
-	    	$html .= kirbytext($tag->desc);
-    	}
-
-    	if(isset($tag->img) && $tag->file = $tag->file($tag->img)) {
-            $html .= '<p class="card__img">';
-            // TODO : fix this publish thing
-            $html .= Html::img($tag->file->publish()->url(), [
-                'class'  => '',
-                'alt'    => $tag->alt ?? ' '
-            ]);
-            $html .= '</p>';
-    	} else if(isset($tag->icon)) {
-            $html .= '<p class="card__icon">';
-            $html .= Html::tag('span', null, [
-                'class'         => 'iconify',
-                'data-inline'   => false,
-                'data-icon'     => $tag->icon,
-            ]);
-            $html .= '</p>';
+        $descContainer = '';
+        $imgContainer = '';
+        $iconContainer = '';
+        
+        // Title
+        $htmlTitle = Html::tag(
+            'p',
+            [kirbytextinline($tag->value)],
+            [
+                'class' => 'card__title',
+            ],
+        );
+        
+        // Description
+        if(isset($tag->desc)) {
+            $descContainer = kirbytext($tag->desc);
         }
-
-    	$html .= '</div>';
-
+        
+        // Image or Icon
+        if(isset($tag->img) && $tag->file = $tag->file($tag->img)) {
+            // TODO : fix this publish thing
+            $htmlImg = Html::img(
+                $tag->file->publish()->url(),
+                [
+                    'alt' => $tag->alt ?? ' ',
+                ],
+            );
+            
+            $imgContainer = Html::tag(
+                'p',
+                [$htmlImg],
+                [
+                    'class' => 'card__img',
+                ],
+            );
+        } else if(isset($tag->icon)) {
+            $htmlIcon = Html::tag(
+                'span',
+                '',
+                [
+                    'class'         => 'iconify',
+                    'data-inline'   => false,
+                    'data-icon'     => $tag->icon,
+                ],
+            );
+            
+            $iconContainer = Html::tag(
+                'p',
+                [$htmlIcon],
+                [
+                    'class' => 'card__icon',
+                ],
+            );
+        }
+        
+        // Card block with nested content
+        $html = Html::tag(
+            'div',
+            [
+                $htmlTitle,
+                $descContainer,
+                $imgContainer,
+                $iconContainer,
+            ],
+            [
+                'class' => 'card',
+            ],
+        );
+        
         return $html;
     }
 ];
