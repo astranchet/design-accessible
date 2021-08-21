@@ -1,6 +1,5 @@
 <?php
 
-
 $originalTag = Kirby\Text\KirbyTag::$types['link'];
 return [
     'attr' => array_merge($originalTag['attr'], ['hreflang']),
@@ -11,14 +10,20 @@ return [
             $tag->lang = $tag->hreflang;
         }
 
-        return Html::a($tag->value, $tag->text, [
-            'hreflang'  => $tag->hreflang,
-            'lang'      => $tag->lang,
-            'rel'       => $tag->rel,
-            'class'     => $tag->class,
-            'role'      => $tag->role,
-            'title'     => $tag->title,
-            'target'    => $tag->target,
-        ]);
+        $html = Html::a(
+            $tag->value,
+            $tag->text,
+            [
+                'hreflang'  => $tag->hreflang,
+                'lang'      => $tag->lang,
+                'rel'       => $tag->rel,
+                'class'     => $tag->class,
+                'role'      => $tag->role,
+                'title'     => $tag->title,
+                'target'    => $tag->target,
+            ],
+        );
+        
+        return $html;
     }
 ];
