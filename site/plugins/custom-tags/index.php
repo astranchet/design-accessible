@@ -1,6 +1,6 @@
 <?php
 
-Kirby::plugin('your/plugin', [
+Kirby::plugin('design-accessible/custom-tags', [
     'tags' => [
         'card' => require_once __DIR__ . '/tags/card.php',
         'highlight' => require_once __DIR__ . '/tags/highlight.php',
