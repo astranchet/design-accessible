@@ -2,10 +2,13 @@
 
 return [
     'html' => function($tag) {
-    	$html = '<span aria-hidden="true">';
-    	$html .= $tag->value;
-    	$html .= '</span>';
-
+        $html = Html::tag(
+            'span',
+            $tag->value,
+            [
+                'aria-hidden' => 'true',
+            ],
+        );
         return $html;
     }
 ];

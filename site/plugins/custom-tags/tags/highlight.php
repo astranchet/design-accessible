@@ -2,9 +2,14 @@
 
 return [
     'html' => function($tag) {
-    	$html = '<div class="highlight">';
-    	$html .= kirbytext($tag->value);
-    	$html .= '</div>';
+        $html = Html::tag(
+            'div',
+            $tag->value,
+            [
+                'class' => 'highlight',
+                'markdown' => '1',
+            ],
+        );
 
         return $html;
     }
