@@ -30,7 +30,7 @@
 <ul class="tags">
 	<?php foreach ($ressource->phase()->split() as $phase): ?>
     <li class="tags__item tags__item-phase">
-      <a href="<?= url(page('ressources')->url(), ['params' => ['phase' => $phase]]) ?>" class="tags__link" aria-label="Autre ressources pour la phase <?= $phase ?>">
+      <a href="<?= url(page('ressources')->url(), ['params' => ['phase' => rawurlencode($phase)]]) ?>" class="tags__link" aria-label="Autre ressources pour la phase <?= $phase ?>">
         <?= $phase ?>
       </a>
     </li>
@@ -38,7 +38,7 @@
 
   <?php foreach ($ressource->thematique()->split() as $thematique): ?>
     <li class="tags__item tags__item-thematique">
-      <a href="<?= url(page('ressources')->url(), ['params' => ['thematique' => $thematique]]) ?>" class="tags__link" aria-label="Autres ressources sur : <?= $thematique ?>">
+      <a href="<?= url(page('ressources')->url(), ['params' => ['thematique' => rawurlencode($thematique)]]) ?>" class="tags__link" aria-label="Autres ressources sur : <?= $thematique ?>">
         <?= $thematique ?>
       </a>
     </li>
@@ -46,7 +46,7 @@
 
   <?php if ($ressource->lang()->isNotEmpty()) : ?>
     <li class="tags__item tags__item-lang">
-      <a href="<?= url(page('ressources')->url(), ['params' => ['lang' => $ressource->lang()]]) ?>" class="tags__link" aria-label="Autres ressources en <?= $langs[$ressource->lang()->value()] ?>">
+      <a href="<?= url(page('ressources')->url(), ['params' => ['lang' => rawurlencode($ressource->lang())]]) ?>" class="tags__link" aria-label="Autres ressources en <?= $langs[$ressource->lang()->value()] ?>">
         <?= $langs[$ressource->lang()->value()] ?>
       </a>
     </li>
