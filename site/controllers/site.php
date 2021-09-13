@@ -37,15 +37,15 @@ return function ($page, $pages, $site, $kirby) {
 	$ressources_is_filtered = true;
 	
 	if($tag = param('phase')) {
-    	$ressources = $ressources->filterBy('phase', urldecode($tag), ',');
-    	$desc = urldecode($tag);
+    	$ressources = $ressources->filterBy('phase', rawurldecode($tag), ',');
+    	$desc = rawurldecode($tag);
   	} elseif ($tag = param('lang')) {
-    	$ressources = $ressources->filterBy('lang', urldecode($tag), ',');
+    	$ressources = $ressources->filterBy('lang', rawurldecode($tag), ',');
     	$desc = ($tag == "en") ? "Anglais" : "Français";
   	} elseif ($tag = param('thematique')) {
-    	$ressources = $ressources->filterBy('thematique', urldecode($tag), ',');
+    	$ressources = $ressources->filterBy('thematique', rawurldecode($tag), ',');
     	$ressources_title = '<b>{{ desc }}</b> : {{ count }} ressource{{ plural }}';
-    	$desc = urldecode($tag);
+    	$desc = rawurldecode($tag);
   	} else {
 		$ressources_title = '<b>{{ count }} ressource{{ plural }}</b> {{ desc }}';
   		$desc = 'sélectionnées avec amour';
