@@ -7,22 +7,121 @@ Baseline: Explorer des ressources pour concevoir des services utiles et utilisab
 ----
 
 Ressources:
--
-  title: Inclusive Personas and Accessible Design Prompts
+
+- 
+  title: Access Guide
+  url: https://www.accessguide.io/
+  source: Alex Chen
+  description: >
+    Annuaire des règles du WCAG (Web
+    Content Accessibility Guidelines) en
+    anglais simplifié et illustré.
+  lang: en
+  phase: ""
+  type: Ressource
+  thematique: WCAG, Contenu simplifié
+  date: 2021-09-13
+- 
+  title: Design System du W3C
+  url: https://design-system.w3.org/
+  source: W3C
+  description: >
+    Design System du W3C avec des composants
+    accessibles et légers, de la
+    documentation et des templates exemples.
+  lang: en
+  phase: ""
+  type: Design System
+  thematique: Design System
+  date: 2021-09-12
+- 
+  title: >
+    UX Principles that include Cognitive
+    Accessibility
+  url: >
+    https://uxdesign.cc/adhd-dyslexic-perspective-on-cognitive-accessibility-using-cognitive-ux-design-principles-f46349a609d6
+  source: Gareth Ford Williams
+  description: "Heuristiques de conceptions appliquées à l'accessibilité cognitive."
+  lang: en
+  phase: Conception
+  type: Article
+  thematique: Troubles cognitifs
+  date: 2021-09-08
+- 
+  title: Accessibility in Design
+  url: >
+    https://turtle.design/blog/accessibility-in-design
+  source: Annie Lee
+  description: "Introduction aux normes et principes d'accessibilité pour le design d'interface."
+  lang: en
+  phase: Conception
+  type: Article
+  thematique: ""
+  date: 2021-09-08
+- 
+  title: ' Dyslexia friendly style guide'
+  url: >
+    https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide
+  source: British Dyslexia Association
+  description: "Bonnes pratiques d'écriture pour les personnes dyslexiques."
+  lang: en
+  phase: ""
+  type: ""
+  thematique: Dyslexie
+  date: 2021-09-08
+- 
+  title: 'UX = Accessibility & Accessibility = UX'
+  url: >
+    https://www.linkedin.com/pulse/ux-accessibility-gareth-ford-williams/
+  source: Gareth Ford Williams
+  description: "Réflexion sur l'accessibilité vue comme un framework UX plutôt qu'une réglementation. Quels obstacles rencontrent les utilisateurs et utilisatrices ? Quelles peuvent être leurs préférences pour accéder à un service ?"
+  lang: en
+  phase: Conception
+  type: Article
+  thematique: ""
+  date: 2021-08-16
+- 
+  title: >
+    How to hand off accessible designs to
+    developers?
+  url: >
+    https://uxdesign.cc/how-to-hand-off-accessible-designs-to-developers-e10a0eeacaa6
+  source: Lisha Dai
+  description: >
+    Une liste illustrées de bonnes
+    pratiques pour proposer des livrables
+    pour les devs pour les personnes
+    malvoyantes et/ou aveugles.
+  lang: en
+  phase: ""
+  type: Article
+  thematique: Transmissions aux devs
+  date: 2021-07-28
+- 
+  title: >
+    Inclusive Personas and Accessible Design
+    Prompts
   url: >
     https://www.getstark.co/library/collections/inclusive-personas-and-accessible-design-prompts
   source: Stark
-  description: "Liste de ressources pour concevoir des personas inclusifs et comprendre comment les personnes porteuses de handicap utilisent le web."
+  description: >
+    Liste de ressources pour concevoir des
+    personas inclusifs et comprendre comment
+    les personnes porteuses de handicap
+    utilisent le web.
   lang: en
+  phase: ""
   type: Ressource
-  thematique: Persona, Retour d'expérience
+  thematique: "Persona, Retour d'expérience"
   date: 2021-07-27
--
-  title: How will Long-Covid Change the UX Accessibility Landscape?
+- 
+  title: >
+    How will Long-Covid Change the UX
+    Accessibility Landscape?
   url: >
     https://uxdesign.cc/how-will-long-covid-change-the-ux-accessibility-landscape-9ac2a2909168
-  source:
-  description: "De la recherche utilisateur "
+  source: Gareth Ford Williams
+  description: "Réflexion sur le covid long et l'accessibilité numérique."
   lang: en
   phase: Recherche
   type: Article
@@ -263,7 +362,7 @@ Ressources:
   lang: en
   phase: ""
   type: Article
-  thematique: ""
+  thematique: Troubles cognitifs
   date: 2021-04-26
 - 
   title: Darkmode et accessibilité
