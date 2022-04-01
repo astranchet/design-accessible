@@ -7,9 +7,21 @@ Baseline: Explorer des ressources pour concevoir des services utiles et utilisab
 ----
 
 Ressources:
+
+- 
+  title: 'A Designer’s Guide to Documenting Accessibility & User Interactions '
+  url: >
+    https://stephaniewalter.design/blog/a-designers-guide-to-documenting-accessibility-user-interactions
+  source: Stéphanie Walter
+  description: "Comment documenter l'accessibilité et les interactions de ses maquettes ?"
+  lang: en
+  phase: Conception
+  type: Ressource
+  thematique: Transmissions aux devs, Livrable
+  date: 2022-03-16
 - 
   title: Why we need more accessibility designers
-  url: https://onedrive.live.com/view.aspx?resid=E548F10AA235FF40!230&ithint=file%2cpptx&authkey=!AGeBcQ8v_uwFxzw
+  url: 'https://onedrive.live.com/view.aspx?resid=E548F10AA235FF40!230&ithint=file%2cpptx&authkey=!AGeBcQ8v_uwFxzw'
   source: Anna E. Cook
   description: >
     Enjeux et périmètre d'actions des designers d'accessibilité
@@ -18,7 +30,6 @@ Ressources:
   type: Ressource
   thematique: Design
   date: 2021-12-21
-
 - 
   title: Access Guide
   url: https://www.accessguide.io/
