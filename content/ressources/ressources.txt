@@ -9,6 +9,34 @@ Baseline: Explorer des ressources pour concevoir des services utiles et utilisab
 Ressources:
 
 - 
+  title: "Personas pour s'initier à l'accessibilité numérique"
+  url: >
+    https://a11y-guidelines.orange.com/fr/persona/
+  source: Orange
+  description: >
+    Découvrir les problématiques liées
+    aux différentes déficiences et
+    comprendre les bonnes pratiques dans la
+    conception de services numériques.
+  lang: fr
+  phase: Conception
+  type: Ressource
+  thematique: Persona
+  date: 2022-04-01
+- 
+  title: >
+    Do virtual whiteboard apps work for
+    everyone?
+  url: >
+    https://www.getstark.co/blog/do-virtual-whiteboard-apps-work-for-everyone
+  source: Claudio Luis Vera
+  description: "Pistes pour mener des sessions d'idéations accessibles, avec des outils type tableaux blancs (Mural, Miro...)"
+  lang: en
+  phase: Idéation
+  type: Article
+  thematique: Idéation
+  date: 2022-03-24
+- 
   title: 'A Designer’s Guide to Documenting Accessibility & User Interactions '
   url: >
     https://stephaniewalter.design/blog/a-designers-guide-to-documenting-accessibility-user-interactions
