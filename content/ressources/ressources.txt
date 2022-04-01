@@ -7,6 +7,17 @@ Baseline: Explorer des ressources pour concevoir des services utiles et utilisab
 ----
 
 Ressources:
+- 
+  title: Why we need more accessibility designers
+  url: https://onedrive.live.com/view.aspx?resid=E548F10AA235FF40!230&ithint=file%2cpptx&authkey=!AGeBcQ8v_uwFxzw
+  source: Anna E. Cook
+  description: >
+    Enjeux et périmètre d'actions des designers d'accessibilité
+  lang: en
+  phase: ""
+  type: Ressource
+  thematique: Design
+  date: 2021-12-21
 
 - 
   title: Access Guide
