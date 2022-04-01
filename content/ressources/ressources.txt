@@ -9,6 +9,19 @@ Baseline: Explorer des ressources pour concevoir des services utiles et utilisab
 Ressources:
 
 - 
+  title: >
+    Browsing with assistive technology
+    videos
+  url: >
+    https://tetralogical.com/blog/2021/12/24/browsing-with-assistive-technology-videos/
+  source: Henny Swan
+  description: "Comprendre comment les personnes handicapées utilisent le web avec des technologies d'assistance : lecteur d'écran, navigation au clavier, loupe d'écran ou reconnaissance vocale."
+  lang: en
+  phase: ""
+  type: Vidéo
+  thematique: "Retour d'expérience"
+  date: 2022-04-01
+- 
   title: "Personas pour s'initier à l'accessibilité numérique"
   url: >
     https://a11y-guidelines.orange.com/fr/persona/
@@ -47,6 +60,31 @@ Ressources:
   type: Ressource
   thematique: Transmissions aux devs, Livrable
   date: 2022-03-16
+- 
+  title: Designing for Dyslexia
+  url: >
+    https://medium.com/branding101/designing-for-dyslexia-9e61945f82b0
+  source: Stephanie Asmus
+  description: >
+    10 conseils pour concevoir pour les
+    personnes dyslexiques, et qui seront
+    bénéfiques pour toutes et tous.
+  lang: en
+  phase: Conception
+  type: Article
+  thematique: Dyslexie
+  date: 2022-02-08
+- 
+  title: WCAG 2.1 Map
+  url: >
+    https://intopia.digital/articles/intopia-launches-wcag-2-1-map/?utm_source=swlinks-tw
+  source: Intopia
+  description: "Cartographie des critères d'accessibilité du WCAG, par principes (perceptible, opérable, utilisable, robuste)"
+  lang: en
+  phase: ""
+  type: Ressource
+  thematique: Référentiel
+  date: 2022-02-01
 - 
   title: Why we need more accessibility designers
   url: 'https://onedrive.live.com/view.aspx?resid=E548F10AA235FF40!230&ithint=file%2cpptx&authkey=!AGeBcQ8v_uwFxzw'
