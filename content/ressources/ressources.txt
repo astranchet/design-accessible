@@ -2,11 +2,49 @@ Title: Ressources
 
 ----
 
-Baseline: Explorer des ressources pour concevoir des services utiles et utilisables pour toutes et tous.
+Baseline: Ressources pour concevoir des services utiles et utilisables pour toutes et tous.
 
 ----
 
 Ressources:
+
+- 
+  title: >
+    Accessibility Tools and Resources for Designers
+  url: >
+    https://www.digitala11y.com/accessibility-tools-and-resources-for-designers/
+  source: Digital A11y
+  description: "État des lieux des outils et ressources utiles aux designers pour annoter l'accessibilité d'un design."
+  lang: en
+  phase: ""
+  type: Article
+  thematique: "Livrable, Figma"
+  date: 2022-06-19
+- 
+  title: >
+    Accessible design systems
+  url: >
+    https://tetralogical.com/blog/2022/06/24/accessible-design-systems/
+  source: Henny Swan
+  description: "Bénéfices et spécifiticités d'un design system accessible."
+  lang: en
+  phase: ""
+  type: Article
+  thematique: "Design System"
+  date: 2022-04-01
+- 
+  title: >
+    Browsing with assistive technology
+    videos
+  url: >
+    https://tetralogical.com/blog/2021/12/24/browsing-with-assistive-technology-videos/
+  source: Henny Swan
+  description: "Comprendre comment les personnes handicapées utilisent le web avec des technologies d'assistance : lecteur d'écran, navigation au clavier, loupe d'écran ou reconnaissance vocale."
+  lang: en
+  phase: ""
+  type: Vidéo
+  thematique: "Retour d'expérience"
+  date: 2022-04-01
 
 - 
   title: >
@@ -58,7 +96,7 @@ Ressources:
   lang: en
   phase: Conception
   type: Ressource
-  thematique: Transmissions aux devs, Livrable
+  thematique: Livrable
   date: 2022-03-16
 - 
   title: Designing for Dyslexia
@@ -89,8 +127,7 @@ Ressources:
   title: Why we need more accessibility designers
   url: 'https://onedrive.live.com/view.aspx?resid=E548F10AA235FF40!230&ithint=file%2cpptx&authkey=!AGeBcQ8v_uwFxzw'
   source: Anna E. Cook
-  description: >
-    Enjeux et périmètre d'actions des designers d'accessibilité
+  description: "Support de présentation sur le rôle d'un designer en accessibilité"
   lang: en
   phase: ""
   type: Ressource
@@ -107,7 +144,7 @@ Ressources:
   lang: en
   phase: ""
   type: Ressource
-  thematique: WCAG, Contenu simplifié
+  thematique: Référentiel
   date: 2021-09-13
 - 
   title: Design System du W3C
@@ -183,7 +220,7 @@ Ressources:
   lang: en
   phase: ""
   type: Article
-  thematique: Transmissions aux devs
+  thematique: Livrable
   date: 2021-07-28
 - 
   title: >
@@ -357,7 +394,7 @@ Ressources:
   lang: en
   phase: Conception
   type: Article
-  thematique: UX Writing
+  thematique: "Contenu simplifié"
   date: 2021-06-01
 - 
   title: Inclusive UX in an era of anxiety
@@ -381,7 +418,7 @@ Ressources:
   lang: en
   phase: Conception
   type: Article
-  thematique: "Lecteur d'écran, Technologie d'assistance, Transmissions aux devs"
+  thematique: "Lecteur d'écran, Technologie d'assistance, Livrable"
   date: 2021-05-26
 - 
   title: 'Form design : best practice, research insights and examples'
@@ -407,7 +444,7 @@ Ressources:
   lang: en
   phase: Conception
   type: Article
-  thematique: Transmissions aux devs
+  thematique: Livrable
   date: 2021-05-13
 - 
   title: >
@@ -501,7 +538,7 @@ Ressources:
   lang: en
   phase: ""
   type: Ressource
-  thematique: ""
+  thematique: "Référentiel"
   date: 2021-04-26
 - 
   title: >
@@ -552,7 +589,7 @@ Ressources:
   lang: en
   phase: ""
   type: Ressource
-  thematique: Figma, Transmissions aux devs
+  thematique: Figma, Livrable
   date: 2021-04-26
 - 
   title: Accessibility in Design Systems
@@ -582,7 +619,7 @@ Ressources:
   lang: en
   phase: Conception
   type: Ressource
-  thematique: Méthodologie
+  thematique: Checklist
   date: 2021-04-26
 - 
   title: "Design System de l'État"
@@ -832,7 +869,7 @@ Ressources:
   lang: ""
   phase: Conception
   type: Ressource
-  thematique: Transmissions aux devs, Figma
+  thematique: Livrable, Figma
   date: 2021-02-27
 - 
   title: >
@@ -943,7 +980,7 @@ Ressources:
   lang: en
   phase: ""
   type: Article
-  thematique: Méthodologie
+  thematique: "Retour d'expérience, Méthodologie"
   date: 2021-01-14
 - 
   title: >
@@ -1009,7 +1046,7 @@ Ressources:
   lang: en
   phase: Recherche
   type: Article
-  thematique: Méthodologie
+  thematique: 
   date: 2021-01-14
 - 
   title: >
@@ -1116,7 +1153,7 @@ Ressources:
   lang: en
   phase: Recherche
   type: Article
-  thematique: Méthodologie
+  thematique: 
   date: 2020-12-05
 - 
   title: >
@@ -1297,7 +1334,7 @@ Ressources:
   lang: fr
   phase: Conception
   type: Ressource
-  thematique: Transmissions aux devs
+  thematique: Livrable
   date: 2020-11-04
 - 
   title: "Comment le handicap inspire-t-il l'innovation ? "
@@ -1340,7 +1377,7 @@ Ressources:
   lang: fr
   phase: Recherche, Idéation, Conception, Tests
   type: Ressource
-  thematique: Méthodologie
+  thematique: Outils
   date: 2020-10-02
 - 
   title: >
@@ -1489,7 +1526,7 @@ Ressources:
   lang: fr
   phase: Idéation
   type: Ressource
-  thematique: Méthodologie
+  thematique: Outils
   date: 2020-10-02
 - 
   title: 'WCAG for designers '
