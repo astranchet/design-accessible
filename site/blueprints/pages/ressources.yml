@@ -5,6 +5,25 @@ fields:
   baseline:
     label: Baseline
     type: textarea
+  tags:
+    label: Familles
+    type: structure
+    columns:
+      name:
+        width: 1/3
+      thematiques:
+        width: 2/3
+    fields:
+      name:
+        label: Nom
+        type: text
+        width: 1/3
+      thematiques:
+        label: Thématiques
+        type: tags
+        width: 2/3
+        options: query
+        query: page.ressources.ressources.toStructure.pluck("thematique", ",", true)
   ressources:
     label: Ressources
     type: structure
@@ -18,7 +37,7 @@ fields:
       source:
         width: 1/4
       thematique:
-        width: 1/4    
+        width: 1/4
     fields:
       title:
         label: Titre
@@ -53,7 +72,7 @@ fields:
         type: select
         width: 1/4
         options: query
-        query: 
+        query:
           fetch: site.ressource_type.toStructure
           text: "{{ structureItem.name }}"
           value: "{{ structureItem.name }}"
