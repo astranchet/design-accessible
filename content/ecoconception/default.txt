@@ -1,0 +1,67 @@
+Title: Déclaration environnementale
+
+----
+
+Menu: Écoconception
+
+----
+
+Text: 
+
+# Déclaration environnementale
+
+(highlight: **Design Accessible** est un site éco-conçu. Il est optimisé pour utiliser peu de ressources, et fonctionner sur tout type de support, même ancien.)
+
+## Niveau d’écoconception du site web
+
+<img src="https://3258019804-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fk7yfzw0tq8L4Q1Dz6vwD%2Fuploads%2FzkJseM2tdIzwIXS7xcQc%2FNote-A.png?alt=media&token=d0a43d6e-fa5e-4883-bde3-29c2bbfac027" alt="Écoindex A (sur une échelle de A à G)" />
+
+> - **Design Accessible** a fait l'objet d'un audit en décembre 2023 pour évaluer son impact environnemental.
+> - Ce site obtient la **note EcoIndex** A, avec un score de 81 / 100.
+
+
+## Méthode d’évaluation
+
+Comme toute production numérique, **ce site web a un impact environnemental**. Cet impact est présenté ici à l’aide d’indicateurs standardisés, ceux du **référentiel (link:https://ecoindex.fr text:Ecoindex)**, proposé par le collectif (link:https://greenit.fr text:GreenIt.fr). L'Ecoindex permet de quantifier deux types d'indicateurs :
+1. Le **niveau d’écoconception du site web**, pour évaluer la mise en place de bonnes pratiques ayant permis de réduire l’impact d’une page web. 
+2. La **consommation d’eau et émission de GES** liée au chargement de la page.
+
+Ces données ont été mesurées sur les pages **les plus visitées du site web**, en **décembre 2023**.
+
+## Évaluation de l'impact des pages les plus vues
+
+| Pages analysées | EcoIndex | Consommation d’eau pour 1000 utilisateurs (en litres) | Émission de GES pour 1000 utilisateurs (en kgCO2e) |
+|-----------------|----------|-------------------------------------------------------|----------------------------------------------------|
+| Page d'accueil | **A** (86) | 19 l | 1.3 kgCO2e |
+| Découvrir      | **B** (79) | 21 l | 1.4 kgCO2e |
+| Checklist      | **B** (72) | 23 l | 1.5 kgCO2e |
+| Ressources     | **A** (87) | 19 l | 1.3 kgCO2e |
+| À propos       | **A** (87) | 19 l | 1.3 kgCO2e |
+
+Globalement, toutes les pages de **Design Accessible** sont : 
+- (emoji: ✅) Légères
+- (emoji: ✅) Peu complexes
+- (emoji: ✅) Avec peu de requêtes
+
+## Ressources sur l'écoconception
+
+L’éco-conception s’appuie sur une méthodologie et un **ensemble de bonnes pratiques pour réduire l’impact d'un site web sur son environnement**. Concrètement, il va s’agir de : 
+- (emoji: 👉) limiter les ressources techniques nécessaires à l’affichage d’une page
+- (emoji: 👉) tout en étant au plus proche du besoin de l’utilisateur.
+
+----
+
+Ressources:
+
+- 
+  title: EcoIndex
+  source: GreenIt
+  url: https://www.ecoindex.fr/
+  description: "Pour calculer l’impact environnemental d'un site web."
+  lang: fr
+- 
+  title: Déclaration environnementale
+  source: GreenIt
+  url: https://declaration.greenit.fr/
+  description: "Pour communiquer sur sa démarche d'écoconception."
+  lang: fr

@@ -122,6 +122,7 @@ Recevez chaque mois une sélection de liens pour **concevoir des sites et applic
 Footernav:
 
 - accessibility-statement
+- ecoconception
 - about
 - contribute
 
