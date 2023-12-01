@@ -31,7 +31,7 @@ fields:
         label: Catégorie
         type: select
         options: query
-        query: 
+        query:
           fetch: page.categories.toStructure
           text: "{{ structureItem.title }}"
           value: "{{ structureItem.title }}"
@@ -39,10 +39,10 @@ fields:
     label: Catégories
     type: structure
     fields:
-      title: 
+      title:
         label: Titre
         type: text
-      description: 
+      description:
         label: Description
         type: textarea
 

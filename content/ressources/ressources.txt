@@ -3,6 +3,44 @@ Title: Ressources
 ----
 
 Baseline: Ressources pour concevoir des services utiles et utilisables pour toutes et tous.
+----
+
+Tags:
+
+- 
+  name: Outils
+  thematiques: Figma, Checklist, Outils
+- 
+  name: Démarche
+  thematiques: "Sensibilisation, Étude, Retour d'expérience, Design inclusif, Livrable, Audit"
+- 
+  name: Handicap
+  thematiques: >
+    Autisme, Covid, Troubles cognitifs,
+    Troubles auditifs, Santé mentale,
+    Dyslexie
+- 
+  name: Usages
+  thematiques: "Lecteur d'écran, Mobile, Technologie d'assistance, Navigation au clavier, Usage"
+- 
+  name: Méthodes UX
+  thematiques: Persona, Méthodologie, Wireframes
+- 
+  name: Design
+  thematiques: >
+    Couleurs, Illustrations, Dark Mode,
+    Typographie, Design
+- 
+  name: Composants
+  thematiques: >
+    Animations, Formulaires, Cartographie,
+    Datavisualisation, Notifications,
+    ecommerce, Design System
+- 
+  name: Contenus
+  thematiques: >
+    UX Writing, Écriture inclusive, Contenu
+    simplifié, Textes alternatifs
 
 ----
 
@@ -10,7 +48,8 @@ Ressources:
 
 - 
   title: >
-    Accessibility Tools and Resources for Designers
+    Accessibility Tools and Resources for
+    Designers
   url: >
     https://www.digitala11y.com/accessibility-tools-and-resources-for-designers/
   source: Digital A11y
@@ -18,11 +57,10 @@ Ressources:
   lang: en
   phase: ""
   type: Article
-  thematique: "Livrable, Figma"
+  thematique: Livrable, Figma
   date: 2022-06-19
 - 
-  title: >
-    Accessible design systems
+  title: Accessible design systems
   url: >
     https://tetralogical.com/blog/2022/06/24/accessible-design-systems/
   source: Henny Swan
@@ -30,7 +68,7 @@ Ressources:
   lang: en
   phase: ""
   type: Article
-  thematique: "Design System"
+  thematique: Design System
   date: 2022-04-01
 - 
   title: >
@@ -45,7 +83,6 @@ Ressources:
   type: Vidéo
   thematique: "Retour d'expérience"
   date: 2022-04-01
-
 - 
   title: >
     Browsing with assistive technology
@@ -394,7 +431,7 @@ Ressources:
   lang: en
   phase: Conception
   type: Article
-  thematique: "Contenu simplifié"
+  thematique: Contenu simplifié
   date: 2021-06-01
 - 
   title: Inclusive UX in an era of anxiety
@@ -538,7 +575,7 @@ Ressources:
   lang: en
   phase: ""
   type: Ressource
-  thematique: "Référentiel"
+  thematique: Référentiel
   date: 2021-04-26
 - 
   title: >
@@ -1046,7 +1083,7 @@ Ressources:
   lang: en
   phase: Recherche
   type: Article
-  thematique: 
+  thematique: ""
   date: 2021-01-14
 - 
   title: >
@@ -1153,7 +1190,7 @@ Ressources:
   lang: en
   phase: Recherche
   type: Article
-  thematique: 
+  thematique: ""
   date: 2020-12-05
 - 
   title: >
