@@ -34,22 +34,30 @@ return function ($page, $pages, $site, $kirby) {
 		->sortBy('date', 'desc')
 		->filterBy('title', '!=', null);
 	$ressources_title = '<b>{{ desc }}</b> : {{ count }} ressource{{ plural }}';
-	$ressources_is_filtered = true;
-	
+	$is_filtered = true;
+	$filter = null;
+
 	if($tag = param('phase')) {
     	$ressources = $ressources->filterBy('phase', rawurldecode($tag), ',');
     	$desc = rawurldecode($tag);
+    	$filter = 'phase';
   	} elseif ($tag = param('lang')) {
+    	$filter = 'lang';
     	$ressources = $ressources->filterBy('lang', rawurldecode($tag), ',');
     	$desc = ($tag == "en") ? "Anglais" : "Français";
+    } elseif ($tag = param('family')) {
+    	$filter = 'family';
+    	$ressources = $ressources->filterBy('family', rawurldecode($tag), ',');
+    	$desc = rawurldecode($tag);
   	} elseif ($tag = param('thematique')) {
+    	$filter = 'thematique';
     	$ressources = $ressources->filterBy('thematique', rawurldecode($tag), ',');
     	$ressources_title = '<b>{{ desc }}</b> : {{ count }} ressource{{ plural }}';
     	$desc = rawurldecode($tag);
   	} else {
 		$ressources_title = '<b>{{ count }} ressource{{ plural }}</b> {{ desc }}';
-  		$desc = 'sélectionnées avec amour';
-		$ressources_is_filtered = false;
+  		$desc = 'triées avec amour';
+		$is_filtered = false;
   	}
 
   	$ressources_title = Str::template($ressources_title, [
@@ -58,11 +66,13 @@ return function ($page, $pages, $site, $kirby) {
 	  	'desc' => $desc
   	]);
 
-  	if ($ressources_is_filtered) {
+  	if ($is_filtered) {
   		$title = Str::unhtml($ressources_title) . ' - ' . $site->title();
+  	} else {
+  		$ressources = $ressources->limit(3);  		
   	}
 
-	return compact('title', 'baseline', 'phases', 'langs', 'thematiques', 'ressources', 'ressources_title', 'ressources_is_filtered', 'seo');
+	return compact('title', 'baseline', 'phases', 'langs', 'thematiques', 'ressources', 'ressources_title', 'is_filtered', 'filter', 'seo');
 };
 
 ?>
