@@ -18,7 +18,7 @@ return function ($page, $pages, $site, $kirby) {
 		'og:image' => $page->file('og.png') ? $page->file('og.png')->publish()->url() : $site->file('og.png')->publish()->url(),
 	];
 
-	// get counts for all tags
+	// Get counts for all tags
 	$thematiques = $page->ressources()->toStructure()->pluck('thematique', ',', true);
 	$thematiques = array_map(function($thematique) { 
 	  $count = page('ressources')->ressources()->toStructure()->filterBy('thematique', $thematique, ",")->count();
@@ -36,6 +36,7 @@ return function ($page, $pages, $site, $kirby) {
 	$ressources_title = '<b>{{ desc }}</b> : {{ count }} ressource{{ plural }}';
 	$is_filtered = true;
 	$filter = null;
+	$family = null;
 
 	if($tag = param('phase')) {
     	$ressources = $ressources->filterBy('phase', rawurldecode($tag), ',');
@@ -47,8 +48,12 @@ return function ($page, $pages, $site, $kirby) {
     	$desc = ($tag == "en") ? "Anglais" : "Français";
     } elseif ($tag = param('family')) {
     	$filter = 'family';
-    	$ressources = $ressources->filterBy('family', rawurldecode($tag), ',');
+    	// 1. Récupérer tous tags associés à cette famille
+    	$tags = page('ressources')->tags()->toStructure()->filterBy('name', rawurldecode($tag))->first()->thematiques()->split(",");
+    	// 2. Filtrer toutes les ressources associées à ces tags
+    	$ressources = $ressources->filterBy('thematique', 'in', $tags);
     	$desc = rawurldecode($tag);
+    	$family = $tag;
   	} elseif ($tag = param('thematique')) {
     	$filter = 'thematique';
     	$ressources = $ressources->filterBy('thematique', rawurldecode($tag), ',');
@@ -72,7 +77,7 @@ return function ($page, $pages, $site, $kirby) {
   		$ressources = $ressources->limit(3);  		
   	}
 
-	return compact('title', 'baseline', 'phases', 'langs', 'thematiques', 'ressources', 'ressources_title', 'is_filtered', 'filter', 'seo');
+	return compact('title', 'baseline', 'phases', 'langs', 'thematiques', 'ressources', 'ressources_title', 'is_filtered', 'filter', 'family', 'seo');
 };
 
 ?>

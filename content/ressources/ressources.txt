@@ -3,7 +3,6 @@ Title: Ressources
 ----
 
 Baseline: Ressources pour concevoir des services utiles et utilisables pour toutes et tous.
-
 ----
 
 Tags:

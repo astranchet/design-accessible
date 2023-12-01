@@ -33,17 +33,17 @@
 </nav>
 <?php } ?>
 
-<!-- <?php if ($filter == "family") { ?>
-  <p>Par thématique :</p>
+<?php if ($filter == "family") { ?>
+<nav class="filters" role="navigation" aria-label="Navigation par filtres">
+  <p>Filtrer par <?= $family ?> :</p>
   <ul class="tags">
-    <?php foreach($page->tags()->toStructure() as $family): ?>
-      <?php foreach($family->thematiques()->split(",") as $thematique): ?>
+    <?php foreach($tags = page('ressources')->tags()->toStructure()->filterBy('name', $family)->first()->thematiques()->split(",") as $thematique): ?>
         <li class="tags__item tags__item-thematique">
           <a href="<?= url($page->url(), ['params' => ['thematique' => $thematique]]) ?>">
             <?= html($thematique) ?>
           </a>
         </li>
-      <?php endforeach ?>
     <?php endforeach ?>
   </ul>
-<?php } ?> -->
+</nav>
+<?php } ?>
