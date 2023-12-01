@@ -53,7 +53,7 @@ return function ($page, $pages, $site, $kirby) {
     	// 2. Filtrer toutes les ressources associées à ces tags
     	$ressources = $ressources->filterBy('thematique', 'in', $tags);
     	$desc = rawurldecode($tag);
-    	$family = $tag;
+    	$family = $desc;
   	} elseif ($tag = param('thematique')) {
     	$filter = 'thematique';
     	$ressources = $ressources->filterBy('thematique', rawurldecode($tag), ',');
