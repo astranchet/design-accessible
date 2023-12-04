@@ -49,6 +49,6 @@ Le projet tourne avec [Kirby](https://getkirby.com) :
 
 ## À propos de l'autrice
 
-Anne-Sophie Tranchet ([@annso_](https://twitter.com/annso_)) est UX/UI Designer indépendante et engagée. Elle est spécialisée dans le design de service public. Elle conçoit des produits inclusifs et accessibles à toutes et tous.
+Anne-Sophie Tranchet ([@annso_](https://twitter.com/annso_)) est UX/UI Designer engagée. Elle est spécialisée dans le design de service public. Elle conçoit des produits inclusifs et accessibles à toutes et tous.
 
 Elle a conçu [Design Accessible](https://design-accessible.fr/) en mai 2020, après de nombreuses heures de lecture, de synthèse et de rédaction. Initialement, les ressources étaient publiées sur son [blog](https://blog.hello-bokeh.fr/).
