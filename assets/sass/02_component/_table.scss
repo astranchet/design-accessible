@@ -1,0 +1,25 @@
+table caption {
+  font-size: 1.5em;
+  margin: .5em 0 .75em;
+}
+
+table thead tr {
+  background: var(--green-light);
+}
+
+table tr {
+  background: var(--green-pale);
+  border: 1px solid var(--green-light);
+  // padding: $space-2;
+  font-size: .9em;
+}
+
+table th,
+table td {
+  padding: $space-3;
+  text-align: center;
+}
+
+table th {
+  font-size: .85em;
+}
