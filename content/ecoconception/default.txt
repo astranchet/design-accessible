@@ -14,7 +14,8 @@ Text:
 
 ## Niveau d’écoconception du site web
 
-<img src="https://3258019804-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fk7yfzw0tq8L4Q1Dz6vwD%2Fuploads%2FzkJseM2tdIzwIXS7xcQc%2FNote-A.png?alt=media&token=d0a43d6e-fa5e-4883-bde3-29c2bbfac027" alt="Écoindex A (sur une échelle de A à G)" />
+
+![Écoindex A (sur une échelle de A à G)](/ecoconception/eco-index-a.webp)
 
 > - **Design Accessible** a fait l'objet d'un audit en décembre 2023 pour évaluer son impact environnemental.
 > - Ce site obtient la **note EcoIndex** A, avec un score de 81 / 100.
