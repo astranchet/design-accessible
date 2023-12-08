@@ -8,28 +8,41 @@ Menu: Écoconception
 
 Text: 
 
-# Déclaration environnementale
+## Déclaration environnementale
 
-(highlight: **Design Accessible** est un site éco-conçu. Il est optimisé pour utiliser peu de ressources, et fonctionner sur tout type de support, même ancien.)
+(highlight: **Design Accessible** est un site éco-conçu. Il a été pensé et développé dans une logique de sobriété numérique.)
 
-## Niveau d’écoconception du site web
+> 💡 L'écoconception est une **démarche d'amélioration continue**. On s'intéresse au service numérique **dans sa globalité**, pour **améliorer l'empreinte écologique et sociale du numérique**.
 
+### Raison d'être de ce service
 
-![Écoindex A (sur une échelle de A à G)](/ecoconception/eco-index-a.webp)
+**Design Accessible** a pour objectif de sensibiliser et d'outiller les designers en terme d'accessibilité. 
 
-> - **Design Accessible** a fait l'objet d'un audit en décembre 2023 pour évaluer son impact environnemental.
-> - Ce site obtient la **note EcoIndex** A, avec un score de 81 / 100.
+### Stratégie de limitation des impacts 
 
+**Design Accessible** est pensé comme sobre depuis sa conception : 
+- Périmètre de fonctionnalités défini (pas voué à grandir dans le temps)
+- Navigation simple, et petite volumétrie de pages
+- Utilisation limitée d'images et compression des images
+- Design adaptatif à toutes les tailles d'écrans
+- Nombre de requêtes réduits pour fonctionner sur des terminaux anciens (maximum 25 requêtes par page)
+- Poids des pages réduits (maxiumum 900 ko par page)
 
-## Méthode d’évaluation
+### Conformité partielle au RGESN
 
-Comme toute production numérique, **ce site web a un impact environnemental**. Cet impact est présenté ici à l’aide d’indicateurs standardisés, ceux du **référentiel (link:https://ecoindex.fr text:Ecoindex)**, proposé par le collectif (link:https://greenit.fr text:GreenIt.fr). L'Ecoindex permet de quantifier deux types d'indicateurs :
-1. Le **niveau d’écoconception du site web**, pour évaluer la mise en place de bonnes pratiques ayant permis de réduire l’impact d’une page web. 
-2. La **consommation d’eau et émission de GES** liée au chargement de la page.
+Le **(link:https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/ text:RGESN)** (Référentiel Général d'Écoconception des Services Numériques) est un référentiel qui vise à :
+- Lutter contre l’obsolescence des équipements des utilisateurs et des équipements réseau ou serveur.
+- Réduire la consommation de ressources informatiques et énergétiques
 
-Ces données ont été mesurées sur les pages **les plus visitées du site web**, en **décembre 2023**.
+> **Design Accessible est en conformité partielle avec le RGESN** (version 1.0.1 de 2023). L’audit de conformité, réalisé en décembre 2023, révèle que 60 % des critères du référentiel sont respectés. Les axes d'améliorations concernent principalement les catégories Backend (mise en cache) et Hébergement ((link: https://blog.hello-bokeh.fr/2023/02/02/utiliser-le-rgesn-pour-auditer-leco-conception-de-son-site/ text:plus de détails sur l'audit)).
 
-## Évaluation de l'impact des pages les plus vues
+### Niveau d’écoconception : A (81/100)
+
+Le référentiel **(link:https://ecoindex.fr text:Ecoindex)**, proposé par le collectif (link:https://greenit.fr text:GreenIt.fr) mesure l'impact environnemental d'un site selon deux indicateurs standardisés :
+- Le niveau d’écoconception du site web, pour évaluer la mise en place de bonnes pratiques ayant permis de réduire l’impact d’une page web. 
+- La consommation d’eau et émission de GES liée au chargement de la page.
+
+> **Design Accessible** obtient la **note EcoIndex A**, avec un score de 81 / 100 (décembre 2023). Les pages les plus visitées du site sont légères, peu complexes, avec peu de requêtes.
 
 <!--
 | Pages analysées | EcoIndex | Consommation d’eau pour 1000 utilisateurs (en litres) | Émission de GES pour 1000 utilisateurs (en kgCO2e) |
@@ -84,17 +97,6 @@ Ces données ont été mesurées sur les pages **les plus visitées du site web*
     </tr>
   </tbody>
 </table>
-
-Globalement, toutes les pages de **Design Accessible** sont : 
-- (emoji: ✅) Légères
-- (emoji: ✅) Peu complexes
-- (emoji: ✅) Avec peu de requêtes
-
-## Ressources sur l'écoconception
-
-L’éco-conception s’appuie sur une méthodologie et un **ensemble de bonnes pratiques pour réduire l’impact d'un site web sur son environnement**. Concrètement, il va s’agir de : 
-- (emoji: 👉) limiter les ressources techniques nécessaires à l’affichage d’une page
-- (emoji: 👉) tout en étant au plus proche du besoin de l’utilisateur.
 
 ----
 
